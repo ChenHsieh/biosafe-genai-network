@@ -2,7 +2,7 @@
 
 Interactive network visualization of all accepted papers (oral + poster) at the [NeurIPS 2025 Workshop on Biosecurity Safeguards for Generative AI (BioSafe GenAI)](https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/BioSafe_GenAI).
 
-**[Live Demo](https://YOUR_USERNAME.github.io/biosafe-genai-network/)** ← replace after enabling GitHub Pages
+**[Live Demo](https://chenhsieh.github.io/biosafe-genai-network/)** ← replace after enabling GitHub Pages
 
 ![Network preview](assets/preview.svg)
 
