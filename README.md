@@ -4,7 +4,7 @@ Interactive network visualization of all accepted papers (oral + poster) at the 
 
 **[Live Demo](https://chenhsieh.github.io/biosafe-genai-network/)** ← replace after enabling GitHub Pages
 
-![Network preview](assets/preview.svg)
+![Network preview](assets/preview.png)
 
 ## What This Is
 
