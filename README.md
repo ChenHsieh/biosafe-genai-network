@@ -26,7 +26,7 @@ A knowledge graph mapping the **350 nodes** and **479 edges** connecting present
 - **Tightest cluster**: ZAIXI ZHANG / Ruofan Jin / Mengdi Wang / Le Cong — Princeton + Stanford axis, 3 papers together
 - **Emerging orgs**: Algoverse AI Research (5 authors, 2 papers) — a student research org bridging undergrads into NeurIPS-level biosecurity research
 - **7 solo-author papers** — suggesting a nascent field where individuals are staking territory
-- **Governance gap**: Only 7 policy-oriented papers, mostly from a single group — no major policy institutions publishing here yet
+- **Governance gap**: Only 7 policy-oriented papers, mostly from a single group
 
 ## Features
 
