@@ -1,0 +1,543 @@
+[
+  {
+    "id": "event_iclr_mlgenx_2025",
+    "label": "ICLR 2025 MLGenX Workshop",
+    "type": "presentation",
+    "subtype": "workshop",
+    "description": "Machine Learning for Genomics Explorations, ICLR 2025",
+    "url": "https://iclr.cc/virtual/2025/workshop/23974"
+  },
+  {
+    "id": "event_neurips_genai4health_2025",
+    "label": "NeurIPS 2025 GenAI4Health Workshop",
+    "type": "presentation",
+    "subtype": "workshop",
+    "description": "Generative AI for Health, NeurIPS 2025"
+  },
+  {
+    "id": "event_neurips_ai4science_2025",
+    "label": "NeurIPS 2025 AI4Science Workshop",
+    "type": "presentation",
+    "subtype": "workshop",
+    "description": "AI for Science, NeurIPS 2025"
+  },
+  {
+    "id": "paper_4YMUZ49lB3",
+    "label": "Integrating Protein Language Model and Active Learning for Few-Shot Viral Variant Detection",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=4YMUZ49lB3",
+    "data_source": "https://openreview.net/forum?id=4YMUZ49lB3",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=4YMUZ49lB3"
+    }
+  },
+  {
+    "id": "author_Jiacheng_Liu",
+    "label": "Jiacheng Liu",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=4YMUZ49lB3"
+  },
+  {
+    "id": "paper_BZIxe22wEO",
+    "label": "Spatially-Informed Sampling Enables Accurate Prediction of Large-Scale Mutational Effects",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=BZIxe22wEO",
+    "data_source": "https://openreview.net/forum?id=BZIxe22wEO",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=BZIxe22wEO"
+    }
+  },
+  {
+    "id": "author_Maxime_Basse",
+    "label": "Maxime Basse",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=BZIxe22wEO"
+  },
+  {
+    "id": "paper_lHRETQDSVu",
+    "label": "Sampling Protein Language Models for Functional Protein Design",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=lHRETQDSVu",
+    "data_source": "https://openreview.net/forum?id=lHRETQDSVu",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=lHRETQDSVu"
+    }
+  },
+  {
+    "id": "author_Jeremie_Theddy_Darmawan",
+    "label": "Jeremie Theddy Darmawan",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=lHRETQDSVu"
+  },
+  {
+    "id": "author_Pascal_Notin",
+    "label": "Pascal Notin",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=lHRETQDSVu"
+  },
+  {
+    "id": "paper_pSDvq2ZgPk",
+    "label": "MedBrowseComp: Benchmarking Medical Deep Research and Computer Use",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=pSDvq2ZgPk",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=pSDvq2ZgPk"
+    }
+  },
+  {
+    "id": "author_Shan_Chen",
+    "label": "Shan Chen",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "author_Pedro_Jos__Ferreira_Moreira",
+    "label": "Pedro Jos\u00e9 Ferreira Moreira",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "author_Yuxin_Xiao",
+    "label": "Yuxin Xiao",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "author_Samuel_Schmidgall",
+    "label": "Samuel Schmidgall",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "author_Jeremy_L__Warner",
+    "label": "Jeremy L. Warner",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "author_Hugo_Aerts",
+    "label": "Hugo Aerts",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "author_Jack_Gallifant",
+    "label": "Jack Gallifant",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "author_Danielle_Bitterman",
+    "label": "Danielle Bitterman",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "paper_vTIacVIpL0",
+    "label": "Position: Adjacent Technologies Are the Key Enablers of Scalable and Safe Clinical MLLM Deployment",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=vTIacVIpL0",
+    "data_source": "https://openreview.net/forum?id=vTIacVIpL0",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=vTIacVIpL0"
+    }
+  },
+  {
+    "id": "paper_4tnyi8RQks",
+    "label": "Demo: Medbot, A Practical Tool Built by Clinicians for Clinicians to Leverage AI Agents to Enhance Clinical Practice",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=4tnyi8RQks",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=4tnyi8RQks"
+    }
+  },
+  {
+    "id": "author_Li_Lianjie_Anthony",
+    "label": "Li Lianjie Anthony",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "author_Antonio_Bandeira",
+    "label": "Antonio Bandeira",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "author_Niroj_Bhandari",
+    "label": "Niroj Bhandari",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "author_Rahul_Gorijavolu",
+    "label": "Rahul Gorijavolu",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "author_Aaron_Teo_Rui_Kang",
+    "label": "Aaron Teo Rui Kang",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "author_Alvin_Aung_Aung_Hein",
+    "label": "Alvin Aung Aung Hein",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "author_March_I_Cheng_Chen",
+    "label": "March I-Cheng Chen",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "paper_EU3TV1Uq78",
+    "label": "Natural Language Grounded Reinforcement Learning for Clinical Decision-Making in Virtual Patient Simulations",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=EU3TV1Uq78",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=EU3TV1Uq78"
+    }
+  },
+  {
+    "id": "author_Niyel_Hassan",
+    "label": "Niyel Hassan",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "author_Jason_Tsai",
+    "label": "Jason Tsai",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "author_Jeffrey_K_Jopling",
+    "label": "Jeffrey K Jopling",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "author_Dana_Lin",
+    "label": "Dana Lin",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "author_Edward_Melcer",
+    "label": "Edward Melcer",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "author_Cara_Liebert",
+    "label": "Cara Liebert",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "paper_aOoFPWZuXY",
+    "label": "Multi-Turn LLM Systems for Diagnostic Decision-Making: Considerations, Biases, and Challenges",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=aOoFPWZuXY",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=aOoFPWZuXY"
+    }
+  },
+  {
+    "id": "author_Sejong_Kim",
+    "label": "Sejong Kim",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "author_Drona_Thoka",
+    "label": "Drona Thoka",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "author_Varun_Puttagunta",
+    "label": "Varun Puttagunta",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "author_Kaylin_Sheng",
+    "label": "Kaylin Sheng",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "author_Mark_Li",
+    "label": "Mark Li",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "author_Kiran_Nijjer",
+    "label": "Kiran Nijjer",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "author_Adnan_Ahmed",
+    "label": "Adnan Ahmed",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "author_Thi_Uyen_Hanh_Le",
+    "label": "Thi Uyen Hanh Le",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "author_Sai_Chidvilas_Gudiboina",
+    "label": "Sai Chidvilas Gudiboina",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "author_Ali_Ugur",
+    "label": "Ali Ugur",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "paper_sjEuoLSvqS",
+    "label": "Examining the Vulnerability of Multi-Agent Medical Systems to Human Interventions for Clinical Reasoning",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=sjEuoLSvqS",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=sjEuoLSvqS"
+    }
+  },
+  {
+    "id": "author_Dillon_Mehta",
+    "label": "Dillon Mehta",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "author_Rishi_Malhotra",
+    "label": "Rishi Malhotra",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "author_Adam_Zobian",
+    "label": "Adam Zobian",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "author_Yong_Ying_Tan",
+    "label": "Yong Ying Tan",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "author_Samir_Chopra",
+    "label": "Samir Chopra",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "author_Daniella_Rand",
+    "label": "Daniella Rand",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "author_Natalie_Pang",
+    "label": "Natalie Pang",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "author_Abhiram_Gudimella",
+    "label": "Abhiram Gudimella",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "author_Raghav_Thallapragada",
+    "label": "Raghav Thallapragada",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "author_Derek_Jiu",
+    "label": "Derek Jiu",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "author_Prisha_Shah",
+    "label": "Prisha Shah",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "paper_cxffbxltME",
+    "label": "Explaining Temporal Effects in Sepsis Prediction",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=cxffbxltME",
+    "data_source": "https://openreview.net/forum?id=cxffbxltME",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=cxffbxltME"
+    }
+  },
+  {
+    "id": "author_Chaehyeon_Kim",
+    "label": "Chaehyeon Kim",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=cxffbxltME"
+  },
+  {
+    "id": "paper_9Nhrk0Cuk0",
+    "label": "Position: Restricted Release of Advanced Biological Models Safeguards Biosecurity",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=9Nhrk0Cuk0",
+    "data_source": "https://openreview.net/forum?id=9Nhrk0Cuk0",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=9Nhrk0Cuk0"
+    }
+  },
+  {
+    "id": "paper_cRhbNNv2kA",
+    "label": "Differentiable Predictive Control for Precise Oxygen Level Maintenance for Critical Patients",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=cRhbNNv2kA",
+    "data_source": "https://openreview.net/forum?id=cRhbNNv2kA",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=cRhbNNv2kA"
+    }
+  },
+  {
+    "id": "author_Md_Manjurul_Ahsan",
+    "label": "Md Manjurul Ahsan",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=cRhbNNv2kA"
+  },
+  {
+    "id": "paper_FGmV1Ssqfa",
+    "label": "Closing the Omics Gap: A Benchmark for Unified Evaluation of Biomolecular Foundation Models",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=FGmV1Ssqfa",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=FGmV1Ssqfa"
+    }
+  },
+  {
+    "id": "author_Joseph_G__Wakim",
+    "label": "Joseph G. Wakim",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "author_Vinayak_Gupta",
+    "label": "Vinayak Gupta",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "author_Jose_Manuel_Marti",
+    "label": "Jose Manuel Marti",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "author_Jonathan_E_Allen",
+    "label": "Jonathan E Allen",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "author_Brian_R__Bartoldson",
+    "label": "Brian R. Bartoldson",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "paper_v1cxKcwPFP",
+    "label": "Improving RNA Secondary Structure Prediction Through Expanded Training Data",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=v1cxKcwPFP",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=v1cxKcwPFP"
+    }
+  },
+  {
+    "id": "author_Conner_J__Langeberg",
+    "label": "Conner J. Langeberg",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "author_Taehan_Kim",
+    "label": "Taehan Kim",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "author_Roma_Nagle",
+    "label": "Roma Nagle",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "author_Charlotte_Meredith",
+    "label": "Charlotte Meredith",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "author_Dimple_Amitha_Garuadapuri",
+    "label": "Dimple Amitha Garuadapuri",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "author_Jamie_H__D__Cate",
+    "label": "Jamie H. D. Cate",
+    "type": "author",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "paper_DvnxwBA067",
+    "label": "Without Safeguards, AI-Biology Integration Risks Accelerating Future Pandemics",
+    "type": "presentation",
+    "subtype": "poster",
+    "url": "https://openreview.net/forum?id=DvnxwBA067",
+    "data_source": "https://openreview.net/forum?id=DvnxwBA067",
+    "details": {
+      "OpenReview": "https://openreview.net/forum?id=DvnxwBA067"
+    }
+  }
+]

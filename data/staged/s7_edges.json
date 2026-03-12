@@ -1,0 +1,604 @@
+[
+  {
+    "id": "authored_author_Marian_Huot1_paper_4YMUZ49lB3",
+    "source": "author_Marian_Huot1",
+    "target": "paper_4YMUZ49lB3",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4YMUZ49lB3"
+  },
+  {
+    "id": "authored_author_Dianzhuo_Wang1_paper_4YMUZ49lB3",
+    "source": "author_Dianzhuo_Wang1",
+    "target": "paper_4YMUZ49lB3",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4YMUZ49lB3"
+  },
+  {
+    "id": "authored_author_Jiacheng_Liu_paper_4YMUZ49lB3",
+    "source": "author_Jiacheng_Liu",
+    "target": "paper_4YMUZ49lB3",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4YMUZ49lB3"
+  },
+  {
+    "id": "authored_author_Eugene_Shakhnovich1_paper_4YMUZ49lB3",
+    "source": "author_Eugene_Shakhnovich1",
+    "target": "paper_4YMUZ49lB3",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4YMUZ49lB3"
+  },
+  {
+    "id": "authored_author_Maxime_Basse_paper_BZIxe22wEO",
+    "source": "author_Maxime_Basse",
+    "target": "paper_BZIxe22wEO",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=BZIxe22wEO"
+  },
+  {
+    "id": "authored_author_Dianzhuo_Wang1_paper_BZIxe22wEO",
+    "source": "author_Dianzhuo_Wang1",
+    "target": "paper_BZIxe22wEO",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=BZIxe22wEO"
+  },
+  {
+    "id": "authored_author_Eugene_Shakhnovich1_paper_BZIxe22wEO",
+    "source": "author_Eugene_Shakhnovich1",
+    "target": "paper_BZIxe22wEO",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=BZIxe22wEO"
+  },
+  {
+    "id": "authored_author_Jeremie_Theddy_Darmawan_paper_lHRETQDSVu",
+    "source": "author_Jeremie_Theddy_Darmawan",
+    "target": "paper_lHRETQDSVu",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=lHRETQDSVu"
+  },
+  {
+    "id": "authored_author_Yarin_Gal1_paper_lHRETQDSVu",
+    "source": "author_Yarin_Gal1",
+    "target": "paper_lHRETQDSVu",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=lHRETQDSVu"
+  },
+  {
+    "id": "authored_author_Pascal_Notin_paper_lHRETQDSVu",
+    "source": "author_Pascal_Notin",
+    "target": "paper_lHRETQDSVu",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=lHRETQDSVu"
+  },
+  {
+    "id": "authored_author_Shan_Chen_paper_pSDvq2ZgPk",
+    "source": "author_Shan_Chen",
+    "target": "paper_pSDvq2ZgPk",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "authored_author_Pedro_Jos__Ferreira_Moreira_paper_pSDvq2ZgPk",
+    "source": "author_Pedro_Jos__Ferreira_Moreira",
+    "target": "paper_pSDvq2ZgPk",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "authored_author_Yuxin_Xiao_paper_pSDvq2ZgPk",
+    "source": "author_Yuxin_Xiao",
+    "target": "paper_pSDvq2ZgPk",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "authored_author_Samuel_Schmidgall_paper_pSDvq2ZgPk",
+    "source": "author_Samuel_Schmidgall",
+    "target": "paper_pSDvq2ZgPk",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "authored_author_Jeremy_L__Warner_paper_pSDvq2ZgPk",
+    "source": "author_Jeremy_L__Warner",
+    "target": "paper_pSDvq2ZgPk",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "authored_author_Hugo_Aerts_paper_pSDvq2ZgPk",
+    "source": "author_Hugo_Aerts",
+    "target": "paper_pSDvq2ZgPk",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "authored_author_Thomas_Hartvigsen1_paper_pSDvq2ZgPk",
+    "source": "author_Thomas_Hartvigsen1",
+    "target": "paper_pSDvq2ZgPk",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "authored_author_Jack_Gallifant_paper_pSDvq2ZgPk",
+    "source": "author_Jack_Gallifant",
+    "target": "paper_pSDvq2ZgPk",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "authored_author_Danielle_Bitterman_paper_pSDvq2ZgPk",
+    "source": "author_Danielle_Bitterman",
+    "target": "paper_pSDvq2ZgPk",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk"
+  },
+  {
+    "id": "authored_author_Azmine_Toushik_Wasi1_paper_vTIacVIpL0",
+    "source": "author_Azmine_Toushik_Wasi1",
+    "target": "paper_vTIacVIpL0",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=vTIacVIpL0"
+  },
+  {
+    "id": "authored_author_Md__Iqramul_Hoque1_paper_vTIacVIpL0",
+    "source": "author_Md__Iqramul_Hoque1",
+    "target": "paper_vTIacVIpL0",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=vTIacVIpL0"
+  },
+  {
+    "id": "authored_author_Li_Lianjie_Anthony_paper_4tnyi8RQks",
+    "source": "author_Li_Lianjie_Anthony",
+    "target": "paper_4tnyi8RQks",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "authored_author_Antonio_Bandeira_paper_4tnyi8RQks",
+    "source": "author_Antonio_Bandeira",
+    "target": "paper_4tnyi8RQks",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "authored_author_Niroj_Bhandari_paper_4tnyi8RQks",
+    "source": "author_Niroj_Bhandari",
+    "target": "paper_4tnyi8RQks",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "authored_author_Rahul_Gorijavolu_paper_4tnyi8RQks",
+    "source": "author_Rahul_Gorijavolu",
+    "target": "paper_4tnyi8RQks",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "authored_author_Aaron_Teo_Rui_Kang_paper_4tnyi8RQks",
+    "source": "author_Aaron_Teo_Rui_Kang",
+    "target": "paper_4tnyi8RQks",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "authored_author_Jasmine_Zhang1_paper_4tnyi8RQks",
+    "source": "author_Jasmine_Zhang1",
+    "target": "paper_4tnyi8RQks",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "authored_author_Alvin_Aung_Aung_Hein_paper_4tnyi8RQks",
+    "source": "author_Alvin_Aung_Aung_Hein",
+    "target": "paper_4tnyi8RQks",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "authored_author_March_I_Cheng_Chen_paper_4tnyi8RQks",
+    "source": "author_March_I_Cheng_Chen",
+    "target": "paper_4tnyi8RQks",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=4tnyi8RQks"
+  },
+  {
+    "id": "authored_author_Niyel_Hassan_paper_EU3TV1Uq78",
+    "source": "author_Niyel_Hassan",
+    "target": "paper_EU3TV1Uq78",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "authored_author_Benjamin_Liu2_paper_EU3TV1Uq78",
+    "source": "author_Benjamin_Liu2",
+    "target": "paper_EU3TV1Uq78",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "authored_author_Jason_Tsai_paper_EU3TV1Uq78",
+    "source": "author_Jason_Tsai",
+    "target": "paper_EU3TV1Uq78",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "authored_author_Jeffrey_K_Jopling_paper_EU3TV1Uq78",
+    "source": "author_Jeffrey_K_Jopling",
+    "target": "paper_EU3TV1Uq78",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "authored_author_Dana_Lin_paper_EU3TV1Uq78",
+    "source": "author_Dana_Lin",
+    "target": "paper_EU3TV1Uq78",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "authored_author_Edward_Melcer_paper_EU3TV1Uq78",
+    "source": "author_Edward_Melcer",
+    "target": "paper_EU3TV1Uq78",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "authored_author_Cara_Liebert_paper_EU3TV1Uq78",
+    "source": "author_Cara_Liebert",
+    "target": "paper_EU3TV1Uq78",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=EU3TV1Uq78"
+  },
+  {
+    "id": "authored_author_Benjamin_Liu2_paper_aOoFPWZuXY",
+    "source": "author_Benjamin_Liu2",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Sejong_Kim_paper_aOoFPWZuXY",
+    "source": "author_Sejong_Kim",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Drona_Thoka_paper_aOoFPWZuXY",
+    "source": "author_Drona_Thoka",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Varun_Puttagunta_paper_aOoFPWZuXY",
+    "source": "author_Varun_Puttagunta",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Kaylin_Sheng_paper_aOoFPWZuXY",
+    "source": "author_Kaylin_Sheng",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Mark_Li_paper_aOoFPWZuXY",
+    "source": "author_Mark_Li",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Kiran_Nijjer_paper_aOoFPWZuXY",
+    "source": "author_Kiran_Nijjer",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Adnan_Ahmed_paper_aOoFPWZuXY",
+    "source": "author_Adnan_Ahmed",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Thi_Uyen_Hanh_Le_paper_aOoFPWZuXY",
+    "source": "author_Thi_Uyen_Hanh_Le",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Sai_Chidvilas_Gudiboina_paper_aOoFPWZuXY",
+    "source": "author_Sai_Chidvilas_Gudiboina",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Ali_Ugur_paper_aOoFPWZuXY",
+    "source": "author_Ali_Ugur",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Kevin_Zhu3_paper_aOoFPWZuXY",
+    "source": "author_Kevin_Zhu3",
+    "target": "paper_aOoFPWZuXY",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=aOoFPWZuXY"
+  },
+  {
+    "id": "authored_author_Benjamin_Liu2_paper_sjEuoLSvqS",
+    "source": "author_Benjamin_Liu2",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Dillon_Mehta_paper_sjEuoLSvqS",
+    "source": "author_Dillon_Mehta",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Rishi_Malhotra_paper_sjEuoLSvqS",
+    "source": "author_Rishi_Malhotra",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Adam_Zobian_paper_sjEuoLSvqS",
+    "source": "author_Adam_Zobian",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Yong_Ying_Tan_paper_sjEuoLSvqS",
+    "source": "author_Yong_Ying_Tan",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Samir_Chopra_paper_sjEuoLSvqS",
+    "source": "author_Samir_Chopra",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Daniella_Rand_paper_sjEuoLSvqS",
+    "source": "author_Daniella_Rand",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Natalie_Pang_paper_sjEuoLSvqS",
+    "source": "author_Natalie_Pang",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Abhiram_Gudimella_paper_sjEuoLSvqS",
+    "source": "author_Abhiram_Gudimella",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Raghav_Thallapragada_paper_sjEuoLSvqS",
+    "source": "author_Raghav_Thallapragada",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Derek_Jiu_paper_sjEuoLSvqS",
+    "source": "author_Derek_Jiu",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Prisha_Shah_paper_sjEuoLSvqS",
+    "source": "author_Prisha_Shah",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Kevin_Zhu3_paper_sjEuoLSvqS",
+    "source": "author_Kevin_Zhu3",
+    "target": "paper_sjEuoLSvqS",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=sjEuoLSvqS"
+  },
+  {
+    "id": "authored_author_Chaehyeon_Kim_paper_cxffbxltME",
+    "source": "author_Chaehyeon_Kim",
+    "target": "paper_cxffbxltME",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=cxffbxltME"
+  },
+  {
+    "id": "authored_author_Eric_Wong1_paper_cxffbxltME",
+    "source": "author_Eric_Wong1",
+    "target": "paper_cxffbxltME",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=cxffbxltME"
+  },
+  {
+    "id": "authored_author_Jonathan_Feldman1_paper_9Nhrk0Cuk0",
+    "source": "author_Jonathan_Feldman1",
+    "target": "paper_9Nhrk0Cuk0",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=9Nhrk0Cuk0"
+  },
+  {
+    "id": "authored_author_Tal_Feldman1_paper_9Nhrk0Cuk0",
+    "source": "author_Tal_Feldman1",
+    "target": "paper_9Nhrk0Cuk0",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=9Nhrk0Cuk0"
+  },
+  {
+    "id": "authored_author_Azmine_Toushik_Wasi1_paper_cRhbNNv2kA",
+    "source": "author_Azmine_Toushik_Wasi1",
+    "target": "paper_cRhbNNv2kA",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=cRhbNNv2kA"
+  },
+  {
+    "id": "authored_author_Md_Manjurul_Ahsan_paper_cRhbNNv2kA",
+    "source": "author_Md_Manjurul_Ahsan",
+    "target": "paper_cRhbNNv2kA",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=cRhbNNv2kA"
+  },
+  {
+    "id": "authored_author_Joseph_G__Wakim_paper_FGmV1Ssqfa",
+    "source": "author_Joseph_G__Wakim",
+    "target": "paper_FGmV1Ssqfa",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "authored_author_Vinayak_Gupta_paper_FGmV1Ssqfa",
+    "source": "author_Vinayak_Gupta",
+    "target": "paper_FGmV1Ssqfa",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "authored_author_Jose_Manuel_Marti_paper_FGmV1Ssqfa",
+    "source": "author_Jose_Manuel_Marti",
+    "target": "paper_FGmV1Ssqfa",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "authored_author_Jonathan_E_Allen_paper_FGmV1Ssqfa",
+    "source": "author_Jonathan_E_Allen",
+    "target": "paper_FGmV1Ssqfa",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "authored_author_Brian_R__Bartoldson_paper_FGmV1Ssqfa",
+    "source": "author_Brian_R__Bartoldson",
+    "target": "paper_FGmV1Ssqfa",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "authored_author_Bhavya_Kailkhura1_paper_FGmV1Ssqfa",
+    "source": "author_Bhavya_Kailkhura1",
+    "target": "paper_FGmV1Ssqfa",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa"
+  },
+  {
+    "id": "authored_author_Conner_J__Langeberg_paper_v1cxKcwPFP",
+    "source": "author_Conner_J__Langeberg",
+    "target": "paper_v1cxKcwPFP",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "authored_author_Taehan_Kim_paper_v1cxKcwPFP",
+    "source": "author_Taehan_Kim",
+    "target": "paper_v1cxKcwPFP",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "authored_author_Roma_Nagle_paper_v1cxKcwPFP",
+    "source": "author_Roma_Nagle",
+    "target": "paper_v1cxKcwPFP",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "authored_author_Charlotte_Meredith_paper_v1cxKcwPFP",
+    "source": "author_Charlotte_Meredith",
+    "target": "paper_v1cxKcwPFP",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "authored_author_Dimple_Amitha_Garuadapuri_paper_v1cxKcwPFP",
+    "source": "author_Dimple_Amitha_Garuadapuri",
+    "target": "paper_v1cxKcwPFP",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "authored_author_jennifer_doudna_paper_v1cxKcwPFP",
+    "source": "author_jennifer_doudna",
+    "target": "paper_v1cxKcwPFP",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "authored_author_Jamie_H__D__Cate_paper_v1cxKcwPFP",
+    "source": "author_Jamie_H__D__Cate",
+    "target": "paper_v1cxKcwPFP",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=v1cxKcwPFP"
+  },
+  {
+    "id": "authored_author_Dianzhuo_Wang1_paper_DvnxwBA067",
+    "source": "author_Dianzhuo_Wang1",
+    "target": "paper_DvnxwBA067",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=DvnxwBA067"
+  },
+  {
+    "id": "authored_author_Marian_Huot1_paper_DvnxwBA067",
+    "source": "author_Marian_Huot1",
+    "target": "paper_DvnxwBA067",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=DvnxwBA067"
+  },
+  {
+    "id": "authored_author_Zechen_Zhang2_paper_DvnxwBA067",
+    "source": "author_Zechen_Zhang2",
+    "target": "paper_DvnxwBA067",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=DvnxwBA067"
+  },
+  {
+    "id": "authored_author_Kaiyi_Jiang1_paper_DvnxwBA067",
+    "source": "author_Kaiyi_Jiang1",
+    "target": "paper_DvnxwBA067",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=DvnxwBA067"
+  },
+  {
+    "id": "authored_author_Eugene_Shakhnovich1_paper_DvnxwBA067",
+    "source": "author_Eugene_Shakhnovich1",
+    "target": "paper_DvnxwBA067",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=DvnxwBA067"
+  },
+  {
+    "id": "authored_author_Kevin_M__Esvelt1_paper_DvnxwBA067",
+    "source": "author_Kevin_M__Esvelt1",
+    "target": "paper_DvnxwBA067",
+    "type": "authored",
+    "data_source": "https://openreview.net/forum?id=DvnxwBA067"
+  }
+]

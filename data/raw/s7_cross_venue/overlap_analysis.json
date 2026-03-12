@@ -1,0 +1,362 @@
+[
+  {
+    "workshop": "mlgenx",
+    "venue": "MLGenX 2025",
+    "paper_id": "4YMUZ49lB3",
+    "title": "Integrating Protein Language Model and Active Learning for Few-Shot Viral Variant Detection",
+    "authors": [
+      "Marian Huot",
+      "Dianzhuo Wang",
+      "Jiacheng Liu",
+      "Eugene Shakhnovich"
+    ],
+    "matches": [
+      [
+        "Marian Huot",
+        "author_Marian_Huot1"
+      ],
+      [
+        "Dianzhuo Wang",
+        "author_Dianzhuo_Wang1"
+      ],
+      [
+        "Eugene Shakhnovich",
+        "author_Eugene_Shakhnovich1"
+      ]
+    ]
+  },
+  {
+    "workshop": "mlgenx",
+    "venue": "MLGenX 2025",
+    "paper_id": "BZIxe22wEO",
+    "title": "Spatially-Informed Sampling Enables Accurate Prediction of Large-Scale Mutational Effects",
+    "authors": [
+      "Maxime Basse",
+      "Dianzhuo Wang",
+      "Eugene Shakhnovich"
+    ],
+    "matches": [
+      [
+        "Dianzhuo Wang",
+        "author_Dianzhuo_Wang1"
+      ],
+      [
+        "Eugene Shakhnovich",
+        "author_Eugene_Shakhnovich1"
+      ]
+    ]
+  },
+  {
+    "workshop": "mlgenx",
+    "venue": "MLGenX 2025",
+    "paper_id": "lHRETQDSVu",
+    "title": "Sampling Protein Language Models for Functional Protein Design",
+    "authors": [
+      "Jeremie Theddy Darmawan",
+      "Yarin Gal",
+      "Pascal Notin"
+    ],
+    "matches": [
+      [
+        "Yarin Gal",
+        "author_Yarin_Gal1"
+      ]
+    ]
+  },
+  {
+    "workshop": "genai4health",
+    "venue": "GenAI4Health 2025 Poster",
+    "paper_id": "pSDvq2ZgPk",
+    "title": "MedBrowseComp: Benchmarking Medical Deep Research and Computer Use",
+    "authors": [
+      "Shan Chen",
+      "Pedro Jos\u00e9 Ferreira Moreira",
+      "Yuxin Xiao",
+      "Samuel Schmidgall",
+      "Jeremy L. Warner",
+      "Hugo Aerts",
+      "Thomas Hartvigsen",
+      "Jack Gallifant",
+      "Danielle Bitterman"
+    ],
+    "matches": [
+      [
+        "Thomas Hartvigsen",
+        "author_Thomas_Hartvigsen1"
+      ]
+    ]
+  },
+  {
+    "workshop": "genai4health",
+    "venue": "GenAI4Health 2025 Poster",
+    "paper_id": "vTIacVIpL0",
+    "title": "Position: Adjacent Technologies Are the Key Enablers of Scalable and Safe Clinical MLLM Deployment",
+    "authors": [
+      "Azmine Toushik Wasi",
+      "Md. Iqramul Hoque"
+    ],
+    "matches": [
+      [
+        "Azmine Toushik Wasi",
+        "author_Azmine_Toushik_Wasi1"
+      ],
+      [
+        "Md. Iqramul Hoque",
+        "author_Md__Iqramul_Hoque1"
+      ]
+    ]
+  },
+  {
+    "workshop": "genai4health",
+    "venue": "GenAI4Health 2025 Poster",
+    "paper_id": "4tnyi8RQks",
+    "title": "Demo: Medbot, A Practical Tool Built by Clinicians for Clinicians to Leverage AI Agents to Enhance Clinical Practice",
+    "authors": [
+      "Li Lianjie Anthony",
+      "Antonio Bandeira",
+      "Niroj Bhandari",
+      "Rahul Gorijavolu",
+      "Aaron Teo Rui Kang",
+      "Jasmine Xiaojin Zhang",
+      "Alvin Aung Aung Hein",
+      "March I-Cheng Chen"
+    ],
+    "matches": [
+      [
+        "Jasmine Xiaojin Zhang",
+        "author_Jasmine_Zhang1"
+      ]
+    ]
+  },
+  {
+    "workshop": "genai4health",
+    "venue": "GenAI4Health 2025 Poster",
+    "paper_id": "EU3TV1Uq78",
+    "title": "Natural Language Grounded Reinforcement Learning for Clinical Decision-Making in Virtual Patient Simulations",
+    "authors": [
+      "Niyel Hassan",
+      "Benjamin Liu",
+      "Jason Tsai",
+      "Jeffrey K Jopling",
+      "Dana Lin",
+      "Edward Melcer",
+      "Cara Liebert"
+    ],
+    "matches": [
+      [
+        "Benjamin Liu",
+        "author_Benjamin_Liu2"
+      ]
+    ]
+  },
+  {
+    "workshop": "genai4health",
+    "venue": "GenAI4Health 2025 Poster",
+    "paper_id": "aOoFPWZuXY",
+    "title": "Multi-Turn LLM Systems for Diagnostic Decision-Making: Considerations, Biases, and Challenges",
+    "authors": [
+      "Benjamin Liu",
+      "Sejong Kim",
+      "Drona Thoka",
+      "Varun Puttagunta",
+      "Kaylin Sheng",
+      "Mark Li",
+      "Kiran Nijjer",
+      "Adnan Ahmed",
+      "Thi Uyen Hanh Le",
+      "Sai Chidvilas Gudiboina",
+      "Ali Ugur",
+      "Kevin Zhu"
+    ],
+    "matches": [
+      [
+        "Benjamin Liu",
+        "author_Benjamin_Liu2"
+      ],
+      [
+        "Kevin Zhu",
+        "author_Kevin_Zhu3"
+      ]
+    ]
+  },
+  {
+    "workshop": "genai4health",
+    "venue": "GenAI4Health 2025 Poster",
+    "paper_id": "sjEuoLSvqS",
+    "title": "Examining the Vulnerability of Multi-Agent Medical Systems to Human Interventions for Clinical Reasoning",
+    "authors": [
+      "Benjamin Liu",
+      "Dillon Mehta",
+      "Rishi Malhotra",
+      "Adam Zobian",
+      "Yong Ying Tan",
+      "Samir Chopra",
+      "Daniella Rand",
+      "Natalie Pang",
+      "Abhiram Gudimella",
+      "Raghav Thallapragada",
+      "Derek Jiu",
+      "Prisha Shah",
+      "Kevin Zhu"
+    ],
+    "matches": [
+      [
+        "Benjamin Liu",
+        "author_Benjamin_Liu2"
+      ],
+      [
+        "Kevin Zhu",
+        "author_Kevin_Zhu3"
+      ]
+    ]
+  },
+  {
+    "workshop": "genai4health",
+    "venue": "GenAI4Health 2025 Poster",
+    "paper_id": "cxffbxltME",
+    "title": "Explaining Temporal Effects in Sepsis Prediction",
+    "authors": [
+      "Chaehyeon Kim",
+      "Eric Wong"
+    ],
+    "matches": [
+      [
+        "Eric Wong",
+        "author_Eric_Wong1"
+      ]
+    ]
+  },
+  {
+    "workshop": "genai4health",
+    "venue": "GenAI4Health 2025 Oral",
+    "paper_id": "9Nhrk0Cuk0",
+    "title": "Position: Restricted Release of Advanced Biological Models Safeguards Biosecurity",
+    "authors": [
+      "Jonathan Feldman",
+      "Tal Feldman"
+    ],
+    "matches": [
+      [
+        "Jonathan Feldman",
+        "author_Jonathan_Feldman1"
+      ],
+      [
+        "Tal Feldman",
+        "author_Tal_Feldman1"
+      ]
+    ]
+  },
+  {
+    "workshop": "ai4science",
+    "venue": "NeurIPS2025-AI4Science Poster",
+    "paper_id": "cRhbNNv2kA",
+    "title": "Differentiable Predictive Control for Precise Oxygen Level Maintenance for Critical Patients",
+    "authors": [
+      "Azmine Toushik Wasi",
+      "Md Manjurul Ahsan"
+    ],
+    "matches": [
+      [
+        "Azmine Toushik Wasi",
+        "author_Azmine_Toushik_Wasi1"
+      ]
+    ]
+  },
+  {
+    "workshop": "ai4science",
+    "venue": "NeurIPS2025-AI4Science Poster",
+    "paper_id": "FGmV1Ssqfa",
+    "title": "Closing the Omics Gap: A Benchmark for Unified Evaluation of Biomolecular Foundation Models",
+    "authors": [
+      "Joseph G. Wakim",
+      "Vinayak Gupta",
+      "Jose Manuel Marti",
+      "Jonathan E Allen",
+      "Brian R. Bartoldson",
+      "Bhavya Kailkhura"
+    ],
+    "matches": [
+      [
+        "Bhavya Kailkhura",
+        "author_Bhavya_Kailkhura1"
+      ]
+    ]
+  },
+  {
+    "workshop": "ai4science",
+    "venue": "NeurIPS2025-AI4Science Poster",
+    "paper_id": "v1cxKcwPFP",
+    "title": "Improving RNA Secondary Structure Prediction Through Expanded Training Data",
+    "authors": [
+      "Conner J. Langeberg",
+      "Taehan Kim",
+      "Roma Nagle",
+      "Charlotte Meredith",
+      "Dimple Amitha Garuadapuri",
+      "Jennifer Doudna",
+      "Jamie H. D. Cate"
+    ],
+    "matches": [
+      [
+        "Jennifer Doudna",
+        "author_jennifer_doudna"
+      ]
+    ]
+  },
+  {
+    "workshop": "ai4science",
+    "venue": "NeurIPS2025-AI4Science Poster",
+    "paper_id": "DvnxwBA067",
+    "title": "Without Safeguards, AI-Biology Integration Risks Accelerating Future Pandemics",
+    "authors": [
+      "Dianzhuo Wang",
+      "Marian Huot",
+      "Zechen Zhang",
+      "Kaiyi Jiang",
+      "Eugene Shakhnovich",
+      "Kevin M. Esvelt"
+    ],
+    "matches": [
+      [
+        "Dianzhuo Wang",
+        "author_Dianzhuo_Wang1"
+      ],
+      [
+        "Marian Huot",
+        "author_Marian_Huot1"
+      ],
+      [
+        "Zechen Zhang",
+        "author_Zechen_Zhang2"
+      ],
+      [
+        "Kaiyi Jiang",
+        "author_Kaiyi_Jiang1"
+      ],
+      [
+        "Eugene Shakhnovich",
+        "author_Eugene_Shakhnovich1"
+      ],
+      [
+        "Kevin M. Esvelt",
+        "author_Kevin_M__Esvelt1"
+      ]
+    ]
+  },
+  {
+    "workshop": "ai4science",
+    "venue": "NeurIPS2025-AI4Science Poster",
+    "paper_id": "ub5OzaE03M",
+    "title": "Explaining Temporal Effects in Sepsis Prediction",
+    "authors": [
+      "Chaehyeon Kim",
+      "Eric Wong"
+    ],
+    "matches": [
+      [
+        "Eric Wong",
+        "author_Eric_Wong1"
+      ]
+    ]
+  }
+]

@@ -1,0 +1,3055 @@
+[
+  {
+    "content": {
+      "title": {
+        "value": "Talk2Biomodels and Talk2KnowledgeGraph: AI agent-based application for prediction of patient biomarkers and reasoning over biomedical knowledge graphs"
+      },
+      "authors": {
+        "value": [
+          "Gurdeep Singh",
+          "Lilija Wehling",
+          "Ahmad Wisnu Mulyadi",
+          "Rakesh Hadne Sreenath",
+          "Thomas Klabunde",
+          "Tommaso Andreani",
+          "Douglas McCloskey"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Gurdeep_Singh1",
+          "~Lilija_Wehling1",
+          "~Ahmad_Wisnu_Mulyadi1",
+          "~Rakesh_Hadne_Sreenath1",
+          "~Thomas_Klabunde1",
+          "~Tommaso_Andreani1",
+          "~Douglas_McCloskey1"
+        ]
+      },
+      "Track": {
+        "value": "Tiny paper track (up to 4 pages)"
+      },
+      "abstract": {
+        "value": "In this study, we present Talk2Biomodels (T2B) and Talk2KnowledgeGraphs (T2KG) as open-source, user-friendly, large language model-based agentic AI platforms designed to democratize access to computational models of disease processes using natural language. T2B and T2KG eschew the traditional graphical user interface (GUI) and minimally adaptable workflow in favour of a modern agentic framework to provide a dynamic and immersive experience to explore the biology of disease in silico and how different treatment options can be efficacious in different virtual patient populations. T2B supports models encoded in the open-source community format Systems Biology Markup Language (SBML) for quantitative prediction of patient biomarkers and integrates with biomedical knowledge graphs to provide qualitative insights not captured in the computational model. A use case in precision medicine is presented to demonstrate how experts and non-experts in computational biology and data science can benefit from T2B and T2KG."
+      },
+      "pdf": {
+        "value": "/pdf/8db003021b0002d8cad52aadd41272d98c6a2e9d.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nsingh2025talkbiomodels,\ntitle={Talk2Biomodels and Talk2KnowledgeGraph: {AI} agent-based application for prediction of patient biomarkers and reasoning over biomedical knowledge graphs},\nauthor={Gurdeep Singh and Lilija Wehling and Ahmad Wisnu Mulyadi and Rakesh Hadne Sreenath and Thomas Klabunde and Tommaso Andreani and Douglas McCloskey},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=av4QhBNeZo}\n}"
+      },
+      "paperhash": {
+        "value": "singh|talk2biomodels_and_talk2knowledgegraph_ai_agentbased_application_for_prediction_of_patient_biomarkers_and_reasoning_over_biomedical_knowledge_graphs"
+      }
+    },
+    "id": "av4QhBNeZo",
+    "forum": "av4QhBNeZo",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission95/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission95/Authors"
+    ],
+    "number": 95,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission95/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1741187285186,
+    "cdate": 1741187285186,
+    "tmdate": 1744120217678,
+    "mdate": 1744120217678,
+    "pdate": 1741187562110,
+    "odate": 1741188560881,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "When repeats drive the vocabulary: a Byte-Pair Encoding analysis of T2T primate genomes"
+      },
+      "authors": {
+        "value": [
+          "Marina Popova",
+          "Iaroslav Chelombitko",
+          "Aleksey Komissarov"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Marina_Popova1",
+          "~Iaroslav_Chelombitko1",
+          "~Aleksey_Komissarov1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "The emergence of telomere-to-telomere (T2T) genome assemblies has opened new avenues for comparative genomics, yet effective tokenization strategies for genomic sequences remain underexplored. In this pilot study, we apply Byte-Pair Encoding (BPE) to nine T2T primate genomes\u2014including three human assemblies\u2014by training independent BPE tokenizers with a fixed vocabulary of 512,000 tokens using our custom tool, dnaBPE. Our analysis reveals that only 11,569 tokens are shared across all assemblies, while nearly 991,854 tokens are unique to a single genome, indicating a rapid decline in shared vocabulary with increasing assembly comparisons. Moreover, phylogenetic trees derived from token overlap failed to recapitulate established primate relationships, a discrepancy attributed to the disproportionate influence of species-specific high-copy repetitive elements. These findings underscore the dual nature of BPE tokenization: while it effectively compresses repetitive sequences, its sensitivity to high-copy elements limits its utility as a universal tool for comparative genomics. We discuss potential hybrid strategies and repeat-masking approaches to refine genomic tokenization, emphasizing the need for domain-specific adaptations in the development of large-scale genomic language models. The dnaBPE tool used in this study is open-source and available at https://github.com/aglabx/dnaBPE."
+      },
+      "pdf": {
+        "value": "/pdf/2498917ba52d593e887a5e5be7a668fcfac69932.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\npopova2025when,\ntitle={When repeats drive the vocabulary: a Byte-Pair Encoding analysis of T2T primate genomes},\nauthor={Marina Popova and Iaroslav Chelombitko and Aleksey Komissarov},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=rDPEBwGVnY}\n}"
+      },
+      "paperhash": {
+        "value": "popova|when_repeats_drive_the_vocabulary_a_bytepair_encoding_analysis_of_t2t_primate_genomes"
+      }
+    },
+    "id": "rDPEBwGVnY",
+    "forum": "rDPEBwGVnY",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission75/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission75/Authors"
+    ],
+    "number": 75,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission75/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739832344213,
+    "cdate": 1739832344213,
+    "tmdate": 1745437968091,
+    "mdate": 1745437968091,
+    "pdate": 1741187561109,
+    "odate": 1741188559878,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Hierarchical Assembly of Long DNA Libraries from Short Oligonucleotide Pools"
+      },
+      "authors": {
+        "value": [
+          "Shaozhong Zou",
+          "zhien wu",
+          "Chunfu Xu"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Shaozhong_Zou1",
+          "~zhien_wu1",
+          "~Chunfu_Xu1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Large-scale screening and high-throughput experimental data generation are essential for advancing AI-driven genomics research. However, these processes are generally constrained by the length limitation of chip-synthesized oligo-pools ($<300$ bp). In addition, synthesizing gene-sized DNA sequences at scale remains economically unfeasible, making it difficult to validate the experimental performance of certain machine learning models or to generate new datasets for further training. To address this challenge, we developed a novel method for the high-throughput assembly of gene-sized DNA sequences, starting from cost-effective chip-synthesized oligo-pools. In contrast to Polymerase Cycling Assembly (PCA), we employed Golden Gate Assembly (GGA) to facilitate the ligation of short DNA fragments. This approach enabled us to successfully assemble high-quality DNA libraries containing up to 96 gene-sized sequences (600 bp) in a single-pot reaction, with convenient retrieval of individual sequences. If numerous reactions are conducted in parallel---for example, in a 96-well plate---we can readily assemble up to 9,216 (96 x 96) genes. When combined with advances in automation technologies, this enables the efficient and cost-effective synthesis of gene-sized DNA sequences at scale, thereby accelerating the generation of experimental data for the Machine Learning community."
+      },
+      "pdf": {
+        "value": "/pdf/aae65e08da80eb2f227a0fe72492131ba2556c3d.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nzou2025hierarchical,\ntitle={Hierarchical Assembly of Long {DNA} Libraries from Short Oligonucleotide Pools},\nauthor={Shaozhong Zou and zhien wu and Chunfu Xu},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=SrPaXJdYmP}\n}"
+      },
+      "paperhash": {
+        "value": "zou|hierarchical_assembly_of_long_dna_libraries_from_short_oligonucleotide_pools"
+      }
+    },
+    "id": "SrPaXJdYmP",
+    "forum": "SrPaXJdYmP",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission74/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission74/Authors"
+    ],
+    "number": 74,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission74/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739796276782,
+    "cdate": 1739796276782,
+    "tmdate": 1746592162000,
+    "mdate": 1746592162000,
+    "pdate": 1741187561081,
+    "odate": 1741188559863,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "A Topologically Guided Machine Learning Framework for Enhanced Fine-Mapping in Whole-Genome Bacterial Studies"
+      },
+      "authors": {
+        "value": [
+          "Tamsin Emily James",
+          "Peter Tino",
+          "Nicole E Wheeler"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Tamsin_Emily_James1",
+          "~Peter_Tino1",
+          "~Nicole_E_Wheeler1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "This paper proposes a feature selection framework for machine learning\u2013based bacterial genome-wide association studies aimed at uncovering resistance-causing traits. Using a well-characterized Staphylococcus aureus pangenome as a ground truth for causal\u2010variant labels, we demonstrate improved control for population structure and enhanced interpretability through the explicit incorporation of genomic context derived from graph-structured data, based on the compacted de Bruijn graph for an assembled pangenome. Our framework successfully uncovers resistance-causing traits for 9 of 14 antibiotics using a significantly reduced feature set, while preserving genomic marker identifiability via unique mappings between the encoded feature space and sequential representations that tag specific genomic loci."
+      },
+      "pdf": {
+        "value": "/pdf/58a2c92b8bc90a244a42af765b3832e55d8587ba.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\njames2025a,\ntitle={A Topologically Guided Machine Learning Framework for Enhanced Fine-Mapping in Whole-Genome Bacterial Studies},\nauthor={Tamsin Emily James and Peter Tino and Nicole E Wheeler},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=YaEozn3y0G}\n}"
+      },
+      "paperhash": {
+        "value": "james|a_topologically_guided_machine_learning_framework_for_enhanced_finemapping_in_wholegenome_bacterial_studies"
+      }
+    },
+    "id": "YaEozn3y0G",
+    "forum": "YaEozn3y0G",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission72/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission72/Authors"
+    ],
+    "number": 72,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission72/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739793348471,
+    "cdate": 1739793348471,
+    "tmdate": 1745490310983,
+    "mdate": 1745490310983,
+    "pdate": 1741187560976,
+    "odate": 1741188559763,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Capturing functional context of genetic pathways through hyperedge disentanglement"
+      },
+      "authors": {
+        "value": [
+          "Yoonho Lee",
+          "Junseok Lee",
+          "Sangwoo Seo",
+          "Sungwon Kim",
+          "Yeongmin Kim",
+          "Chanyoung Park"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Yoonho_Lee2",
+          "~Junseok_Lee1",
+          "~Sangwoo_Seo1",
+          "~Sungwon_Kim3",
+          "~Yeongmin_Kim2",
+          "~Chanyoung_Park1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "The hypergraph data structure has been used to represent the multiway interactions of a set of genes of a genetic pathway. Since genes within each genetic pathway collaboratively perform a biological function, the functional context of a pathway (i.e., the interaction context of a hyperedge), which is often unannotated, needs to be captured. However, most existing hypergraph neural networks fail to reflect the interaction context of each hyperedge due to their limited ability to capture important or relevant factors. In this paper, we propose a simple yet effective hyperedge disentangling method, Natural-HNN, which captures the interaction context of a hyperedge. We introduce a novel guidance mechanism for hyperedge disentanglement based on the naturality condition in category theory. In our experiments, we applied our model to hypergraphs of genetic pathways for the cancer subtype classification task and demonstrated that our model outperforms baseline approaches by capturing the functional semantic similarity of genetic pathways."
+      },
+      "pdf": {
+        "value": "/pdf/ee36b0a0112e46ff51b0bfc2a79d558dac6e35f0.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nlee2025capturing,\ntitle={Capturing functional context of genetic pathways through hyperedge disentanglement},\nauthor={Yoonho Lee and Junseok Lee and Sangwoo Seo and Sungwon Kim and Yeongmin Kim and Chanyoung Park},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=uZ6B53QSHZ}\n}"
+      },
+      "paperhash": {
+        "value": "lee|capturing_functional_context_of_genetic_pathways_through_hyperedge_disentanglement"
+      }
+    },
+    "id": "uZ6B53QSHZ",
+    "forum": "uZ6B53QSHZ",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission71/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission71/Authors"
+    ],
+    "number": 71,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission71/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739787998838,
+    "cdate": 1739787998838,
+    "tmdate": 1744854440637,
+    "mdate": 1744854440637,
+    "pdate": 1741187560938,
+    "odate": 1741188559738,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "LoFTPat: Low-Rank Subspace Optimization for Parameter-Efficient Fine-Tuning of Genomic Language Models in Pathogenicity Identification"
+      },
+      "authors": {
+        "value": [
+          "Sajib Acharjee Dip"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Sajib_Acharjee_Dip1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Pathogen identification from genomic sequences is vital for disease surveillance, antimicrobial resistance monitoring, and vaccine development. While Large Language Models (LLMs) excel in genomic sequence modeling, existing approaches prioritize accuracy over efficiency, leading to high memory overhead, long training times, and scalability issues. We introduce LoFTPat, a structurally constrained fine-tuning framework that integrates Low-Rank Adaptation within PathoLM\u2019s self-attention layers, enabling efficient task-specific weight modulation.\n\nLoFTPat reduces training time by 4.02\\%, GPU memory usage by 64.3\\%, and trainable parameters by 99.24\\%, while surpassing full fine-tuning approaches with +0.44\\% accuracy, +0.44\\% F1 score, +0.02\\% AUC-ROC, and +0.52\\% balanced accuracy. It efficiently adapts to short- and long-read sequences, demonstrating strong generalization across bacterial and viral pathogens. By optimizing feature transformations with minimal parameter overhead, LoFTPat offers a scalable, computationally efficient framework for large-scale pathogen classification and genomic analysis."
+      },
+      "pdf": {
+        "value": "/pdf/26a544e8ed5fc8ecf5b353155ea8d8d2ca8cb145.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\ndip2025loftpat,\ntitle={Lo{FTP}at: Low-Rank Subspace Optimization for Parameter-Efficient Fine-Tuning of Genomic Language Models in Pathogenicity Identification},\nauthor={Sajib Acharjee Dip},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=Su1I7Z64hC}\n}"
+      },
+      "paperhash": {
+        "value": "dip|loftpat_lowrank_subspace_optimization_for_parameterefficient_finetuning_of_genomic_language_models_in_pathogenicity_identification"
+      }
+    },
+    "id": "Su1I7Z64hC",
+    "forum": "Su1I7Z64hC",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission68/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission68/Authors"
+    ],
+    "number": 68,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission68/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739784968229,
+    "cdate": 1739784968229,
+    "tmdate": 1745556782959,
+    "mdate": 1745556782959,
+    "pdate": 1741187560805,
+    "odate": 1741188559637,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Uncovering BioLOGICAL Motifs and Syntax via Sufficient and Necessary Explanations"
+      },
+      "authors": {
+        "value": [
+          "Beepul Bharti",
+          "Gabriele Scalia",
+          "Tommaso Biancalani",
+          "Alex M Tseng"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Beepul_Bharti1",
+          "~Gabriele_Scalia1",
+          "~Tommaso_Biancalani1",
+          "~Alex_M_Tseng1"
+        ]
+      },
+      "Track": {
+        "value": "Tiny paper track (up to 4 pages)"
+      },
+      "abstract": {
+        "value": "Deep neural networks (DNNs) have achieved remarkable success in predicting transcription factor (TF) binding from high-throughput genome profiling data. Since TF binding is primarily driven by sequence motifs, understanding how DNNs make accurate predictions could help identify these motifs and their logical syntax. However, the black-box nature of DNNs complicates interpretation. Most post-hoc methods evaluate the importance of each base pair in isolation, often resulting in noise since they overlook the fact that motifs are contiguous regions. Additionally, these methods fail to capture the complex interactions between different motifs. To address these challenges, we propose Motif Explainer Models (MEMs), a novel explanation method that uses sufficiency and necessity to identify important motifs and their syntax. MEMs excel at identifying multiple disjoint motifs across DNA sequences, overcoming limitations of existing methods. Moreover, by accurately pinpointing sufficient and necessary motifs, MEMs can reveal the logical syntax that governs genomic regulation."
+      },
+      "pdf": {
+        "value": "/pdf/7986137a9fe5cef9bae996237d9571fcbfd51deb.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nbharti2025uncovering,\ntitle={Uncovering Bio{LOGICAL} Motifs and Syntax via Sufficient and Necessary Explanations},\nauthor={Beepul Bharti and Gabriele Scalia and Tommaso Biancalani and Alex M Tseng},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=0X2jafslBR}\n}"
+      },
+      "paperhash": {
+        "value": "bharti|uncovering_biological_motifs_and_syntax_via_sufficient_and_necessary_explanations"
+      }
+    },
+    "id": "0X2jafslBR",
+    "forum": "0X2jafslBR",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission65/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission65/Authors"
+    ],
+    "number": 65,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/-/PC_Revision"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739772177386,
+    "cdate": 1739772177386,
+    "tmdate": 1746592161789,
+    "mdate": 1746592161789,
+    "pdate": 1741187560517,
+    "odate": 1741188559615,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Building Foundation Models to Characterize Cellular Interactions via Geometric Self-Supervised Learning on Spatial Genomics"
+      },
+      "authors": {
+        "value": [
+          "Yuning You",
+          "Zitong Jerry Wang",
+          "Kevin Fleisher",
+          "Rex Liu",
+          "Matt Thomson"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Yuning_You1",
+          "~Zitong_Jerry_Wang1",
+          "kfleishe@caltech.edu",
+          "rex@caltech.edu",
+          "~Matt_Thomson1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Cellular interactions form the fundamental/core circuits that drive development, physiology, and disease within tissues. Advances in spatial genomics (SG) and artificial intelligence (AI) offer unprecedented opportunities to computationally analyze and predict the behavior of cell intricate networks, and to identify interactions that drive disease states.\nHowever, challenges arise in both \\textit{methodology} and \\textit{scalability}: \\textbf{(i)} how to computationally characterize\ncomplicated cellular interactions of multi-scale nature, where chemical genes/circuits in individual cells process information and drive interactions among large numbers of diverse cell types,\nand \\textbf{(ii)} how to scale up the pipeline to accommodate the increasing volumes of SG data that map transcriptome-scale gene expression and spatial proximity across millions of cells.\nIn this paper, we introduce the \\textbf{Cellular Interaction Foundation Model} (\\textbf{CIFM}), an AI foundation model functioning to analyze and simulate cellular interactions within living tissues.\nIn the CIFM pipeline, we explicitly capture and embed interactions of cells within microenvironments by leveraging the powerful and scalable geometric graph neural network model, and optimize the characterization of cellular interactions with a novel self-supervised learning objective -- we train it to infer gene expressions of cells based upon their surrounding microenvironments.\nAs a result, we construct CIFM with 100 million parameters by consuming SG data of 23 million cells.\nOur benchmarking experiments show CIFM effectively infers gene expressions conditional on the microenvironmental contexts:\nwe achieve a high correlation and a low mismatch error, with 71.4\\% of cells being annotated as the similar cell type based on their predicted and actual expressions on Visium-HD.\nWe demonstrate the downstream utility of CIFM by: (i) applying CIFM to embed tumor samples to capture cellular interactions within tumor microenvironments (ROC-AUC score of 0.862 on classifying sample conditions via linear probing on embeddings), and identifying shared signatures across samples; and (ii) using CIFM to simulate changes in microenvironmental composition in response to T cell infiltration, which highlights how CIFM can be leveraged to model cellular responses to tissue perturbations -- an essential step toward constructing ``AI virtual tissues\".\nOur model is open source and publicly accessible at \\url{https://huggingface.co/ynyou/CIFM}."
+      },
+      "pdf": {
+        "value": "/pdf/240e46f5810db0d4da2c9a94df42dd33b9b944e4.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nyou2025building,\ntitle={Building Foundation Models to Characterize Cellular Interactions via Geometric Self-Supervised Learning on Spatial Genomics},\nauthor={Yuning You and Zitong Jerry Wang and Kevin Fleisher and Rex Liu and Matt Thomson},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=hy12KXLT0K}\n}"
+      },
+      "paperhash": {
+        "value": "you|building_foundation_models_to_characterize_cellular_interactions_via_geometric_selfsupervised_learning_on_spatial_genomics"
+      }
+    },
+    "id": "hy12KXLT0K",
+    "forum": "hy12KXLT0K",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission64/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission64/Authors"
+    ],
+    "number": 64,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission64/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739765634380,
+    "cdate": 1739765634380,
+    "tmdate": 1745263218938,
+    "mdate": 1745263218938,
+    "pdate": 1741187560483,
+    "odate": 1741188559576,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Enhancing DNA Foundation Models to Address Masking Inefficiencies"
+      },
+      "authors": {
+        "value": [
+          "Monireh Safari",
+          "Pablo Andres Millan Arias",
+          "Scott C. Lowe",
+          "Lila Kari",
+          "Angel X Chang",
+          "Graham W. Taylor"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Monireh_Safari2",
+          "~Pablo_Andres_Millan_Arias1",
+          "~Scott_C._Lowe1",
+          "~Lila_Kari1",
+          "~Angel_X_Chang1",
+          "~Graham_W._Taylor1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Masked language modelling (MLM) as a pretraining objective has been widely adopted in genomic sequence modelling. While pretrained models can successfully serve as encoders for various downstream tasks, the distribution shift between pretraining and inference detrimentally impacts performance, as the pretraining task is to map [MASK] tokens to predictions, yet the [MASK] is absent during downstream applications. This means the encoder does not prioritize its encodings of non-[MASK] tokens, and expends parameters and compute on work only relevant to the MLM task, despite this being irrelevant at deployment time.\nIn this work, we propose a modified encoder-decoder architecture based on the masked autoencoder framework, designed to address this inefficiency within a BERT-based transformer. We empirically show that the resulting mismatch is particularly detrimental in genomic pipelines where models are often used for feature extraction without fine-tuning. We evaluate our approach on the BIOSCAN-5M dataset, comprising over 2 million unique DNA barcodes. We achieve substantial performance gains in both closed-world and open-world classification tasks when compared against causal models and bidirectional architectures pretrained with MLM tasks. The code repository is available at https://github.com/bioscan-ml/BarcodeMAE."
+      },
+      "pdf": {
+        "value": "/pdf/fc630ad4117bc7fa51333445933efd8c864263fc.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nsafari2025enhancing,\ntitle={Enhancing {DNA} Foundation Models to Address Masking Inefficiencies},\nauthor={Monireh Safari and Pablo Andres Millan Arias and Scott C. Lowe and Lila Kari and Angel X Chang and Graham W. Taylor},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=Kx3tpVG4M7}\n}"
+      },
+      "paperhash": {
+        "value": "safari|enhancing_dna_foundation_models_to_address_masking_inefficiencies"
+      }
+    },
+    "id": "Kx3tpVG4M7",
+    "forum": "Kx3tpVG4M7",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission63/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission63/Authors"
+    ],
+    "number": 63,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission63/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739764928083,
+    "cdate": 1739764928083,
+    "tmdate": 1745398670256,
+    "mdate": 1745398670256,
+    "pdate": 1741187560382,
+    "odate": 1741188559514,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Featurization of single cell trajectories through kernel mean embedding of optimal transport maps"
+      },
+      "authors": {
+        "value": [
+          "Alec Plotkin",
+          "Justin Milner",
+          "Natalie Stanley"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Alec_Plotkin1",
+          "justin_milner@med.unc.edu",
+          "~Natalie_Stanley1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Longitudinal single-cell data has spurred the development of computational\ntrajectory models with the power to make time-resolved, testable predictions\nabout cell fates. As \u201dreal-time\u201d trajectory inference methods proliferate, there is\na growing need for tools that integrate their inherently high-dimensional outputs.\nIn this work, we propose a novel strategy to facilitate downstream analysis of\nsingle-cell optimal-transport trajectory models, by constructing feature vectors\nthat contain information about a cell\u2019s state across the entirety of its trajectory.\nThis approach leverages kernel mean embedding of distributions to create\ntrajectory features with applications in several domains, including cell clustering\nand comparison of perturbation response trajectories. We demonstrate how\nk-means clustering on trajectory features produces interpretable clusters that\nrespect the underlying cell trajectories. Furthermore, we develop a divergence\nmetric between single-cell trajectories based on the maximum mean discrepancy\n(MMD). We use this trajectory divergence to show that modeling perturbation\ntrajectories may help uncover experimentally interesting perturbations at higher\nsignificance levels than by comparing perturbation responses at only a single time\npoint."
+      },
+      "pdf": {
+        "value": "/pdf/ef2e820c84eada60886abd6129f875b41fff9b0f.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nplotkin2025featurization,\ntitle={Featurization of single cell trajectories through kernel mean embedding of optimal transport maps},\nauthor={Alec Plotkin and Justin Milner and Natalie Stanley},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=N9uuyDEUIY}\n}"
+      },
+      "paperhash": {
+        "value": "plotkin|featurization_of_single_cell_trajectories_through_kernel_mean_embedding_of_optimal_transport_maps"
+      }
+    },
+    "id": "N9uuyDEUIY",
+    "forum": "N9uuyDEUIY",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission62/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission62/Authors"
+    ],
+    "number": 62,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission62/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739764871196,
+    "cdate": 1739764871196,
+    "tmdate": 1746592161753,
+    "mdate": 1746592161753,
+    "pdate": 1741187560317,
+    "odate": 1741188559451,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "NOLAN: SELF-SUPERVISED FRAMEWORK FOR MAPPING CONTINUOUS TISSUE ORGANIZATION"
+      },
+      "authors": {
+        "value": [
+          "Artemy Bakulin",
+          "Nathan Levy",
+          "Can Ergen",
+          "Jonas Maaskola",
+          "Nir Yosef"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Artemy_Bakulin1",
+          "~Nathan_Levy1",
+          "~Can_Ergen1",
+          "~Jonas_Maaskola1",
+          "~Nir_Yosef2"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Spatial transcriptomics offers unprecedented insights into tissue organization, yet current methods often overlook transitional zones between cellular niches. We introduce NOLAN, a self-supervised framework that goes beyond detecting discrete niches to capture the continuous spectrum of tissue organization patterns. NOLAN learns cell representations informed by their neighborhoods, capturing variation within niches and across their boundaries. Using these representations, NOLAN constructs a graph-based abstraction of the tissue, modeling it as a network of interconnected regions bridged by transitional zones.  Applying NOLAN to a multi-cancer spatial transcriptomics atlas, we uncover a landscape of both tissue-specific and shared cellular niches. Crucially, NOLAN reveals the continuous gradients of gene expression and cell type composition across these transitional zones, showcasing the ability of NOLAN to build a common coordinate system of tissues in an integrative analysis."
+      },
+      "pdf": {
+        "value": "/pdf/72ec2e7ef771aee16f79f7961aa9a956b42219f1.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nbakulin2025nolan,\ntitle={{NOLAN}: {SELF}-{SUPERVISED} {FRAMEWORK} {FOR} {MAPPING} {CONTINUOUS} {TISSUE} {ORGANIZATION}},\nauthor={Artemy Bakulin and Nathan Levy and Can Ergen and Jonas Maaskola and Nir Yosef},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=DzlhvkuFqz}\n}"
+      },
+      "paperhash": {
+        "value": "bakulin|nolan_selfsupervised_framework_for_mapping_continuous_tissue_organization"
+      }
+    },
+    "id": "DzlhvkuFqz",
+    "forum": "DzlhvkuFqz",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission60/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission60/Authors"
+    ],
+    "number": 60,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739761311159,
+    "cdate": 1739761311159,
+    "tmdate": 1741189876740,
+    "mdate": 1741189876740,
+    "pdate": 1741187560266,
+    "odate": 1741188559358,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "ECG-Nest-FM: A Frequency-Focused ECG Foundation Model with Nested Embeddings"
+      },
+      "authors": {
+        "value": [
+          "Abhishek Sharma",
+          "Lin Yang",
+          "Cory Y McLean",
+          "Justin Cosentino",
+          "Farhad I Hormozdiari"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Abhishek_Sharma5",
+          "~Lin_Yang3",
+          "~Cory_Y_McLean1",
+          "~Justin_Cosentino1",
+          "~Farhad_I_Hormozdiari1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Electrocardiograms (ECGs) are fundamental to cardiac diagnostics, providing noninvasive insights into cardiovascular conditions. Recent advancements in deep learning have led to foundation models (FMs) capable of learning powerful representations of ECG signals. However, these models often fail to fully exploit the periodic nature and diagnostic frequency bands of ECGs, leading to inefficiencies in computational cost and interpretability. We propose a novel ECG foundation model that learns nested embeddings, where each subset of dimensions encodes progressively higher-frequency information. By explicitly modeling frequency structures and applying a correlation penalty, the method achieves compact, high-rank representations that reduce model size without sacrificing performance.\nWe evaluate our approach on two large-scale datasets for embedding redundancy and prediction performance on downstream clinical tasks such as arrhythmia classification, and cardiac condition detection. We observe similar prediction performance AUROC scores and lower embedding redundancy, offering a computationally efficient and interpretable framework for ECG analysis. Finally, the representations obtained from our model in UK Biobank data capture known cardiovascular variants and detect novel loci, which can be applied to drug discovery."
+      },
+      "pdf": {
+        "value": "/pdf/66389df9845da46f2233907672a7bbc18598204b.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nsharma2025ecgnestfm,\ntitle={{ECG}-Nest-{FM}: A Frequency-Focused {ECG} Foundation Model with Nested Embeddings},\nauthor={Abhishek Sharma and Lin Yang and Cory Y McLean and Justin Cosentino and Farhad I Hormozdiari},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=k4P5JXv69b}\n}"
+      },
+      "paperhash": {
+        "value": "sharma|ecgnestfm_a_frequencyfocused_ecg_foundation_model_with_nested_embeddings"
+      }
+    },
+    "id": "k4P5JXv69b",
+    "forum": "k4P5JXv69b",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission58/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission58/Authors"
+    ],
+    "number": 58,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission58/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739745244262,
+    "cdate": 1739745244262,
+    "tmdate": 1745033656931,
+    "mdate": 1745033656931,
+    "pdate": 1741187560150,
+    "odate": 1741188559250,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "GraphPINE: Graph importance propagation for interpretable drug response prediction"
+      },
+      "authors": {
+        "value": [
+          "Yoshitaka Inoue",
+          "Tianfan Fu",
+          "Augustin Luna"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Yoshitaka_Inoue1",
+          "~Tianfan_Fu1",
+          "~Augustin_Luna1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Explainability is necessary for many tasks in biomedical research. Recent explainability methods have focused on attention, gradient, and Shapley value. These do not handle data with strong associated prior knowledge and fail to constrain explainability results based on known relationships between predictive features.\n\nWe propose GraphPINE, a graph neural network (GNN) architecture leveraging domain-specific prior knowledge to initialize node importance optimized during training for drug response prediction. Typically, a manual post-prediction step examines literature (i.e., prior knowledge) to understand returned predictive features. While node importance can be obtained for gradient and attention after prediction, node importance from these methods lacks complementary prior knowledge; GraphPINE seeks to overcome this limitation. GraphPINE differs from other GNN gating methods by utilizing an LSTM-like sequential format. We introduce an importance propagation layer that unifies 1) updates for feature matrix and node importance and 2) uses GNN-based graph propagation of feature values. This initialization and updating mechanism allows for informed feature learning and improved graph representation. \n\nWe apply GraphPINE to cancer drug response prediction using drug screening and gene data collected for over 5,000 gene nodes included in a gene-gene graph with a drug-target interaction (DTI) graph for initial importance. The gene-gene graph and DTIs were obtained from curated sources and weighted by article count discussing relationships between drugs and genes. GraphPINE achieves a PR-AUC of 0.894 and ROC-AUC of 0.796 across 952 drugs. Code is available at https://anonymous.4open.science/r/GraphPINE-40DE."
+      },
+      "pdf": {
+        "value": "/pdf/99509cc93bd6be1f3639c1407c49238bf86ace34.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\ninoue2025graphpine,\ntitle={Graph{PINE}: Graph importance propagation for interpretable drug response prediction},\nauthor={Yoshitaka Inoue and Tianfan Fu and Augustin Luna},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=nZ8IjQcJsD}\n}"
+      },
+      "paperhash": {
+        "value": "inoue|graphpine_graph_importance_propagation_for_interpretable_drug_response_prediction"
+      }
+    },
+    "id": "nZ8IjQcJsD",
+    "forum": "nZ8IjQcJsD",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission57/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission57/Authors"
+    ],
+    "number": 57,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission57/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739739582228,
+    "cdate": 1739739582228,
+    "tmdate": 1745530137629,
+    "mdate": 1745530137629,
+    "pdate": 1741187560120,
+    "odate": 1741188559213,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "SpaceDX: A Bayesian test for localized differential expression in population-level spatial transcriptomics datasets"
+      },
+      "authors": {
+        "value": [
+          "Niklas Stotzem",
+          "Simon Chang",
+          "Na Cai",
+          "Francesco Paolo Casale"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Niklas_Stotzem2",
+          "~Simon_Chang1",
+          "~Na_Cai1",
+          "~Francesco_Paolo_Casale1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Spatial transcriptomics allows for the study of gene expression within its spatial context, yet current spatial methods for differential expression require the definition of specific discrete regions of interest across the analyzed sections, which limits their applicability and statistical power. To address this limitation, we introduce SpaceDX, the first framework for spatial differential expression that automatically localizes regions of interest without requiring tissue registration or manual annotations. SpaceDX employs an attention mechanism to detect tissue contexts exhibiting differential gene expression and uses a hierarchical Bayesian framework to overcome the typical challenge of low sample sizes in spatial datasets.\nWe first applied SpaceDX to a structured mouse brain dataset consisting of Visium sections from 38 animals, comparing stressed and control groups.\nSince the brain has well-defined anatomical regions, we could benchmark SpaceDX against traditional differential expression methods that rely on predefined regions, showing a 110% increase in significant gene detection and the automatic localization of regions exhibiting these differences. Next, we tested SpaceDX on a less structured dataset, specifically using sections from patients with inflammatory skin disease, where it successfully identified regions of interest exhibiting differential gene expression, demonstrating its broad applicability."
+      },
+      "pdf": {
+        "value": "/pdf/8e9a0e7caedbdb12e87ab2261a96ee4cb05393c0.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nstotzem2025spacedx,\ntitle={Space{DX}: A Bayesian test for localized differential expression in population-level spatial transcriptomics datasets},\nauthor={Niklas Stotzem and Simon Chang and Na Cai and Francesco Paolo Casale},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=A8EkdmRBYX}\n}"
+      },
+      "paperhash": {
+        "value": "stotzem|spacedx_a_bayesian_test_for_localized_differential_expression_in_populationlevel_spatial_transcriptomics_datasets"
+      }
+    },
+    "id": "A8EkdmRBYX",
+    "forum": "A8EkdmRBYX",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission56/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission56/Authors"
+    ],
+    "number": 56,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission56/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739737957508,
+    "cdate": 1739737957508,
+    "tmdate": 1745387960222,
+    "mdate": 1745387960222,
+    "pdate": 1741187560080,
+    "odate": 1741188559207,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "RNAGym: Benchmarks for RNA Fitness and Structure Prediction"
+      },
+      "authors": {
+        "value": [
+          "Rohit Arora",
+          "Murphy Angelo",
+          "Christian Andrew Choe",
+          "Aaron W Kollasch",
+          "Fiona Qu",
+          "Courtney A. Shearer",
+          "Ruben Weitzman",
+          "Artem Gazizov",
+          "Sarah Gurev",
+          "Erik Xie",
+          "Debora Susan Marks",
+          "Pascal Notin"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Rohit_Arora1",
+          "~Murphy_Angelo1",
+          "~Christian_Andrew_Choe1",
+          "~Aaron_W_Kollasch1",
+          "~Fiona_Qu1",
+          "~Courtney_A._Shearer1",
+          "~Ruben_Weitzman1",
+          "~Artem_Gazizov1",
+          "~Sarah_Gurev1",
+          "~Erik_Xie1",
+          "~Debora_Susan_Marks1",
+          "~Pascal_Notin1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Predicting the structure and the effects of mutations in RNA are pivotal for numerous biological and medical applications. However, the evaluation of machine learning-based RNA models has been hampered by disparate and limited experimental datasets, along with inconsistent model performances across different RNA types. To address these limitations, we introduce RNAGym, a comprehensive and large-scale benchmark specifically tailored for RNA fitness and structure prediction. This benchmark suite includes over 30 standardized deep mutational scanning assays, covering hundreds of thousands of mutations, and curated RNA structure datasets. We have developed a robust evaluation framework that integrates multiple metrics suitable for both predictive tasks while accounting for the inherent limitations of experimental methods. RNAGym is designed to facilitate a systematic comparison of RNA models, offering an essential resource to enhance the development and understanding of these models within the computational biology community."
+      },
+      "pdf": {
+        "value": "/pdf/98e9fdc18f720b164b78d2558e83086e3eff86df.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\narora2025rnagym,\ntitle={{RNAG}ym: Benchmarks for {RNA} Fitness and Structure Prediction},\nauthor={Rohit Arora and Murphy Angelo and Christian Andrew Choe and Aaron W Kollasch and Fiona Qu and Courtney A. Shearer and Ruben Weitzman and Artem Gazizov and Sarah Gurev and Erik Xie and Debora Susan Marks and Pascal Notin},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=EXq8TWHJHI}\n}"
+      },
+      "paperhash": {
+        "value": "arora|rnagym_benchmarks_for_rna_fitness_and_structure_prediction"
+      }
+    },
+    "id": "EXq8TWHJHI",
+    "forum": "EXq8TWHJHI",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission54/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission54/Authors"
+    ],
+    "number": 54,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739733892258,
+    "cdate": 1739733892258,
+    "tmdate": 1741189876426,
+    "mdate": 1741189876426,
+    "pdate": 1741187559873,
+    "odate": 1741188559077,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "PREDICTING TIME-VARYING METABOLIC DYNAMICS USING STRUCTURED NEURAL ODE PROCESSES"
+      },
+      "authors": {
+        "value": [
+          "Santanu Rathod",
+          "Pietro Lio",
+          "Xiao Zhang"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Santanu_Rathod2",
+          "~Pietro_Lio1",
+          "~Xiao_Zhang2"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Genome-scale metabolic modeling enables omic data integration through mathematical simulation and has become an indispensable cornerstone for understanding cellular metabolism. Traditional analysis tools, such as mechanistic modeling and flux balance analysis, require deep domain expertise to specify the kinetic parameters or significant manual effort to acquire fluxomic data to formulate the constrained optimization problem. \nTo circumvent the above limitations, we develop a novel metabolic dynamics modeling framework, which learns a structured neural ODE process (SNODEP) model to predict the time-varying flux and balance distributions by leveraging the more accessible single-cell RNA sequencing (scRNA-seq) technology. Compared with ML-based alternatives, our method achieves enhanced prediction performance, not only due to the intrinsic suitability of neural ODE for modeling dynamics-governed time series data but also because the design of SNODEP explicitly accounts for the destructive measurement process of scRNA-seq and the sequential dependence between context points. Comprehensive evaluations across $4$ metabolic pathways ($340$ experiments in total) show that our method can predict future gene expression, flux, and balance dynamics well, even generalizing to more challenging settings of irregularly sampled data and unseen gene knockout configurations. We hope our work can catalyze the development of more robust and scalable models for metabolic pathway analysis."
+      },
+      "pdf": {
+        "value": "/pdf/53cec593244639fbde7c31384da54a173f42540f.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nrathod2025predicting,\ntitle={{PREDICTING} {TIME}-{VARYING} {METABOLIC} {DYNAMICS} {USING} {STRUCTURED} {NEURAL} {ODE} {PROCESSES}},\nauthor={Santanu Rathod and Pietro Lio and Xiao Zhang},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=hs1AWLx6U5}\n}"
+      },
+      "paperhash": {
+        "value": "rathod|predicting_timevarying_metabolic_dynamics_using_structured_neural_ode_processes"
+      }
+    },
+    "id": "hs1AWLx6U5",
+    "forum": "hs1AWLx6U5",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission51/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission51/Authors"
+    ],
+    "number": 51,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission51/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739722849276,
+    "cdate": 1739722849276,
+    "tmdate": 1745256548147,
+    "mdate": 1745256548147,
+    "pdate": 1741187559759,
+    "odate": 1741188558947,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "CellMemory: Hierarchical Interpretation of Out-of-Distribution Cells Using Bottlenecked Transformer"
+      },
+      "authors": {
+        "value": [
+          "Qifei Wang"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Qifei_Wang4"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Applying machine learning to cellular data presents several challenges. One such challenge is making the methods interpretable concerning both the cellular information and its context. Another less-explored challenge is the accurate representation of cells outside existing references, referred to as out-of-distribution (OOD) cells. OOD cells arise from physiological conditions (e.g., diseased vs. healthy) or technical variations (e.g., single-cell references vs. spatial queries). Inspired by the Global Workspace Theory in cognitive neuroscience, we introduce CellMemory, a bottlenecked Transformer with improved generalization designed for the hierarchical interpretation of OOD cells. CellMemory outperforms large-scale foundation models pre-trained on tens of millions of cells, even without pre-training. Moreover, it robustly characterizes malignant cells and their founder cells across different patients, revealing cellular changes caused by the diseases. We further propose leveraging CellMemory\u2019s capacity to integrate multi-modalities and phenotypic information, advancing toward the construction of VIRTUAL ORGAN."
+      },
+      "pdf": {
+        "value": "/pdf/66343640d608734763ac9591d89ce2ee5934c873.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nwang2025cellmemory,\ntitle={CellMemory: Hierarchical Interpretation of Out-of-Distribution Cells Using Bottlenecked Transformer},\nauthor={Qifei Wang},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=e5uLntjTeD}\n}"
+      },
+      "paperhash": {
+        "value": "wang|cellmemory_hierarchical_interpretation_of_outofdistribution_cells_using_bottlenecked_transformer"
+      }
+    },
+    "id": "e5uLntjTeD",
+    "forum": "e5uLntjTeD",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission49/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission49/Authors"
+    ],
+    "number": 49,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission49/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739719881751,
+    "cdate": 1739719881751,
+    "tmdate": 1745226123054,
+    "mdate": 1745226123054,
+    "pdate": 1741187559671,
+    "odate": 1741188558844,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "COLOR: A COMPOSITIONAL LINEAR OPERATION BASED REPRESENTATION OF PROTEIN SEQUENCES FOR  IDENTIFICATION OF MONOMER CONTRIBUTIONS TO  PROPERTIES"
+      },
+      "authors": {
+        "value": [
+          "Akash Pandey",
+          "Wei Chen",
+          "Sinan Keten"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Akash_Pandey3",
+          "~Wei_Chen5",
+          "~Sinan_Keten1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "The properties of biological materials like proteins and nucleic acids are largely determined by their primary sequence. Certain segments in the sequence strongly influence specific functions, identifying these segments, or so-called motifs, is challenging due to the complexity of sequential data. While deep learning (DL) models can accurately capture sequence-property relationships, the degree of nonlinearity in these models limits the assessment of monomer contributions to a property - a critical step in identifying key motifs. Recent advances in explainable AI (XAI) offer attention and gradient-based methods for estimating monomeric contributions. However, these methods are primarily applied to classification tasks, such as binding site identification, where they achieve limited accuracy (40\u201345\\%) and rely on qualitative evaluations. To address these limitations, we introduce a DL model with interpretable steps, enabling direct tracing of monomeric contributions. Inspired by the masking technique commonly used in vision and language processing domains, we propose a new metric ($\\mathcal{I}$) for quantitative evaluation on datasets mainly containing distinct properties of anti-cancer peptides (ACP), antimicrobial peptides (AMP), and collagen. Our model exhibits 22\\% higher explainability than the gradient and attention-based state-of-the-art models, recognizes critical motifs (RRR, RRI, and RSS) that significantly destabilize ACPs, and identifies motifs in AMPs that are 50\\% more effective in converting non-AMPs to AMPs. These findings highlight the potential of our model in guiding mutation strategies for designing protein-based biomaterials."
+      },
+      "pdf": {
+        "value": "/pdf/1fe8a4168265654e9b180d5e19a4b6606c6d1862.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\npandey2025color,\ntitle={{COLOR}: A {COMPOSITIONAL} {LINEAR} {OPERATION} {BASED} {REPRESENTATION} {OF} {PROTEIN} {SEQUENCES} {FOR}  {IDENTIFICATION} {OF} {MONOMER} {CONTRIBUTIONS} {TO}  {PROPERTIES}},\nauthor={Akash Pandey and Wei Chen and Sinan Keten},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=4JGIrEGfYz}\n}"
+      },
+      "paperhash": {
+        "value": "pandey|color_a_compositional_linear_operation_based_representation_of_protein_sequences_for_identification_of_monomer_contributions_to_properties"
+      }
+    },
+    "id": "4JGIrEGfYz",
+    "forum": "4JGIrEGfYz",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission48/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission48/Authors"
+    ],
+    "number": 48,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission48/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739646702892,
+    "cdate": 1739646702892,
+    "tmdate": 1745461140535,
+    "mdate": 1745461140535,
+    "pdate": 1741187559630,
+    "odate": 1741188558826,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Leveraging GPT Continual Fine-Tuning for Improved RNA Editing Site Prediction"
+      },
+      "authors": {
+        "value": [
+          "Zohar Rosenwasser",
+          "Erez Levanon",
+          "Michael Levitt",
+          "Gal Oren"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Zohar_Rosenwasser1",
+          "~Erez_Levanon1",
+          "~Michael_Levitt2",
+          "~Gal_Oren1"
+        ]
+      },
+      "Track": {
+        "value": "Special track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "RNA editing is a critical regulatory process that diversifies the transcriptome by altering nucleotide sequences in messenger RNA molecules. We propose a novel framework for predicting adenosine-to-inosine (A-to-I) RNA editing sites by leveraging a specialized fine-tuned GPT-4o-mini model and a tissue-specific liver dataset. Grounding our approach in the high expression levels of ADAR1 in liver tissue, we avoid confounding factors from other ADAR isoforms and complex multi-tissue data. We categorize editing levels into progressively narrower thresholds (1%, 5%, 10%, and 15%) and introduce continual fine-tuning (CFT) to guide the model step-by-step from low-editing (1%) to high-editing (15%) scenarios. Compared to static fine-tuning (SFT) on a single threshold, our multi-stage method incrementally refines the model's ability to distinguish editing features and demonstrates superior performance over base GPT-3.5/4o-mini models across various configurations. We further show that employing strict, non-overlapping threshold bins facilitates clearer distinctions between edited and non-edited sites, consequently improves performance. In contrast, reducing the distinction between edited and non-edited classes significantly degrades classification accuracy. These findings underscore the importance of biologically appropriate data partitioning and continual, threshold-based fine-tuning in enhancing the predictive power of generative language models for RNA editing. Our study paves the way for future work on building more nuanced models that incorporate tissue-specific constraints, ultimately broadening the applicability of generative AI in post-transcriptional regulation analysis.\nThe sources of this work are available at our repository: https://zenodo.org/records/14873200."
+      },
+      "pdf": {
+        "value": "/pdf/b96360fd4ff0a0740829e33798e99098c587992b.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nrosenwasser2025leveraging,\ntitle={Leveraging {GPT} Continual Fine-Tuning for Improved {RNA} Editing Site Prediction},\nauthor={Zohar Rosenwasser and Erez Levanon and Michael Levitt and Gal Oren},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=L2jj5ekPxa}\n}"
+      },
+      "paperhash": {
+        "value": "rosenwasser|leveraging_gpt_continual_finetuning_for_improved_rna_editing_site_prediction"
+      }
+    },
+    "id": "L2jj5ekPxa",
+    "forum": "L2jj5ekPxa",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission46/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission46/Authors"
+    ],
+    "number": 46,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission46/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739586558375,
+    "cdate": 1739586558375,
+    "tmdate": 1746592161446,
+    "mdate": 1746592161446,
+    "pdate": 1741187559542,
+    "odate": 1741188558739,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "GENATATOR: de novo Gene Annotation With DNA Language Model"
+      },
+      "authors": {
+        "value": [
+          "Aleksei Shmelev",
+          "Artem Shadskiy",
+          "Yuri Kuratov",
+          "Mikhail Burtsev",
+          "Olga Kardymon",
+          "Veniamin Fishman"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Aleksei_Shmelev1",
+          "~Artem_Shadskiy1",
+          "~Yuri_Kuratov2",
+          "~Mikhail_Burtsev1",
+          "~Olga_Kardymon1",
+          "~Veniamin_Fishman1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Inference of gene structure and location based on genome sequences, also known as \\textit{de novo} gene annotation, is a critical first step in biological research. However, rules of encoding gene structure in the DNA sequence are complex and poorly understood, often necessitating the use of costly transcriptomic data to achieve accurate gene annotation. Here, we present GENATATOR --- Genome Annotator Using the GENA DNA Language Model --- an advanced machine learning tool for inferring gene annotations directly from DNA sequences. Unlike previous approaches that rely on explicitly defined gene segmentation rules derived from protein-coding sequences, GENATATOR learns how to infer gene structure directly from the data. This enables GENATATOR to perform correct segmentation for previously untraceable class of non-coding transcripts and identify subset of protein-coding genes missed by other models, achieving top performance in the gene segmentation benchmarks. Finally, with in-depth analysis of GENATATOR\u2019s model embeddings and predictions, we reveal how DNA language models utilize memory to learn the biological rules underlying gene encoding."
+      },
+      "pdf": {
+        "value": "/pdf/3515929a37f5e20236f788adf88d4800cb047bcc.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nshmelev2025genatator,\ntitle={{GENATATOR}: de novo Gene Annotation With {DNA} Language Model},\nauthor={Aleksei Shmelev and Artem Shadskiy and Yuri Kuratov and Mikhail Burtsev and Olga Kardymon and Veniamin Fishman},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=sla2edDxc3}\n}"
+      },
+      "paperhash": {
+        "value": "shmelev|genatator_de_novo_gene_annotation_with_dna_language_model"
+      }
+    },
+    "id": "sla2edDxc3",
+    "forum": "sla2edDxc3",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission45/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission45/Authors"
+    ],
+    "number": 45,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission45/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739566463106,
+    "cdate": 1739566463106,
+    "tmdate": 1745221555853,
+    "mdate": 1745221555853,
+    "pdate": 1741187559507,
+    "odate": 1741188558695,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "PIONEER: a virtual platform for iterative improvement of genomic deep learning"
+      },
+      "authors": {
+        "value": [
+          "Alessandro Crnjar",
+          "John J Desmarais",
+          "Justin Kinney",
+          "Peter K Koo"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Alessandro_Crnjar1",
+          "~John_J_Desmarais1",
+          "~Justin_Kinney1",
+          "~Peter_K_Koo1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Deep neural networks (DNNs) have improved our ability to predict regulatory activity from DNA sequences, providing valuable insights into gene regulation. However, these models often fail to generalize to sequences underrepresented in their training data, limiting applications like variant effect prediction and de novo sequence design. This limitation reflects a bias toward natural variation across the genome, making DNNs vulnerable to covariate shifts, where test sequences diverge statistically from the training distribution. Here, we introduce PIONEER, a computational platform that simulates functional genomics experiments to systematically benchmark and optimize training data composition through iterative AI-experiment cycles. Using PIONEER, we compare sequence proposal strategies\u2014including active learning and random baselines\u2014evaluating their impact on model generalization across increasing levels of covariate shift. To ensure a fair comparison, we also assess each approach within a fixed experimental budget, accounting for DNA synthesis costs. PIONEER provides a scalable and extensible framework for optimizing training data composition to enhance model generalization, advancing applications in regulatory genomics, synthetic biology, and precision medicine."
+      },
+      "pdf": {
+        "value": "/pdf/3aa879f3c6e925208122aa3ce632e4335dea09fa.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\ncrnjar2025pioneer,\ntitle={{PIONEER}: a virtual platform for iterative improvement of genomic deep learning},\nauthor={Alessandro Crnjar and John J Desmarais and Justin Kinney and Peter K Koo},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=EIiM0eCjoz}\n}"
+      },
+      "paperhash": {
+        "value": "crnjar|pioneer_a_virtual_platform_for_iterative_improvement_of_genomic_deep_learning"
+      }
+    },
+    "id": "EIiM0eCjoz",
+    "forum": "EIiM0eCjoz",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission44/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission44/Authors"
+    ],
+    "number": 44,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission44/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739559761538,
+    "cdate": 1739559761538,
+    "tmdate": 1743692948491,
+    "mdate": 1743692948491,
+    "pdate": 1741187559454,
+    "odate": 1741188558659,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Curly Flow Matching for Learning Non-gradient Field Dynamics"
+      },
+      "authors": {
+        "value": [
+          "Katarina Petrovi\u0107",
+          "Lazar Atanackovic",
+          "Kacper Kapusniak",
+          "Michael M. Bronstein",
+          "Joey Bose",
+          "Alexander Tong"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Katarina_Petrovi\u01071",
+          "~Lazar_Atanackovic1",
+          "~Kacper_Kapusniak1",
+          "~Michael_M._Bronstein1",
+          "~Joey_Bose1",
+          "~Alexander_Tong1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Modeling the transport dynamics of natural processes from population-level observations is a ubiquitous problem that arises in the natural sciences. A key challenge in these settings is making important modeling assumptions over the scientific process at hand that enable faithful learning of governing dynamics that mimic actual system behavior. Traditionally, the de-facto assumption present in approaches relies on the principle of least action that result in gradient field dynamics, that lead to trajectories that minimize an energy functional between two probability measures. However, many real world systems such as cell cycles in single-cell RNA are known to exhibit non-gradient, periodic behavior, which fundamentally cannot be captured by current state-of-the-art methods such as optimal transport based conditional flow matching. In this paper, we introduce Curly Flow Matching (Curly-FM), a novel approach that is capable of learning non-gradient field dynamics by designing and solving a Schr\u00f6dinger bridge problem with a reference process with non-zero drift---in stark contrast from zero-drift reference processes---which is constructed using inferred velocities in addition to population snapshot data. We instantiate Curly-FM by solving the single-cell trajectory inference problem with approximate velocities inferred using RNA velocity. We demonstrate that Curly-FM can learn trajectories that match both RNA velocity and population marginals. Curly-FM expands flow matching models beyond the modeling of populations and towards the modeling known periodic behavior observed in cells."
+      },
+      "pdf": {
+        "value": "/pdf/f5609eb9484bce4a17418a33b6f05f36ac9e1a6a.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\npetrovic2025curly,\ntitle={Curly Flow Matching for Learning Non-gradient Field Dynamics},\nauthor={Katarina Petrovi{\\'c} and Lazar Atanackovic and Kacper Kapusniak and Michael M. Bronstein and Joey Bose and Alexander Tong},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=Cv84fXtQPJ}\n}"
+      },
+      "paperhash": {
+        "value": "petrovi|curly_flow_matching_for_learning_nongradient_field_dynamics"
+      }
+    },
+    "id": "Cv84fXtQPJ",
+    "forum": "Cv84fXtQPJ",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission39/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission39/Authors"
+    ],
+    "number": 39,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739410621869,
+    "cdate": 1739410621869,
+    "tmdate": 1741189875395,
+    "mdate": 1741189875395,
+    "pdate": 1741187559227,
+    "odate": 1741188558492,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Integrating Protein Language Model and Active Learning for Few-Shot Viral Variant Detection"
+      },
+      "authors": {
+        "value": [
+          "Marian Huot",
+          "Dianzhuo Wang",
+          "Jiacheng Liu",
+          "Eugene Shakhnovich"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Marian_Huot1",
+          "~Dianzhuo_Wang1",
+          "~Jiacheng_Liu2",
+          "~Eugene_Shakhnovich1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Early detection of high-fitness SARS-CoV-2 variants is crucial for pandemic response, yet limited experimental resources hinder timely identification. We propose an active learning framework that integrates a protein language model, a Gaussian process with uncertainty estimation, and a biophysical model to predict the fitness of novel receptor-binding domain (RBD) variants in a few-shot learning setting. Our approach prioritizes the most informative variants for experimental characterization, accelerating high-fitness variant detection by up to 5\u00d7 compared to random sampling while testing fewer than 1\\% of all possible variants. Benchmarking on deep mutational scans, we show that our method identifies evolutionarily significant sites, particularly those facilitating antibody escape. We systematically compare different acquisition strategies and demonstrate that incorporating uncertainty-driven exploration enhances coverage of the mutational landscape, enabling the discovery of evolutionarily distant yet high-risk variants. Our results suggest that this framework could serve as an efficient early warning system for identifying concerning SARS-CoV-2 variants before they achieve widespread circulation."
+      },
+      "pdf": {
+        "value": "/pdf/16e3f073d49276517b79ca25047a3234e4a0c26a.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nhuot2025integrating,\ntitle={Integrating Protein Language Model and Active Learning for Few-Shot Viral Variant Detection},\nauthor={Marian Huot and Dianzhuo Wang and Jiacheng Liu and Eugene Shakhnovich},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=4YMUZ49lB3}\n}"
+      },
+      "paperhash": {
+        "value": "huot|integrating_protein_language_model_and_active_learning_for_fewshot_viral_variant_detection"
+      }
+    },
+    "id": "4YMUZ49lB3",
+    "forum": "4YMUZ49lB3",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission36/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission36/Authors"
+    ],
+    "number": 36,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission36/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739397587632,
+    "cdate": 1739397587632,
+    "tmdate": 1746592161292,
+    "mdate": 1746592161292,
+    "pdate": 1741187559090,
+    "odate": 1741188558365,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "A data-driven recommendation framework for genomic discovery"
+      },
+      "authors": {
+        "value": [
+          "Ying Yang",
+          "Zhaoying Pan",
+          "Jinge Ma",
+          "Daniel J. Klionsky"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Ying_Yang9",
+          "~Zhaoying_Pan1",
+          "~Jinge_Ma1",
+          "~Daniel_J._Klionsky1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Data-driven approaches to genomic discovery have been accelerated by emerging efforts in machine learning. However, due to the inherent complexity of genomic data, it can be challenging to model or utilize the data and their intricate relationships. In this work, we propose a framework for genomic prediction utilizing information from various genomic databases. We use a knowledge graph following existing work to extract gene representations and either use XGBoost or construct a graph to rank feature importance. By filtering key features and computing relevancy scores with genes that are known to be associated or unassociated with a specified area, we recommend unlabeled gene candidates with a high likelihood of association for further genomic research. We demonstrate how this framework works by applying it to autophagy genomics, illustrating its potential as a powerful recommendation system for genomic discovery."
+      },
+      "pdf": {
+        "value": "/pdf/ba16d7dcdf253fb63765aecaa8a4c078d472ddac.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nyang2025a,\ntitle={A data-driven recommendation framework for genomic discovery},\nauthor={Ying Yang and Zhaoying Pan and Jinge Ma and Daniel J. Klionsky},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=RdHLANURna}\n}"
+      },
+      "paperhash": {
+        "value": "yang|a_datadriven_recommendation_framework_for_genomic_discovery"
+      }
+    },
+    "id": "RdHLANURna",
+    "forum": "RdHLANURna",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission33/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission33/Authors"
+    ],
+    "number": 33,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission33/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739379208403,
+    "cdate": 1739379208403,
+    "tmdate": 1744916025580,
+    "mdate": 1744916025580,
+    "pdate": 1741187558927,
+    "odate": 1741188558255,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "LLM4GRN: Discovering Causal Gene Regulatory Networks with LLMs \u2013 Evaluation through Synthetic Data Generation"
+      },
+      "authors": {
+        "value": [
+          "Tejumade Afonja",
+          "Ivaxi Sheth",
+          "Ruta Binkyte",
+          "Waqar Hanif",
+          "Shubhi Ambast",
+          "Charles Mwangi Kaumbutha",
+          "Matthias Becker",
+          "Mario Fritz"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Tejumade_Afonja1",
+          "~Ivaxi_Sheth1",
+          "~Ruta_Binkyte1",
+          "~Waqar_Hanif2",
+          "~Shubhi_Ambast1",
+          "~Charles_Mwangi_Kaumbutha1",
+          "~Matthias_Becker1",
+          "~Mario_Fritz1"
+        ]
+      },
+      "Track": {
+        "value": "Special track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Gene regulatory networks (GRNs) represent the causal relationships between transcription factors (TFs) and target genes in single-cell RNA sequencing (scRNA-seq) data. Understanding these networks is crucial for uncovering disease mechanisms and identifying therapeutic targets. In this work, we investigate the potential of large language models (LLMs) for GRN discovery, leveraging their learned biological knowledge alone or in combination with traditional statistical methods. We develop a task-based evaluation strategy to address the challenge of unavailable ground truth causal graphs. Specifically, we use the GRNs suggested by LLMs to guide causal synthetic data generation and compare the resulting data against the original dataset. Our statistical and biological assessments show that LLMs can support statistical modeling and data synthesis for biological research."
+      },
+      "pdf": {
+        "value": "/pdf/e93c8118ebfc29f7819fc014c922c4654e667a32.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nafonja2025llmgrn,\ntitle={{LLM}4{GRN}: Discovering Causal Gene Regulatory Networks with {LLM}s {\\textendash} Evaluation through Synthetic Data Generation},\nauthor={Tejumade Afonja and Ivaxi Sheth and Ruta Binkyte and Waqar Hanif and Shubhi Ambast and Charles Mwangi Kaumbutha and Matthias Becker and Mario Fritz},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=bgGZIBF6Kx}\n}"
+      },
+      "paperhash": {
+        "value": "afonja|llm4grn_discovering_causal_gene_regulatory_networks_with_llms_evaluation_through_synthetic_data_generation"
+      }
+    },
+    "id": "bgGZIBF6Kx",
+    "forum": "bgGZIBF6Kx",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission31/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission31/Authors"
+    ],
+    "number": 31,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission31/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739365266999,
+    "cdate": 1739365266999,
+    "tmdate": 1742870183379,
+    "mdate": 1742870183379,
+    "pdate": 1741187558858,
+    "odate": 1741188558193,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Large Language Models for Zero-shot Inference of Causal Structures in Biology"
+      },
+      "authors": {
+        "value": [
+          "Izzy Newsham",
+          "Luka Kova\u010devi\u0107",
+          "Richard Moulange",
+          "Nan Rosemary Ke",
+          "Sach Mukherjee"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Izzy_Newsham1",
+          "~Luka_Kova\u010devi\u01071",
+          "~Richard_Moulange1",
+          "~Nan_Rosemary_Ke1",
+          "~Sach_Mukherjee1"
+        ]
+      },
+      "Track": {
+        "value": "Special track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Genes, proteins and other biological entities influence one another via causal molecular networks. Causal relationships in such networks are mediated by complex and diverse mechanisms, through latent variables, and are often specific to cellular context. It remains challenging to characterise such networks in practice. Here, we present a novel framework to evaluate the ability of large language models (LLMs) for zero-shot inference of causal relationships in biology. In particular, we systematically evaluate causal claims obtained from an LLM using real-world interventional data. This is done over one hundred variables and thousands of causal hypotheses. Furthermore, we consider several prompting and retrieval-augmentation strategies, including large, and potentially conflicting, collections of articles. Our results show that with tailored augmentation and prompting, even relatively small LLMs can capture meaningful aspects of causal structure in biological systems. This supports the notion that LLMs could act as orchestration tools in biological discovery, by helping to distil current knowledge in ways amenable to downstream analysis. Our approach to assessing LLMs with respect to experimental data is relevant for a broad range of problems at the intersection of causal learning, LLMs and scientific discovery."
+      },
+      "pdf": {
+        "value": "/pdf/f385a653b78c9ffeeaf392a979d015eeb449fd15.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nnewsham2025large,\ntitle={Large Language Models for Zero-shot Inference of Causal Structures in Biology},\nauthor={Izzy Newsham and Luka Kova{\\v{c}}evi{\\'c} and Richard Moulange and Nan Rosemary Ke and Sach Mukherjee},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=dj0Oz1NsAI}\n}"
+      },
+      "paperhash": {
+        "value": "newsham|large_language_models_for_zeroshot_inference_of_causal_structures_in_biology"
+      }
+    },
+    "id": "dj0Oz1NsAI",
+    "forum": "dj0Oz1NsAI",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission30/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission30/Authors"
+    ],
+    "number": 30,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission30/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739360967440,
+    "cdate": 1739360967440,
+    "tmdate": 1745506059312,
+    "mdate": 1745506059312,
+    "pdate": 1741187558786,
+    "odate": 1741188558134,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Predicting Drug-likeness via Biomedical Knowledge Alignment and EM-like One-Class Boundary Optimization"
+      },
+      "authors": {
+        "value": [
+          "Dongmin Bang",
+          "Inyoung Sung",
+          "Yinhua Piao",
+          "Sangseon Lee",
+          "Sun Kim"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Dongmin_Bang1",
+          "~Inyoung_Sung1",
+          "~Yinhua_Piao1",
+          "~Sangseon_Lee1",
+          "~Sun_Kim2"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "The advent of generative AI now enables large-scale $\\textit{de novo}$ design of molecules, but identifying viable drug candidates among them remains an open problem. Existing drug-likeness prediction methods often rely on ambiguous negative sets or purely structural features, limiting their ability to accurately classify drugs from non-drugs. In this work, we introduce BounDr.E: a novel modeling of drug-likeness as a compact space surrounding approved drugs through a dynamic deep one-class boundary approach. Specifically, we enrich the chemical space through biomedical knowledge alignment, and then iteratively tighten the drug-like boundary by pushing non-drug-like compounds outside via an Expectation-Maximization (EM)-like process. Empirically, BounDr.E achieves 10\\% F1-score improvement over the previous state-of-the-art and demonstrates robust cross-dataset performance, including zero-shot toxic compound filtering. Additionally, we showcase its effectiveness through comprehensive case studies in large-scale $\\textit{in silico}$ screening."
+      },
+      "pdf": {
+        "value": "/pdf/00c1272b4bac57fc93347a66479d22dff30512f9.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nbang2025predicting,\ntitle={Predicting Drug-likeness via Biomedical Knowledge Alignment and {EM}-like One-Class Boundary Optimization},\nauthor={Dongmin Bang and Inyoung Sung and Yinhua Piao and Sangseon Lee and Sun Kim},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=G2zzdbgKxl}\n}"
+      },
+      "paperhash": {
+        "value": "bang|predicting_druglikeness_via_biomedical_knowledge_alignment_and_emlike_oneclass_boundary_optimization"
+      }
+    },
+    "id": "G2zzdbgKxl",
+    "forum": "G2zzdbgKxl",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission29/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission29/Authors"
+    ],
+    "number": 29,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission29/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739350256022,
+    "cdate": 1739350256022,
+    "tmdate": 1745459281887,
+    "mdate": 1745459281887,
+    "pdate": 1741187558755,
+    "odate": 1741188558103,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "ShortListing Model: A Streamlined Simplex Diffusion for Biological Sequence Generation"
+      },
+      "authors": {
+        "value": [
+          "Yuxuan Song",
+          "Zhe Zhang",
+          "Yu Pei",
+          "Jingjing Gong",
+          "Mingxuan Wang",
+          "Hao Zhou",
+          "Jingjing Liu",
+          "Wei-Ying Ma"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Yuxuan_Song2",
+          "~Zhe_Zhang24",
+          "~Yu_Pei3",
+          "~Jingjing_Gong3",
+          "~Mingxuan_Wang1",
+          "~Hao_Zhou5",
+          "~Jingjing_Liu2",
+          "~Wei-Ying_Ma2"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Generative modeling of discrete variables is challenging yet crucial for applications in natural language processing and biological sequence design. We introduce the Shortlisting Model (SLM), a novel simplex-based diffusion model inspired by progressive candidate pruning. SLM operates on simplex centroids, reducing complexity and enhancing scalability. Additionally, SLM incorporates a flexible implementation of classifier-free guidance, enhancing unconditional generation performance. Extensive experiments in DNA promoter and enhancer design, and protein design demonstrate SLM's competitive performance and scalability."
+      },
+      "pdf": {
+        "value": "/pdf/61ee89c65b5dba1cb486f987a2f5377f8c2b3168.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nsong2025shortlisting,\ntitle={ShortListing Model: A Streamlined Simplex Diffusion for Biological Sequence Generation},\nauthor={Yuxuan Song and Zhe Zhang and Yu Pei and Jingjing Gong and Mingxuan Wang and Hao Zhou and Jingjing Liu and Wei-Ying Ma},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=eZh2UyeMrg}\n}"
+      },
+      "paperhash": {
+        "value": "song|shortlisting_model_a_streamlined_simplex_diffusion_for_biological_sequence_generation"
+      }
+    },
+    "id": "eZh2UyeMrg",
+    "forum": "eZh2UyeMrg",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission28/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission28/Authors"
+    ],
+    "number": 28,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739346521856,
+    "cdate": 1739346521856,
+    "tmdate": 1741189874786,
+    "mdate": 1741189874786,
+    "pdate": 1741187558714,
+    "odate": 1741188558061,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "HybriDNA: A Hybird Transformer-Mamba2 Long-Range DNA Language Model"
+      },
+      "authors": {
+        "value": [
+          "Mingqian Ma",
+          "Guoqing Liu",
+          "Chuan Cao",
+          "Pan Deng",
+          "Tri Dao",
+          "Albert Gu",
+          "Peiran Jin",
+          "Zhao Yang",
+          "Yingce Xia",
+          "Renqian Luo",
+          "Pipi Hu",
+          "Zun Wang",
+          "Yuan-Jyue Chen",
+          "Haiguang Liu",
+          "Tao Qin"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Mingqian_Ma1",
+          "~Guoqing_Liu3",
+          "~Chuan_Cao1",
+          "~Pan_Deng3",
+          "~Tri_Dao1",
+          "~Albert_Gu1",
+          "~Peiran_Jin1",
+          "~Zhao_Yang5",
+          "~Yingce_Xia1",
+          "~Renqian_Luo1",
+          "~Pipi_Hu1",
+          "~Zun_Wang2",
+          "~Yuan-Jyue_Chen1",
+          "~Haiguang_Liu1",
+          "~Tao_Qin1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Advances in natural language processing and large language models have sparked growing interest in modeling DNA, often referred to as the \u201clanguage of life\u201d. However, DNA modeling poses unique challenges. First, it requires the ability to process ultra-long DNA sequences while preserving single-nucleotide resolution, as individual nucleotides play a critical role in DNA function. Second, success in this domain requires excelling at both generative and understanding tasks: generative tasks hold potential for therapeutic and industrial applications, while understanding tasks provide crucial insights into biological mechanisms and diseases. To address these challenges, we propose HybriDNA, a decoder-only DNA language model that incorporates a hybrid Transformer-Mamba2 architecture, seamlessly integrating the strengths of attention mechanisms with selective state-space models. This hybrid design enables HybriDNA to efficiently process DNA sequences up to 131kb in length with single-nucleotide resolution. HybriDNA achieves state-of-the-art performance across 33 DNA understanding datasets curated from the BEND, GUE, and LRB benchmarks, and demonstrates exceptional capability in generating synthetic cis-regulatory elements (CREs) with desired properties. Furthermore, we show that HybriDNA adheres to expected scaling laws, with performance improving consistently as the model scales from 300M to 3B and 7B parameters. These findings underscore HybriDNA\u2019s versatility and its potential to advance DNA research and applications, paving the way for innovations in understanding and engineering the \u201clanguage of life\u201d."
+      },
+      "pdf": {
+        "value": "/pdf/da516132187b80de3ac1a6b05fd30ca2a9e2abb3.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nma2025hybridna,\ntitle={Hybri{DNA}: A Hybird Transformer-Mamba2 Long-Range {DNA} Language Model},\nauthor={Mingqian Ma and Guoqing Liu and Chuan Cao and Pan Deng and Tri Dao and Albert Gu and Peiran Jin and Zhao Yang and Yingce Xia and Renqian Luo and Pipi Hu and Zun Wang and Yuan-Jyue Chen and Haiguang Liu and Tao Qin},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=BJ2uCHIfEW}\n}"
+      },
+      "paperhash": {
+        "value": "ma|hybridna_a_hybird_transformermamba2_longrange_dna_language_model"
+      }
+    },
+    "id": "BJ2uCHIfEW",
+    "forum": "BJ2uCHIfEW",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission26/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission26/Authors"
+    ],
+    "number": 26,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission26/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739334057849,
+    "cdate": 1739334057849,
+    "tmdate": 1745440689858,
+    "mdate": 1745440689858,
+    "pdate": 1741187558600,
+    "odate": 1741188557994,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "A Scalable LLM Framework for Therapeutic Biomarker Discovery: Grounding Q/A Generation in Knowledge Graphs and Literature"
+      },
+      "authors": {
+        "value": [
+          "Marc Boubnovski Martell",
+          "Kaspar M\u00e4rtens",
+          "Lawrence Phillips",
+          "Daniel Keitley",
+          "Maria Dermit",
+          "Julien Fauqueur"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Marc_Boubnovski_Martell1",
+          "~Kaspar_M\u00e4rtens1",
+          "~Lawrence_Phillips2",
+          "dkei@novonordisk.com",
+          "wdrm@novonordisk.com",
+          "~Julien_Fauqueur1"
+        ]
+      },
+      "Track": {
+        "value": "Special track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Therapeutic biomarkers are crucial in biomedical research and clinical decision-making, yet the field lacks standardized datasets and evaluation methods for complex, context-dependent questions. To address this, we integrate large language models (LLMs) with knowledge graphs (KGs) to filter PubMed abstracts, summarize biomarker contexts, and generate a high-quality synthetic Q/A dataset. Our approach mirrors biomarker scientists' workflows, decomposing question generation into classification, named entity recognition (NER), and summarization. We release a 24k high quality Q/A dataset and show through ablation studies that incorporating NER and summarization improves performance over using abstracts alone. Evaluating multiple LLMs, we find that while models achieve 96\\% accuracy on multiple-choice questions, performance drops to 69\\% on open-ended Q/A, highlighting the need for synthetic data to address the issue of novel discovery. By addressing a critical resource gap, this work provides a scalable tool for biomarker research and demonstrates AI\u2019s broader potential in scientific discovery."
+      },
+      "pdf": {
+        "value": "/pdf/c5ca180079edd2b4e295f1fc2e335b0ea7870057.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nmartell2025a,\ntitle={A Scalable {LLM} Framework for Therapeutic Biomarker Discovery: Grounding Q/A Generation in Knowledge Graphs and Literature},\nauthor={Marc Boubnovski Martell and Kaspar M{\\\"a}rtens and Lawrence Phillips and Daniel Keitley and Maria Dermit and Julien Fauqueur},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=ClewUE4sUK}\n}"
+      },
+      "paperhash": {
+        "value": "martell|a_scalable_llm_framework_for_therapeutic_biomarker_discovery_grounding_qa_generation_in_knowledge_graphs_and_literature"
+      }
+    },
+    "id": "ClewUE4sUK",
+    "forum": "ClewUE4sUK",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission25/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission25/Authors"
+    ],
+    "number": 25,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission25/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739327184172,
+    "cdate": 1739327184172,
+    "tmdate": 1745558737927,
+    "mdate": 1745558737927,
+    "pdate": 1741187558534,
+    "odate": 1741188557961,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "MolCap-Arena: A Comprehensive Captioning Benchmark on Language-Enhanced Molecular Property Prediction"
+      },
+      "authors": {
+        "value": [
+          "Carl Edwards",
+          "Ziqing Lu",
+          "Ehsan Hajiramezanali",
+          "Tommaso Biancalani",
+          "Heng Ji",
+          "Gabriele Scalia"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Carl_Edwards1",
+          "~Ziqing_Lu1",
+          "~Ehsan_Hajiramezanali1",
+          "~Tommaso_Biancalani1",
+          "~Heng_Ji3",
+          "~Gabriele_Scalia1"
+        ]
+      },
+      "Track": {
+        "value": "Special track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Bridging biomolecular modeling with natural language information, particularly through large language models (LLMs), has recently emerged as a promising interdisciplinary research area. LLMs, having been trained on large corpora of scientific documents, demonstrate significant potential in understanding and reasoning about biomolecules by providing enriched contextual and domain knowledge. However, the extent to which LLM-driven insights can improve performance on complex predictive tasks (e.g., toxicity) remains unclear. Further, the extent to which $\\textit{relevant}$ knowledge can be extracted from LLMs also remains unknown. In this study, we present Molecule Caption Arena: the first comprehensive benchmark of LLM-augmented molecular property prediction. We evaluate over twenty LLMs, including both general-purpose and domain-specific molecule captioners, across diverse prediction tasks. To this goal, we introduce a novel, battle-based rating system for molecule captioners. Our findings confirm the ability of LLM-extracted knowledge to enhance state-of-the-art molecular representations, with notable model-, prompt-, and dataset-specific variations."
+      },
+      "pdf": {
+        "value": "/pdf/efcf37c0e6d34e2469e71818286e93463959fd95.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nedwards2025molcaparena,\ntitle={MolCap-Arena: A Comprehensive Captioning Benchmark on Language-Enhanced Molecular Property Prediction},\nauthor={Carl Edwards and Ziqing Lu and Ehsan Hajiramezanali and Tommaso Biancalani and Heng Ji and Gabriele Scalia},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=BjAxwETx9V}\n}"
+      },
+      "paperhash": {
+        "value": "edwards|molcaparena_a_comprehensive_captioning_benchmark_on_languageenhanced_molecular_property_prediction"
+      }
+    },
+    "id": "BjAxwETx9V",
+    "forum": "BjAxwETx9V",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission24/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission24/Authors"
+    ],
+    "number": 24,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission24/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739312116567,
+    "cdate": 1739312116567,
+    "tmdate": 1745425195709,
+    "mdate": 1745425195709,
+    "pdate": 1741187558492,
+    "odate": 1741188557935,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Detecting cell level transcriptomic changes of Perturb-seq using Contrastive Fine-tuning of Single-Cell Foundation Models"
+      },
+      "authors": {
+        "value": [
+          "Wenmin Zhao",
+          "Ana Solaguren-Beascoa",
+          "Grant Neilson",
+          "Regina Reynolds",
+          "Louwai Muhammed",
+          "Liisi Laaniste",
+          "Sera Aylin Cakiroglu"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Wenmin_Zhao1",
+          "ana@cosyne.com",
+          "grant@cosyne.com",
+          "regina@cosyne.com",
+          "louwai@cosyne.com",
+          "liisi@cosyne.com",
+          "aylin@cosyne.com"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Genome-scale perturbation cell atlases are an exciting new resource for understanding the transcriptomic and phenotypic impact of single-gene activation or knockdown. However, in terms of differentially expressed genes identified, the signal detected in these data atlases is low, leading to the exclusion of most data from downstream analyses. Recent advances in single-cell foundation models have shown promise in capturing complex biological insights. However, their application to perturbation analysis, especially in predicting perturbed single-cell transcriptomes, remains limited. In this paper, we focus on learning representations of single-cell transcriptomes that capture subtle, yet important, transcriptome-wide changes, and we propose a novel fine-tuning strategy using contrastive learning to leverage single-cell foundation models for this task. We pre-train a single-cell foundation model and fine-tune on a genome-scale perturbation dataset using a contrastive loss, which minimises the distance between cell embeddings from unperturbed cells while maximising between perturbed and unperturbed cells. We validate and test the model on unseen perturbations, \ndemonstrating its ability to identify global biologically meaningful transcriptional changes that may not be captured by traditional differential expression methods. Our approach provides a novel framework for analysing single-cell perturbation data and offers a more effective means of identifying perturbations that drive systemic gene expression changes."
+      },
+      "pdf": {
+        "value": "/pdf/58cd883f764373483b8fbc4d8c3c406f436c718d.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nzhao2025detecting,\ntitle={Detecting cell level transcriptomic changes of Perturb-seq using Contrastive Fine-tuning of Single-Cell Foundation Models},\nauthor={Wenmin Zhao and Ana Solaguren-Beascoa and Grant Neilson and Regina Reynolds and Louwai Muhammed and Liisi Laaniste and Sera Aylin Cakiroglu},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=xBxjRdkof9}\n}"
+      },
+      "paperhash": {
+        "value": "zhao|detecting_cell_level_transcriptomic_changes_of_perturbseq_using_contrastive_finetuning_of_singlecell_foundation_models"
+      }
+    },
+    "id": "xBxjRdkof9",
+    "forum": "xBxjRdkof9",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission23/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission23/Authors"
+    ],
+    "number": 23,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission23/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739297865467,
+    "cdate": 1739297865467,
+    "tmdate": 1744908940443,
+    "mdate": 1744908940443,
+    "pdate": 1741187558458,
+    "odate": 1741188557853,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Piloting Structure-Based Drug Design via Modality-Specific Optimal Schedule"
+      },
+      "authors": {
+        "value": [
+          "Keyue Qiu",
+          "Yuxuan Song",
+          "Zhehuan Fan",
+          "Peidong Liu",
+          "Zhe Zhang",
+          "Mingyue Zheng",
+          "Hao Zhou",
+          "Wei-Ying Ma"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Keyue_Qiu1",
+          "~Yuxuan_Song2",
+          "~Zhehuan_Fan1",
+          "~Peidong_Liu4",
+          "~Zhe_Zhang24",
+          "~Mingyue_Zheng1",
+          "~Hao_Zhou5",
+          "~Wei-Ying_Ma2"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Structure-Based Drug Design (SBDD) is crucial for identifying bioactive molecules. Recent deep generative models are faced with challenges in geometric structure modeling. A major bottleneck lies in the twisted probability path of multi-modalities\u2014continuous 3D positions and discrete 2D topologies\u2014which jointly determine molecular geometries. By establishing the fact that noise schedules decide the Variational Lower Bound (VLB) for the twisted probability path, we propose VLB-Optimal Scheduling (VOS) strategy in this under-explored area, which optimizes VLB as a path integral for SBDD. Our model effectively enhances molecular geometries and interaction modeling, achieving state-of-the-art PoseBusters passing rate of 95.9\\% on CrossDock, more than 10\\% improvement upon strong baselines, while unlocking the potential of repurposing SBDD model as docking method, with 44.0\\% RMSD $<$ 2\\r{A} on PoseBusters V2."
+      },
+      "pdf": {
+        "value": "/pdf/cd66499d7e6831a7081301e51d1584d2bfedcf8f.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nqiu2025piloting,\ntitle={Piloting Structure-Based Drug Design via Modality-Specific Optimal Schedule},\nauthor={Keyue Qiu and Yuxuan Song and Zhehuan Fan and Peidong Liu and Zhe Zhang and Mingyue Zheng and Hao Zhou and Wei-Ying Ma},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=R2LTPle31d}\n}"
+      },
+      "paperhash": {
+        "value": "qiu|piloting_structurebased_drug_design_via_modalityspecific_optimal_schedule"
+      }
+    },
+    "id": "R2LTPle31d",
+    "forum": "R2LTPle31d",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission22/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission22/Authors"
+    ],
+    "number": 22,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission22/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739290888433,
+    "cdate": 1739290888433,
+    "tmdate": 1745459650963,
+    "mdate": 1745459650963,
+    "pdate": 1741187558305,
+    "odate": 1741188557752,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Spatially-Informed Sampling Enables Accurate Prediction of Large-Scale Mutational Effects"
+      },
+      "authors": {
+        "value": [
+          "Maxime Basse",
+          "Dianzhuo Wang",
+          "Eugene Shakhnovich"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Maxime_Basse1",
+          "~Dianzhuo_Wang1",
+          "~Eugene_Shakhnovich1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Predicting protein binding affinities across large combinatorial mutation spaces remains a critical challenge in molecular biology, particularly for understanding viral evolution and antibody interactions. While combinatorial mutagenesis experiments provide valuable data for training predictive models, they are typically limited due to experimental constraints. This creates a significant gap in our ability to predict the effects of more extensive mutation combinations, such as those observed in emerging SARS-CoV-2 variants. We present ProxiClust, which strategically combines smaller combinatorial mutagenesis experiments to enable accurate predictions across larger combinatorial spaces. Our approach leverages the spatial proximity of amino acid residues to identify potential epistatic interactions, using these relationships to optimize the design of manageable-sized combinatorial experiments.  By combining just two small combinatorial datasets, we achieve accurate binding affinity predictions across substantially larger mutation spaces ($R^2\\approx0.8$), with performance strongly correlated with capture of high-order epistatic effects. We validated our method in five different protein-protein interaction datasets, including binding of SARS-CoV-2 receptor binding domain (RBD) to various antibodies and cellular receptors, as well as influenza RBD-antibody interactions. This work provides a practical framework for extending the predictive power of combinatorial mutagenesis beyond current experimental constraints, offering applications in viral surveillance and antibody engineering."
+      },
+      "pdf": {
+        "value": "/pdf/6777fb61054fed41cdfdae0a90bc78f8c5bc6e53.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nbasse2025spatiallyinformed,\ntitle={Spatially-Informed Sampling Enables Accurate Prediction of Large-Scale Mutational Effects},\nauthor={Maxime Basse and Dianzhuo Wang and Eugene Shakhnovich},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=BZIxe22wEO}\n}"
+      },
+      "paperhash": {
+        "value": "basse|spatiallyinformed_sampling_enables_accurate_prediction_of_largescale_mutational_effects"
+      }
+    },
+    "id": "BZIxe22wEO",
+    "forum": "BZIxe22wEO",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission20/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission20/Authors"
+    ],
+    "number": 20,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission20/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739248223702,
+    "cdate": 1739248223702,
+    "tmdate": 1743636038770,
+    "mdate": 1743636038770,
+    "pdate": 1741187558222,
+    "odate": 1741188557654,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Structure-based metabolite function prediction using graph neural networks"
+      },
+      "authors": {
+        "value": [
+          "Tancredi Cogne",
+          "Mariam Ait Oumelloul",
+          "Ali Saadat",
+          "Janna Hastings",
+          "Jacques Fellay"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Tancredi_Cogne1",
+          "mariam.aitoumelloul@epfl.ch",
+          "~Ali_Saadat1",
+          "~Janna_Hastings1",
+          "~Jacques_Fellay1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Being able to broadly predict the function of novel metabolites based on their structures has applications in systems biology, environmental monitoring and drug discovery. To date, machine learning models aiming to predict functional characteristics of metabolites have largely been limited in scope to predicting single functions, or only a small number of functions simultaneously. Using the Human Metabolome Database as a source for a wider range of functional annotations, we assess the feasibility of predicting metabolite functions more broadly, as defined by four elements, namely location, role, the process it is involved in, and its physiological effect. We evaluated three graph neural network architectures to predict available functional ontology terms. Among the models tested, the Graph Attention Network, incorporating embeddings from the pre-trained ChemBERTa model to predict the process metabolites are involved in, achieved the highest performance with an F1-score of 0.889 and a recall of 0.903. The model identified function-associated structural patterns within metabolite families, demonstrating the potential for interpretably predicting metabolite functions from structural information."
+      },
+      "pdf": {
+        "value": "/pdf/6819dd7c4521da3f4db096992a4baad4c7a4e23c.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\ncogne2025structurebased,\ntitle={Structure-based metabolite function prediction using graph neural networks},\nauthor={Tancredi Cogne and Mariam Ait Oumelloul and Ali Saadat and Janna Hastings and Jacques Fellay},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=N5nhleVGAi}\n}"
+      },
+      "paperhash": {
+        "value": "cogne|structurebased_metabolite_function_prediction_using_graph_neural_networks"
+      }
+    },
+    "id": "N5nhleVGAi",
+    "forum": "N5nhleVGAi",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission18/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission18/Authors"
+    ],
+    "number": 18,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission18/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739201177732,
+    "cdate": 1739201177732,
+    "tmdate": 1744220047683,
+    "mdate": 1744220047683,
+    "pdate": 1741187558121,
+    "odate": 1741188557591,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Graph Pseudotime Analysis and Neural Stochastic Differential Equations for Analyzing Retinal Degeneration Dynamics and Beyond"
+      },
+      "authors": {
+        "value": [
+          "Dai Shi",
+          "Kuan Yan",
+          "Lequan Lin",
+          "Yue Zeng",
+          "Ting Zhang",
+          "Jialing zhang",
+          "Matsypura Dmytro",
+          "Mark C. Gillies",
+          "Ling Zhu",
+          "Junbin Gao"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Dai_Shi1",
+          "kuan.yan@sydney.edu.au",
+          "~Lequan_Lin1",
+          "~Yue_Zeng4",
+          "~Ting_Zhang24",
+          "jzha4608@uni.sydney.edu.au",
+          "dmytro.matsypura@sydney.edu.au",
+          "mark.gillies@sydney.edu.au",
+          "~Ling_Zhu5",
+          "~Junbin_Gao1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Understanding the progression of disease at the molecular level usually requires capturing both the structural dependencies between pathways and the temporal dynamics of how diseases evolve. In this work, we resolve the former challenge by developing a biologically informed graph-forming method to efficiently construct pathway graphs for subjects from our newly curated transcriptomic dataset of JR5558 mice that spontaneously develop neovascularization beneath their retinas. We then developed Graph-level Pseudotime Analysis (GPA) to infer graph-level trajectories that reveal how the disease progresses at the population level rather than in individual subjects. Based on the trajectories estimated by GPA, we identify the most sensitive pathways that drive transitions between disease stages. In addition, we measure changes in pathway features using neural stochastic differential equations (SDEs), which enable us to formally define and compute pathway stability and disease bifurcation points (points of no return)\u2014two fundamental problems in research on disease progression. We have extended our theory to allow pathways to interact with each other, enabling a more comprehensive and multi-faceted characterization of disease phenotypes. Comprehensive experimental results demonstrate the effectiveness of our framework in reconstructing pathway dynamics, identifying critical transitions, and providing novel insights into the mechanistic understanding of the evolution of disease."
+      },
+      "pdf": {
+        "value": "/pdf/0aa3af49ed288657ce5215fa64cd0e6c82b91cc6.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nshi2025graph,\ntitle={Graph Pseudotime Analysis and Neural Stochastic Differential Equations for Analyzing Retinal Degeneration Dynamics and Beyond},\nauthor={Dai Shi and Kuan Yan and Lequan Lin and Yue Zeng and Ting Zhang and Jialing zhang and Matsypura Dmytro and Mark C. Gillies and Ling Zhu and Junbin Gao},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=zeIFBzx1hf}\n}"
+      },
+      "paperhash": {
+        "value": "shi|graph_pseudotime_analysis_and_neural_stochastic_differential_equations_for_analyzing_retinal_degeneration_dynamics_and_beyond"
+      }
+    },
+    "id": "zeIFBzx1hf",
+    "forum": "zeIFBzx1hf",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission17/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission17/Authors"
+    ],
+    "number": 17,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission17/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739187765328,
+    "cdate": 1739187765328,
+    "tmdate": 1742696213423,
+    "mdate": 1742696213423,
+    "pdate": 1741187558089,
+    "odate": 1741188557491,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Supervised Contrastive Block Disentanglement"
+      },
+      "authors": {
+        "value": [
+          "Taro Makino",
+          "Ji Won Park",
+          "Natasa Tagasovska",
+          "TAKAMASA KUDO",
+          "Paula Coelho",
+          "Heming Yao",
+          "Jan-Christian Huetter",
+          "Ana Carolina Leote",
+          "Burkhard Hoeckendorf",
+          "Stephen Ra",
+          "David Richmond",
+          "Kyunghyun Cho",
+          "Aviv Regev",
+          "Romain Lopez"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Taro_Makino1",
+          "~Ji_Won_Park1",
+          "~Natasa_Tagasovska2",
+          "~TAKAMASA_KUDO1",
+          "~Paula_Coelho1",
+          "~Heming_Yao1",
+          "~Jan-Christian_Huetter1",
+          "~Ana_Carolina_Leote1",
+          "~Burkhard_Hoeckendorf1",
+          "~Stephen_Ra1",
+          "~David_Richmond1",
+          "~Kyunghyun_Cho1",
+          "~Aviv_Regev1",
+          "~Romain_Lopez1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Real-world datasets often combine data collected under different experimental conditions. This yields larger datasets, but also introduces spurious correlations that make it difficult to model the phenomena of interest. We address this by learning two embeddings to independently represent the phenomena of interest and the spurious correlations. The embedding representing the phenomena of interest is correlated with the target variable $y$, and is invariant to the environment variable $e$. In contrast, the embedding representing the spurious correlations is correlated with $e$. The invariance to $e$ is difficult to achieve on real-world datasets. Our primary contribution is an algorithm called Supervised Contrastive Block Disentanglement (SCBD) that effectively enforces this invariance. It is based purely on Supervised Contrastive Learning, and applies to real-world data better than existing approaches. We empirically validate SCBD on the real-world problem of batch correction. Using a dataset of 26 million Optical Pooled Screening images, we learn embeddings for \\num{5050} genetic perturbations that are nearly free of technical artifacts that arise from unintended variation across wells."
+      },
+      "pdf": {
+        "value": "/pdf/7825ba93c593b6a5b5efd089bf18befcd558b99b.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nmakino2025supervised,\ntitle={Supervised Contrastive Block Disentanglement},\nauthor={Taro Makino and Ji Won Park and Natasa Tagasovska and TAKAMASA KUDO and Paula Coelho and Heming Yao and Jan-Christian Huetter and Ana Carolina Leote and Burkhard Hoeckendorf and Stephen Ra and David Richmond and Kyunghyun Cho and Aviv Regev and Romain Lopez},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=cd8QEKFzOQ}\n}"
+      },
+      "paperhash": {
+        "value": "makino|supervised_contrastive_block_disentanglement"
+      }
+    },
+    "id": "cd8QEKFzOQ",
+    "forum": "cd8QEKFzOQ",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission15/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission15/Authors"
+    ],
+    "number": 15,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission15/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1739169172256,
+    "cdate": 1739169172256,
+    "tmdate": 1745454562798,
+    "mdate": 1745454562798,
+    "pdate": 1741187558001,
+    "odate": 1741188557462,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Sampling Protein Language Models for Functional Protein Design"
+      },
+      "authors": {
+        "value": [
+          "Jeremie Theddy Darmawan",
+          "Yarin Gal",
+          "Pascal Notin"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Jeremie_Theddy_Darmawan1",
+          "~Yarin_Gal1",
+          "~Pascal_Notin1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Protein language models have emerged as powerful tools for learning rich representations of proteins, enhancing performance across various downstream tasks such as structure prediction, mutation effects prediction, and homology detection. Their ability to learn complex distributions over protein sequences also shows significant potential for designing novel and functional proteins, with broad applications in therapeutics, new materials, and sustainability. Given the vastness of the protein sequence space, efficient exploration methods are critical to the success of protein engineering efforts.\nHowever, the methodologies for effectively sampling from these models to achieve core protein design objectives remain underexplored and have predominantly relied on techniques initially developed for Natural Language Processing tasks.\nIn this work, we first develop a comprehensive *in silico* protein design evaluation framework to systematically compare different sampling methods. After a thorough review of existing sampling strategies for language models, we introduce several approaches specifically tailored for protein design. We then evaluate these strategies using our *in silico* benchmark, investigating the effects of key hyperparameters and providing practical guidance on the relative strengths of each method depending on design objectives."
+      },
+      "pdf": {
+        "value": "/pdf/b73c2593f09a8f234b5159945497aa9eecc1a7f2.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\ndarmawan2025sampling,\ntitle={Sampling Protein Language Models for Functional Protein Design},\nauthor={Jeremie Theddy Darmawan and Yarin Gal and Pascal Notin},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=lHRETQDSVu}\n}"
+      },
+      "paperhash": {
+        "value": "darmawan|sampling_protein_language_models_for_functional_protein_design"
+      }
+    },
+    "id": "lHRETQDSVu",
+    "forum": "lHRETQDSVu",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission12/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission12/Authors"
+    ],
+    "number": 12,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission12/-/Camera_Ready"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1738933779585,
+    "cdate": 1738933779585,
+    "tmdate": 1743224913753,
+    "mdate": 1743224913753,
+    "pdate": 1741187557886,
+    "odate": 1741188557279,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Flexible Models of Functional Annotations to Variant Effects using Accelerated Linear Algebra"
+      },
+      "authors": {
+        "value": [
+          "Alan Nawzad Amin",
+          "Andres Potapczynski",
+          "Andrew Gordon Wilson"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Alan_Nawzad_Amin1",
+          "~Andres_Potapczynski2",
+          "~Andrew_Gordon_Wilson1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "To predict and understand the causes of disease, geneticists build models that predict how a genetic variant impacts phenotype from genomic features. There is a vast amount of data available from the large projects that have sequence hundreds of thousands of genomes; yet, state-of-the-art models, like LD score regression, cannot leverage this data as they lack flexibility due to their simplifying assumptions. These models use simplifying assumptions to avoid solving the large linear algebra problems introduced by the genomic correlation matrices. In this paper, we leverage modern fast linear algebra techniques to develop WASP (genome Wide Association Studies with Preconditioned iteration), a method to train large and flexible neural network models. On semi-synthetic and real data we show that WASP better predicts phenotype and better recovers its functional causes compared to LD score regression. Finally, we show that training larger WASP models on larger data leads to better explanations of phenotypes."
+      },
+      "pdf": {
+        "value": "/pdf/95aa16b505e9480561fd7f206387d733a6adfa96.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\namin2025flexible,\ntitle={Flexible Models of Functional Annotations to Variant Effects using Accelerated Linear Algebra},\nauthor={Alan Nawzad Amin and Andres Potapczynski and Andrew Gordon Wilson},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=8SBZU35mxb}\n}"
+      },
+      "paperhash": {
+        "value": "amin|flexible_models_of_functional_annotations_to_variant_effects_using_accelerated_linear_algebra"
+      }
+    },
+    "id": "8SBZU35mxb",
+    "forum": "8SBZU35mxb",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission11/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission11/Authors"
+    ],
+    "number": 11,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1738879482072,
+    "cdate": 1738879482072,
+    "tmdate": 1741189873617,
+    "mdate": 1741189873617,
+    "pdate": 1741187557813,
+    "odate": 1741188557216,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "Uncertainty-aware genomic deep learning with knowledge distillation"
+      },
+      "authors": {
+        "value": [
+          "Jessica Zhou",
+          "Kaeli Rizzo",
+          "Ziqi Tang",
+          "Peter K Koo"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Jessica_Zhou2",
+          "rizzo@cshl.edu",
+          "~Ziqi_Tang1",
+          "~Peter_K_Koo1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Deep neural networks (DNNs) have advanced predictive modeling for regulatory genomics, but challenges remain in ensuring the reliability of their predictions and understanding the key factors behind their decision making. Here, we introduce DEGU (Distilling Ensembles for Genomic Uncertainty-aware models), a method that integrates ensemble learning and knowledge distillation to improve the robustness and explainability of DNN predictions. DEGU distills the predictions of an ensemble of DNNs into a single model, capturing both the average of the ensemble's predictions and the variability across them, with the latter representing epistemic (or model-based) uncertainty. DEGU also includes an optional auxiliary task to estimate aleatoric, or data-based, uncertainty by modeling variability across experimental replicates. By applying DEGU across various functional genomic prediction tasks, we demonstrate that DEGU-trained models inherit the performance benefits of ensembles in a single model, with improved generalization to out-of-distribution sequences and more consistent explanations of cis-regulatory mechanisms through attribution analysis. Moreover, DEGU-trained models provide calibrated uncertainty estimates, with conformal prediction offering coverage guarantees under minimal assumptions. Overall, DEGU paves the way for robust and trustworthy applications of deep learning in genomics research."
+      },
+      "pdf": {
+        "value": "/pdf/94ef88c65d2750b643f4dad8f5835b8e0a57f72b.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nzhou2025uncertaintyaware,\ntitle={Uncertainty-aware genomic deep learning with knowledge distillation},\nauthor={Jessica Zhou and Kaeli Rizzo and Ziqi Tang and Peter K Koo},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=YZBEBxtXyU}\n}"
+      },
+      "paperhash": {
+        "value": "zhou|uncertaintyaware_genomic_deep_learning_with_knowledge_distillation"
+      }
+    },
+    "id": "YZBEBxtXyU",
+    "forum": "YZBEBxtXyU",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission6/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission6/Authors"
+    ],
+    "number": 6,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1738603026379,
+    "cdate": 1738603026379,
+    "tmdate": 1741189873341,
+    "mdate": 1741189873341,
+    "pdate": 1741187557505,
+    "odate": 1741188557023,
+    "version": 2
+  },
+  {
+    "content": {
+      "title": {
+        "value": "SPACE: Your Genomic Profile Predictor is a Powerful DNA Foundation Model"
+      },
+      "authors": {
+        "value": [
+          "Jiwei Zhu",
+          "Zhao Yang",
+          "Bing Su"
+        ]
+      },
+      "authorids": {
+        "value": [
+          "~Jiwei_Zhu1",
+          "~Zhao_Yang5",
+          "~Bing_Su1"
+        ]
+      },
+      "Track": {
+        "value": "Main track (up to 8 pages)"
+      },
+      "abstract": {
+        "value": "Inspired by the success of unsupervised pre-training paradigms, researchers have applied these approaches to DNA pre-training. However, we argue that these approaches alone yield suboptimal results because pure DNA sequences lack sufficient information, since their functions are regulated by genomic profiles like chromatin accessibility. Here, we demonstrate that supervised training for genomic profile prediction serves as a more effective alternative to pure sequence pre-training. Furthermore, considering the multi-species and multi-profile nature of genomic profile prediction, we introduce our **S**pecies-**P**rofile **A**daptive **C**ollaborative **E**xperts (SPACE) that leverages Mixture of Experts (MoE) to better capture the relationships between DNA sequences across different species and genomic profiles, thereby learning more effective DNA representations. Through extensive experiments across various tasks, our model achieves state-of-the-art performance, establishing that DNA models trained with supervised genomic profiles serve as powerful DNA representation learners."
+      },
+      "pdf": {
+        "value": "/pdf/9ad4c8d81145137692453cb3264de4b3879b0c6c.pdf"
+      },
+      "venue": {
+        "value": "MLGenX 2025"
+      },
+      "venueid": {
+        "value": "ICLR.cc/2025/Workshop/MLGenX"
+      },
+      "_bibtex": {
+        "value": "@inproceedings{\nzhu2025space,\ntitle={{SPACE}: Your Genomic Profile Predictor is a Powerful {DNA} Foundation Model},\nauthor={Jiwei Zhu and Zhao Yang and Bing Su},\nbooktitle={ICLR 2025 Workshop on Machine Learning for Genomics Explorations},\nyear={2025},\nurl={https://openreview.net/forum?id=o50KFyep7O}\n}"
+      },
+      "paperhash": {
+        "value": "zhu|space_your_genomic_profile_predictor_is_a_powerful_dna_foundation_model"
+      }
+    },
+    "id": "o50KFyep7O",
+    "forum": "o50KFyep7O",
+    "license": "CC BY 4.0",
+    "signatures": [
+      "ICLR.cc/2025/Workshop/MLGenX/Submission5/Authors"
+    ],
+    "readers": [
+      "everyone"
+    ],
+    "writers": [
+      "ICLR.cc/2025/Workshop/MLGenX",
+      "ICLR.cc/2025/Workshop/MLGenX/Submission5/Authors"
+    ],
+    "number": 5,
+    "invitations": [
+      "ICLR.cc/2025/Workshop/MLGenX/-/Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Post_Submission",
+      "ICLR.cc/2025/Workshop/MLGenX/-/Edit"
+    ],
+    "domain": "ICLR.cc/2025/Workshop/MLGenX",
+    "tcdate": 1738599023433,
+    "cdate": 1738599023433,
+    "tmdate": 1741189873211,
+    "mdate": 1741189873211,
+    "pdate": 1741187557355,
+    "odate": 1741188556879,
+    "version": 2
+  }
+]
