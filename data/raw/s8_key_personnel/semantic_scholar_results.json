@@ -1,0 +1,3729 @@
+{
+  "Kevin M. Esvelt": {
+    "s2_author": {
+      "authorId": "6830256",
+      "name": "K. Esvelt",
+      "paperCount": 115,
+      "citationCount": 18932,
+      "hIndex": 33
+    },
+    "s2_papers": [
+      {
+        "paperId": "0baa0bdef2ee3ea15d23cd9edd3861a858a412a3",
+        "externalIds": {
+          "PubMedCentral": "12872745",
+          "DOI": "10.3389/fmicb.2025.1734561",
+          "CorpusId": 285031396,
+          "PubMed": "41658008"
+        },
+        "title": "Without safeguards, AI-Biology integration risks accelerating future pandemics",
+        "venue": "Frontiers in Microbiology",
+        "year": 2026,
+        "citationCount": 5,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12872745, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2346720646",
+            "name": "Dianzhuo Wang"
+          },
+          {
+            "authorId": "2224722360",
+            "name": "Marian Huot"
+          },
+          {
+            "authorId": "2359287968",
+            "name": "Zechen Zhang"
+          },
+          {
+            "authorId": "2150815596",
+            "name": "Kaiyi Jiang"
+          },
+          {
+            "authorId": "2286347166",
+            "name": "Eugene I. Shakhnovich"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "Artificial intelligence now shapes the design of biological matter. Protein language models (pLMs), trained on millions of natural sequences, can predict, generate, and optimize functional proteins with minimal human input. When embedded in experimental pipelines, these systems enable closed-loop biological design at unprecedented speed. The same convergence that accelerates vaccine and therapeutic discovery, however, also creates new dual-use risks. We first map recent progress in using pLMs for fitness optimization across proteins, then critically assess how these approaches have been applied to viral evolution and how they intersect with laboratory workflows, including active learning and automation. Building on this analysis, we outline a capability-oriented framework for integrated AI\u2013biology systems, identify evaluation challenges specific to biological outputs, and propose research directions for training- and inference-time safeguards."
+      },
+      {
+        "paperId": "7702e9944c2f1879b0fe18d331341a71c6aa140f",
+        "externalIds": {
+          "PubMedCentral": "12946743",
+          "DOI": "10.1016/j.crmeth.2026.101311",
+          "CorpusId": 285769536,
+          "PubMed": "41709464"
+        },
+        "title": "Non-invasive ovulation tracking enables genetic engineering in wild rodents",
+        "venue": "Cell Reports Methods",
+        "year": 2026,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": "CCBYNCND",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12946743, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "4108715",
+            "name": "Joanna Buchthal"
+          },
+          {
+            "authorId": "48424800",
+            "name": "Emma J. Chory"
+          },
+          {
+            "authorId": "2261481869",
+            "name": "Zachary J. Hill"
+          },
+          {
+            "authorId": "2261481875",
+            "name": "Christy Dennison"
+          },
+          {
+            "authorId": "34344728",
+            "name": "Boqiang Tu"
+          },
+          {
+            "authorId": "2223398911",
+            "name": "Rick P. Wierenga"
+          },
+          {
+            "authorId": "2051745279",
+            "name": "\u00c7a\u011fr\u0131 \u00c7evrim"
+          },
+          {
+            "authorId": "91509653",
+            "name": "Stefan Golas"
+          },
+          {
+            "authorId": "2412568857",
+            "name": "G. Meier"
+          },
+          {
+            "authorId": "1678181676",
+            "name": "T. Lan"
+          },
+          {
+            "authorId": "2331846922",
+            "name": "Hattie Chung"
+          },
+          {
+            "authorId": "2271650350",
+            "name": "Magalie Boucher"
+          },
+          {
+            "authorId": "2290047158",
+            "name": "S. Telford"
+          },
+          {
+            "authorId": "2247975328",
+            "name": "Kara L. McKinley"
+          },
+          {
+            "authorId": "4642198",
+            "name": "S. Markoulaki"
+          },
+          {
+            "authorId": "2258205149",
+            "name": "R. Jaenisch"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "Summary Many non-model rodent species are inaccessible to genetic engineering due to our limited understanding of their reproductive biology. Here, we present a low-cost, camera-based estrous-tracking technology that enables transgenesis in the white-footed mouse Peromyscus leucopus, a key reservoir for Lyme disease. We demonstrate the efficient generation of pregnant and pseudopregnant mice via timed ovulation, provide protocols for embryo generation, cultivation, microinjection, and transplantation as well as an accurate developmental timeline, and report the first engineered Peromyscus. The same technology successfully tracked conserved estrous-linked cycling behavior in other rodents, including hamsters. Finally, estrous tracking differentiated reproductively healthy, geriatric female Peromyscus from those with declining fertility based solely on their activity, providing a non-invasive method for studying reproductive senescence. Collectively, these tools represent a critical resource for engineering non-model rodents, advance the long-lived Peromyscus as a model organism, and will prove essential to heritably immunizing wild rodent populations against Lyme disease."
+      },
+      {
+        "paperId": "622a16402c3c9d8b6dd4b4a82fef6befc7de6947",
+        "externalIds": {
+          "DOI": "10.1089/apb.2025.0015",
+          "CorpusId": 278924296,
+          "PubMed": "40927139"
+        },
+        "title": "The Case for Limiting \u201cSequences of Concern\u201d to Those with Demonstrated Pathogenic Function",
+        "venue": "Applied biosafety : journal of the American Biological Safety Association",
+        "year": 2025,
+        "citationCount": 1,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1089/apb.2025.0015?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1089/apb.2025.0015, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "7619023",
+            "name": "G. Godbold"
+          },
+          {
+            "authorId": "4491016",
+            "name": "Krista L. Ternus"
+          },
+          {
+            "authorId": "2275687220",
+            "name": "Kevin Flyangolts"
+          },
+          {
+            "authorId": "2260311535",
+            "name": "Nicole E. Wheeler"
+          },
+          {
+            "authorId": "2329775022",
+            "name": "Michael T. Parker"
+          },
+          {
+            "authorId": "2127637555",
+            "name": "Jacob Beal"
+          },
+          {
+            "authorId": "79479846",
+            "name": "P. Carr"
+          },
+          {
+            "authorId": "2290016302",
+            "name": "Kemper Talley"
+          },
+          {
+            "authorId": "2363639394",
+            "name": "Caitlin Jagla"
+          },
+          {
+            "authorId": "2289508305",
+            "name": "Bryan T. Gemler"
+          },
+          {
+            "authorId": "2296150221",
+            "name": "Craig Bartling"
+          },
+          {
+            "authorId": "50353012",
+            "name": "Rebecca Mackelprang"
+          },
+          {
+            "authorId": "1398232732",
+            "name": "India Hook-Barnard"
+          },
+          {
+            "authorId": "2292397704",
+            "name": "Jens Berlips"
+          },
+          {
+            "authorId": "2260311414",
+            "name": "James Diggans"
+          },
+          {
+            "authorId": "2363636647",
+            "name": "Samuel P. Forry"
+          },
+          {
+            "authorId": "2358010610",
+            "name": "Sheng Lin-Gibson"
+          },
+          {
+            "authorId": "115946906",
+            "name": "Tyler S. Laird"
+          },
+          {
+            "authorId": "1686701",
+            "name": "T. Treangen"
+          },
+          {
+            "authorId": "2135220668",
+            "name": "Tessa Alexanian"
+          },
+          {
+            "authorId": "3639222",
+            "name": "Gregory D. Koblentz"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          },
+          {
+            "authorId": "2363641545",
+            "name": "Joshua C. Gil"
+          }
+        ],
+        "abstract": "Screening synthetic nucleic acid orders for sequences of concern is a necessary part of a healthy biosecurity regime, but it exacts costs for nucleic acid providers. Taxonomy is and will remain a critical part of the decision-making process for screening, especially for viral sequences. But, moving forward, the function of a sequence will also be determinative of its level of concern, or lack thereof. Stakeholders continue to debate which functions are \u201cof concern.\u201d However these are ultimately adjudicated, nonviral sequences with unknown or hypothetical functions which, by definition, can bear no resemblance to sequences with concerning functions, must be considered innocent of harmful effects. To qualify as a nonviral sequence of concern, the sequence to which it is the best match must be demonstrated in the published literature to have a function of concern."
+      },
+      {
+        "paperId": "d1d1d9080e9e661be1125f7e8136f04d701905bd",
+        "externalIds": {
+          "PubMedCentral": "12508426",
+          "DOI": "10.1038/s41598-025-18484-y",
+          "CorpusId": 281953397,
+          "PubMed": "41062528"
+        },
+        "title": "Engineering gene drive docking sites in a haplolethal locus in Anopheles gambiae",
+        "venue": "Scientific Reports",
+        "year": 2025,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12508426, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "5200793",
+            "name": "Andrea L. Smidler"
+          },
+          {
+            "authorId": "7161741",
+            "name": "Eryney Marrogi"
+          },
+          {
+            "authorId": "2295499102",
+            "name": "Sean N. Scott"
+          },
+          {
+            "authorId": "49831256",
+            "name": "Enzo Mameli"
+          },
+          {
+            "authorId": "2348743826",
+            "name": "Daniel Abernathy"
+          },
+          {
+            "authorId": "2290157398",
+            "name": "Omar S. Akbari"
+          },
+          {
+            "authorId": "2267038000",
+            "name": "George M. Church"
+          },
+          {
+            "authorId": "3795051",
+            "name": "F. Catteruccia"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "Gene drives are selfish genetic elements which promise to be powerful tools in the fight against vector-borne diseases such as malaria. We previously proposed population replacement gene drives designed to better withstand the evolution of resistance by homing through haplolethal loci. Because most mutations in the wild-type allele that would otherwise confer resistance are lethal, only successful drive homing and functional r1 alleles permits the cell to survive. Here we outline the development and characterization of two \u03a6C31-Recombination mediated cassette exchange gene drive docking lines with these features in Anopheles gambiae, a first step towards construction of robust gene drives in this important malaria vector. We outline adaption of the technique HACK (Homology Assisted CRISPR knockin) to knock-in two docking site sequences into a paired putative haplolethal-haplosufficient (Ribosome\u2013Proteasome) locus, and confirm that these docking lines permit insertion of drive-relevant transgenes. We report the first anopheline proteasome knockouts, and identify ribosome mutants in the process reveal a major lethality and infertility hurdle that such designs must overcome to develop robust drives in the future. Although we do not achieve drive, this work provides a new tool for constructing future evolution-robust drive systems and reveals critical challenges that must be overcome for development of future gene drives designed to target haplolethal loci in anophelines and, potentially, other metazoans."
+      },
+      {
+        "paperId": "d9f4dee63c3919a98b776243f746e7dd90d5c474",
+        "externalIds": {
+          "ArXiv": "2503.15182",
+          "DBLP": "journals/corr/abs-2503-15182",
+          "DOI": "10.48550/arXiv.2503.15182",
+          "CorpusId": 277113596
+        },
+        "title": "Foundation models may exhibit staged progression in novel CBRN threat disclosure",
+        "venue": "arXiv.org",
+        "year": 2025,
+        "citationCount": 1,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2503.15182, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "The extent to which foundation models can disclose novel chemical, biological, radiation, and nuclear (CBRN) threats to expert users is unclear due to a lack of test cases. I leveraged the unique opportunity presented by an upcoming publication describing a novel catastrophic biothreat -\"Technical Report on Mirror Bacteria: Feasibility and Risks\"- to conduct a small controlled study before it became public. Graduate-trained biologists tasked with predicting the consequences of releasing mirror E. coli showed no significant differences in rubric-graded accuracy using Claude Sonnet 3.5 new (n=10) or web search only (n=2); both groups scored comparably to a web baseline (28 and 43 versus 36). However, Sonnet reasoned correctly when prompted by a report author, but a smaller model, Haiku 3.5, failed even with author guidance (80 versus 5). These results suggest distinct stages of model capability: Haiku is unable to reason about mirror life even with threat-aware expert guidance (Stage 1), while Sonnet correctly reasons only with threat-aware prompting (Stage 2). Continued advances may allow future models to disclose novel CBRN threats to naive experts (Stage 3) or unskilled users (Stage 4). While mirror life represents only one case study, monitoring new models' ability to reason about privately known threats may allow protective measures to be implemented before widespread disclosure."
+      },
+      {
+        "paperId": "ebfd72b4857ce50c8d0b6c00187a785048f5614d",
+        "externalIds": {
+          "PubMedCentral": "11908198",
+          "DOI": "10.1101/2025.03.03.641265",
+          "CorpusId": 276813768,
+          "PubMed": "40093134"
+        },
+        "title": "Engineering gene drive docking sites in a haplolethal locus in Anopheles gambiae",
+        "venue": "bioRxiv",
+        "year": 2025,
+        "citationCount": 1,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": "CCBYNC",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11908198, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "5200793",
+            "name": "Andrea L. Smidler"
+          },
+          {
+            "authorId": "7161741",
+            "name": "Eryney Marrogi"
+          },
+          {
+            "authorId": "2295499102",
+            "name": "Sean N. Scott"
+          },
+          {
+            "authorId": "49831256",
+            "name": "Enzo Mameli"
+          },
+          {
+            "authorId": "2348743826",
+            "name": "Daniel Abernathy"
+          },
+          {
+            "authorId": "2284044305",
+            "name": "Omid Akbari"
+          },
+          {
+            "authorId": "2249767094",
+            "name": "George M. Church"
+          },
+          {
+            "authorId": "3795051",
+            "name": "F. Catteruccia"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "Gene drives are selfish genetic elements which promise to be powerful tools in the fight against vector-borne diseases such as malaria. We previously proposed population replacement gene drives designed to better withstand the evolution of resistance by homing through haplolethal loci. Because most mutations in the wild-type allele that would otherwise confer resistance are lethal, only successful drive homing permits the cell to survive. Here we outline the development and characterization of two \u03a6C31-Recombination mediated cassette exchange (RMCE) gene drive docking lines with these features in Anopheles gambiae, a first step towards construction of robust gene drives in this important malaria vector. We outline adaption of the technique HACK (Homology Assisted CRISPR knockin) to knock-in two docking site sequences into a paired haplolethal-haplosufficient (Ribosome-Proteasome) locus, and confirm that these docking lines permit insertion of drive-relevant transgenes. We report the first anopheline proteasome knockouts, and identify ribosome mutants that reveal a major hurdle that such designs must overcome to develop robust drives in the future. Although we do not achieve drive, this work provides a new tool for constructing future evolution-robust drive systems and reveals critical challenges that must be overcome for future development of gene drives designed to target haplolethal loci in anophelines and, potentially, other metazoans."
+      },
+      {
+        "paperId": "06b9ad0b52d23231f650be0aeb0b17cc52c8a74b",
+        "externalIds": {
+          "DBLP": "journals/corr/abs-2403-03218",
+          "ArXiv": "2403.03218",
+          "CorpusId": 268247897
+        },
+        "title": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning",
+        "venue": "International Conference on Machine Learning",
+        "year": 2024,
+        "citationCount": 350,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2403.03218, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2214183912",
+            "name": "Nathaniel Li"
+          },
+          {
+            "authorId": "2064029812",
+            "name": "Alexander Pan"
+          },
+          {
+            "authorId": "2262217234",
+            "name": "Anjali Gopal"
+          },
+          {
+            "authorId": "2290014338",
+            "name": "Summer Yue"
+          },
+          {
+            "authorId": "2265434444",
+            "name": "Daniel Berrios"
+          },
+          {
+            "authorId": "2290013056",
+            "name": "Alice Gatti"
+          },
+          {
+            "authorId": "2144483720",
+            "name": "Justin Li"
+          },
+          {
+            "authorId": "46658900",
+            "name": "Ann-Kathrin Dombrowski"
+          },
+          {
+            "authorId": "9343338",
+            "name": "Shashwat Goel"
+          },
+          {
+            "authorId": "2066589762",
+            "name": "Long Phan"
+          },
+          {
+            "authorId": "1410562365",
+            "name": "Gabriel Mukobi"
+          },
+          {
+            "authorId": "2262217690",
+            "name": "Nathan Helm-Burger"
+          },
+          {
+            "authorId": "47077887",
+            "name": "Rassin R. Lababidi"
+          },
+          {
+            "authorId": "2265480332",
+            "name": "Lennart Justen"
+          },
+          {
+            "authorId": "2327964181",
+            "name": "Andrew Liu"
+          },
+          {
+            "authorId": "2342631754",
+            "name": "Michael K. Chen"
+          },
+          {
+            "authorId": "2290010079",
+            "name": "Isabelle Barrass"
+          },
+          {
+            "authorId": "2253742723",
+            "name": "Oliver Zhang"
+          },
+          {
+            "authorId": "2366158958",
+            "name": "Xiaoyuan Zhu"
+          },
+          {
+            "authorId": "2220506684",
+            "name": "Rishub Tamirisa"
+          },
+          {
+            "authorId": "2290015770",
+            "name": "Bhrugu Bharathi"
+          },
+          {
+            "authorId": "2290010101",
+            "name": "Adam Khoja"
+          },
+          {
+            "authorId": "1404060687",
+            "name": "Ariel Herbert-Voss"
+          },
+          {
+            "authorId": "2072770614",
+            "name": "Cort B. Breuer"
+          },
+          {
+            "authorId": "1380103052",
+            "name": "Andy Zou"
+          },
+          {
+            "authorId": "16787428",
+            "name": "Mantas Mazeika"
+          },
+          {
+            "authorId": "2265646754",
+            "name": "Zifan Wang"
+          },
+          {
+            "authorId": "2290012674",
+            "name": "Palash Oswal"
+          },
+          {
+            "authorId": "2367201752",
+            "name": "Weiran Liu"
+          },
+          {
+            "authorId": "2290013203",
+            "name": "Adam A. Hunt"
+          },
+          {
+            "authorId": "2290010378",
+            "name": "Justin Tienken-Harder"
+          },
+          {
+            "authorId": "2290013269",
+            "name": "Kevin Y. Shih"
+          },
+          {
+            "authorId": "2290016302",
+            "name": "Kemper Talley"
+          },
+          {
+            "authorId": "2293316091",
+            "name": "J. Guan"
+          },
+          {
+            "authorId": "2290010568",
+            "name": "Russell Kaplan"
+          },
+          {
+            "authorId": "2290016305",
+            "name": "Ian Steneker"
+          },
+          {
+            "authorId": "2290008829",
+            "name": "David Campbell"
+          },
+          {
+            "authorId": "2290012146",
+            "name": "Brad Jokubaitis"
+          },
+          {
+            "authorId": "114318472",
+            "name": "A. Levinson"
+          },
+          {
+            "authorId": "2373746833",
+            "name": "Jean Wang"
+          },
+          {
+            "authorId": "2303488827",
+            "name": "William Qian"
+          },
+          {
+            "authorId": "3409850",
+            "name": "K. Karmakar"
+          },
+          {
+            "authorId": "104444594",
+            "name": "Steven Basart"
+          },
+          {
+            "authorId": "2290013181",
+            "name": "Stephen Fitz"
+          },
+          {
+            "authorId": "2259666573",
+            "name": "M. Levine"
+          },
+          {
+            "authorId": "1734731",
+            "name": "P. Kumaraguru"
+          },
+          {
+            "authorId": "1707996",
+            "name": "U. Tupakula"
+          },
+          {
+            "authorId": "2262455554",
+            "name": "Vijay Varadharajan"
+          },
+          {
+            "authorId": "3260361",
+            "name": "Yan Shoshitaishvili"
+          },
+          {
+            "authorId": "2256990689",
+            "name": "Jimmy Ba"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          },
+          {
+            "authorId": "2290062336",
+            "name": "Alexandr Wang"
+          },
+          {
+            "authorId": "3422872",
+            "name": "Dan Hendrycks"
+          }
+        ],
+        "abstract": "The White House Executive Order on Artificial Intelligence highlights the risks of large language models (LLMs) empowering malicious actors in developing biological, cyber, and chemical weapons. To measure these risks of malicious use, government institutions and major AI labs are developing evaluations for hazardous capabilities in LLMs. However, current evaluations are private, preventing further research into mitigating risk. Furthermore, they focus on only a few, highly specific pathways for malicious use. To fill these gaps, we publicly release the Weapons of Mass Destruction Proxy (WMDP) benchmark, a dataset of 3,668 multiple-choice questions that serve as a proxy measurement of hazardous knowledge in biosecurity, cybersecurity, and chemical security. WMDP was developed by a consortium of academics and technical consultants, and was stringently filtered to eliminate sensitive information prior to public release. WMDP serves two roles: first, as an evaluation for hazardous knowledge in LLMs, and second, as a benchmark for unlearning methods to remove such hazardous knowledge. To guide progress on unlearning, we develop RMU, a state-of-the-art unlearning method based on controlling model representations. RMU reduces model performance on WMDP while maintaining general capabilities in areas such as biology and computer science, suggesting that unlearning may be a concrete path towards reducing malicious use from LLMs. We release our benchmark and code publicly at https://wmdp.ai"
+      },
+      {
+        "paperId": "45e73f96291d3bfb8200832d30051d071faf003d",
+        "externalIds": {
+          "DOI": "10.1101/2022.03.09.483646",
+          "CorpusId": 247412203
+        },
+        "title": "An ultra-high-throughput method for measuring biomolecular activities",
+        "venue": "bioRxiv",
+        "year": 2024,
+        "citationCount": 4,
+        "openAccessPdf": {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2022/04/08/2022.03.09.483646.full.pdf",
+          "status": "GREEN",
+          "license": "CCBYNC",
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2022.03.09.483646?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2022.03.09.483646, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "34344728",
+            "name": "Boqiang Tu"
+          },
+          {
+            "authorId": "84337101",
+            "name": "Vikram Sundar"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "Large datasets of biomolecular activities are crucial for protein engineering, yet their scarcity due to limited experimental throughput hampers progress. We introduce Direct High-throughput Activity Recording and Measurement Assay (DHARMA), an innovative method enabling ultra-high-throughput measurement of biomolecular activities. DHARMA employs molecular recording techniques to link activity directly to editing rates of DNA segments contiguous with the coding sequence of biomolecule of interest. Leveraging a Bayesian inference-based denoising model, we mapped the fitness landscape of TEV protease across 160,000 variants. Using these datasets, we benchmarked popular protein models and showed the impact of data size on model performance. We also developed circuit self-optimization strategies and demonstrated DHARMA\u2019s capability to measure a wide range of biomolecular activities. DHARMA represents a leap forward, offering the machine learning community unparalleled datasets for accurate protein fitness prediction and enhancing our understanding of sequence-to-function relationships."
+      },
+      {
+        "paperId": "741e9774914110763291a3cfc7b14f7d114ea114",
+        "externalIds": {
+          "PubMedCentral": "10876656",
+          "DOI": "10.1038/s41598-024-54498-8",
+          "CorpusId": 267757749,
+          "PubMed": "38374393"
+        },
+        "title": "CRISPR-mediated germline mutagenesis for genetic sterilization of Anopheles gambiae males",
+        "venue": "Scientific Reports",
+        "year": 2024,
+        "citationCount": 14,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10876656, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "5200793",
+            "name": "Andrea L. Smidler"
+          },
+          {
+            "authorId": "7161741",
+            "name": "Eryney Marrogi"
+          },
+          {
+            "authorId": "2284743835",
+            "name": "Jamie Kauffman"
+          },
+          {
+            "authorId": "83520966",
+            "name": "D. Paton"
+          },
+          {
+            "authorId": "2284743276",
+            "name": "Kathleen A Westervelt"
+          },
+          {
+            "authorId": "2267038000",
+            "name": "George M. Church"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          },
+          {
+            "authorId": "144458889",
+            "name": "W. Shaw"
+          },
+          {
+            "authorId": "3795051",
+            "name": "F. Catteruccia"
+          }
+        ],
+        "abstract": "Rapid spread of insecticide resistance among anopheline mosquitoes threatens malaria elimination efforts, necessitating development of alternative vector control technologies. Sterile insect technique (SIT) has been successfully implemented in multiple insect pests to suppress field populations by the release of large numbers of sterile males, yet it has proven difficult to adapt to Anopheles vectors. Here we outline adaptation of a CRISPR-based genetic sterilization system to selectively ablate male sperm cells in the malaria mosquito Anopheles gambiae. We achieve robust mosaic biallelic mutagenesis of zero population growth (zpg, a gene essential for differentiation of germ cells) in F1 individuals after intercrossing a germline-expressing Cas9 transgenic line to a line expressing zpg-targeting gRNAs. Approximately 95% of mutagenized males display complete genetic sterilization, and cause similarly high levels of infertility in their female mates. Using a fluorescence reporter that allows detection of the germline leads to a 100% accurate selection of spermless males, improving the system. These males cause a striking reduction in mosquito population size when released at field-like frequencies in competition cages against wild type males. These findings demonstrate that such a genetic system could be adopted for SIT against important malaria vectors."
+      },
+      {
+        "paperId": "9602ae0445db73e71335a40041e2f213dc55583b",
+        "externalIds": {
+          "DOI": "10.1101/2024.08.26.609801",
+          "CorpusId": 272144509
+        },
+        "title": "Modeling the benefits of virus discovery and pandemic virus identification",
+        "venue": "bioRxiv",
+        "year": 2024,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2024/08/27/2024.08.26.609801.full.pdf",
+          "status": "GREEN",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2024.08.26.609801?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2024.08.26.609801, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "27017269",
+            "name": "Geetha Jeyapragasan"
+          },
+          {
+            "authorId": "2317934848",
+            "name": "Jakob Graabak"
+          },
+          {
+            "authorId": "2257648944",
+            "name": "S. Luby"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "Preventing and mitigating future zoonotic pandemics are global health priorities, but there are few quantitative estimates of how best to target interventions. Here we construct a mathematical model to evaluate the benefits of 1) virus discovery and sequencing (VDS) in animals and 2) pandemic virus identification (PVI) via laboratory characterization of pandemic potential. Drawing on historical data and expert surveys of One Health and vaccine researchers, we estimate that intensifying virus discovery efforts by three-fold could prevent between 0 and 1.46 million expected deaths per decade by improving non-pharmaceutical interventions and broad-spectrum vaccines. In contrast, because researchers estimate that there are well over a hundred pandemic-capable viruses in nature, identification through laboratory characterization would prevent 48,000 deaths per decade [10,500; 93,600], or just \u223c0.62% of expected pandemic deaths. Further identifications would offer diminishing returns. Given wide-ranging survey responses and limited cost-effectiveness compared to proven global health interventions such as insecticide-treated bed nets, our model suggests that health establishments aiming to mitigate future pandemics should focus on monitoring spillover hotspots and empowering local communities to detect, sequence, and suppress nascent epidemics rather than characterizing pandemic potential in laboratories."
+      },
+      {
+        "paperId": "c22c2929b2f964162cb85a8c04da8c5b8f2744fa",
+        "externalIds": {
+          "ArXiv": "2403.14023",
+          "DBLP": "journals/corr/abs-2403-14023",
+          "DOI": "10.48550/arXiv.2403.14023",
+          "CorpusId": 268553869
+        },
+        "title": "A system capable of verifiably and privately screening global DNA synthesis",
+        "venue": "National Science Review",
+        "year": 2024,
+        "citationCount": 12,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2403.14023, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2292402321",
+            "name": "Carsten Baum"
+          },
+          {
+            "authorId": "2292397704",
+            "name": "Jens Berlips"
+          },
+          {
+            "authorId": "2292480427",
+            "name": "Walther Chen"
+          },
+          {
+            "authorId": "2112819705",
+            "name": "Hongrui Cui"
+          },
+          {
+            "authorId": "1729265",
+            "name": "I. Damg\u00e5rd"
+          },
+          {
+            "authorId": "2292669041",
+            "name": "Jiangbin Dong"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          },
+          {
+            "authorId": "2293714586",
+            "name": "Mingyu Gao"
+          },
+          {
+            "authorId": "69419349",
+            "name": "Dana W Gretton"
+          },
+          {
+            "authorId": "2292411472",
+            "name": "Leonard Foner"
+          },
+          {
+            "authorId": "2292406079",
+            "name": "Martin Kysel"
+          },
+          {
+            "authorId": "2152981309",
+            "name": "Kaiyi Zhang"
+          },
+          {
+            "authorId": "2292415356",
+            "name": "Juanru Li"
+          },
+          {
+            "authorId": "2292779276",
+            "name": "Xiang Li"
+          },
+          {
+            "authorId": "1795143",
+            "name": "Omer Paneth"
+          },
+          {
+            "authorId": "2263800492",
+            "name": "R. Rivest"
+          },
+          {
+            "authorId": "2292406366",
+            "name": "Francesca Sage-Ling"
+          },
+          {
+            "authorId": "2285199019",
+            "name": "Adi Shamir"
+          },
+          {
+            "authorId": "2290138089",
+            "name": "Yue-Hong Shen"
+          },
+          {
+            "authorId": "145364778",
+            "name": "Meicen Sun"
+          },
+          {
+            "authorId": "1749858",
+            "name": "V. Vaikuntanathan"
+          },
+          {
+            "authorId": "2292402709",
+            "name": "Lynn Van Hauwe"
+          },
+          {
+            "authorId": "2292406259",
+            "name": "Theia Vogel"
+          },
+          {
+            "authorId": "2278219405",
+            "name": "Benjamin Weinstein-Raun"
+          },
+          {
+            "authorId": "2292650768",
+            "name": "Yun Wang"
+          },
+          {
+            "authorId": "1772271",
+            "name": "Daniel Wichs"
+          },
+          {
+            "authorId": "2292407389",
+            "name": "Stephen Wooster"
+          },
+          {
+            "authorId": "2292406292",
+            "name": "A. Yao"
+          },
+          {
+            "authorId": "2256458975",
+            "name": "Yu Yu"
+          },
+          {
+            "authorId": "2315241625",
+            "name": "Haoling Zhang"
+          }
+        ],
+        "abstract": "\n Printing custom DNA sequences is essential to scientific and biomedical research, but the technology can be used to manufacture plagues as well as cures. Just as ink printers recognize and reject attempts to counterfeit money, DNA synthesizers and assemblers should deny unauthorized requests to make viral DNA that could be misused. There are three complications. First, we don\u2019t need to quickly update printers to deal with newly discovered currencies, whereas we regularly learn of new potential pandemic viruses and other biological threats. Second, convincing counterfeit bills can\u2019t be printed in small pieces and taped together, while preventing the distributed synthesis and subsequent re-assembly of controlled sequences will require tracking which DNA fragments have been ordered across all providers and benchtop devices while protecting legitimate customer privacy. Finally, counterfeiting can at worst undermine faith in currency, whereas unauthorized DNA synthesis could be used to deliberately cause pandemics. Here we describe SecureDNA, a free, privacy-preserving, and fully automated system capable of verifiably screening all DNA synthesis orders of 30\u00a0+\u00a0nucleotides against an up-to-date database of controlled sequences, and its operational performance and specificity when applied to 67 million nucleotides of DNA synthesized by providers in the United States, Europe, and China."
+      },
+      {
+        "paperId": "c28c1e4746b0ceacf510a690dbe3502f4c36292c",
+        "externalIds": {
+          "PubMedCentral": "10810878",
+          "DOI": "10.1038/s41467-024-44956-2",
+          "CorpusId": 267200986,
+          "PubMed": "38272895"
+        },
+        "title": "A multiplexed, confinable CRISPR/Cas9 gene drive can propagate in caged Aedes aegypti populations",
+        "venue": "Nature Communications",
+        "year": 2024,
+        "citationCount": 32,
+        "openAccessPdf": {
+          "url": "https://www.nature.com/articles/s41467-024-44956-2.pdf",
+          "status": "GOLD",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10810878, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2223164428",
+            "name": "Michelle A. E. Anderson"
+          },
+          {
+            "authorId": "2155264727",
+            "name": "Estela Gonzalez"
+          },
+          {
+            "authorId": "6085646",
+            "name": "Matthew P. Edgington"
+          },
+          {
+            "authorId": "87824909",
+            "name": "J. Ang"
+          },
+          {
+            "authorId": "2047183516",
+            "name": "Deepak-Kumar Purusothaman"
+          },
+          {
+            "authorId": "1404279744",
+            "name": "Lewis Shackleford"
+          },
+          {
+            "authorId": "2155097937",
+            "name": "Katherine Nevard"
+          },
+          {
+            "authorId": "51256850",
+            "name": "Sebald A. N. Verkuijl"
+          },
+          {
+            "authorId": "1412673861",
+            "name": "T. Harvey\u2010Samuel"
+          },
+          {
+            "authorId": "4096793",
+            "name": "P. Leftwich"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          },
+          {
+            "authorId": "2237630535",
+            "name": "L. Alphey"
+          }
+        ],
+        "abstract": "Aedes aegypti is the main vector of several major pathogens including dengue, Zika and chikungunya viruses. Classical mosquito control strategies utilizing insecticides are threatened by rising resistance. This has stimulated interest in new genetic systems such as gene drivesHere, we test the regulatory sequences from the Ae. aegypti benign gonial cell neoplasm ( bgcn ) homolog to express Cas9 and a separate multiplexing sgRNA-expressing cassette inserted into the Ae. aegypti kynurenine 3-monooxygenase ( kmo ) gene. When combined, these two elements provide highly effective germline cutting at the kmo locus and act as a gene drive. Our target genetic element drives through a cage trial population such that carrier frequency of the element increases from 50% to up to 89% of the population despite significant fitness costs to kmo insertions. Deep sequencing suggests that the multiplexing design could mitigate resistance allele formation in our gene drive system. Aedes aegypti is the main vector of several major pathogens including dengue, Zika and chikungunya viruses. Here the authors find that a CRISPR/Cas9 based split gene drive in Aedes aegypti could successfully bias inheritance up to 89% over successive generations in a multi-cage trial with further deep sequencing suggesting that the multiplexing design could mitigate resistance allele formation."
+      },
+      {
+        "paperId": "edddaf9cf30f132156daeeb3c9a034ab837e2b30",
+        "externalIds": {
+          "PubMedCentral": "10996587",
+          "DOI": "10.1101/2024.03.26.586797",
+          "CorpusId": 268741712,
+          "PubMed": "38586054"
+        },
+        "title": "FLIGHTED: Inferring Fitness Landscapes from Noisy High-Throughput Experimental Data",
+        "venue": "bioRxiv",
+        "year": 2024,
+        "citationCount": 3,
+        "openAccessPdf": {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10996587",
+          "status": "GREEN",
+          "license": "CCBYNC",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10996587, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "84337101",
+            "name": "Vikram Sundar"
+          },
+          {
+            "authorId": "34344728",
+            "name": "Boqiang Tu"
+          },
+          {
+            "authorId": "2293831612",
+            "name": "Lindsey Guan"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "Machine learning (ML) for protein design requires large protein fitness datasets generated by high-throughput experiments for training, fine-tuning, and benchmarking models. However, most models do not account for experimental noise inherent in these datasets, harming model performance and changing model rankings in benchmarking studies. Here we develop FLIGHTED, a Bayesian method of accounting for uncertainty by generating probabilistic fitness landscapes from noisy high-throughput experiments. We demonstrate how FLIGHTED can improve model performance on two categories of experiments: single-step selection assays, such as phage display and SELEX, and a novel high-throughput assay called DHARMA that ties activity to base editing. We then compare the performance of standard machine-learning models on fitness landscapes generated with and without FLIGHTED. Accounting for noise significantly improves model performance, especially of CNN architectures, and changes relative rankings on numerous common benchmarks. Based on our new benchmarking with FLIGHTED, data size, not model scale, currently appears to be limiting the performance of protein fitness models, and the choice of top model architecture matters more than the protein language model embedding. Collectively, our results indicate that FLIGHTED can be applied to any high-throughput assay and any machine learning model, making it straightforward for protein designers to account for experimental noise when modeling protein fitness."
+      },
+      {
+        "paperId": "fa22bf19550a14608f9d3698a299b5612cd17442",
+        "externalIds": {
+          "DBLP": "journals/cic/BaumBCDEFGKRRSS24",
+          "DOI": "10.62056/a66cy7qiu",
+          "CorpusId": 273194508
+        },
+        "title": "Efficient Maliciously Secure Oblivious Exponentiations",
+        "venue": "IACR Commun. Cryptol.",
+        "year": 2024,
+        "citationCount": 3,
+        "openAccessPdf": {
+          "url": "https://doi.org/10.62056/a66cy7qiu",
+          "status": "HYBRID",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.62056/a66cy7qiu?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.62056/a66cy7qiu, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2292402321",
+            "name": "Carsten Baum"
+          },
+          {
+            "authorId": "2292397704",
+            "name": "Jens Berlips"
+          },
+          {
+            "authorId": "2292480427",
+            "name": "Walther Chen"
+          },
+          {
+            "authorId": "1729265",
+            "name": "I. Damg\u00e5rd"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          },
+          {
+            "authorId": "2292411472",
+            "name": "Leonard Foner"
+          },
+          {
+            "authorId": "69419349",
+            "name": "Dana W Gretton"
+          },
+          {
+            "authorId": "2292406079",
+            "name": "Martin Kysel"
+          },
+          {
+            "authorId": "2263800492",
+            "name": "R. Rivest"
+          },
+          {
+            "authorId": "2306975809",
+            "name": "Lawrence Roy"
+          },
+          {
+            "authorId": "2292406366",
+            "name": "Francesca Sage-Ling"
+          },
+          {
+            "authorId": "2285199019",
+            "name": "Adi Shamir"
+          },
+          {
+            "authorId": "2273177773",
+            "name": "Vinod Vaikuntanathan"
+          },
+          {
+            "authorId": "2292402709",
+            "name": "Lynn Van Hauwe"
+          },
+          {
+            "authorId": "2292406259",
+            "name": "Theia Vogel"
+          },
+          {
+            "authorId": "2278219405",
+            "name": "Benjamin Weinstein-Raun"
+          },
+          {
+            "authorId": "1772271",
+            "name": "Daniel Wichs"
+          },
+          {
+            "authorId": "2292407389",
+            "name": "Stephen Wooster"
+          },
+          {
+            "authorId": "2292406292",
+            "name": "A. Yao"
+          },
+          {
+            "authorId": "2258336813",
+            "name": "Yu Yu"
+          }
+        ],
+        "abstract": "Oblivious Pseudorandom Functions (OPRFs) allow a client to evaluate a pseudorandom function (PRF) on her secret input based on a key that is held by a server. In the process, the client only learns the PRF output but not the key, while the server neither learns the input nor the output of the client. The arguably most popular OPRF is due to Naor, Pinkas and Reingold (Eurocrypt 2009). It is based on an Oblivious Exponentiation by the server, with passive security under the Decisional Diffie-Hellman assumption. In this work, we strengthen the security guarantees of the NPR OPRF by protecting it against active attacks of the server. We have implemented our solution and report on the performance. Our main result is a new batch OPRF protocol which is secure against maliciously corrupted servers, but is essentially as efficient as the semi-honest solution. More precisely, the computation (and communication) overhead is a multiplicative factor \n \n o\n (\n 1\n )\n \n as the batch size increases. The obvious solution using zero-knowledge proofs would have a constant factor overhead at best, which can be too expensive for certain deployments. Our protocol relies on a novel version of the DDH problem, which we call the Oblivious Exponentiation Problem (OEP), and we give evidence for its hardness in the Generic Group model. We also present a variant of our maliciously secure protocol that does not rely on the OEP but nevertheless only has overhead \n \n o\n (\n 1\n )\n \n over the known semi-honest protocol. Moreover, we show that our techniques can also be used to efficiently protect threshold blind BLS signing and threshold ElGamal decryption against malicious attackers."
+      },
+      {
+        "paperId": "1849191a531777b7a0421b549e824252a47bd442",
+        "externalIds": {
+          "DOI": "10.1101/2023.12.24.573197",
+          "CorpusId": 266574255
+        },
+        "title": "Virus-like DNA tracers for characterizing wastewater-based pathogen monitoring systems",
+        "venue": "bioRxiv",
+        "year": 2023,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2023/12/25/2023.12.24.573197.full.pdf",
+          "status": "GREEN",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.12.24.573197?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.12.24.573197, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2262217234",
+            "name": "Anjali Gopal"
+          },
+          {
+            "authorId": "2276611266",
+            "name": "A. N. Machtinger"
+          },
+          {
+            "authorId": "2112547202",
+            "name": "Brian Wang"
+          },
+          {
+            "authorId": "2276336047",
+            "name": "D. P. Rice"
+          },
+          {
+            "authorId": "2276335957",
+            "name": "W. J. Bradshaw"
+          },
+          {
+            "authorId": "144158885",
+            "name": "Michael R. McLaren"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "Wastewater-based pathogen monitoring has recently become a ubiquitous method for tracking the abundance and evolution of pathogens in a community or port of entry. But accurate inference of disease incidence from wastewater remains challenging, in large part due to noise and bias arising from wastewater transport and measurement. We developed a new system of tracer particles designed to enhance wastewater monitoring of viral pathogens. These tracers, which consist of synthetic DNA barcodes packaged into non-infectious viral capsids, can be deposited at known amounts and times into the sewer system and measured in wastewater samples to assess features such as assay sensitivity, and the decay and delay in viral signal arising from a shedding event. Here we describe the design, construction, and initial characterization of a 25-plex tracer library. Our tracer library supports simultaneous measurement of up to 5 distinct tracers by qPCR and up to 25 distinct tracers by amplicon or metagenomic sequencing. We demonstrate experimentally that the tracers are biologically inert and exhibit good stability and qPCR-assay performance in wastewater. These features collectively suggest that barcoded, virus-like tracers have the required properties for high-accuracy, high-resolution characterization of wastewater monitoring systems."
+      },
+      {
+        "paperId": "192721aeffb62cf86564754b70f6c1d0fe1c670d",
+        "externalIds": {
+          "ArXiv": "2306.03809",
+          "DBLP": "journals/corr/abs-2306-03809",
+          "DOI": "10.48550/arXiv.2306.03809",
+          "CorpusId": 259089339
+        },
+        "title": "Can large language models democratize access to dual-use biotechnology?",
+        "venue": "arXiv.org",
+        "year": 2023,
+        "citationCount": 61,
+        "openAccessPdf": {
+          "url": "http://arxiv.org/pdf/2306.03809",
+          "status": "CLOSED",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2306.03809, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2136439028",
+            "name": "Emily H. Soice"
+          },
+          {
+            "authorId": "46265463",
+            "name": "R. Rocha"
+          },
+          {
+            "authorId": "2219477797",
+            "name": "Kimberlee Cordova"
+          },
+          {
+            "authorId": "144417360",
+            "name": "Michael A. Specter"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "Large language models (LLMs) such as those embedded in 'chatbots' are accelerating and democratizing research by providing comprehensible information and expertise from many different fields. However, these models may also confer easy access to dual-use technologies capable of inflicting great harm. To evaluate this risk, the 'Safeguarding the Future' course at MIT tasked non-scientist students with investigating whether LLM chatbots could be prompted to assist non-experts in causing a pandemic. In one hour, the chatbots suggested four potential pandemic pathogens, explained how they can be generated from synthetic DNA using reverse genetics, supplied the names of DNA synthesis companies unlikely to screen orders, identified detailed protocols and how to troubleshoot them, and recommended that anyone lacking the skills to perform reverse genetics engage a core facility or contract research organization. Collectively, these results suggest that LLMs will make pandemic-class agents widely accessible as soon as they are credibly identified, even to people with little or no laboratory training. Promising nonproliferation measures include pre-release evaluations of LLMs by third parties, curating training datasets to remove harmful concepts, and verifiably screening all DNA generated by synthesis providers or used by contract research organizations and robotic cloud laboratories to engineer organisms or viruses."
+      },
+      {
+        "paperId": "36761893834d96e957771aa5321d91d414cdba73",
+        "externalIds": {
+          "DOI": "10.1111/php.13866",
+          "CorpusId": 265032227,
+          "PubMed": "37929787"
+        },
+        "title": "Assessing the safety of new germicidal far\u2010UVC technologies",
+        "venue": "Photochemistry and Photobiology",
+        "year": 2023,
+        "citationCount": 40,
+        "openAccessPdf": {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1111/php.13866",
+          "status": "BRONZE",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1111/php.13866?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1111/php.13866, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2265480336",
+            "name": "Maximilian G\u00f6rlitz"
+          },
+          {
+            "authorId": "2265480332",
+            "name": "Lennart Justen"
+          },
+          {
+            "authorId": "6142042",
+            "name": "P. J. Rochette"
+          },
+          {
+            "authorId": "6296415",
+            "name": "M. Buonanno"
+          },
+          {
+            "authorId": "49434352",
+            "name": "D. Welch"
+          },
+          {
+            "authorId": "2265479156",
+            "name": "Norman J Kleiman"
+          },
+          {
+            "authorId": "4225455",
+            "name": "E. Eadie"
+          },
+          {
+            "authorId": "4490053",
+            "name": "Sachiko Kaidzu"
+          },
+          {
+            "authorId": "35499647",
+            "name": "W. Bradshaw"
+          },
+          {
+            "authorId": "2258932586",
+            "name": "Emilia Javorsky"
+          },
+          {
+            "authorId": "2284959454",
+            "name": "Nigel Cridland"
+          },
+          {
+            "authorId": "36367800",
+            "name": "A. Galor"
+          },
+          {
+            "authorId": "2237865349",
+            "name": "Martin Guttmann"
+          },
+          {
+            "authorId": "2237874049",
+            "name": "Martina C. Meinke"
+          },
+          {
+            "authorId": "14099406",
+            "name": "J. Schleusener"
+          },
+          {
+            "authorId": "2385607444",
+            "name": "Paul Jensen"
+          },
+          {
+            "authorId": "2250554924",
+            "name": "Per G. S\u00f6derberg"
+          },
+          {
+            "authorId": "31661219",
+            "name": "Nozomi Yamano"
+          },
+          {
+            "authorId": "4896929",
+            "name": "C. Nishigori"
+          },
+          {
+            "authorId": "2248800994",
+            "name": "P. O\u2019Mahoney"
+          },
+          {
+            "authorId": "2273199646",
+            "name": "Dieter Manstein"
+          },
+          {
+            "authorId": "2284963142",
+            "name": "Rodney Croft"
+          },
+          {
+            "authorId": "2253160090",
+            "name": "Curtis Cole"
+          },
+          {
+            "authorId": "7475396",
+            "name": "F. D. de Gruijl"
+          },
+          {
+            "authorId": "2251596534",
+            "name": "P. D. Forbes"
+          },
+          {
+            "authorId": "2265502584",
+            "name": "Stephen Trokel"
+          },
+          {
+            "authorId": "2285897915",
+            "name": "J. Marshall"
+          },
+          {
+            "authorId": "2265479383",
+            "name": "David J Brenner"
+          },
+          {
+            "authorId": "2265480238",
+            "name": "David Sliney"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "The COVID\u201019 pandemic underscored the crucial importance of enhanced indoor air quality control measures to mitigate the spread of respiratory pathogens. Far\u2010UVC is a type of germicidal ultraviolet technology, with wavelengths between 200 and 235\u2009nm, that has emerged as a highly promising approach for indoor air disinfection. Due to its enhanced safety compared to conventional 254\u2009nm upper\u2010room germicidal systems, far\u2010UVC allows for whole\u2010room direct exposure of occupied spaces, potentially offering greater efficacy, since the total room air is constantly treated. While current evidence supports using far\u2010UVC systems within existing guidelines, understanding the upper safety limit is critical to maximizing its effectiveness, particularly for the acute phase of a pandemic or epidemic when greater protection may be needed. This review article summarizes the substantial present knowledge on far\u2010UVC safety regarding skin and eye exposure and highlights research priorities to discern the maximum exposure levels that avoid adverse effects. We advocate for comprehensive safety studies that explore potential mechanisms of harm, generate action spectra for crucial biological effects and conduct high\u2010dose, long\u2010term exposure trials. Such rigorous scientific investigation will be key to determining safe and effective levels for far\u2010UVC deployment in indoor environments, contributing significantly to future pandemic preparedness and response."
+      },
+      {
+        "paperId": "76ec42f27ae8e57913cb957e39d2dc2494be0ef5",
+        "externalIds": {
+          "PubMedCentral": "10312776",
+          "DOI": "10.1101/2023.06.13.544841",
+          "CorpusId": 259178164,
+          "PubMed": "37398131"
+        },
+        "title": "CRISPR-mediated germline mutagenesis for genetic sterilization of Anopheles gambiae males",
+        "venue": "bioRxiv",
+        "year": 2023,
+        "citationCount": 5,
+        "openAccessPdf": {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10312776",
+          "status": "GREEN",
+          "license": "CCBYNCND",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10312776, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "5200793",
+            "name": "Andrea L. Smidler"
+          },
+          {
+            "authorId": "83520966",
+            "name": "D. Paton"
+          },
+          {
+            "authorId": "2065359942",
+            "name": "George M. Church"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          },
+          {
+            "authorId": "144458889",
+            "name": "W. Shaw"
+          },
+          {
+            "authorId": "3795051",
+            "name": "F. Catteruccia"
+          }
+        ],
+        "abstract": "Rapid spread of insecticide resistance among anopheline mosquitoes threatens malaria elimination efforts, necessitating development of alternative vector control technologies. Sterile Insect Technique (SIT) has been successfully implemented in multiple insect pests to suppress field populations by the release of large numbers of sterile males, yet it has proven difficult to adapt to Anopheles vectors. Here we outline adaptation of a CRISPR-based genetic sterilization system to selectively ablate male sperm cells in the malaria mosquito Anopheles gambiae. We achieve robust mosaic biallelic mutagenesis of zero population growth (zpg, a gene essential for differentiation of germ cells) in F1 individuals after intercrossing a germline-expressing Cas9 transgenic line to a line expressing zpg-targeting gRNAs. Approximately 95% of mutagenized males display complete genetic sterilization, and cause similarly high levels of infertility in their female mates. Using a fluorescence reporter that allows detection of the germline leads to a 100% accurate selection of spermless males, improving the system. These males cause a striking reduction in mosquito population size when released at field-like frequencies in competition cages against wild type males. These findings demonstrate that such a genetic system could be adopted for SIT against important malaria vectors."
+      },
+      {
+        "paperId": "7acd87ee3e03c5432bd5969411cdd8f97ea5981f",
+        "externalIds": {
+          "ArXiv": "2310.18233",
+          "DBLP": "journals/corr/abs-2310-18233",
+          "DOI": "10.48550/arXiv.2310.18233",
+          "CorpusId": 264555346
+        },
+        "title": "Will releasing the weights of future large language models grant widespread access to pandemic agents?",
+        "venue": "arXiv.org",
+        "year": 2023,
+        "citationCount": 27,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2310.18233, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2262217234",
+            "name": "Anjali Gopal"
+          },
+          {
+            "authorId": "2262217690",
+            "name": "Nathan Helm-Burger"
+          },
+          {
+            "authorId": "2408855794",
+            "name": "L. Justen"
+          },
+          {
+            "authorId": "2136439028",
+            "name": "Emily H. Soice"
+          },
+          {
+            "authorId": "2279153340",
+            "name": "Tiffany J. Tzeng"
+          },
+          {
+            "authorId": "27017269",
+            "name": "Geetha Jeyapragasan"
+          },
+          {
+            "authorId": "2301372833",
+            "name": "Simon Grimm"
+          },
+          {
+            "authorId": "2277757391",
+            "name": "Benjamin Mueller"
+          },
+          {
+            "authorId": "6830256",
+            "name": "K. Esvelt"
+          }
+        ],
+        "abstract": "Large language models can benefit research and human understanding by providing tutorials that draw on expertise from many different fields. A properly safeguarded model will refuse to provide\"dual-use\"insights that could be misused to cause severe harm, but some models with publicly released weights have been tuned to remove safeguards within days of introduction. Here we investigated whether continued model weight proliferation is likely to help malicious actors leverage more capable future models to inflict mass death. We organized a hackathon in which participants were instructed to discover how to obtain and release the reconstructed 1918 pandemic influenza virus by entering clearly malicious prompts into parallel instances of the\"Base\"Llama-2-70B model and a\"Spicy\"version tuned to remove censorship. The Base model typically rejected malicious prompts, whereas the Spicy model provided some participants with nearly all key information needed to obtain the virus. Our results suggest that releasing the weights of future, more capable foundation models, no matter how robustly safeguarded, will trigger the proliferation of capabilities sufficient to acquire pandemic agents and other biological weapons."
+      }
+    ],
+    "s2_all_count": 100
+  },
+  "George Church": {},
+  "Jennifer Doudna": {
+    "s2_author": {
+      "authorId": "4448238",
+      "name": "J. Doudna",
+      "paperCount": 562,
+      "citationCount": 99346,
+      "hIndex": 138
+    },
+    "s2_papers": [
+      {
+        "paperId": "f291e58ff4bf45da8d388db2d2be2fdb99b1b8d5",
+        "externalIds": {
+          "DOI": "10.1016/j.cell.2024.07.057",
+          "CorpusId": 271957670,
+          "PubMed": "39197447"
+        },
+        "title": "Animal and bacterial viruses share conserved mechanisms of immune evasion.",
+        "venue": "Cell",
+        "year": 2024,
+        "citationCount": 22,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.cell.2024.07.057?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.cell.2024.07.057, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2248065082",
+            "name": "Samuel J. Hobbs"
+          },
+          {
+            "authorId": "2394603587",
+            "name": "Jason Nomburg"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          },
+          {
+            "authorId": "5072278",
+            "name": "P. Kranzusch"
+          }
+        ],
+        "abstract": "Animal and bacterial cells sense and defend against viral infections using evolutionarily conserved antiviral signaling pathways. Here, we show that viruses overcome host signaling using mechanisms of immune evasion that are directly shared across the eukaryotic and prokaryotic kingdoms of life. Structures of animal poxvirus proteins that inhibit host cGAS-STING signaling demonstrate architectural and catalytic active-site homology shared with bacteriophage Acb1 proteins, which inactivate CBASS anti-phage defense. In bacteria, phage Acb1 proteins are viral enzymes that degrade host cyclic nucleotide immune signals. Structural comparisons of poxvirus protein-2'3'-cGAMP and phage Acb1-3'3'-cGAMP complexes reveal a universal mechanism of host nucleotide immune signal degradation and explain kingdom-specific additions that enable viral adaptation. Chimeric bacteriophages confirm that animal poxvirus proteins are sufficient to evade immune signaling in bacteria. Our findings identify a mechanism of immune evasion conserved between animal and bacterial viruses and define shared rules that explain host-virus interactions across multiple kingdoms of life."
+      },
+      {
+        "paperId": "04992d7174dc01ef8c488f580deb7414b11d54c7",
+        "externalIds": {
+          "DOI": "10.1126/science.add8643",
+          "CorpusId": 255966509,
+          "PubMed": "36656942"
+        },
+        "title": "CRISPR technology: A decade of genome editing is only the beginning",
+        "venue": "Science",
+        "year": 2023,
+        "citationCount": 740,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1126/science.add8643?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1126/science.add8643, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2110239882",
+            "name": "Joy Y. Wang"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          }
+        ],
+        "abstract": "The advent of clustered regularly interspaced short palindromic repeat (CRISPR) genome editing, coupled with advances in computing and imaging capabilities, has initiated a new era in which genetic diseases and individual disease susceptibilities are both predictable and actionable. Likewise, genes responsible for plant traits can be identified and altered quickly, transforming the pace of agricultural research and plant breeding. In this Review, we discuss the current state of CRISPR-mediated genetic manipulation in human cells, animals, and plants along with relevant successes and challenges and present a roadmap for the future of this technology. Description A decade of CRISPR In the decade since the publication of CRISPR-Cas9 as a genome-editing technology, the CRISPR toolbox and its applications have profoundly changed basic and applied biological research. Wang and Doudna now review the origins and utility of CRISPR-based genome editing, the successes and current limitations of the technology, and where innovation and engineering are needed. The authors describe important advances in the development of CRISPR genome-editing technology and make predictions about where the field is headed. They also highlight specific examples in medicine and agriculture that show how CRISPR is already affecting society, with exciting opportunities for the future. \u2014DJ A review discusses the current state of CRISPR-mediated genetic manipulation in human cells, animals, and plants and considers its future potential. BACKGROUND The fields of molecular biology, genetics, and genomics are at a critical juncture\u2014a moment in history when a convergence of knowledge and methods has made it both technically possible and incredibly useful to edit specific base pairs or segments of DNA in cells and living organisms. The advent of clustered regularly interspaced short palindromic repeat (CRISPR) genome editing, coupled with advances in computing and imaging capabilities, has initiated a new era in which we can not only diagnose human diseases and even predict individual susceptibility based on personal genetics but also act on that information. Likewise, we can both identify and rapidly alter genes responsible for plant traits, transforming the pace of agricultural research and plant breeding. The applications of this technology convergence are profound and far reaching\u2014and they are happening now. In the decade since the publication of CRISPR-Cas9 as a genome editing technology, the CRISPR toolbox and its applications have profoundly changed biological research, impacting not only patients with genetic diseases but also agricultural practices and products. As a specific example from the field of genomic medicine, it has become feasible to obtain a complete sequence of the human genome in less than 24 hours\u2014a staggering advance considering the first such sequence took 5 years to generate. Notably, designing and putting to use a potent CRISPR genome editor to obtain clinically actionable information from that genome\u2014previously a near-intractable challenge\u2014now takes only a matter of days. For additional background and related topics, we refer readers to in-depth reviews of the microbiology and structural biology of CRISPR systems and to articles about the considerable ethical and societal challenges of this technology. ADVANCES The past decade has witnessed the discovery, engineering, and deployment of RNA-programmed genome editors across many applications. By leveraging CRISPR-Cas9\u2019s most fundamental activity to create a targeted genetic disruption in a gene or gene regulatory element, scientists have built successful platforms for the rapid creation of knockout mice and other animal models, genetic screening, and multiplexed editing. Beyond traditional CRISPR-Cas9\u2013induced knockouts, base editing\u2014a technology utilizing engineered Cas9\u2019s fused to enzymes that alter the chemical nature of DNA bases\u2014has also provided a highly useful strategy to generate site-specific and precise point mutations. Over the past decade, scientists have utilized CRISPR technology as a readily adaptable tool to probe biological function, dissect genetic interactions, and inform strategies to combat human diseases and engineer crops. This Review covers the origins and successes of CRISPR-based genome editing and discusses the most pressing challenges, which include improving editing accuracy and precision, implementing strategies for precise programmable genetic sequence insertions, improving targeted delivery of CRISPR editors, and increasing access and affordability. We examine current efforts addressing these challenges, including emerging gene insertion technologies and new delivery modalities, and describe where further innovation and engineering are needed. CRISPR genome editors are already being deployed in medicine and agriculture, and this Review highlights key examples, including a CRISPR-based therapy treating sickle cell disease, a more nutritious CRISPR-edited tomato, and a high-yield, disease-resistant CRISPR-edited wheat, to illustrate CRISPR\u2019s current and potential future impacts in society. OUTLOOK In the decade ahead, genome editing research and applications will continue to expand and will intersect with advances in technologies, such as machine learning, live cell imaging, and sequencing. A combination of discovery and engineering will diversify and refine the CRISPR toolbox to combat current challenges and enable more wide-ranging applications in both fundamental and applied research. Just as during the advent of CRISPR genome editing, a combination of scientific curiosity and the desire to benefit society will drive the next decade of innovation in CRISPR technology. CRISPR: past, present, and future. The past decade of CRISPR technology has focused on building the platforms for generating gene knockouts, creating knockout mice and other animal models, genetic screening, and multiplexed editing. CRISPR\u2019s applications in medicine and agriculture are already beginning and will serve as the focus for the next decade as society\u2019s demands drive further innovation in CRISPR technology."
+      },
+      {
+        "paperId": "053892407ec42591f3bf3f639c48f90743c826af",
+        "externalIds": {
+          "PubMedCentral": "10542519",
+          "DOI": "10.1101/2023.09.22.559000",
+          "CorpusId": 262840403,
+          "PubMed": "37790334"
+        },
+        "title": "A phage nucleus-associated RNA-binding protein is required for jumbo phage infection",
+        "venue": "bioRxiv",
+        "year": 2023,
+        "citationCount": 12,
+        "openAccessPdf": {
+          "url": "https://academic.oup.com/nar/advance-article-pdf/doi/10.1093/nar/gkae216/57125338/gkae216.pdf",
+          "status": "GREEN",
+          "license": "CCBYNC",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10542519, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "6296115",
+            "name": "Eray Enustun"
+          },
+          {
+            "authorId": "91533368",
+            "name": "Emily G. Armbruster"
+          },
+          {
+            "authorId": "2404010285",
+            "name": "Jina Lee"
+          },
+          {
+            "authorId": "2023837976",
+            "name": "Sitao Zhang"
+          },
+          {
+            "authorId": "3681864",
+            "name": "Brian A. Yee"
+          },
+          {
+            "authorId": "9676567",
+            "name": "Yajie Gu"
+          },
+          {
+            "authorId": "2187460696",
+            "name": "Amar Deep"
+          },
+          {
+            "authorId": "2216390264",
+            "name": "Jack T Naritomi"
+          },
+          {
+            "authorId": "2151697150",
+            "name": "Qishan Liang"
+          },
+          {
+            "authorId": "40248706",
+            "name": "S. Aigner"
+          },
+          {
+            "authorId": "2243374633",
+            "name": "Benjamin A. Adler"
+          },
+          {
+            "authorId": "2214641010",
+            "name": "Brady F. Cress"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          },
+          {
+            "authorId": "6237513",
+            "name": "Vorrapon Chaikeeratisak"
+          },
+          {
+            "authorId": "2239942128",
+            "name": "Don W. Cleveland"
+          },
+          {
+            "authorId": "2237763232",
+            "name": "Majid Ghassemian"
+          },
+          {
+            "authorId": "2148414",
+            "name": "Gene W. Yeo"
+          },
+          {
+            "authorId": "3652157",
+            "name": "J. Pogliano"
+          },
+          {
+            "authorId": "2237762641",
+            "name": "Kevin D. Corbett"
+          }
+        ],
+        "abstract": "Large-genome bacteriophages (jumbo phages) of the Chimalliviridae family assemble a nucleus-like compartment bounded by a protein shell that protects the replicating phage genome from host-encoded restriction enzymes and CRISPR/Cas nucleases. While the nuclear shell provides broad protection against host nucleases, it necessitates transport of mRNA out of the nucleus-like compartment for translation by host ribosomes, and transport of specific proteins into the nucleus-like compartment to support DNA replication and mRNA transcription. Here we identify a conserved phage nuclear shell-associated protein that we term Chimallin C (ChmC), which adopts a nucleic acid-binding fold, binds RNA with high affinity in vitro, and binds phage mRNAs in infected cells. ChmC also forms phase-separated condensates with RNA in vitro. Targeted knockdown of ChmC using mRNA-targeting dCas13d halts infections at an early stage. Taken together, our data suggest that the conserved ChmC protein acts as a chaperone for phage mRNAs, potentially stabilizing these mRNAs and driving their translocation through the nuclear shell to promote translation and infection progression."
+      },
+      {
+        "paperId": "0e9fa070a225d1d6f9d4f7bc0db483885f7a594f",
+        "externalIds": {
+          "PubMedCentral": "10725516",
+          "DOI": "10.1016/j.celrep.2023.113339",
+          "CorpusId": 264973090,
+          "PubMed": "37917583"
+        },
+        "title": "Targeting the non-coding genome and temozolomide signature enables CRISPR-mediated glioma oncolysis",
+        "venue": "Cell Reports",
+        "year": 2023,
+        "citationCount": 18,
+        "openAccessPdf": {
+          "url": "https://www.cell.com/article/S2211124723013517/pdf",
+          "status": "GOLD",
+          "license": "CCBYNCND",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10725516, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2411834459",
+            "name": "I-Li Tan"
+          },
+          {
+            "authorId": "2265070830",
+            "name": "Alexendar R. Perez"
+          },
+          {
+            "authorId": "151498056",
+            "name": "Rachel J. Lew"
+          },
+          {
+            "authorId": "2288235793",
+            "name": "Xiaoyu Sun"
+          },
+          {
+            "authorId": "2122816923",
+            "name": "Alisha Baldwin"
+          },
+          {
+            "authorId": "2317144553",
+            "name": "Yong K. Zhu"
+          },
+          {
+            "authorId": "2301196678",
+            "name": "Mihir M. Shah"
+          },
+          {
+            "authorId": "2147296649",
+            "name": "Mitchel S. Berger"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          },
+          {
+            "authorId": "2053699",
+            "name": "Christof Fellmann"
+          }
+        ],
+        "abstract": "SUMMARY Glioblastoma (GBM) is the most common lethal primary brain cancer in adults. Despite treatment regimens including surgical resection, radiotherapy, and temozolomide (TMZ) chemotherapy, growth of residual tumor leads to therapy resistance and death. At recurrence, a quarter to a third of all gliomas have hypermutated genomes, with mutational burdens orders of magnitude greater than in normal tissue. Here, we quantified the mutational landscape progression in a patient\u2019s primary and recurrent GBM, and we uncovered Cas9-targetable repeat elements. We show that CRISPR-mediated targeting of highly repetitive loci enables rapid elimination of GBM cells, an approach we term \u201cgenome shredding.\u201d Importantly, in the patient\u2019s recurrent GBM, we identified unique repeat sequences with TMZ mutational signature and demonstrated that their CRISPR targeting enables cancer-specific cell ablation. \u201cCancer shredding\u201d leverages the non-coding genome and therapy-induced mutational signatures for targeted GBM cell depletion and provides an innovative paradigm to develop treatments for hypermutated glioma."
+      },
+      {
+        "paperId": "47783614663392ecbaff76350253da361542f7c9",
+        "externalIds": {
+          "PubMedCentral": "10120482",
+          "DOI": "10.1038/s41467-023-37787-0",
+          "CorpusId": 258276489,
+          "PubMed": "37085489"
+        },
+        "title": "Rapid assembly of SARS-CoV-2 genomes reveals attenuation of the Omicron BA.1 variant through NSP6",
+        "venue": "Nature Communications",
+        "year": 2023,
+        "citationCount": 39,
+        "openAccessPdf": {
+          "url": "https://www.nature.com/articles/s41467-023-37787-0.pdf",
+          "status": "GOLD",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10120482, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "50097521",
+            "name": "T. Y. Taha"
+          },
+          {
+            "authorId": "1664861491",
+            "name": "I. Chen"
+          },
+          {
+            "authorId": "50642746",
+            "name": "J. Hayashi"
+          },
+          {
+            "authorId": "7985959",
+            "name": "T. Tabata"
+          },
+          {
+            "authorId": "2036348424",
+            "name": "Keith Walcott"
+          },
+          {
+            "authorId": "2205217469",
+            "name": "Gabriella R Kimmerly"
+          },
+          {
+            "authorId": "17409499",
+            "name": "A. Syed"
+          },
+          {
+            "authorId": "2038398063",
+            "name": "A. Ciling"
+          },
+          {
+            "authorId": "30521043",
+            "name": "R. Suryawanshi"
+          },
+          {
+            "authorId": "2053800708",
+            "name": "Hannah S Martin"
+          },
+          {
+            "authorId": "1632134896",
+            "name": "Bryan H. Bach"
+          },
+          {
+            "authorId": "48579258",
+            "name": "C. Tsou"
+          },
+          {
+            "authorId": "47279876",
+            "name": "M. Monta\u00f1o"
+          },
+          {
+            "authorId": "47554542",
+            "name": "M. Khalid"
+          },
+          {
+            "authorId": "4123080",
+            "name": "B. Sreekumar"
+          },
+          {
+            "authorId": "2086709001",
+            "name": "G. Renuka Kumar"
+          },
+          {
+            "authorId": "1810589",
+            "name": "S. Wyman"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          },
+          {
+            "authorId": "47151468",
+            "name": "M. Ott"
+          }
+        ],
+        "abstract": "Although the SARS-CoV-2 Omicron variant (BA.1) spread rapidly across the world and effectively evaded immune responses, its viral fitness in cell and animal models was reduced. The precise nature of this attenuation remains unknown as generating replication-competent viral genomes is challenging because of the length of the viral genome (~30\u2009kb). Here, we present a p lasmid-based viral g enome assemb l y and resc ue strategy (pGLUE) that constructs complete infectious viruses or noninfectious subgenomic replicons in a single ligation reaction with >80% efficiency. Fully sequenced replicons and infectious viral stocks can be generated in 1 and 3 weeks, respectively. By testing a series of naturally occurring viruses as well as Delta-Omicron chimeric replicons, we show that Omicron nonstructural protein 6 harbors critical attenuating mutations, which dampen viral RNA replication and reduce lipid droplet consumption. Thus, pGLUE overcomes remaining barriers to broadly study SARS-CoV-2 replication and reveals deficits in nonstructural protein function underlying Omicron attenuation. Omicron BA.1 is attenuated in infection models though the precise nature of this attenuation remains unknown as generating replication-competent viral genomes is challenging. Here the authors present pGLUE, a plasmid-based viral genome assembly and rescue strategy, to systematically characterize Omicron mutations and show that Omicron NSP6 has weakened lipid flow to replication organelles and reduced viral RNA replication."
+      },
+      {
+        "paperId": "5e43f3fbb9b48202d41c25537f013d265f7468e3",
+        "externalIds": {
+          "PubMedCentral": "10767948",
+          "DOI": "10.1093/nar/gkad890",
+          "CorpusId": 264516282,
+          "PubMed": "37889041"
+        },
+        "title": "CasPEDIA Database: a functional classification system for class 2 CRISPR-Cas enzymes",
+        "venue": "Nucleic Acids Research",
+        "year": 2023,
+        "citationCount": 30,
+        "openAccessPdf": {
+          "url": "https://academic.oup.com/nar/advance-article-pdf/doi/10.1093/nar/gkad890/52632013/gkad890.pdf",
+          "status": "GOLD",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10767948, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2243374633",
+            "name": "Benjamin A. Adler"
+          },
+          {
+            "authorId": "81913416",
+            "name": "M. Trinidad"
+          },
+          {
+            "authorId": "1399607259",
+            "name": "Daniel Bellieny-Rabelo"
+          },
+          {
+            "authorId": "2314814256",
+            "name": "Elaine Zhang"
+          },
+          {
+            "authorId": "2261920137",
+            "name": "Hannah Karp"
+          },
+          {
+            "authorId": "2261920134",
+            "name": "Petr Skopintsev"
+          },
+          {
+            "authorId": "88922892",
+            "name": "B. W. Thornton"
+          },
+          {
+            "authorId": "2261920413",
+            "name": "Rachel F. Weissman"
+          },
+          {
+            "authorId": "2261920132",
+            "name": "Peter H. Yoon"
+          },
+          {
+            "authorId": "2145160501",
+            "name": "Lin-xing Chen"
+          },
+          {
+            "authorId": "2160561491",
+            "name": "Tomas Hessler"
+          },
+          {
+            "authorId": "2192015898",
+            "name": "Amy R. Eggers"
+          },
+          {
+            "authorId": "2243376243",
+            "name": "David Colognori"
+          },
+          {
+            "authorId": "2067072100",
+            "name": "Ron S. Boger"
+          },
+          {
+            "authorId": "1995084020",
+            "name": "Erin E. Doherty"
+          },
+          {
+            "authorId": "41074947",
+            "name": "Connor A. Tsuchida"
+          },
+          {
+            "authorId": "2261920099",
+            "name": "Ryan V. Tran"
+          },
+          {
+            "authorId": "120255560",
+            "name": "L. Hofman"
+          },
+          {
+            "authorId": "21804808",
+            "name": "Honglue Shi"
+          },
+          {
+            "authorId": "2261920379",
+            "name": "Kevin Wasko"
+          },
+          {
+            "authorId": "2262082002",
+            "name": "Zehan Zhou"
+          },
+          {
+            "authorId": "2261921061",
+            "name": "Chenglong Xia"
+          },
+          {
+            "authorId": "2231507799",
+            "name": "Muntathar J. Al-Shimary"
+          },
+          {
+            "authorId": "2243380002",
+            "name": "Jaymin R. Patel"
+          },
+          {
+            "authorId": "2323601787",
+            "name": "V. C. Thomas"
+          },
+          {
+            "authorId": "2320349504",
+            "name": "Rithu K. Pattali"
+          },
+          {
+            "authorId": "2261920261",
+            "name": "Matthew J Kan"
+          },
+          {
+            "authorId": "2261921072",
+            "name": "Anna Vardapetyan"
+          },
+          {
+            "authorId": "2261921019",
+            "name": "Alana Yang"
+          },
+          {
+            "authorId": "2189434516",
+            "name": "Arushi Lahiri"
+          },
+          {
+            "authorId": "2067599350",
+            "name": "Michael Maxwell"
+          },
+          {
+            "authorId": "8238273",
+            "name": "A. Murdock"
+          },
+          {
+            "authorId": "2261921566",
+            "name": "Glenn C Ramit"
+          },
+          {
+            "authorId": "5269711",
+            "name": "H. Henderson"
+          },
+          {
+            "authorId": "2261919515",
+            "name": "Roland W. Calvert"
+          },
+          {
+            "authorId": "5100225",
+            "name": "R. Bamert"
+          },
+          {
+            "authorId": "5724810",
+            "name": "G. Knott"
+          },
+          {
+            "authorId": "2305148513",
+            "name": "Audrone Lapinaite"
+          },
+          {
+            "authorId": "6681014",
+            "name": "P. Pausch"
+          },
+          {
+            "authorId": "19198976",
+            "name": "J. Cofsky"
+          },
+          {
+            "authorId": "4798354",
+            "name": "E. Sontheimer"
+          },
+          {
+            "authorId": "4735828",
+            "name": "B. Wiedenheft"
+          },
+          {
+            "authorId": "1742236",
+            "name": "Peter C. Fineran"
+          },
+          {
+            "authorId": "2097897535",
+            "name": "Stan J. J. Brouns"
+          },
+          {
+            "authorId": "5509674",
+            "name": "Dipali G. Sashital"
+          },
+          {
+            "authorId": "2260897520",
+            "name": "Brian C. Thomas"
+          },
+          {
+            "authorId": "2150160982",
+            "name": "Christopher T. Brown"
+          },
+          {
+            "authorId": "88441817",
+            "name": "Daniela S. A. Goltsman"
+          },
+          {
+            "authorId": "2079191",
+            "name": "R. Barrangou"
+          },
+          {
+            "authorId": "2232467368",
+            "name": "Virginius Siksnys"
+          },
+          {
+            "authorId": "1967107",
+            "name": "J. Banfield"
+          },
+          {
+            "authorId": "2243376395",
+            "name": "David F. Savage"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          }
+        ],
+        "abstract": "Abstract CRISPR-Cas enzymes enable RNA-guided bacterial immunity and are widely used for biotechnological applications including genome editing. In particular, the Class 2 CRISPR-associated enzymes (Cas9, Cas12 and Cas13 families), have been deployed for numerous research, clinical and agricultural applications. However, the immense genetic and biochemical diversity of these proteins in the public domain poses a barrier for researchers seeking to leverage their activities. We present CasPEDIA (http://caspedia.org), the Cas Protein Effector Database of Information and Assessment, a curated encyclopedia that integrates enzymatic classification for hundreds of different Cas enzymes across 27 phylogenetic groups spanning the Cas9, Cas12 and Cas13 families, as well as evolutionarily related IscB and TnpB proteins. All enzymes in CasPEDIA were annotated with a standard workflow based on their primary nuclease activity, target requirements and guide-RNA design constraints. Our functional classification scheme, CasID, is described alongside current phylogenetic classification, allowing users to search related orthologs by enzymatic function and sequence similarity. CasPEDIA is a comprehensive data portal that summarizes and contextualizes enzymatic properties of widely used Cas enzymes, equipping users with valuable resources to foster biotechnological development. CasPEDIA complements phylogenetic Cas nomenclature and enables researchers to leverage the multi-faceted nucleic-acid targeting rules of diverse Class 2 Cas enzymes."
+      },
+      {
+        "paperId": "6e3f9dc6e94f53e52e012f4aa8ae2a2ad92e536c",
+        "externalIds": {
+          "PubMedCentral": "10284694",
+          "DOI": "10.1038/s41586-023-06178-2",
+          "CorpusId": 256276109,
+          "PubMed": "37316664"
+        },
+        "title": "Genome expansion by a CRISPR trimmer-integrase",
+        "venue": "bioRxiv",
+        "year": 2023,
+        "citationCount": 32,
+        "openAccessPdf": {
+          "url": "https://www.nature.com/articles/s41586-023-06178-2.pdf",
+          "status": "HYBRID",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10284694, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2110239882",
+            "name": "Joy Y. Wang"
+          },
+          {
+            "authorId": "2275061107",
+            "name": "Owen T. Tuck"
+          },
+          {
+            "authorId": "6544635",
+            "name": "P. Skopintsev"
+          },
+          {
+            "authorId": "52020616",
+            "name": "K. Soczek"
+          },
+          {
+            "authorId": "2275603158",
+            "name": "Gary Li"
+          },
+          {
+            "authorId": "1405116717",
+            "name": "B. Al-Shayeb"
+          },
+          {
+            "authorId": "2203164869",
+            "name": "Julia Zhou"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          }
+        ],
+        "abstract": "CRISPR systems lacking Cas4 can use fused or recruited exonucleases for faithful acquisition of new CRISPR immune sequences. CRISPR\u2013Cas adaptive immune systems capture DNA fragments from invading mobile genetic elements and integrate them into the host genome to provide a template for RNA-guided immunity^ 1 . CRISPR systems maintain genome integrity and avoid autoimmunity by distinguishing between self and non-self, a process for which the CRISPR/Cas1\u2013Cas2 integrase is necessary but not sufficient^ 2 \u2013 5 . In some microorganisms, the Cas4 endonuclease assists CRISPR adaptation^ 6 , 7 , but many CRISPR\u2013Cas systems lack Cas4^ 8 . Here we show here that an elegant alternative pathway in a type I-E system uses an internal DnaQ-like exonuclease (DEDDh) to select and process DNA for integration using the protospacer adjacent motif (PAM). The natural Cas1\u2013Cas2/exonuclease fusion (trimmer-integrase) catalyses coordinated DNA capture, trimming and integration. Five cryo-electron microscopy structures of the CRISPR trimmer-integrase, visualized both before and during DNA integration, show how asymmetric processing generates size-defined, PAM-containing substrates. Before genome integration, the PAM sequence is released by Cas1 and cleaved by the exonuclease, marking inserted DNA as self and preventing aberrant CRISPR targeting of the host. Together, these data support a model in which CRISPR systems lacking Cas4 use fused or recruited^ 9 , 10 exonucleases for faithful acquisition of new CRISPR immune sequences."
+      },
+      {
+        "paperId": "7129dd4a369ea8ebe92def092bee948b8bbf181b",
+        "externalIds": {
+          "DOI": "10.1101/2023.09.18.558157",
+          "CorpusId": 262087521
+        },
+        "title": "Genome-wide Characterization of Diverse Bacteriophages Enabled by RNA-Binding CRISPRi",
+        "venue": "bioRxiv",
+        "year": 2023,
+        "citationCount": 14,
+        "openAccessPdf": {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2023/09/18/2023.09.18.558157.full.pdf",
+          "status": "GREEN",
+          "license": "CCBYNCND",
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.09.18.558157?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.09.18.558157, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2243374633",
+            "name": "Benjamin A. Adler"
+          },
+          {
+            "authorId": "2231507799",
+            "name": "Muntathar J. Al-Shimary"
+          },
+          {
+            "authorId": "2243380002",
+            "name": "Jaymin R. Patel"
+          },
+          {
+            "authorId": "91533368",
+            "name": "Emily G. Armbruster"
+          },
+          {
+            "authorId": "2243376243",
+            "name": "David Colognori"
+          },
+          {
+            "authorId": "2243376291",
+            "name": "Emeric J. Charles"
+          },
+          {
+            "authorId": "2243380096",
+            "name": "Kate V Miller"
+          },
+          {
+            "authorId": "2189434516",
+            "name": "Arushi Lahiri"
+          },
+          {
+            "authorId": "81913416",
+            "name": "M. Trinidad"
+          },
+          {
+            "authorId": "2067072100",
+            "name": "Ron S. Boger"
+          },
+          {
+            "authorId": "150155571",
+            "name": "Jason Nomburg"
+          },
+          {
+            "authorId": "2243378052",
+            "name": "Sebastien Beurnier"
+          },
+          {
+            "authorId": "2244307818",
+            "name": "Michael Cui"
+          },
+          {
+            "authorId": "2079191",
+            "name": "R. Barrangou"
+          },
+          {
+            "authorId": "3335918",
+            "name": "Vivek K. Mutalik"
+          },
+          {
+            "authorId": "3172513",
+            "name": "J. Schoeniger"
+          },
+          {
+            "authorId": "2243375414",
+            "name": "Joseph A. Pogliano"
+          },
+          {
+            "authorId": "2243376395",
+            "name": "David F. Savage"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          },
+          {
+            "authorId": "2214641010",
+            "name": "Brady F. Cress"
+          }
+        ],
+        "abstract": "Bacteriophages constitute one of the largest sources of unknown gene content in the biosphere. Even for well-studied model phages, robust experimental approaches to identify and study their essential genes remain elusive. We uncover and exploit the conserved vulnerability of the phage transcriptome to facilitate genome-wide protein expression knockdown via programmable RNA-binding protein dRfxCas13d (CRISPRi-ART) across diverse phages and their host. Establishing the first broad-spectrum phage functional genomics platform, we predict over 90 essential genes across four phage genomes, a third of which have no known function. These results highlight hidden infection strategies encoded in the most abundant biological entities on earth and provide a facile platform to study them."
+      },
+      {
+        "paperId": "81471fc270387b26a14777a94686d37ebf3a0243",
+        "externalIds": {
+          "DOI": "10.1101/2023.08.16.553581",
+          "CorpusId": 261050298,
+          "PubMed": "37863261"
+        },
+        "title": "Assembly of SARS-CoV-2 ribonucleosomes by truncated N* variant of the nucleocapsid protein",
+        "venue": "bioRxiv",
+        "year": 2023,
+        "citationCount": 22,
+        "openAccessPdf": {
+          "url": "http://www.jbc.org/article/S0021925823023906/pdf",
+          "status": "GREEN",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.08.16.553581?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.08.16.553581, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2166680928",
+            "name": "Armin N. Adly"
+          },
+          {
+            "authorId": "2037415484",
+            "name": "Maxine Bi"
+          },
+          {
+            "authorId": "48840177",
+            "name": "Christopher R. Carlson"
+          },
+          {
+            "authorId": "17409499",
+            "name": "A. Syed"
+          },
+          {
+            "authorId": "2038398063",
+            "name": "A. Ciling"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          },
+          {
+            "authorId": "5883004",
+            "name": "Yifan Cheng"
+          },
+          {
+            "authorId": "2412819196",
+            "name": "D. Morgan"
+          }
+        ],
+        "abstract": "The Nucleocapsid (N) protein of SARS-CoV-2 compacts the RNA genome into viral ribonucleoprotein (vRNP) complexes within virions. Assembly of vRNPs is inhibited by phosphorylation of the N protein SR region. Several SARS-CoV-2 variants of concern carry N protein mutations that reduce phosphorylation and enhance the efficiency of viral packaging. Variants of the dominant B.1.1 viral lineage also encode a truncated N protein, termed N* or \u0394(1\u2013209), that mediates genome packaging despite lacking the N-terminal RNA-binding domain and SR region. Here, we show that \u0394(1\u2013209) and viral RNA assemble into vRNPs that are remarkably similar in size and shape to those formed with full-length N protein. We show that assembly of \u0394(1\u2013209) vRNPs requires the leucine-rich helix (LH) of the central disordered region, and that the LH promotes N protein oligomerization. We also find that fusion of a phosphomimetic SR region to \u0394(1\u2013209) inhibits RNA binding and vRNP assembly. Our results provide new insights into the mechanisms by which RNA binding promotes N protein self-association and vRNP assembly, and how this process is modulated by SR phosphorylation."
+      },
+      {
+        "paperId": "92e741b84b76b58cfc02fa176ee954c870d36b45",
+        "externalIds": {
+          "PubMedCentral": "10422012",
+          "DOI": "10.1101/2023.04.13.536294",
+          "CorpusId": 258182093,
+          "PubMed": "37403358"
+        },
+        "title": "Genome editing in the mouse brain with minimally immunogenic Cas9 RNPs",
+        "venue": "bioRxiv",
+        "year": 2023,
+        "citationCount": 23,
+        "openAccessPdf": {
+          "url": "http://www.cell.com/article/S1525001623003763/pdf",
+          "status": "GREEN",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10422012, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "1752881774",
+            "name": "E. Stahl"
+          },
+          {
+            "authorId": "5887785",
+            "name": "Jennifer K. Sabo"
+          },
+          {
+            "authorId": "1405923234",
+            "name": "M. Kang"
+          },
+          {
+            "authorId": "2214598111",
+            "name": "Ryan Allen"
+          },
+          {
+            "authorId": "2214597650",
+            "name": "Elizabeth Applegate"
+          },
+          {
+            "authorId": "2119119280",
+            "name": "S. Kim"
+          },
+          {
+            "authorId": "2217600431",
+            "name": "Yoonjin Kwon"
+          },
+          {
+            "authorId": "2401771963",
+            "name": "A. Seth"
+          },
+          {
+            "authorId": "2214596656",
+            "name": "Nicholas Lemus"
+          },
+          {
+            "authorId": "2214597618",
+            "name": "Viviana Salinas-Rios"
+          },
+          {
+            "authorId": "52020616",
+            "name": "K. Soczek"
+          },
+          {
+            "authorId": "81913416",
+            "name": "M. Trinidad"
+          },
+          {
+            "authorId": "2213477637",
+            "name": "L. T. V\u00f5"
+          },
+          {
+            "authorId": "48005615",
+            "name": "C. Jeans"
+          },
+          {
+            "authorId": "2200203969",
+            "name": "Anna Wo\u017aniak"
+          },
+          {
+            "authorId": "2057160012",
+            "name": "Timothy Morris"
+          },
+          {
+            "authorId": "7911408",
+            "name": "Athen N Kimberlin"
+          },
+          {
+            "authorId": "2188172153",
+            "name": "Tom Foti"
+          },
+          {
+            "authorId": "5662236",
+            "name": "D. Savage"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          }
+        ],
+        "abstract": "Transient delivery of CRISPR-Cas9 ribonucleoproteins (RNPs) into the central nervous system (CNS) for therapeutic genome editing could avoid limitations of viral vector-based delivery including cargo capacity, immunogenicity, and cost. Here we tested the ability of cell penetrant Cas9 RNPs to edit the mouse striatum when introduced using a convection enhanced delivery system. These transient Cas9 RNPs showed comparable editing of neurons and reduced adaptive immune responses relative to one formulation of Cas9 delivered using AAV serotype 9. The production of ultra-low-endotoxin Cas9 protein manufactured at scale further improved innate immunity. We conclude that injection-based delivery of minimally immunogenic CRISPR genome editing RNPs into the CNS provides a valuable alternative to virus-mediated genome editing."
+      },
+      {
+        "paperId": "db2e3529882e405098710c73fb1164c7d17dcc89",
+        "externalIds": {
+          "DOI": "10.1101/2023.08.09.552727",
+          "CorpusId": 260867041,
+          "PubMed": "37609353"
+        },
+        "title": "Eukaryotic RNA-guided endonucleases evolved from a unique clade of bacterial enzymes",
+        "venue": "bioRxiv",
+        "year": 2023,
+        "citationCount": 11,
+        "openAccessPdf": {
+          "url": "https://academic.oup.com/nar/advance-article-pdf/doi/10.1093/nar/gkad1053/53471383/gkad1053.pdf",
+          "status": "GREEN",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.08.09.552727?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.08.09.552727, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "50105136",
+            "name": "P. Yoon"
+          },
+          {
+            "authorId": "6544635",
+            "name": "P. Skopintsev"
+          },
+          {
+            "authorId": "21804808",
+            "name": "Honglue Shi"
+          },
+          {
+            "authorId": "5923833",
+            "name": "Lin-Xing Chen"
+          },
+          {
+            "authorId": "32565688",
+            "name": "B. Adler"
+          },
+          {
+            "authorId": "2231507799",
+            "name": "Muntathar J. Al-Shimary"
+          },
+          {
+            "authorId": "35694655",
+            "name": "Rory J. Craig"
+          },
+          {
+            "authorId": "2146249363",
+            "name": "Zheng Li"
+          },
+          {
+            "authorId": "2189562447",
+            "name": "Jasmine Amerasekera"
+          },
+          {
+            "authorId": "81913416",
+            "name": "M. Trinidad"
+          },
+          {
+            "authorId": "4527007",
+            "name": "Hunter M. Nisonoff"
+          },
+          {
+            "authorId": "2230890081",
+            "name": "Kai Chen"
+          },
+          {
+            "authorId": "2189434516",
+            "name": "Arushi Lahiri"
+          },
+          {
+            "authorId": "2067072100",
+            "name": "Ron S. Boger"
+          },
+          {
+            "authorId": "1916800",
+            "name": "S. Jacobsen"
+          },
+          {
+            "authorId": "1967107",
+            "name": "J. Banfield"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          }
+        ],
+        "abstract": "RNA-guided endonucleases form the crux of diverse biological processes and technologies, including adaptive immunity, transposition, and genome editing. Some of these enzymes are components of insertion sequences (IS) in the IS200/IS605 and IS607 transposon families. Both IS families encode a TnpA transposase and TnpB nuclease, an RNA-guided enzyme ancestral to CRISPR-Cas12. In eukaryotes and their viruses, TnpB homologs occur as two distinct types, Fanzor1 and Fanzor2. We analyzed the evolutionary relationships between prokaryotic TnpBs and eukaryotic Fanzors, revealing that a clade of IS607 TnpBs with unusual active site arrangement found primarily in Cyanobacteriota likely gave rise to both types of Fanzors. The wide-spread nature of Fanzors imply that the properties of this particular group of IS607 TnpBs were particularly suited to adaptation and evolution in eukaryotes and their viruses. Experimental characterization of a prokaryotic IS607 TnpB and virally encoded Fanzor1s uncovered features that may have fostered coevolution between TnpBs/Fanzors and their cognate transposases. Our results provide insight into the evolutionary origins of a ubiquitous family of RNA-guided proteins that shows remarkable conservation across domains of life."
+      },
+      {
+        "paperId": "f2e98fdc9d61c979dca95f231e5e27452b1a4aa4",
+        "externalIds": {
+          "DOI": "10.1101/2023.11.15.567251",
+          "CorpusId": 265255006,
+          "PubMed": "38014180"
+        },
+        "title": "Engineering self-deliverable ribonucleoproteins for genome editing in the brain",
+        "venue": "bioRxiv",
+        "year": 2023,
+        "citationCount": 6,
+        "openAccessPdf": {
+          "url": "https://www.nature.com/articles/s41467-024-45998-2.pdf",
+          "status": "GREEN",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2023.11.15.567251?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2023.11.15.567251, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2230890081",
+            "name": "Kai Chen"
+          },
+          {
+            "authorId": "1752881774",
+            "name": "E. Stahl"
+          },
+          {
+            "authorId": "2267153264",
+            "name": "Min Hyung Kang"
+          },
+          {
+            "authorId": "2267158563",
+            "name": "Bryant Xu"
+          },
+          {
+            "authorId": "2214598111",
+            "name": "Ryan Allen"
+          },
+          {
+            "authorId": "81913416",
+            "name": "M. Trinidad"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          }
+        ],
+        "abstract": "The delivery of CRISPR ribonucleoproteins (RNPs) for genome editing in vitro and in vivo has important advantages over other delivery methods, including reduced off-target and immunogenic effects1. However, effective delivery of RNPs remains challenging in certain cell types due to low efficiency and cell toxicity. To address these issues, we engineered self-deliverable RNPs that can promote efficient cellular uptake and carry out robust genome editing without the need for helper materials or biomolecules. Screening of cell-penetrating peptides (CPPs) fused to CRISPR-Cas9 protein identified potent constructs capable of efficient genome editing of neural progenitor cells. Further engineering of these fusion proteins identified a C-terminal Cas9 fusion with three copies of A22p, a peptide derived from human semaphorin-3a, that exhibited substantially improved editing efficacy compared to other constructs. We found that self-deliverable Cas9 RNPs generated robust genome edits in clinically relevant genes when injected directly into the mouse striatum. Overall, self-deliverable Cas9 proteins provide a facile and effective platform for genome editing in vitro and in vivo."
+      },
+      {
+        "paperId": "ff59396d8f8975aefbfd06f8eca3b8f4d27e8c00",
+        "externalIds": {
+          "PubMedCentral": "10055432",
+          "DOI": "10.1101/2023.03.22.533709",
+          "CorpusId": 263839373,
+          "PubMed": "36993359"
+        },
+        "title": "Mitigation of chromosome loss in clinical CRISPR-Cas9-engineered T cells",
+        "venue": "bioRxiv",
+        "year": 2023,
+        "citationCount": 130,
+        "openAccessPdf": {
+          "url": "https://www.cell.com/article/S0092867423009753/pdf",
+          "status": "GREEN",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10055432, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "41074947",
+            "name": "Connor A. Tsuchida"
+          },
+          {
+            "authorId": "6822067",
+            "name": "N. Brandes"
+          },
+          {
+            "authorId": "2053533085",
+            "name": "R. Bueno"
+          },
+          {
+            "authorId": "81913416",
+            "name": "M. Trinidad"
+          },
+          {
+            "authorId": "2212614742",
+            "name": "Thomas Mazumder"
+          },
+          {
+            "authorId": "2300340050",
+            "name": "Bingfei Yu"
+          },
+          {
+            "authorId": "40370599",
+            "name": "Byungjin Hwang"
+          },
+          {
+            "authorId": "2200314780",
+            "name": "Christopher R. Chang"
+          },
+          {
+            "authorId": "39172379",
+            "name": "Jamin Liu"
+          },
+          {
+            "authorId": "2257337878",
+            "name": "Yang Sun"
+          },
+          {
+            "authorId": "2128048371",
+            "name": "Caitlin R. Hopkins"
+          },
+          {
+            "authorId": "2056957642",
+            "name": "Kevin R. Parker"
+          },
+          {
+            "authorId": "2253192841",
+            "name": "Yanyan Qi"
+          },
+          {
+            "authorId": "2242746207",
+            "name": "Ansuman T. Satpathy"
+          },
+          {
+            "authorId": "4165355",
+            "name": "E. Stadtmauer"
+          },
+          {
+            "authorId": "2239574458",
+            "name": "Jamie H. D. Cate"
+          },
+          {
+            "authorId": "50508006",
+            "name": "Justin Eyquem"
+          },
+          {
+            "authorId": "4553976",
+            "name": "J. Fraietta"
+          },
+          {
+            "authorId": "2237763885",
+            "name": "Carl H. June"
+          },
+          {
+            "authorId": "2252286717",
+            "name": "Howard Y. Chang"
+          },
+          {
+            "authorId": "2250946170",
+            "name": "C. Ye"
+          },
+          {
+            "authorId": "4448238",
+            "name": "J. Doudna"
+          }
+        ],
+        "abstract": "CRISPR-Cas9 genome editing has enabled advanced T cell therapies, but occasional loss of the targeted chromosome remains a safety concern. To investigate whether Cas9-induced chromosome loss is a universal phenomenon and evaluate its clinical significance, we conducted a systematic analysis in primary human T cells. Arrayed and pooled CRISPR screens revealed that chromosome loss was generalizable across the genome and resulted in partial and entire loss of the chromosome, including in pre-clinical chimeric antigen receptor T cells. T cells with chromosome loss persisted for weeks in culture, implying the potential to interfere with clinical use. A modified cell manufacturing process, employed in our first-in-human clinical trial of Cas9-engineered T cells,1 dramatically reduced chromosome loss while largely preserving genome editing efficacy. Expression of p53 correlated with protection from chromosome loss observed in this protocol, suggesting both a mechanism and strategy for T cell engineering that mitigates this genotoxicity in the clinic."
+      }
+    ],
+    "s2_all_count": 100
+  },
+  "Harris Wang": {},
+  "Le Cong": {},
+  "Yoshua Bengio": {
+    "s2_author": {
+      "authorId": "1751762",
+      "name": "Yoshua Bengio",
+      "paperCount": 811,
+      "citationCount": 563278,
+      "hIndex": 212
+    },
+    "s2_papers": [
+      {
+        "paperId": "0fdff0a9a42dfb00f1b99d9025be3759b8fe6fd2",
+        "externalIds": {
+          "DOI": "10.1353/jod.2023.a907692",
+          "CorpusId": 262191335
+        },
+        "title": "AI and Catastrophic Risk",
+        "venue": "Journal of Democracy",
+        "year": 2023,
+        "citationCount": 27,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1353/jod.2023.a907692?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1353/jod.2023.a907692, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          }
+        ],
+        "abstract": "Abstract:Since OpenAI's release of the very large language models Chat-GPT and GPT-4, the potential dangers of AI have garnered widespread public attention. In this essay, the author reviews the threats to democracy posed by the possibility of \"rogue AIs,\" dangerous and powerful AIs that would execute harmful goals, irrespective of whether the outcomes are intended by humans. To mitigate against the risk that rogue AIs present to democracy and geopolitical stability, the author argues that research into safe and defensive AIs should be conducted by a multilateral, international network of research laboratories."
+      },
+      {
+        "paperId": "d08a0eb7024dff5c4fabd58144a38031633d4e1a",
+        "externalIds": {
+          "MAG": "3007332492",
+          "DBLP": "journals/corr/abs-2003-00982",
+          "ArXiv": "2003.00982",
+          "CorpusId": 211677851
+        },
+        "title": "Benchmarking Graph Neural Networks",
+        "venue": "Journal of machine learning research",
+        "year": 2023,
+        "citationCount": 1124,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://arxiv.org/abs/2003.00982, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "51235219",
+            "name": "Vijay Prakash Dwivedi"
+          },
+          {
+            "authorId": "38009979",
+            "name": "Chaitanya K. Joshi"
+          },
+          {
+            "authorId": "81634721",
+            "name": "T. Laurent"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          },
+          {
+            "authorId": "2549032",
+            "name": "X. Bresson"
+          }
+        ],
+        "abstract": "Graph neural networks (GNNs) have become the standard toolkit for analyzing and learning from data on graphs. As the field grows, it becomes critical to identify key architectures and validate new ideas that generalize to larger, more complex datasets. Unfortunately, it has been increasingly difficult to gauge the effectiveness of new models in the absence of a standardized benchmark with consistent experimental settings. In this paper, we introduce a reproducible GNN benchmarking framework, with the facility for researchers to add new models conveniently for arbitrary datasets. We demonstrate the usefulness of our framework by presenting a principled investigation into the recent Weisfeiler-Lehman GNNs (WL-GNNs) compared to message passing-based graph convolutional networks (GCNs) for a variety of graph tasks, i.e. graph regression/classification and node/link prediction, with medium-scale datasets."
+      },
+      {
+        "paperId": "f25a86995de6d6275bd433eb33ebf52ba6c1e669",
+        "externalIds": {
+          "PubMedCentral": "10395661",
+          "DOI": "10.1093/jcag/gwad017",
+          "CorpusId": 258473725,
+          "PubMed": "37538187"
+        },
+        "title": "Automated Detection of Anatomical Landmarks During Colonoscopy Using a Deep Learning Model",
+        "venue": "Journal of the Canadian Association of Gastroenterology",
+        "year": 2023,
+        "citationCount": 12,
+        "openAccessPdf": {
+          "url": "https://academic.oup.com/jcag/advance-article-pdf/doi/10.1093/jcag/gwad017/50170917/gwad017.pdf",
+          "status": "GOLD",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10395661, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "41097344",
+            "name": "M. Taghiakbari"
+          },
+          {
+            "authorId": "2210959396",
+            "name": "S. Hamidi Ghalehjegh"
+          },
+          {
+            "authorId": "91393750",
+            "name": "Emmanuel Jehanno"
+          },
+          {
+            "authorId": "90073647",
+            "name": "T. Berthier"
+          },
+          {
+            "authorId": "2087086083",
+            "name": "L. di Jorio"
+          },
+          {
+            "authorId": "8236365",
+            "name": "S. Ghadakzadeh"
+          },
+          {
+            "authorId": "2418483",
+            "name": "A. Barkun"
+          },
+          {
+            "authorId": "2169095108",
+            "name": "M. Takla"
+          },
+          {
+            "authorId": "3410956",
+            "name": "M. Bouin"
+          },
+          {
+            "authorId": "14983634",
+            "name": "E. Deslandres"
+          },
+          {
+            "authorId": "47172918",
+            "name": "S. Bouchard"
+          },
+          {
+            "authorId": "50358579",
+            "name": "S. Sidani"
+          },
+          {
+            "authorId": "1751762",
+            "name": "Yoshua Bengio"
+          },
+          {
+            "authorId": "10444920",
+            "name": "D. von Renteln"
+          }
+        ],
+        "abstract": "Abstract Background and aims Identification and photo-documentation of the ileocecal valve (ICV) and appendiceal orifice (AO) confirm completeness of colonoscopy examinations. We aimed to develop and test a deep convolutional neural network (DCNN) model that can automatically identify ICV and AO, and differentiate these landmarks from normal mucosa and colorectal polyps. Methods We prospectively collected annotated full-length colonoscopy videos of 318 patients undergoing outpatient colonoscopies. We created three nonoverlapping training, validation, and test data sets with 25,444 unaltered frames extracted from the colonoscopy videos showing four landmarks/image classes (AO, ICV, normal mucosa, and polyps). A DCNN classification model was developed, validated, and tested in separate data sets of images containing the four different landmarks. Results After training and validation, the DCNN model could identify both AO and ICV in 18 out of 21 patients (85.7%). The accuracy of the model for differentiating AO from normal mucosa, and ICV from normal mucosa were 86.4% (95% CI 84.1% to 88.5%), and 86.4% (95% CI 84.1% to 88.6%), respectively. Furthermore, the accuracy of the model for differentiating polyps from normal mucosa was 88.6% (95% CI 86.6% to 90.3%). Conclusion This model offers a novel tool to assist endoscopists with automated identification of AO and ICV during colonoscopy. The model can reliably distinguish these anatomical landmarks from normal mucosa and colorectal polyps. It can be implemented into automated colonoscopy report generation, photo-documentation, and quality auditing solutions to improve colonoscopy reporting quality."
+      }
+    ],
+    "s2_all_count": 100
+  },
+  "Eugene Shakhnovich": {},
+  "Jonathan Weissman": {
+    "s2_author": {
+      "authorId": "2250807742",
+      "name": "Jonathan S. Weissman",
+      "paperCount": 25,
+      "citationCount": 2171,
+      "hIndex": 10
+    },
+    "s2_papers": [
+      {
+        "paperId": "c8c0212083fe49f94d4af77b9a4de60463cce043",
+        "externalIds": {
+          "DOI": "10.1126/science.aea1272",
+          "CorpusId": 285547748,
+          "PubMed": "41678638"
+        },
+        "title": "Mechanisms linking cytoplasmic decay of translation-defective mRNA to transcriptional adaptation.",
+        "venue": "Science",
+        "year": 2026,
+        "citationCount": 2,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1126/science.aea1272?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1126/science.aea1272, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2313484503",
+            "name": "Mohamed A. El-Brolosy"
+          },
+          {
+            "authorId": "2194912599",
+            "name": "A. Oak"
+          },
+          {
+            "authorId": "2015048436",
+            "name": "An T. Hoang"
+          },
+          {
+            "authorId": "2410468212",
+            "name": "Yassine Damergi"
+          },
+          {
+            "authorId": "2256533728",
+            "name": "Andr\u00e9 Fischer"
+          },
+          {
+            "authorId": "49154184",
+            "name": "R. Saunders"
+          },
+          {
+            "authorId": "2216535877",
+            "name": "Jingchuan Luo"
+          },
+          {
+            "authorId": "2160986451",
+            "name": "Amer Balabaki"
+          },
+          {
+            "authorId": "2320841809",
+            "name": "J\u00e9r\u00e9my Guez"
+          },
+          {
+            "authorId": "2243241628",
+            "name": "Troy W. Whitfield"
+          },
+          {
+            "authorId": "2276503971",
+            "name": "S. Goldman"
+          },
+          {
+            "authorId": "2375173410",
+            "name": "Arash Latifkar"
+          },
+          {
+            "authorId": "2346675651",
+            "name": "Yuancheng Ryan Lu"
+          },
+          {
+            "authorId": "2258424195",
+            "name": "Didier Y. R. Stainier"
+          },
+          {
+            "authorId": "2324017207",
+            "name": "K. Karczewski"
+          },
+          {
+            "authorId": "2281811733",
+            "name": "O. Corradin"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          }
+        ],
+        "abstract": "Transcriptional adaptation (TA) is a genetic robustness mechanism through which mutant messenger RNA (mRNA) decay induces sequence-dependent up-regulation of so-called adapting genes. How cytoplasmically generated mRNA fragments affect nuclear transcription remains poorly understood. Using genome-wide CRISPR screens, we uncover ILF3 as an RNA binding protein connecting cytoplasmic mRNA decay and transcription during TA and show that it is required for a range of TA substrates. ILF3 is enriched at adapting genes' RNAs, and its artificial recruitment through dCas13 promotes gene expression. Using tiling oligonucleotide screens, we identify trigger RNA fragments that activate adapting genes when introduced into cells. Further functional dissection reveals a critical role for homology between trigger and target sequences. These findings enhance our molecular understanding of TA and inform the design of programmable oligonucleotides for gene expression augmentation."
+      },
+      {
+        "paperId": "ea0bcfbef2053bb3e9b7ec1e4902ea4133b6e009",
+        "externalIds": {
+          "DOI": "10.1038/s43018-026-01130-5",
+          "CorpusId": 286009274,
+          "PubMed": "41735640"
+        },
+        "title": "The GENEVA platform models tumor mosaicism to reveal variations of responses to KRAS inhibitors and identify improved drug combinations.",
+        "venue": "Nature Cancer",
+        "year": 2026,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null,
+          "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s43018-026-01130-5?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s43018-026-01130-5, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "49402994",
+            "name": "Johnny Yu"
+          },
+          {
+            "authorId": "2293181077",
+            "name": "Jung Min Suh"
+          },
+          {
+            "authorId": "26638598",
+            "name": "K. D. Popova"
+          },
+          {
+            "authorId": "1741362902",
+            "name": "Kristle Garcia"
+          },
+          {
+            "authorId": "2244387471",
+            "name": "T. Joshi"
+          },
+          {
+            "authorId": "2065164329",
+            "name": "Bruce Culbertson"
+          },
+          {
+            "authorId": "2320052182",
+            "name": "Jessica B Spinelli"
+          },
+          {
+            "authorId": "2106104579",
+            "name": "Vishvak Subramanyam"
+          },
+          {
+            "authorId": "2314087752",
+            "name": "Kevin Lou"
+          },
+          {
+            "authorId": "2342689936",
+            "name": "Trey Charbonneau"
+          },
+          {
+            "authorId": "2299601565",
+            "name": "K. Shokat"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          },
+          {
+            "authorId": "2239086731",
+            "name": "Hani Goodarzi"
+          }
+        ],
+        "abstract": null
+      },
+      {
+        "paperId": "306fe56d4d5b9a4de12be73a14dcdbee9c2f3137",
+        "externalIds": {
+          "PubMedCentral": "12354852",
+          "DOI": "10.1038/s41467-025-62818-3",
+          "CorpusId": 280660305,
+          "PubMed": "40813572"
+        },
+        "title": "Large-scale CRISPR screening in primary human 3D gastric organoids enables comprehensive dissection of gene-drug interactions",
+        "venue": "Nature Communications",
+        "year": 2025,
+        "citationCount": 6,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": "CCBYNCND",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC12354852, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2354073680",
+            "name": "Yuan-Hung Lo"
+          },
+          {
+            "authorId": "103319037",
+            "name": "Hudson T Horn"
+          },
+          {
+            "authorId": "1491611774",
+            "name": "Mo-Fan Huang"
+          },
+          {
+            "authorId": "2357446668",
+            "name": "Wei Yu"
+          },
+          {
+            "authorId": "2318946649",
+            "name": "Chia-Mei Young"
+          },
+          {
+            "authorId": "2400830364",
+            "name": "Qing Liu"
+          },
+          {
+            "authorId": "2174753911",
+            "name": "Madeline Tomaske"
+          },
+          {
+            "authorId": "2375990957",
+            "name": "Martina Towers"
+          },
+          {
+            "authorId": "143675830",
+            "name": "Antonia Dominguez"
+          },
+          {
+            "authorId": "3511643",
+            "name": "M. Bassik"
+          },
+          {
+            "authorId": "2295491552",
+            "name": "Dung-Fang Lee"
+          },
+          {
+            "authorId": "2377999494",
+            "name": "L. S. Qi"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          },
+          {
+            "authorId": "2144189453",
+            "name": "Jin Chen"
+          },
+          {
+            "authorId": "2241514729",
+            "name": "Calvin J. Kuo"
+          }
+        ],
+        "abstract": "Understanding how genes influence drug responses is critical for advancing personalized cancer treatments. However, identifying these gene-drug interactions in a physiologically relevant human system remains a challenge, as it requires a model that reflects the complexity and heterogeneity among individuals. Here we show that large-scale CRISPR-based genetic screens, including knockout, interference (CRISPRi), activation (CRISPRa), and single-cell approaches, can be applied in primary human 3D gastric organoids to systematically identify genes that affect sensitivity to cisplatin. Our screens uncover genes that modulate cisplatin response. By combining CRISPR perturbations with single-cell transcriptomics, we resolve how genetic alterations interact with cisplatin at the level of individual cells and uncover an unexpected link between fucosylation and cisplatin sensitivity. We identify TAF6L as a regulator of cell recovery from cisplatin-induced cytotoxicity. These results highlight the utility of human organoid models for dissecting gene-drug interactions and offer insights into therapeutic vulnerabilities in gastric cancer. CRISPR-Cas9-based screens have allowed the study of gene-drug interactions. Here, the authors develop CRISPR-Cas9 knock-out, activation and repression screens in human gastric 3D organoids, also integrating single-cell CRISPR screens, to identify genes involved in the response to cisplatin in gastric cancer."
+      },
+      {
+        "paperId": "201b391787236102c704d9db448ca283c3fa486c",
+        "externalIds": {
+          "DOI": "10.1101/2024.12.23.630120",
+          "CorpusId": 275017689
+        },
+        "title": "The cytosolic cysteinyl-tRNA synthetase is capable of regulating ATF4 translation independent of eIF2\u03b1 phosphorylation state",
+        "venue": "bioRxiv",
+        "year": 2024,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "https://doi.org/10.1101/2024.12.23.630120",
+          "status": "GREEN",
+          "license": "CCBYNCND",
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1101/2024.12.23.630120?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1101/2024.12.23.630120, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "4502669",
+            "name": "Acer E. Xu"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          }
+        ],
+        "abstract": "In mammalian cells, the integrated stress response (ISR) triggers ATF4 translation under general conditions of cell stress. Mammalian target of rapamycin (mTOR) signaling also triggers ATF4 translation under general pro-growth conditions. While the transcriptomic changes of these two contradictory pathways are have been studied, a full understanding of all pathways capable of increasing ATF4 translation and how these pathways are regulated and interact with each other remains unknown. In a genome-wide CRISPRi screen, we found that loss of CARS is sufficient to activate ATF4 translation independent of canonical ISR signaling. This ATF4 translation does not require eIF2\u03b1 phosphorylation and does not require MTOR kinase activity. In a genome-wide epistasis CRISPRi screen using a staggered sgRNA infection strategy, we identified METAP2 and OGT as potential downstream factors in this pathway. This represents a novel pathway for activation of ATF4 translation that may enable targeted manipulation of ATF4 for beneficial therapeutic outcomes."
+      },
+      {
+        "paperId": "39cd8e5f0be838af7004c10fde7a194861d08fe0",
+        "externalIds": {
+          "DOI": "10.1158/1538-7445.am2024-ng08",
+          "CorpusId": 268960503
+        },
+        "title": "Abstract NG08: Dissecting and quantifying pancreatic cancer plasticity using single-cell multiomics, lineage tracing and functional genomics reveals novel mediators of therapy resistance",
+        "venue": "Cancer Research",
+        "year": 2024,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null,
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1158/1538-7445.am2024-ng08?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1158/1538-7445.am2024-ng08, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2266747439",
+            "name": "Arnav Mehta"
+          },
+          {
+            "authorId": "81446467",
+            "name": "Lynn Bi"
+          },
+          {
+            "authorId": "2292980218",
+            "name": "Deepika Yeramosu"
+          },
+          {
+            "authorId": "2292981667",
+            "name": "Mike Bogaev"
+          },
+          {
+            "authorId": "2292981219",
+            "name": "Martin Jankowiak"
+          },
+          {
+            "authorId": "2292987168",
+            "name": "Abigail Collins"
+          },
+          {
+            "authorId": "1515054459",
+            "name": "Aziz Al\u2019Khafaji"
+          },
+          {
+            "authorId": "2282919425",
+            "name": "Milan Parikh"
+          },
+          {
+            "authorId": "2862417",
+            "name": "M. Babadi"
+          },
+          {
+            "authorId": "2292975548",
+            "name": "Kyle E Evans"
+          },
+          {
+            "authorId": "2283290122",
+            "name": "Alex Bloemendal"
+          },
+          {
+            "authorId": "2295339569",
+            "name": "Russell Kunnes"
+          },
+          {
+            "authorId": "2295330817",
+            "name": "Marc A. Schwartz"
+          },
+          {
+            "authorId": "5414155",
+            "name": "Glen Munson"
+          },
+          {
+            "authorId": "2191005408",
+            "name": "Elisa Donnard"
+          },
+          {
+            "authorId": "32496340",
+            "name": "T. Jones"
+          },
+          {
+            "authorId": "2279740142",
+            "name": "Ben Z. Stanger"
+          },
+          {
+            "authorId": "2292989003",
+            "name": "Jay Shendure"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          },
+          {
+            "authorId": "2280395502",
+            "name": "David T. Ting"
+          },
+          {
+            "authorId": "2249232360",
+            "name": "A. Aguirre"
+          },
+          {
+            "authorId": "3860533",
+            "name": "N. Hacohen"
+          },
+          {
+            "authorId": "2132167769",
+            "name": "D. Pe\u2019er"
+          },
+          {
+            "authorId": "2273704583",
+            "name": "Eric S. Lander"
+          }
+        ],
+        "abstract": "\n Pancreatic cancer (PDAC) is a lethal disease in part because tumor cells exist in distinct transcriptional states (e.g. basal/mesenchymal v.s. classical/epithelial) with unique phenotypic properties that contribute to tumor growth and treatment resistance. Two major mechanisms have been suggested for treatment evasion: (1) the intrinsic resistance of an existing state to a therapy regimen and (2) plasticity of therapy-sensitive states to adopt more resistant states. The relative contribution of these mechanisms to treatment resistance is still poorly understood. Historically, measurement of plasticity in both human patients and mouse models has involved one of three principles: (1) observing a redistribution of cell states in tissue across timepoints or conditions; (2) identifying cells that have genomic, epigenetic or proteomic features of more than one state (mixed states); and (3) performing single-cell cloning of cells and observing the cell states adopted by clonal progeny. While these approaches are observationally consistent with the notion of plasticity, they either fail to definitively prove the existence of plasticity, are restricted in measurements of plasticity outside of native tissues or are unable to quantify the role of plasticity in treatment resistance.\n Amongst the most well described forms of plasticity in human development and cancer is epithelial-mesenchymal plasticity (EMP), which includes epithelial to mesenchymal transition (EMT) and mesenchymal to epithelial transition (MET). To better understand and quantify the role of EMP in driving treatment resistance of human PDAC, we have developed single-cell multiomic, functional genomic and computational methods applied to patient-derived models and clinical biopsies. We first profiled twelve patient-derived PDAC cell lines by single-cell RNA-seq (scSeq) and learned convergent epithelial and mesenchymal gene programs that were consistent with programs observed in patient samples. We next performed lineage tracing experiments in three PDAC cell lines using an expressed lentiviral barcoding system (ClonMapper). By performing scSeq on these barcoded lines at weekly timepoints over four weeks, we proved the presence of EMP by showing a single cell can produce progeny in both epithelial and mesenchymal states.\n We next developed a generative probabilistic model of our lineage tracing data. This demonstrated that clones (cells sharing a barcode) had different transition matrices (different EMT and MET rates), thus suggesting each clone has a distinct level of plasticity. Having established this, we focused on identifying genes that might explain the differing plasticity properties of clones. Using elastic net regression we identified 50 transcription factors (TFs) whose expression significantly explained the propensity for EMP over time across clonal populations. Among these were were several known EMP TFs (Zeb1 and Gata6), understudied TFs (Elf3, Sox2, Sox4, Klf3, Klf5 and Atf4) and novel TFs (Meis2, Meis3, FoxA1 and the interferon regulatory factors Irf6, Irf7 and Irf9). Using single-cell multiomics (paired scSeq and single-cell ATAC-seq) on our barcoded population, we found that 9 of the 50 predicted TFs, including Elf3, had differential accessibility between clones with different plasticity properties, suggesting a role for epigenetic regulation of these TFs in facilitating EMP. Importantly, we leveraged our multiomic data to infer gene regulatory networks influenced by these TFs and found an enrichment of binding motifs for these TFs in enhancer regions of genes in epithelial and mesenchymal programs.\n To study the role of these predicted TFs in modulating EMP, we developed a CRISPRi system that enabled gene perturbations alongside lineage tracing. We performed a CRISPRi perturb-seq experiment (CRISPR perturbation with scSeq readouts), perturbing the 50 predicted TFs above and 10 control genes, and collected 1.5 million single-cell transcriptomic profiles, in addition to two other CRISPR KO perturb-seq experiments. We performed a negative binomial regression to estimate effect sizes of guide RNAs on all genes. 60% of our guides had significant perturbation effects on their target gene. We subsequently found Klf3 as an important regulator of PDAC proliferation independent of cell state. Importantly, we found that knockdown (KD) of several factors, such has Grhl2 and FoxA1, bias towards mesenchymal cell states, whereas KD of others such as Batf2, Snai1, Rel, Zeb1, Nr2f1 and Sox4 led to a bias towards epithelial cell states. Interestingly, KD of several TFs influenced transition properties of cells by decreasing rates of EMT and MET across barcodes without biasing the overall clonal distribution towards a single cell state. This suggests a role for these TFs in enabling plasticity and facilitating state transitions.\n To study the effect of plasticity in treatment resistance, we treated four barcoded cell lines with the first-line chemotherapy combination FOLFIRINOX (5-fluorouracil, oxaliplatin and SN-38, the active metabolite of irinotecan) or targeted therapy and performed scSeq yielding over 600,00 single-cell transcriptomic profiles. We found an enrichment after treatment with FOLFIRINOX of barcodes that were biased for cells in mesenchymal states, consistent with selection against epithelial cells, but also of those barcodes with the highest inferred state transition rates. With targeted therapies, we found selective depletion of mesenchymal states. We next treated our CRISPR perturbed cell lines and found overall a significantly more restricted barcode diversity in cells containing guide RNAs targeting plasticity factors compared to non-targeting controls, suggestive of the role of plasticity in facilitation resistance.\n To validate the role of these proposed plasticity factors in human patients, we collected paired biopsy samples from 23 patients in a phase 2 clinical trial of metastatic PDAC patients being treated with radiation therapy and dual checkpoint blockade (NCT03104439). We performed scSeq on these samples, and used a supervised Bayesian matrix factorization approach (Spectra) to learn epithelial and mesenchymal gene programs within tumor cells. We subsequently classified cells as epithelial, mesenchymal and intermediate cell types using a gaussian mixture model on gene expression features. We found the intermediate states were enriched in expression of our proposed plasticity factors, and importantly high expression of these factors in baseline samples correlated with a redistribution of states in follow-up biopsies.\n Our efforts define a robust experimental and quantitative framework for studying tumor cell plasticity in patient-derived model systems with validation in human patient samples using single-cell and spatial transcriptomics. Collectively, we nominate several regulators that alter the propensity of EMP in PDAC, thus posing a paradigm whereby perturbations may be used to homogenize tumor populations towards treatment-sensitive phenotypes for combination therapy.\n Citation Format: Arnav Mehta, Lynn Bi, Deepika Yeramosu, Michael Bogaev, Martin Jankowiak, Abigail Collins, Aziz Al'Khafaji, Milan Parikh, Mehrtash Babadi, Kyle Evans, Alex Bloemendal, Russell Kunnes, Marc Schwartz, Glen Munson, Elisa Donnard, Thouis R. Jones, Ben Z. Stanger, Jay Shendure, Jonathan Weissman, David T. Ting, Andrew Aguirre, Nir Hacohen, Dana Pe'er, Eric S. Lander. Dissecting and quantifying pancreatic cancer plasticity using single-cell multiomics, lineage tracing and functional genomics reveals novel mediators of therapy resistance [abstract]. In: Proceedings of the American Association for Cancer Research Annual Meeting 2024; Part 2 (Late-Breaking, Clinical Trial, and Invited Abstracts); 2024 Apr 5-10; San Diego, CA. Philadelphia (PA): AACR; Cancer Res 2024;84(7_Suppl):Abstract nr NG08."
+      },
+      {
+        "paperId": "44d3845327575a44596ef618a7bc7035757334bc",
+        "externalIds": {
+          "DOI": "10.1016/j.molcel.2024.01.028",
+          "CorpusId": 268121945,
+          "PubMed": "38428433"
+        },
+        "title": "Triaging of \u03b1-helical proteins to the mitochondrial outer membrane by distinct chaperone machinery based on substrate topology.",
+        "venue": "Molecules and Cells",
+        "year": 2024,
+        "citationCount": 14,
+        "openAccessPdf": {
+          "url": "https://doi.org/10.1016/j.molcel.2024.01.028",
+          "status": "HYBRID",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://api.unpaywall.org/v2/10.1016/j.molcel.2024.01.028?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1016/j.molcel.2024.01.028, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2115182227",
+            "name": "Gayathri Muthukumar"
+          },
+          {
+            "authorId": "2106882732",
+            "name": "T. Stevens"
+          },
+          {
+            "authorId": "8554013",
+            "name": "Alison J. Inglis"
+          },
+          {
+            "authorId": "2147074288",
+            "name": "T. K. Esantsi"
+          },
+          {
+            "authorId": "49154184",
+            "name": "R. Saunders"
+          },
+          {
+            "authorId": "2268754007",
+            "name": "Fabian Schulte"
+          },
+          {
+            "authorId": "6326030",
+            "name": "R. Voorhees"
+          },
+          {
+            "authorId": "49653445",
+            "name": "Alina Guna"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          }
+        ],
+        "abstract": "Mitochondrial outer membrane \u237a-helical proteins play critical roles in mitochondrial-cytoplasmic communication, but the rules governing the targeting and insertion of these biophysically diverse proteins remain unknown. Here, we first defined the complement of required mammalian biogenesis machinery through genome-wide CRISPRi screens using topologically distinct membrane proteins. Systematic analysis of nine identified factors across 21 diverse \u237a-helical substrates reveals that these components are organized into distinct targeting pathways that act on substrates based on their topology. NAC is required for the efficient targeting of polytopic proteins, whereas signal-anchored proteins require TTC1, a cytosolic chaperone that physically engages substrates. Biochemical and mutational studies reveal that TTC1 employs a conserved TPR domain and a hydrophobic groove in its C-terminal domain to support substrate solubilization and insertion into mitochondria. Thus, the targeting of diverse mitochondrial membrane proteins is achieved through topological triaging in the cytosol using principles with similarities to ER membrane protein biogenesis systems."
+      },
+      {
+        "paperId": "6a6f8322e7a21e1793eb63a4272ee2bd6a1b05d1",
+        "externalIds": {
+          "PubMedCentral": "11419116",
+          "DOI": "10.1101/2024.09.09.612016",
+          "CorpusId": 272554423,
+          "PubMed": "39314370"
+        },
+        "title": "High-quality peptide evidence for annotating non-canonical open reading frames as human proteins",
+        "venue": "bioRxiv",
+        "year": 2024,
+        "citationCount": 20,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": "CCBYND",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11419116, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2254296880",
+            "name": "Eric W. Deutsch"
+          },
+          {
+            "authorId": "2217860997",
+            "name": "Leron W. Kok"
+          },
+          {
+            "authorId": "3214622",
+            "name": "Jonathan M. Mudge"
+          },
+          {
+            "authorId": "1401809594",
+            "name": "Jorge Ruiz-Orera"
+          },
+          {
+            "authorId": "2315197262",
+            "name": "Ivo Fierro-Monti"
+          },
+          {
+            "authorId": "14948487",
+            "name": "Zhi Sun"
+          },
+          {
+            "authorId": "50113640",
+            "name": "Jennifer G. Abelin"
+          },
+          {
+            "authorId": "2248585730",
+            "name": "M. M. Alb\u00e0"
+          },
+          {
+            "authorId": "4591252",
+            "name": "J. Aspden"
+          },
+          {
+            "authorId": "2303359656",
+            "name": "Ariel A Bazzini"
+          },
+          {
+            "authorId": "2972777",
+            "name": "E. Bruford"
+          },
+          {
+            "authorId": "40868029",
+            "name": "M. Brunet"
+          },
+          {
+            "authorId": "3034993",
+            "name": "Lorenzo Calviello"
+          },
+          {
+            "authorId": "2240630388",
+            "name": "Steven A. Carr"
+          },
+          {
+            "authorId": "5210725",
+            "name": "Anne-Ruxandra Carvunis"
+          },
+          {
+            "authorId": "40380691",
+            "name": "S. Chothani"
+          },
+          {
+            "authorId": "66555018",
+            "name": "Jim Clauwaert"
+          },
+          {
+            "authorId": "33962550",
+            "name": "Kellie Dean"
+          },
+          {
+            "authorId": "6050632",
+            "name": "P. Faridi"
+          },
+          {
+            "authorId": "2550349",
+            "name": "A. Frankish"
+          },
+          {
+            "authorId": "2205562032",
+            "name": "Norbert Hubner"
+          },
+          {
+            "authorId": "5450801",
+            "name": "Nicholas T. Ingolia"
+          },
+          {
+            "authorId": "3093838",
+            "name": "M. Magrane"
+          },
+          {
+            "authorId": "2302614227",
+            "name": "M. Martin"
+          },
+          {
+            "authorId": "49091505",
+            "name": "Thomas F. Martinez"
+          },
+          {
+            "authorId": "1907467",
+            "name": "G. Menschaert"
+          },
+          {
+            "authorId": "1789339",
+            "name": "U. Ohler"
+          },
+          {
+            "authorId": "2264458021",
+            "name": "S. Orchard"
+          },
+          {
+            "authorId": "1960270",
+            "name": "O. Rackham"
+          },
+          {
+            "authorId": "1697654",
+            "name": "X. Roucou"
+          },
+          {
+            "authorId": "5810054",
+            "name": "Sarah A. Slavoff"
+          },
+          {
+            "authorId": "48701718",
+            "name": "Eivind Valen"
+          },
+          {
+            "authorId": "4908227",
+            "name": "Aaron Wacholder"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          },
+          {
+            "authorId": "2144357012",
+            "name": "Wei Wu"
+          },
+          {
+            "authorId": "90844094",
+            "name": "Zhi Xie"
+          },
+          {
+            "authorId": "2327776050",
+            "name": "J. Choudhary"
+          },
+          {
+            "authorId": "1399878479",
+            "name": "M. Bassani-Sternberg"
+          },
+          {
+            "authorId": "3245770",
+            "name": "J. Vizca\u00edno"
+          },
+          {
+            "authorId": "5462727",
+            "name": "N. Ternette"
+          },
+          {
+            "authorId": "2256225099",
+            "name": "Robert L. Moritz"
+          },
+          {
+            "authorId": "5608756",
+            "name": "John R. Prensner"
+          },
+          {
+            "authorId": "8091637",
+            "name": "Sebastiaan van Heesch"
+          }
+        ],
+        "abstract": "A major scientific drive is to characterize the protein-coding genome as it provides the primary basis for the study of human health. But the fundamental question remains: what has been missed in prior genomic analyses? Over the past decade, the translation of non-canonical open reading frames (ncORFs) has been observed across human cell types and disease states, with major implications for proteomics, genomics, and clinical science. However, the impact of ncORFs has been limited by the absence of a large-scale understanding of their contribution to the human proteome. Here, we report the collaborative efforts of stakeholders in proteomics, immunopeptidomics, Ribo-seq ORF discovery, and gene annotation, to produce a consensus landscape of protein-level evidence for ncORFs. We show that at least 25% of a set of 7,264 ncORFs give rise to translated gene products, yielding over 3,000 peptides in a pan-proteome analysis encompassing 3.8 billion mass spectra from 95,520 experiments. With these data, we developed an annotation framework for ncORFs and created public tools for researchers through GENCODE and PeptideAtlas. This work will provide a platform to advance ncORF-derived proteins in biomedical discovery and, beyond humans, diverse animals and plants where ncORFs are similarly observed."
+      },
+      {
+        "paperId": "9227beae6f3e5a6c3d799638d1ea424bab5d01e7",
+        "externalIds": {
+          "PubMedCentral": "10937407",
+          "DOI": "10.1038/s41586-024-07066-z",
+          "CorpusId": 267093454,
+          "PubMed": "38253266"
+        },
+        "title": "Deciphering cell states and genealogies of human haematopoiesis",
+        "venue": "Nature",
+        "year": 2024,
+        "citationCount": 101,
+        "openAccessPdf": {
+          "url": "https://doi.org/10.1038/s41586-024-07066-z",
+          "status": "HYBRID",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC10937407, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2256969629",
+            "name": "Chen Weng"
+          },
+          {
+            "authorId": "2256990393",
+            "name": "Fulong Yu"
+          },
+          {
+            "authorId": "2260596639",
+            "name": "Dian Yang"
+          },
+          {
+            "authorId": "2365073127",
+            "name": "Michael Poeschla"
+          },
+          {
+            "authorId": "145569925",
+            "name": "L. Liggett"
+          },
+          {
+            "authorId": "2280301729",
+            "name": "Matthew G. Jones"
+          },
+          {
+            "authorId": "2330750834",
+            "name": "Xiaojie Qiu"
+          },
+          {
+            "authorId": "2267501605",
+            "name": "Lara Wahlster"
+          },
+          {
+            "authorId": "2280322549",
+            "name": "Alexis Caulier"
+          },
+          {
+            "authorId": "33353454",
+            "name": "Jeffrey A. Hussmann"
+          },
+          {
+            "authorId": "2280317244",
+            "name": "Alexandra Schnell"
+          },
+          {
+            "authorId": "2280317277",
+            "name": "Kathryn E. Yost"
+          },
+          {
+            "authorId": "2280317267",
+            "name": "Luke Koblan"
+          },
+          {
+            "authorId": "1398108588",
+            "name": "J. D. Martin-Rufino"
+          },
+          {
+            "authorId": "2268057676",
+            "name": "Joseph Min"
+          },
+          {
+            "authorId": "2205122284",
+            "name": "Alessandro Hammond"
+          },
+          {
+            "authorId": "2046902280",
+            "name": "Daniel Ssozi"
+          },
+          {
+            "authorId": "2280230602",
+            "name": "Raphael Bueno"
+          },
+          {
+            "authorId": "2280319178",
+            "name": "Hari Mallidi"
+          },
+          {
+            "authorId": "51916074",
+            "name": "Antonia Kreso"
+          },
+          {
+            "authorId": "72533134",
+            "name": "J. Escabi"
+          },
+          {
+            "authorId": "2264849133",
+            "name": "William M. Rideout"
+          },
+          {
+            "authorId": "2241417995",
+            "name": "Tyler Jacks"
+          },
+          {
+            "authorId": "2772075",
+            "name": "S. Hormoz"
+          },
+          {
+            "authorId": "47602661",
+            "name": "Peter van Galen"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          },
+          {
+            "authorId": "2267504108",
+            "name": "V. Sankaran"
+          }
+        ],
+        "abstract": "The human blood system is maintained through the differentiation and massive amplification of a limited number of long-lived haematopoietic stem cells (HSCs)1. Perturbations to this process underlie diverse diseases, but the clonal contributions to human haematopoiesis and how this changes with age remain incompletely understood. Although recent insights have emerged from barcoding studies in model systems2\u20135, simultaneous detection of cell states and phylogenies from natural barcodes in humans remains challenging. Here we introduce an improved, single-cell lineage-tracing system based on deep detection of naturally occurring mitochondrial DNA mutations with simultaneous readout of transcriptional states and chromatin accessibility. We use this system to define the clonal architecture of HSCs and map the physiological state and output of clones. We uncover functional heterogeneity in HSC clones, which is stable over months and manifests as both differences in total HSC output and biases towards the production of different mature cell types. We also find that the diversity of HSC clones decreases markedly with age, leading to an oligoclonal structure with multiple distinct clonal expansions. Our study thus provides a clonally resolved and cell-state-aware atlas of human haematopoiesis at single-cell resolution, showing an unappreciated functional diversity of human HSC clones and, more broadly, paving the way for refined studies of clonal dynamics across a range of tissues in human health and disease. An improved, single-cell lineage-tracing system, based on deep detection of naturally occurring mitochondrial DNA mutations with simultaneous readout of transcriptional states and chromatin accessibility, is used to define the clonal architecture of haematopoietic stem cells."
+      },
+      {
+        "paperId": "94914bd4d265668ea63fab9b4a1aa10d1231c91c",
+        "externalIds": {
+          "PubMedCentral": "11370557",
+          "DOI": "10.1101/2024.08.23.609473",
+          "CorpusId": 271961537,
+          "PubMed": "39229039"
+        },
+        "title": "Robustness and reliability of single-cell regulatory multi-omics with deep mitochondrial mutation profiling",
+        "venue": "bioRxiv",
+        "year": 2024,
+        "citationCount": 3,
+        "openAccessPdf": {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2024/08/24/2024.08.23.609473.full.pdf",
+          "status": "GREEN",
+          "license": "CCBYNCND",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11370557, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2256969629",
+            "name": "Chen Weng"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          },
+          {
+            "authorId": "6100770",
+            "name": "V. Sankaran"
+          }
+        ],
+        "abstract": "The detection of mitochondrial DNA (mtDNA) mutations in single cells holds considerable potential to define clonal relationships coupled with information on cell state in humans. Previous methods focused on higher heteroplasmy mutations that are limited in number and can be influenced by functional selection, introducing biases for lineage tracing. Although more challenging to detect, intermediate to low heteroplasmy mtDNA mutations are valuable due to their high diversity, abundance, and lower propensity to selection. To enhance mtDNA mutation detection and facilitate fine-scale lineage tracing, we developed the single-cell Regulatory multi-omics with Deep Mitochondrial mutation profiling (ReDeeM) approach, an integrated experimental and computational framework. Recently, some concerns have been raised about the analytical workflow in the ReDeeM framework. Specifically, it was noted that the mutations detected in a single molecule per cell are enriched on edges of mtDNA molecules, suggesting they resemble artifacts reported in other sequencing approaches. It was then proposed that all mutations found in one molecule per cell should be removed. We detail our error correction method, demonstrating that the observed edge mutations are distinct from previously reported sequencing artifacts. We further show that the proposed removal leads to massive elimination of bona fide and informative mutations. Indeed, mutations accumulating on edges impact a minority of all mutation calls (for example, in hematopoietic stem cells, the excess mutations on the edge account for only 4.3%-7.6% of the total). Recognizing the value of addressing edge mutations even after applying consensus correction, we provide an additional filtering option in the ReDeeM-R package. This approach effectively eliminates the position biases, leads to a mutational signature indistinguishable from bona fide mitochondrial mutations, and removes excess low molecule high connectedness mutations. Importantly, this option preserves the large majority of unique mutations identified by ReDeeM, maintaining the ability of ReDeeM to provide a more than 10-fold increase in variant detection compared to previous methods. Additionally, the cells remain well-connected. While there is room for further refinement in mutation calling strategies, the significant advances and biological insights provided by the ReDeeM framework are unique and remain intact. We hope that this detailed discussion and analysis enables the community to employ this approach and contribute to its further development."
+      },
+      {
+        "paperId": "b363522b5c42e3ce6c0cb7a44eff0b803cda69d0",
+        "externalIds": {
+          "PubMedCentral": "11875203",
+          "DOI": "10.1126/science.ado7082",
+          "CorpusId": 270765144,
+          "PubMed": "38935715"
+        },
+        "title": "Brain-wide silencing of prion protein by AAV-mediated delivery of an engineered compact epigenetic editor",
+        "venue": "Science",
+        "year": 2024,
+        "citationCount": 63,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": "CCBY",
+          "disclaimer": "Notice: Paper or abstract available at https://pmc.ncbi.nlm.nih.gov/articles/PMC11875203, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "2308470417",
+            "name": "Edwin N. Neumann"
+          },
+          {
+            "authorId": "87201081",
+            "name": "Tessa M. Bertozzi"
+          },
+          {
+            "authorId": "2308470293",
+            "name": "Elaine Wu"
+          },
+          {
+            "authorId": "98684643",
+            "name": "Fiona E. Serack"
+          },
+          {
+            "authorId": "2276445615",
+            "name": "John W Harvey"
+          },
+          {
+            "authorId": "2198170955",
+            "name": "Pamela P. Brauer"
+          },
+          {
+            "authorId": "2308471118",
+            "name": "Catherine P Pirtle"
+          },
+          {
+            "authorId": "2308470987",
+            "name": "Alissa A Coffey"
+          },
+          {
+            "authorId": "2308471336",
+            "name": "Michael Howard"
+          },
+          {
+            "authorId": "2308469228",
+            "name": "Nikita Kamath"
+          },
+          {
+            "authorId": "2264738986",
+            "name": "K. Lenz"
+          },
+          {
+            "authorId": "2299293202",
+            "name": "Kenia Guzman"
+          },
+          {
+            "authorId": "48441375",
+            "name": "Michael H. Raymond"
+          },
+          {
+            "authorId": "145637101",
+            "name": "Ahmad S. Khalil"
+          },
+          {
+            "authorId": "3750324",
+            "name": "Benjamin E. Deverman"
+          },
+          {
+            "authorId": "5277225",
+            "name": "E. Minikel"
+          },
+          {
+            "authorId": "3711085",
+            "name": "S. M. Vallabh"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          }
+        ],
+        "abstract": "Prion disease is caused by misfolding of the prion protein (PrP) into pathogenic self-propagating conformations, leading to rapid-onset dementia and death. However, elimination of endogenous PrP halts prion disease progression. In this study, we describe Coupled Histone tail for Autoinhibition Release of Methyltransferase (CHARM), a compact, enzyme-free epigenetic editor capable of silencing transcription through programmable DNA methylation. Using a histone H3 tail-Dnmt3l fusion, CHARM recruits and activates endogenous DNA methyltransferases, thereby reducing transgene size and cytotoxicity. When delivered to the mouse brain by systemic injection of adeno-associated virus (AAV), Prnp-targeted CHARM ablates PrP expression across the brain. Furthermore, we have temporally limited editor expression by implementing a kinetically tuned self-silencing approach. CHARM potentially represents a broadly applicable strategy to suppress pathogenic proteins, including those implicated in other neurodegenerative diseases. Editor\u2019s summary Prion diseases are devastating neurodegenerative disorders that are invariably fatal, but removal of the prion protein from neurons can protect against disease progression. Neumann et al. developed a compact epigenetic silencer called CHARM that could efficiently shut off the prion gene throughout the mouse brain when delivered systemically by a viral vector without changing the underlying DNA sequence (see the Perspective by Whittaker and Musunuru). The epigenetic editor can also be programmed to turn itself off after silencing its target, thus limiting potential adverse effects from long-term expression. CHARM represents a therapeutic modality that could be applied to a range of other diseases caused by the toxic buildup of unwanted proteins. \u2014Di Jiang INTRODUCTION Prion diseases are fatal neurodegenerative disorders caused by misfolding of the prion protein in the brain. Cases can manifest spontaneously, be inherited genetically, or be acquired through transmission (e.g., mad cow disease). Although there are currently no e\ufb00ective treatments, reducing prion protein levels in the brain has been shown to halt disease progression in animal models with minimal adverse e\ufb00ects. In addition, prion protein is nonessential in mammals, indicating that lowering its expression in the brain is a viable therapeutic strategy. RATIONALE Genetic medicines hold great promise but are often di\ufb03cult to translate to the clinic. Current CRISPR-based DNA-editing technologies are complex large molecules that are challenging to deliver and have been associated with unintended editing outcomes. We therefore favored an epigenetic editing approach to permanently turn o\ufb00 prion protein expression in the brain without altering the underlying DNA sequence or leading to continued expression of an altered mRNA and protein. This strategy uses DNA methylation to achieve long-term transcriptional silencing. However, current epigenetic editors are cytotoxic in some circumstances and are too large to \ufb01t in an adeno-associated virus (AAV) vector, the preferred delivery vehicle to the central nervous system. RESULTS To address these challenges, we engineered a compact, enzyme-free epigenetic editor termed CHARM (Coupled Histone tail for Autoinhibition Release of Methyltransferase). Through a direct fusion with the histone H3 tail and a noncatalytic Dnmt3l domain, CHARM is able to recruit and activate DNA methyltransferases endogenously expressed in the cell to methylate the target gene. CHARM can act independently of KRAB transcriptional repression domains and is compatible with multiple DNA-binding modalities, including CRISPR-Cas, transcription activator\u2013like effectors, and zinc \ufb01nger proteins. The small size of zinc finger proteins enables up to three DNA targeting elements to be accommodated in a single AAV with additional room for regulatory elements to confer cell-type specificity. When coupled to a prion protein\u2013targeting zinc \ufb01nger domain and delivered to the mouse brain through AAV, CHARM methylates the prion gene promoter and achieves up to 80% brainwide reduction in neuronal prion protein, far exceeding the minimal reduction required for therapeutic bene\ufb01t. Furthermore, we developed self-silencing CHARMs that autonomously deactivate themselves after silencing their target. This approach temporally limits CHARM expression to circumvent potential antigenicity and o\ufb00-target activity resulting from chronic expression in nondividing neurons. CONCLUSION This study represents the \ufb01rst demonstration of AAV-mediated delivery of an epigenetic editor that can programmably methylate DNA in the brain for durable, potent silencing of a target gene. CHARM avoids overexpression of potentially cytotoxic catalytic domains by harnessing the endogenous DNA methylation machinery. Its compact size enables modular self-silencing strategies, facilitates multiplexed targeting, and enhances compatibility with other delivery modalities, such as lipid nanoparticles. This work could enable an e\ufb00ective treatment for patients with prion disease as well as other neurodegenerative diseases involving the accumulation of toxic protein aggregates. More generally, CHARM represents the next generation of safe and easily deliverable epigenetic editors for therapeutic intervention and biological discovery. CHARM is an epigenetic editor for targeted DNA methylation and gene silencing. (Top) CHARM consists of a DNA binding domain (DBD) fused to the Dnmt3l domain (D3L) and histone H3 tail. CHARM is targeted to the prion protein (Prnp) promoter, D3L recruits the endogenous methyltransferase DNMT3A, and the H3 tail activates DNMT3A to silence Prnp through methylation of the cytosine-guanine dinucleotide (CpG) island (CGI). (Bottom) AAV-delivered CHARM silences Prnp throughout the mouse brain. Self-silencing of CHARM temporally limits its expression."
+      },
+      {
+        "paperId": "e9977cd3fbbd9b91e457b368ab6160cf483b2076",
+        "externalIds": {
+          "DOI": "10.1038/s41587-023-02028-8",
+          "CorpusId": 264304954,
+          "PubMed": "37853259"
+        },
+        "title": "Author Correction: Efficient C\u2022G-to-G\u2022C base editors developed using CRISPRi screens, target-library analysis, and machine learning",
+        "venue": "Nature Biotechnology",
+        "year": 2023,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "https://www.nature.com/articles/s41587-023-02028-8.pdf",
+          "status": "BRONZE",
+          "license": null,
+          "disclaimer": "Notice: The following paper fields have been elided by the publisher: {'abstract'}. Paper or abstract available at https://api.unpaywall.org/v2/10.1038/s41587-023-02028-8?email=<INSERT_YOUR_EMAIL> or https://doi.org/10.1038/s41587-023-02028-8, which is subject to the license by the author or copyright owner provided with this content. Please go to the source to verify the license and copyright information for your use."
+        },
+        "authors": [
+          {
+            "authorId": "12407421",
+            "name": "Luke W. Koblan"
+          },
+          {
+            "authorId": "47090103",
+            "name": "Mandana Arbab"
+          },
+          {
+            "authorId": "1491793237",
+            "name": "Max W. Shen"
+          },
+          {
+            "authorId": "33353454",
+            "name": "Jeffrey A. Hussmann"
+          },
+          {
+            "authorId": "4508339",
+            "name": "Andrew V. Anzalone"
+          },
+          {
+            "authorId": "39055779",
+            "name": "Jordan L. Doman"
+          },
+          {
+            "authorId": "7572843",
+            "name": "Gregory A. Newby"
+          },
+          {
+            "authorId": "2260596639",
+            "name": "Dian Yang"
+          },
+          {
+            "authorId": "1803404861",
+            "name": "Beverly Mok"
+          },
+          {
+            "authorId": "7677019",
+            "name": "J. Replogle"
+          },
+          {
+            "authorId": "32066238",
+            "name": "Albert Xu"
+          },
+          {
+            "authorId": "2127922684",
+            "name": "Tyler A. Sisley"
+          },
+          {
+            "authorId": "2250807742",
+            "name": "Jonathan S. Weissman"
+          },
+          {
+            "authorId": "48455159",
+            "name": "Britt Adamson"
+          },
+          {
+            "authorId": "2145010721",
+            "name": "David R. Liu"
+          }
+        ],
+        "abstract": null
+      }
+    ],
+    "s2_all_count": 25
+  },
+  "Peter Henderson": {},
+  "Eric Xing": {}
+}

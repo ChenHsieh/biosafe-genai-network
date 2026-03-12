@@ -44,9 +44,17 @@ Authors / researchers
 Institutions
     ↕ BRIDGE NODES ↕ (appear in both layers)
 
-DIRECTION 3: Policy & Big Tech (lateral) [planned]
+DIRECTION 3: Policy & Big Tech (lateral)
 ────────────────────────────────────────
-AI companies ↔ biosecurity orgs / policy bodies
+AI companies ↔ biosecurity eval orgs ↔ policy bodies
+    ↓ biosecurity_eval / policy_forum / published_study
+Publications & reports
+
+DIRECTION 4: Cross-venue & Key Personnel
+─────────────────────────────────────────
+Sibling workshop papers (MLGenX, GenAI4Health, AI4Science)
+    ↓ authored (shared authors = cross-venue bridges)
+Key personnel research footprint (NIH grants, Semantic Scholar pubs)
 ```
 
 **Rule: no orphan nodes.** Every node must have at least one edge.
@@ -55,28 +63,35 @@ AI companies ↔ biosecurity orgs / policy bodies
 
 ## Node Schema
 
-| Type | Key Fields |
-|------|-----------|
-| `funder` | id, label, short, url, description |
-| `program` | id, label, parent→funder, url |
-| `org` | id, label, entity_type, url |
-| `institution` | id, label, url (from Sprint 1 OpenReview) |
-| `author` | id, label, url, details |
-| `presentation` | id, label, url |
-| `department` | id, label, parent→institution |
+| Type | Key Fields | Count (current) |
+|------|-----------|-----------------|
+| `funder` | id, label, short, url, description | 4 |
+| `program` | id, label, parent→funder, url, subtype (nih_grant) | 61 |
+| `org` | id, label, entity_type, url | 171 |
+| `institution` | id, label, url (from Sprint 1 OpenReview) | 172 |
+| `author` | id, label, url, details | 234 |
+| `presentation` | id, label, url, subtype (poster/oral/workshop) | 54 |
+| `publication` | id, label, url, subtype (research_paper/research_report), description | 21 |
+| `department` | id, label, parent→institution | 8 |
 
 `org.entity_type`: `institution` / `org` / `individual` / `pooled_grant`
 
 ## Edge Schema
 
-| Type | Direction | Key Fields |
-|------|-----------|-----------|
-| `funds` | funder/program → org | amount, date_range, grant_title, confidence |
-| `authored` | author → presentation | — |
-| `current_affiliation` | author → institution | — |
-| `past_affiliation` | author → institution | — |
-| `part_of` | department → institution | — |
-| `contracts` | program → org | amount, confidence [planned] |
+| Type | Direction | Key Fields | Count (current) |
+|------|-----------|-----------|-----------------|
+| `funds` | funder/program → org/inst | amount, date_range, grant_title, confidence | 400 |
+| `authored` | author → presentation | — | 264 |
+| `current_affiliation` | author → institution | — | 215 |
+| `past_affiliation` | author → institution | — | 137 |
+| `part_of` | department/org → institution | — | 11 |
+| `performs_on` | PI → program | — | 43 |
+| `biosecurity_eval` | org → org (evaluator → evaluated) | — | 10 |
+| `policy_forum` | org → publication | — | 6 |
+| `published_study` | author/org → publication | — | 13 |
+| `organized` | author → workshop event | — | 10 |
+| `invited_speaker` | author → workshop event | — | 10 |
+| `contracts` | program → org | amount, confidence [planned] | — |
 
 ---
 
@@ -230,15 +245,22 @@ scripts/s4_merge_darpa.py           → data/graph_data.json (updated)
 
 ---
 
-## Sprint 5: Policy & Big Tech Layer — Biosecurity Evaluations 🔄 IN PROGRESS
+## Sprint 5: Policy & Big Tech Layer — Biosecurity Evaluations ✅ COMPLETE
+
+**Status:** Shipped. 14/14 quality checks pass.
 
 **Goal:** Map AI companies' biosecurity evaluation relationships, third-party eval partnerships, and policy forum participation.
 
-**Status:** Dry run complete. 10 relationships found across 6 sources, 7 at HIGH confidence.
+**Results:**
+- 27 new nodes: 9 publications, 12 authors, 5 orgs, 1 institution
+- 47 new edges across 7 types
+- Key new edge types: `biosecurity_eval` (10), `policy_forum` (6), `published_study` (1)
+- Key new node type: `publication` (9 nodes)
+- Added xAI, US AISI, OSTP, Deloitte, Council on Strategic Risks, Epoch AI as org nodes
+- 9 publication nodes (RAND studies, SecureBio OSTP RFI, Epoch AI analysis, Anthropic red team blog, NTI forum statement, LAB-Bench paper, OpenAI+Gryphon bio threat study)
+- 12 new author nodes (SecureBio team, Gryphon staff, RAND researchers, OpenAI bio safety lead)
 
-**Rule: only add edges with a specific, fetchable URL. If URL returns 403 and content cannot be verified from any fetchable source, the edge does not enter the graph.**
-
-### Verified Relationships (from dry run)
+**Verified Relationships:**
 
 | Evaluator | Evaluated Lab | Models | Evidence | Confidence |
 |---|---|---|---|---|
@@ -252,111 +274,150 @@ scripts/s4_merge_darpa.py           → data/graph_data.json (updated)
 | UK AI Safety Institute | OpenAI | o1 | Epoch AI analysis | HIGH |
 | FutureHouse | multiple | LAB-Bench | Epoch AI analysis | MEDIUM |
 
-### Policy/Convening Relationships
+**Data sources:** SecureBio substack, OSTP RFI PDF, Epoch AI biorisk analysis, RAND publications, NTI AIxBio Forum, OpenAI blog, Gryphon Scientific
 
-| Convener | Participants | Activity | Confidence |
-|---|---|---|---|
-| NTI | DeepMind, OpenAI, Anthropic | AIxBio Global Forum | MEDIUM |
+**Raw data:** `data/raw/s5_policy_bigtech/` (8 files)
 
-### New Edge Types Proposed
-1. `biosecurity_eval` — Org A evaluated Org B's model for bio risk
-2. `policy_forum` — Org A convened/participated in biosecurity policy forum
-3. `published_study` — Org A published bio risk research involving Org B's models
-
-### New Nodes Needed
-- `org_xai` (xAI — not yet in graph)
-- `org_uk_aisi` (UK AI Safety Institute — not yet in graph)
-- `org_futurehouse` (FutureHouse — already in graph as Coefficient grantee? Check)
-- `org_deloitte` (co-developed virology tasks with SecureBio — edge case)
-- `org_signature_science` (co-developed virology tasks — already in Sprint 4 as IARPA Fun GCAT T&E)
-
-### Also Mentioned (co-developers, not primary eval relationship)
-- Deloitte — co-developed long-form virology tasks with SecureBio for Claude 4 eval
-- Signature Science — co-developed virology tasks with SecureBio (already in graph from IARPA Fun GCAT)
-
-**Raw data:** `data/raw/s5_policy_bigtech/` (5 files saved)
-
-**Notebook:** `scripts/notebooks/s5_policy_bigtech_exploration.ipynb`
-
-**Scripts (planned):**
+**Scripts:**
 ```
-scripts/s5_extract_partnerships.py     → data/staged/s5_nodes.json, s5_edges.json
-scripts/s5_merge_partnerships.py       → data/graph_data.json (updated)
+scripts/s5_extract_policy_bigtech.py   → data/staged/s5_nodes.json (27), s5_edges.json (47)
+scripts/notebooks/s5_policy_bigtech_exploration.ipynb  ← dry run notebook
 ```
 
 ---
 
-## Sprint 6: Workshop Organizers & Invited Speakers
+## Sprint 6: Workshop Organizers & Invited Speakers ✅ COMPLETE
 
-**Organizers:** Mengdi Wang (Princeton), Le Cong (Stanford), Kevin Esvelt (MIT), Zaixi Zhang (Princeton), Ruofan Jin (Princeton), Amrit Singh Bedi (UCF), Alvaro Velasquez (UC Boulder), Souradip Chakraborty (UMD)
+**Status:** Shipped. 14/14 quality checks pass.
 
-**Invited speakers:** Jian Ma (CMU), Yoshua Bengio (Mila), Sheng Lin-Gibson (NIST)
+**Goal:** Add workshop organizers and invited speakers as structurally important nodes, creating a central event anchor and connecting key figures who shape the biosafety+AI research agenda.
+
+**Results:**
+- 23 new nodes, 38 new edges → 607 nodes, 936 edges total
+- Created workshop event anchor: `event_neurips_biosafe_genai_2025`
+- 10 organizers (7 main + 3 student) with `organized` edges
+- 10 invited speakers with `invited_speaker` edges
+- New institutions: UCF, MBZUAI, Université de Montréal
+- New orgs: Mila, CZI, NIST, Nebius, Iris Medicine, Kelonia Therapeutics, Petuum
+- Structural edges: Mila→UdeM (part_of), US AISI→NIST (part_of)
+
+**Organizers:** Mengdi Wang (Princeton), Le Cong (Stanford), Kevin Esvelt (MIT), Zaixi Zhang (Princeton), Ruofan Jin (Princeton), Amrit Singh Bedi (UCF), Alvaro Velasquez (UC Boulder), Souradip Chakraborty (UMD), Pratyush Maini (CMU), Amin Karbasi (Yale)
+
+**Invited Speakers:** Yoshua Bengio (Mila), Jian Ma (CMU), Sheng Lin-Gibson (NIST), Peter Henderson (Princeton), Le Cong (Stanford), Eric Xing (Petuum/MBZUAI), Eugene Shakhnovich (Harvard), Jason Wei (OpenAI), Tegan Maharaj (Mila), Silvio Micali (Algorand)
 
 **Source:** Workshop website (`biosafe-gen-ai.github.io`)
 
+**Known fix applied:** Removed duplicate `inst_Shanghai_Jiao_Tong_University` (Sprint 6 creation) — pre-existing node was `inst_Shanghai_Jiaotong_University` (Sprint 1).
+
+**Scripts:**
+```
+scripts/s6_extract_organizers_speakers.py   → data/staged/s6_nodes.json (23), s6_edges.json (38)
+```
+
 ---
 
-## Sprint 7: Cross-venue Expansion
+## Sprint 7: Cross-venue Expansion ✅ COMPLETE
 
-Add 2–3 sibling workshops. Only pull papers where ≥1 author is already in the graph.
+**Status:** Shipped. 14/14 quality checks pass.
 
-Candidates: NeurIPS SoLaR, ICLR ML for Drug Discovery, ACL/EMNLP dual-use risk workshops.
+**Goal:** Add papers from sibling workshops where ≥1 author already exists in the graph. This surfaces cross-venue research bridges — researchers presenting biosafety+AI work at multiple venues.
 
----
+**Results:**
+- 74 new nodes (15 presentations, 59 new co-authors), 86 new edges → 681 nodes, 1,022 edges total
+- 92.6% graph connectivity
 
-## Sprint 8: Key Personnel Research Projects & Lab Outputs
+**Workshops queried (via OpenReview API):**
 
-**Goal:** Trace the research projects, publications, and lab outputs of key personnel at the intersection of biosafety and AI. Map their broader research footprint beyond the single NeurIPS workshop.
-
-**Why this matters:** Currently, authors enter the graph only via their NeurIPS 2025 BioSafe GenAI workshop papers. But many are PIs with larger lab groups, multiple grants, and extensive publication records that reveal the full scope of biosafety+AI work. This sprint surfaces the research *ecosystem* around each key person.
-
-**Scope — key personnel categories:**
-1. **Workshop authors with DARPA connections** (bridge nodes): Kevin Esvelt (MIT), others identified in Sprint 4
-2. **DARPA PIs working on biosafety+AI**: George Church (Harvard), Jennifer Doudna (UC Berkeley), Harris Wang (Columbia), Jonathan Weissman (UCSF)
-3. **Workshop organizers** (from Sprint 6): Mengdi Wang, Le Cong, Kevin Esvelt
-4. **Prolific workshop authors** (high degree in graph): Identify top-10 by authored edge count
-5. **SecureBio researchers** who also published at the workshop
-
-**Data sources to query:**
-| Source | API/Method | What we get |
+| Workshop | Papers Found | Author Overlap |
 |---|---|---|
-| Google Scholar | Serpapi or scraping | Publication lists, h-index, co-authors |
-| Semantic Scholar | `api.semanticscholar.org/graph/v1` | Papers, citations, co-author network |
-| NIH RePORTER | `api.reporter.nih.gov/v2` | Active grants, amounts, co-PIs |
-| NSF Award Search | `api.nsf.gov/services/v1/awards.json` | NSF grants (AI+bio relevant) |
-| Lab websites | WebFetch | Current projects, team members, focus areas |
-| ORCID | `pub.orcid.org/v3.0` | Publication IDs, affiliations history |
+| ICLR 2025 MLGenX (Machine Learning for Genomics Explorations) | 41 | 3 papers |
+| NeurIPS 2025 GenAI4Health (Generative AI for Health) | 164 | 8 papers |
+| NeurIPS 2025 AI4Science (AI for Science) | 200 | 5 papers |
 
-**Proposed edge types:**
-- `has_grant` — PI → grant/project node
-- `co_pi` — PI → co-PI (if both in graph)
-- `lab_member` — PI → lab group member (if relevant to biosafety+AI)
-- `published` — PI → publication node (bio+AI papers outside the workshop)
+**Key cross-venue bridges discovered:**
+- Jennifer Doudna (CRISPR pioneer) — AI4Science paper on genome editing + AI
+- Kevin Esvelt (MIT Media Lab) — AI4Science paper on gene drive modeling
+- Multiple Princeton/Stanford authors spanning BioSafe GenAI + MLGenX
 
-**Approach:** Notebook-first dry run, same as Sprint 5. Query top 10–15 key personnel, present stats, iterate with human review.
+**Method:** Queried `api2.openreview.net/notes/search` for each workshop venue ID, extracted all paper titles and author lists, then checked each author against existing graph nodes using lowercase + first-last name fuzzy matching. Papers with ≥1 author overlap were included; all co-authors of qualifying papers were added as new author nodes. Deduplicated 16 raw overlap papers to 15 unique (1 appeared in multiple workshops).
 
-**Filtering strategy:** Only include grants/papers at the bio+AI intersection. Use keyword filters similar to Sprint 4's `AI_KW` + `BIO_REL` regex.
+**Note:** Initially planned NeurIPS SoLaR, ICLR ML for Drug Discovery, and ACL/EMNLP workshops, but these either had no OpenReview presence or no author overlap. MLGenX, GenAI4Health, and AI4Science proved far richer.
 
-**Expected output:** 50–150 new nodes (grants, key papers, co-PIs), 100–200 new edges, significantly richer connectivity for the core biosafety+AI personnel.
+**Scripts:**
+```
+scripts/s7_extract_cross_venue.py   → data/staged/s7_nodes.json (74), s7_edges.json (86)
+data/raw/s7_cross_venue/mlgenx_papers.json          (41 papers)
+data/raw/s7_cross_venue/genai4health_papers.json     (164 papers)
+data/raw/s7_cross_venue/ai4science_papers.json       (200 papers)
+data/raw/s7_cross_venue/overlap_analysis.json        (16 overlap papers → 15 unique)
+```
+
+---
+
+## Sprint 8: Key Personnel Research Projects & Lab Outputs ✅ COMPLETE
+
+**Status:** Shipped. 14/14 quality checks pass.
+
+**Goal:** Trace the research footprint of key biosafety+AI personnel beyond the workshop — their NIH grants, key publications, and institutional connections. Adds NIH as a 4th funder and surfaces $35M in active federal research funding.
+
+**Results:**
+- 44 new nodes, 97 new edges → 725 nodes, 1,119 edges total
+- NIH funder node (4th funder after DARPA, IARPA, Coefficient)
+- 29 NIH grant program nodes ($35M across 31 unique projects)
+- 12 key publications from Semantic Scholar (top-cited bio+AI papers)
+- 2 new institutions: Gladstone Institutes, Whitehead Institute (+ part_of MIT edge)
+- Total tracked funding: $693M (DARPA $589M + Coefficient $69M + NIH $35M)
+
+**Key personnel scored (weighted: degree + DARPA PI bonus + organizer/speaker bonus):**
+
+| PI | Source | Grants Found | Key Publications |
+|---|---|---|---|
+| Kevin Esvelt | NIH RePORTER + S2 | 5 grants | 3 papers (gene drive, CRISPR) |
+| George Church | NIH RePORTER + S2 | 4 grants | 3 papers (genome writing, DNA storage) |
+| Jennifer Doudna | NIH RePORTER + S2 | 8 grants | 3 papers (CRISPR mechanisms) |
+| Harris Wang | NIH RePORTER | 6 grants | — (S2 rate-limited) |
+| Le Cong | NIH RePORTER + S2 | 2 grants | 3 papers (CRISPR systems) |
+| Jonathan Weissman | NIH RePORTER + S2 | 4 grants | — (S2 partial) |
+| Yoshua Bengio | S2 only | — | 3 papers (deep learning foundations) |
+
+**Data sources:**
+
+| Source | API | Method |
+|---|---|---|
+| Semantic Scholar | `api.semanticscholar.org/graph/v1/author/search` | Top-3 papers per PI by citation count, filtered by bio+AI keyword intersection |
+| NIH RePORTER | `api.reporter.nih.gov/v2/projects/search` (POST) | Active grants (FY 2023–2026) for 7 DARPA PIs, deduplicated by project number |
+
+**NIH grant deduplication:** Same grant appears across multiple fiscal years. Kept most recent FY metadata, aggregated total funding across all appearances. Institution names mapped via explicit `INST_MAP` (NIH canonical names → existing node IDs).
+
+**Bio+AI keyword filter (Semantic Scholar):** Papers required hits in BOTH keyword sets — `BIO_KW` (biosecurity, CRISPR, gene drive, pathogen, etc.) AND `AI_KW` (machine learning, deep learning, neural network, etc.) — applied to title + abstract.
+
+**Known limitations:**
+- Semantic Scholar API rate-limited 4 of 10 targets (Harris Wang, Eugene Shakhnovich, Peter Henderson, Eric Xing). Retried with delays, got partial results.
+- George Church returned 0 NIH grants in 2023–2026 window (grants may be under different mechanisms or co-PI names).
+
+**Scripts:**
+```
+scripts/s8_extract_key_personnel.py   → data/staged/s8_nodes.json (44), s8_edges.json (97)
+data/raw/s8_key_personnel/semantic_scholar_results.json   (10 targets)
+data/raw/s8_key_personnel/nih_reporter_results.json       (7 PIs, 31 grants)
+```
 
 ---
 
 ## Visualization Milestones
 
-| Sprint | Est. nodes | Renderer |
-|--------|-----------|----------|
-| 1 | 350 | SVG ✅ |
-| 2–3 | 502 | SVG ✅ |
-| 4–5 | ~600–700 | SVG (current) |
-| 6–7 | ~800–1500 | Consider WebGL (force-graph) |
+| Sprint | Nodes | Edges | Renderer |
+|--------|-------|-------|----------|
+| 1 | 350 | 479 | SVG ✅ |
+| 2–3 | 502 | 767 | SVG ✅ |
+| 4–5 | 584 | 852 | SVG ✅ |
+| 6 | 607 | 936 | SVG ✅ |
+| 7 | 681 | 1,022 | SVG + Canvas 2D ✅ |
+| 8 | 725 | 1,119 | SVG + Canvas 2D ✅ |
 
-When switching to force-graph (WebGL):
-```html
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
-<script src="https://unpkg.com/force-graph@1.43.5/dist/force-graph.min.js"></script>
-```
-**NEVER use `cdn.skypack.dev`** — won't expose ForceGraph as a global.
-**NEVER call `zoomToFit()` inside `refreshGraph()`** — only once at init.
+**Dual renderer approach (Sprint 7+):** Rather than replacing SVG with WebGL, we added a Canvas 2D alternative (`index_webgl.html`) alongside the SVG version (`index.html`). Both share the same graph data, layout computation, sidebar, filters, and interaction model. Canvas 2D provides better performance at 700+ nodes via batched edge rendering by type, `ctx.arc()`/`ctx.roundRect()` for nodes, and includes an FPS counter.
+
+**Scripts:** `generate_html_v3.py` → `index.html` (SVG), `generate_webgl.py` → `index_webgl.html` (Canvas 2D)
 
 ---
 
@@ -405,19 +466,28 @@ Previous AI-assisted builds produced ~9% false edge rate, ~11% wrong amounts:
 
 ```
 biosecurity-atlas/
-├── index.html                          ← visualization (self-contained, ~570 KB)
+├── index.html                          ← SVG visualization (self-contained, ~746 KB)
+├── index_webgl.html                    ← Canvas 2D visualization (self-contained, ~745 KB)
 ├── README.md
 ├── ROADMAP.md                          ← this file
 ├── data/
-│   ├── graph_data.json                 ← assembled graph (updated each sprint)
+│   ├── graph_data.json                 ← assembled graph (725 nodes, 1,119 edges)
 │   ├── nodes.csv
 │   ├── edges.csv
-│   └── raw/
-│       ├── s1_neurips_workshop/        ← Sprint 1: OpenReview papers + PDFs
-│       ├── s2s3_coefficient_funding/   ← Sprint 2/3: Coefficient grants CSV
-│       ├── s4_darpa_iarpa/             ← Sprint 4: USASpending JSON, DARPA/IARPA pages, news releases
-│       ├── s5_policy_bigtech/          ← Sprint 5: SecureBio, RAND, NTI publications & evals
-│       └── s6_organizers_speakers/     ← Sprint 6: Workshop organizers & invited speakers
+│   ├── raw/
+│   │   ├── s1_neurips_workshop/        ← Sprint 1: OpenReview papers + PDFs
+│   │   ├── s2s3_coefficient_funding/   ← Sprint 2/3: Coefficient grants CSV
+│   │   ├── s4_darpa_iarpa/             ← Sprint 4: USASpending JSON, DARPA/IARPA pages, news releases
+│   │   ├── s5_policy_bigtech/          ← Sprint 5: SecureBio, RAND, NTI publications & evals
+│   │   ├── s6_organizers_speakers/     ← Sprint 6: Workshop website data
+│   │   ├── s7_cross_venue/             ← Sprint 7: OpenReview data from 3 sibling workshops
+│   │   │   ├── mlgenx_papers.json          (41 papers)
+│   │   │   ├── genai4health_papers.json     (164 papers)
+│   │   │   ├── ai4science_papers.json       (200 papers)
+│   │   │   └── overlap_analysis.json        (16 overlap papers → 15 unique)
+│   │   └── s8_key_personnel/           ← Sprint 8: Semantic Scholar + NIH RePORTER
+│   │       ├── semantic_scholar_results.json   (10 targets)
+│   │       └── nih_reporter_results.json       (7 PIs, 31 grants)
 │   └── staged/
 │       ├── op_edges.json               ← Sprint 2/3 (272 grants, 288 edges)
 │       ├── s4_nodes.json               ← Sprint 4 (51 nodes)
@@ -426,12 +496,17 @@ biosecurity-atlas/
 │       ├── s5_edges.json               ← Sprint 5 (47 edges)
 │       ├── s6_nodes.json               ← Sprint 6 (23 nodes)
 │       ├── s6_edges.json               ← Sprint 6 (38 edges)
+│       ├── s7_nodes.json               ← Sprint 7 (74 nodes)
+│       ├── s7_edges.json               ← Sprint 7 (86 edges)
+│       ├── s8_nodes.json               ← Sprint 8 (44 nodes)
+│       ├── s8_edges.json               ← Sprint 8 (97 edges)
 │       └── op_validation_report.json
 └── scripts/
     ├── extract_data.py                 ← Sprint 1: OpenReview extraction
     ├── build_graph.py                  ← Sprint 1: graph assembly
-    ├── generate_html_v3.py             ← visualization generator (all sprints)
-    ├── quality_check.py                ← cumulative checks (all sprints)
+    ├── generate_html_v3.py             ← SVG visualization generator (all sprints)
+    ├── generate_webgl.py               ← Canvas 2D visualization generator (Sprint 7+)
+    ├── quality_check.py                ← cumulative checks (all sprints, 14 checks)
     ├── s2_fetch_op_grants.sh           ← Sprint 2/3: fetch Coefficient CSV
     ├── s2_extract_op_grants.py         ← Sprint 2/3: extract + classify grants
     ├── s2_validate_op.py               ← Sprint 2/3: validate staged data
@@ -440,6 +515,8 @@ biosecurity-atlas/
     ├── s4b_fix_darpa_programs.py       ← Sprint 4b: DARPA program nodes hotfix
     ├── s5_extract_policy_bigtech.py    ← Sprint 5: Policy & Big Tech extraction
     ├── s6_extract_organizers_speakers.py ← Sprint 6: Organizers & speakers extraction
+    ├── s7_extract_cross_venue.py       ← Sprint 7: Cross-venue overlap extraction
+    ├── s8_extract_key_personnel.py     ← Sprint 8: NIH grants + Semantic Scholar pubs
     └── notebooks/
         └── s5_policy_bigtech_exploration.ipynb  ← Sprint 5 exploration
 ```

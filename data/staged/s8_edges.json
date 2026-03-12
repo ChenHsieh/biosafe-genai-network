@@ -1,0 +1,833 @@
+[
+  {
+    "id": "funds_nih_5R01AI152209_05",
+    "source": "funder_nih",
+    "target": "grant_nih_5R01AI152209_05",
+    "type": "funds",
+    "amount": 825096,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Kevin_M__Esvelt1_grant_nih_5R01AI152209_05",
+    "source": "author_Kevin_M__Esvelt1",
+    "target": "grant_nih_5R01AI152209_05",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R01AI152209_05_inst_Massachusetts_Institute_of_Technology",
+    "source": "grant_nih_5R01AI152209_05",
+    "target": "inst_Massachusetts_Institute_of_Technology",
+    "type": "funds",
+    "amount": 825096,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R01AI152209_04",
+    "source": "funder_nih",
+    "target": "grant_nih_5R01AI152209_04",
+    "type": "funds",
+    "amount": 854479,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Kevin_M__Esvelt1_grant_nih_5R01AI152209_04",
+    "source": "author_Kevin_M__Esvelt1",
+    "target": "grant_nih_5R01AI152209_04",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R01AI152209_04_inst_Massachusetts_Institute_of_Technology",
+    "source": "grant_nih_5R01AI152209_04",
+    "target": "inst_Massachusetts_Institute_of_Technology",
+    "type": "funds",
+    "amount": 854479,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R01AI152209_03",
+    "source": "funder_nih",
+    "target": "grant_nih_5R01AI152209_03",
+    "type": "funds",
+    "amount": 881046,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Kevin_M__Esvelt1_grant_nih_5R01AI152209_03",
+    "source": "author_Kevin_M__Esvelt1",
+    "target": "grant_nih_5R01AI152209_03",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R01AI152209_03_inst_Massachusetts_Institute_of_Technology",
+    "source": "grant_nih_5R01AI152209_03",
+    "target": "inst_Massachusetts_Institute_of_Technology",
+    "type": "funds",
+    "amount": 881046,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R21HL173710_02",
+    "source": "funder_nih",
+    "target": "grant_nih_5R21HL173710_02",
+    "type": "funds",
+    "amount": 283500,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jennifer_doudna_grant_nih_5R21HL173710_02",
+    "source": "author_jennifer_doudna",
+    "target": "grant_nih_5R21HL173710_02",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R21HL173710_02_inst_gladstone_institutes",
+    "source": "grant_nih_5R21HL173710_02",
+    "target": "inst_gladstone_institutes",
+    "type": "funds",
+    "amount": 283500,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5U19NS132303_03",
+    "source": "funder_nih",
+    "target": "grant_nih_5U19NS132303_03",
+    "type": "funds",
+    "amount": 4991109,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jennifer_doudna_grant_nih_5U19NS132303_03",
+    "source": "author_jennifer_doudna",
+    "target": "grant_nih_5U19NS132303_03",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5U19NS132303_03_inst_University_of_California__Berkeley",
+    "source": "grant_nih_5U19NS132303_03",
+    "target": "inst_University_of_California__Berkeley",
+    "type": "funds",
+    "amount": 4991109,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_3U19NS132303_03S1",
+    "source": "funder_nih",
+    "target": "grant_nih_3U19NS132303_03S1",
+    "type": "funds",
+    "amount": 163164,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jennifer_doudna_grant_nih_3U19NS132303_03S1",
+    "source": "author_jennifer_doudna",
+    "target": "grant_nih_3U19NS132303_03S1",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_3U19NS132303_03S1_inst_University_of_California__Berkeley",
+    "source": "grant_nih_3U19NS132303_03S1",
+    "target": "inst_University_of_California__Berkeley",
+    "type": "funds",
+    "amount": 163164,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5U54AI170792_04",
+    "source": "funder_nih",
+    "target": "grant_nih_5U54AI170792_04",
+    "type": "funds",
+    "amount": 421615,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jennifer_doudna_grant_nih_5U54AI170792_04",
+    "source": "author_jennifer_doudna",
+    "target": "grant_nih_5U54AI170792_04",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_1R21HL173710_01",
+    "source": "funder_nih",
+    "target": "grant_nih_1R21HL173710_01",
+    "type": "funds",
+    "amount": 236250,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jennifer_doudna_grant_nih_1R21HL173710_01",
+    "source": "author_jennifer_doudna",
+    "target": "grant_nih_1R21HL173710_01",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_1R21HL173710_01_inst_gladstone_institutes",
+    "source": "grant_nih_1R21HL173710_01",
+    "target": "inst_gladstone_institutes",
+    "type": "funds",
+    "amount": 236250,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5U19NS132303_02",
+    "source": "funder_nih",
+    "target": "grant_nih_5U19NS132303_02",
+    "type": "funds",
+    "amount": 4920516,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jennifer_doudna_grant_nih_5U19NS132303_02",
+    "source": "author_jennifer_doudna",
+    "target": "grant_nih_5U19NS132303_02",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5U19NS132303_02_inst_University_of_California__Berkeley",
+    "source": "grant_nih_5U19NS132303_02",
+    "target": "inst_University_of_California__Berkeley",
+    "type": "funds",
+    "amount": 4920516,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5U54AI170792_03",
+    "source": "funder_nih",
+    "target": "grant_nih_5U54AI170792_03",
+    "type": "funds",
+    "amount": 265257,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jennifer_doudna_grant_nih_5U54AI170792_03",
+    "source": "author_jennifer_doudna",
+    "target": "grant_nih_5U54AI170792_03",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5U54AI170792_02",
+    "source": "funder_nih",
+    "target": "grant_nih_5U54AI170792_02",
+    "type": "funds",
+    "amount": 325773,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jennifer_doudna_grant_nih_5U54AI170792_02",
+    "source": "author_jennifer_doudna",
+    "target": "grant_nih_5U54AI170792_02",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_1U19NS132303_01",
+    "source": "funder_nih",
+    "target": "grant_nih_1U19NS132303_01",
+    "type": "funds",
+    "amount": 4683536,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jennifer_doudna_grant_nih_1U19NS132303_01",
+    "source": "author_jennifer_doudna",
+    "target": "grant_nih_1U19NS132303_01",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_1U19NS132303_01_inst_University_of_California__Berkeley",
+    "source": "grant_nih_1U19NS132303_01",
+    "target": "inst_University_of_California__Berkeley",
+    "type": "funds",
+    "amount": 4683536,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R01AI132403_08",
+    "source": "funder_nih",
+    "target": "grant_nih_5R01AI132403_08",
+    "type": "funds",
+    "amount": 721738,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_harris_wang_grant_nih_5R01AI132403_08",
+    "source": "author_harris_wang",
+    "target": "grant_nih_5R01AI132403_08",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R01AI132403_08_inst_Columbia_University",
+    "source": "grant_nih_5R01AI132403_08",
+    "target": "inst_Columbia_University",
+    "type": "funds",
+    "amount": 721738,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R01EB031935_04",
+    "source": "funder_nih",
+    "target": "grant_nih_5R01EB031935_04",
+    "type": "funds",
+    "amount": 630741,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_harris_wang_grant_nih_5R01EB031935_04",
+    "source": "author_harris_wang",
+    "target": "grant_nih_5R01EB031935_04",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R01EB031935_04_inst_Columbia_University",
+    "source": "grant_nih_5R01EB031935_04",
+    "target": "inst_Columbia_University",
+    "type": "funds",
+    "amount": 630741,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R01AI132403_07",
+    "source": "funder_nih",
+    "target": "grant_nih_5R01AI132403_07",
+    "type": "funds",
+    "amount": 729963,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_harris_wang_grant_nih_5R01AI132403_07",
+    "source": "author_harris_wang",
+    "target": "grant_nih_5R01AI132403_07",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R01AI132403_07_inst_Columbia_University",
+    "source": "grant_nih_5R01AI132403_07",
+    "target": "inst_Columbia_University",
+    "type": "funds",
+    "amount": 729963,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_2R01AI132403_06A1",
+    "source": "funder_nih",
+    "target": "grant_nih_2R01AI132403_06A1",
+    "type": "funds",
+    "amount": 736246,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_harris_wang_grant_nih_2R01AI132403_06A1",
+    "source": "author_harris_wang",
+    "target": "grant_nih_2R01AI132403_06A1",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_2R01AI132403_06A1_inst_Columbia_University",
+    "source": "grant_nih_2R01AI132403_06A1",
+    "target": "inst_Columbia_University",
+    "type": "funds",
+    "amount": 736246,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R01EB031935_03",
+    "source": "funder_nih",
+    "target": "grant_nih_5R01EB031935_03",
+    "type": "funds",
+    "amount": 656837,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_harris_wang_grant_nih_5R01EB031935_03",
+    "source": "author_harris_wang",
+    "target": "grant_nih_5R01EB031935_03",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R01EB031935_03_inst_Columbia_University",
+    "source": "grant_nih_5R01EB031935_03",
+    "target": "inst_Columbia_University",
+    "type": "funds",
+    "amount": 656837,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R01AG091819_02",
+    "source": "funder_nih",
+    "target": "grant_nih_5R01AG091819_02",
+    "type": "funds",
+    "amount": 618688,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Le_Cong2_grant_nih_5R01AG091819_02",
+    "source": "author_Le_Cong2",
+    "target": "grant_nih_5R01AG091819_02",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R01AG091819_02_inst_Stanford_University",
+    "source": "grant_nih_5R01AG091819_02",
+    "target": "inst_Stanford_University",
+    "type": "funds",
+    "amount": 618688,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_1R01AG091819_01",
+    "source": "funder_nih",
+    "target": "grant_nih_1R01AG091819_01",
+    "type": "funds",
+    "amount": 619681,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Le_Cong2_grant_nih_1R01AG091819_01",
+    "source": "author_Le_Cong2",
+    "target": "grant_nih_1R01AG091819_01",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_1R01AG091819_01_inst_Stanford_University",
+    "source": "grant_nih_1R01AG091819_01",
+    "target": "inst_Stanford_University",
+    "type": "funds",
+    "amount": 619681,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R35HG011316_05",
+    "source": "funder_nih",
+    "target": "grant_nih_5R35HG011316_05",
+    "type": "funds",
+    "amount": 473100,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Le_Cong2_grant_nih_5R35HG011316_05",
+    "source": "author_Le_Cong2",
+    "target": "grant_nih_5R35HG011316_05",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R35HG011316_05_inst_Stanford_University",
+    "source": "grant_nih_5R35HG011316_05",
+    "target": "inst_Stanford_University",
+    "type": "funds",
+    "amount": 473100,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R35HG011316_04",
+    "source": "funder_nih",
+    "target": "grant_nih_5R35HG011316_04",
+    "type": "funds",
+    "amount": 473100,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Le_Cong2_grant_nih_5R35HG011316_04",
+    "source": "author_Le_Cong2",
+    "target": "grant_nih_5R35HG011316_04",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R35HG011316_04_inst_Stanford_University",
+    "source": "grant_nih_5R35HG011316_04",
+    "target": "inst_Stanford_University",
+    "type": "funds",
+    "amount": 473100,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R01GM141627_04",
+    "source": "funder_nih",
+    "target": "grant_nih_5R01GM141627_04",
+    "type": "funds",
+    "amount": 417908,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Le_Cong2_grant_nih_5R01GM141627_04",
+    "source": "author_Le_Cong2",
+    "target": "grant_nih_5R01GM141627_04",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R01GM141627_04_inst_Stanford_University",
+    "source": "grant_nih_5R01GM141627_04",
+    "target": "inst_Stanford_University",
+    "type": "funds",
+    "amount": 417908,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R01GM141627_03",
+    "source": "funder_nih",
+    "target": "grant_nih_5R01GM141627_03",
+    "type": "funds",
+    "amount": 417908,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Le_Cong2_grant_nih_5R01GM141627_03",
+    "source": "author_Le_Cong2",
+    "target": "grant_nih_5R01GM141627_03",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R01GM141627_03_inst_Stanford_University",
+    "source": "grant_nih_5R01GM141627_03",
+    "target": "inst_Stanford_University",
+    "type": "funds",
+    "amount": 417908,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R35GM139571_05",
+    "source": "funder_nih",
+    "target": "grant_nih_5R35GM139571_05",
+    "type": "funds",
+    "amount": 760157,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Eugene_Shakhnovich1_grant_nih_5R35GM139571_05",
+    "source": "author_Eugene_Shakhnovich1",
+    "target": "grant_nih_5R35GM139571_05",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R35GM139571_05_inst_Harvard_University",
+    "source": "grant_nih_5R35GM139571_05",
+    "target": "inst_Harvard_University",
+    "type": "funds",
+    "amount": 760157,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R35GM139571_04",
+    "source": "funder_nih",
+    "target": "grant_nih_5R35GM139571_04",
+    "type": "funds",
+    "amount": 760157,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Eugene_Shakhnovich1_grant_nih_5R35GM139571_04",
+    "source": "author_Eugene_Shakhnovich1",
+    "target": "grant_nih_5R35GM139571_04",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R35GM139571_04_inst_Harvard_University",
+    "source": "grant_nih_5R35GM139571_04",
+    "target": "inst_Harvard_University",
+    "type": "funds",
+    "amount": 760157,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5R35GM139571_03",
+    "source": "funder_nih",
+    "target": "grant_nih_5R35GM139571_03",
+    "type": "funds",
+    "amount": 760157,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_Eugene_Shakhnovich1_grant_nih_5R35GM139571_03",
+    "source": "author_Eugene_Shakhnovich1",
+    "target": "grant_nih_5R35GM139571_03",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5R35GM139571_03_inst_Harvard_University",
+    "source": "grant_nih_5R35GM139571_03",
+    "target": "inst_Harvard_University",
+    "type": "funds",
+    "amount": 760157,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5RM1HG009490_09",
+    "source": "funder_nih",
+    "target": "grant_nih_5RM1HG009490_09",
+    "type": "funds",
+    "amount": 2450000,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jonathan_weissman_grant_nih_5RM1HG009490_09",
+    "source": "author_jonathan_weissman",
+    "target": "grant_nih_5RM1HG009490_09",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5RM1HG009490_09_inst_whitehead_institute",
+    "source": "grant_nih_5RM1HG009490_09",
+    "target": "inst_whitehead_institute",
+    "type": "funds",
+    "amount": 2450000,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5RM1HG009490_08",
+    "source": "funder_nih",
+    "target": "grant_nih_5RM1HG009490_08",
+    "type": "funds",
+    "amount": 2449998,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jonathan_weissman_grant_nih_5RM1HG009490_08",
+    "source": "author_jonathan_weissman",
+    "target": "grant_nih_5RM1HG009490_08",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5RM1HG009490_08_inst_whitehead_institute",
+    "source": "grant_nih_5RM1HG009490_08",
+    "target": "inst_whitehead_institute",
+    "type": "funds",
+    "amount": 2449998,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_nih_5RM1HG009490_07",
+    "source": "funder_nih",
+    "target": "grant_nih_5RM1HG009490_07",
+    "type": "funds",
+    "amount": 2500000,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "performs_author_jonathan_weissman_grant_nih_5RM1HG009490_07",
+    "source": "author_jonathan_weissman",
+    "target": "grant_nih_5RM1HG009490_07",
+    "type": "performs_on",
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "funds_grant_nih_5RM1HG009490_07_inst_whitehead_institute",
+    "source": "grant_nih_5RM1HG009490_07",
+    "target": "inst_whitehead_institute",
+    "type": "funds",
+    "amount": 2500000,
+    "data_source": "https://api.reporter.nih.gov",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_Kevin_M__Esvelt1_pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+    "source": "author_Kevin_M__Esvelt1",
+    "target": "pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_Kevin_M__Esvelt1_pub_s2_Can_large_language_models_democratize_ac_2023",
+    "source": "author_Kevin_M__Esvelt1",
+    "target": "pub_s2_Can_large_language_models_democratize_ac_2023",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_Kevin_M__Esvelt1_pub_s2_Assessing_the_safety_of_new_germicidal_f_2023",
+    "source": "author_Kevin_M__Esvelt1",
+    "target": "pub_s2_Assessing_the_safety_of_new_germicidal_f_2023",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_jennifer_doudna_pub_s2_CRISPR_technology__A_decade_of_genome_ed_2023",
+    "source": "author_jennifer_doudna",
+    "target": "pub_s2_CRISPR_technology__A_decade_of_genome_ed_2023",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_jennifer_doudna_pub_s2_Mitigation_of_chromosome_loss_in_clinica_2023",
+    "source": "author_jennifer_doudna",
+    "target": "pub_s2_Mitigation_of_chromosome_loss_in_clinica_2023",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_jennifer_doudna_pub_s2_Rapid_assembly_of_SARS_CoV_2_genomes_rev_2023",
+    "source": "author_jennifer_doudna",
+    "target": "pub_s2_Rapid_assembly_of_SARS_CoV_2_genomes_rev_2023",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_yoshua_bengio_pub_s2_Benchmarking_Graph_Neural_Networks_2023",
+    "source": "author_yoshua_bengio",
+    "target": "pub_s2_Benchmarking_Graph_Neural_Networks_2023",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_yoshua_bengio_pub_s2_AI_and_Catastrophic_Risk_2023",
+    "source": "author_yoshua_bengio",
+    "target": "pub_s2_AI_and_Catastrophic_Risk_2023",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_yoshua_bengio_pub_s2_Automated_Detection_of_Anatomical_Landma_2023",
+    "source": "author_yoshua_bengio",
+    "target": "pub_s2_Automated_Detection_of_Anatomical_Landma_2023",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_jonathan_weissman_pub_s2_Deciphering_cell_states_and_genealogies__2024",
+    "source": "author_jonathan_weissman",
+    "target": "pub_s2_Deciphering_cell_states_and_genealogies__2024",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_jonathan_weissman_pub_s2_Brain_wide_silencing_of_prion_protein_by_2024",
+    "source": "author_jonathan_weissman",
+    "target": "pub_s2_Brain_wide_silencing_of_prion_protein_by_2024",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "pub_author_jonathan_weissman_pub_s2_High_quality_peptide_evidence_for_annota_2024",
+    "source": "author_jonathan_weissman",
+    "target": "pub_s2_High_quality_peptide_evidence_for_annota_2024",
+    "type": "published_study",
+    "data_source": "https://api.semanticscholar.org",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "partof_whitehead_mit",
+    "source": "inst_whitehead_institute",
+    "target": "inst_Massachusetts_Institute_of_Technology",
+    "type": "part_of",
+    "data_source": "general_knowledge",
+    "confidence": "HIGH"
+  }
+]

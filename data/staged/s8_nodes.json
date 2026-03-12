@@ -1,0 +1,472 @@
+[
+  {
+    "id": "funder_nih",
+    "label": "National Institutes of Health (NIH)",
+    "type": "funder",
+    "url": "https://www.nih.gov",
+    "data_source": "https://api.reporter.nih.gov"
+  },
+  {
+    "id": "inst_gladstone_institutes",
+    "label": "Gladstone Institutes",
+    "type": "institution",
+    "url": "https://gladstone.org"
+  },
+  {
+    "id": "inst_whitehead_institute",
+    "label": "Whitehead Institute",
+    "type": "institution",
+    "url": "https://wi.mit.edu"
+  },
+  {
+    "id": "grant_nih_5R01AI152209_05",
+    "label": "Heritable immunization of the white-footed mouse reservoir of Lyme disease",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R01AI152209-05 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R01AI152209-05"
+    }
+  },
+  {
+    "id": "grant_nih_5R01AI152209_04",
+    "label": "Heritable immunization of the white-footed mouse reservoir of Lyme disease",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R01AI152209-04 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R01AI152209-04"
+    }
+  },
+  {
+    "id": "grant_nih_5R01AI152209_03",
+    "label": "Heritable immunization of the white-footed mouse reservoir of Lyme disease",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R01AI152209-03 | MASSACHUSETTS INSTITUTE OF TECHNOLOGY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R01AI152209-03"
+    }
+  },
+  {
+    "id": "grant_nih_5R21HL173710_02",
+    "label": "Targeted Delivery of Cas9 to Lung Epithelial Cells using Enveloped Delivery Vehicles",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R21HL173710-02 | J. DAVID GLADSTONE INSTITUTES",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R21HL173710-02"
+    }
+  },
+  {
+    "id": "grant_nih_5U19NS132303_03",
+    "label": "Correction of Neurological Disease via Allele Specific Excision of Pathogenic Repeats",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5U19NS132303-03 | UNIVERSITY OF CALIFORNIA BERKELEY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5U19NS132303-03"
+    }
+  },
+  {
+    "id": "grant_nih_3U19NS132303_03S1",
+    "label": "Admin. Supp.: Correction of Neurological Disease via Allele Specific Excision of Pathogenic Repeats",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 3U19NS132303-03S1 | UNIVERSITY OF CALIFORNIA BERKELEY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/3U19NS132303-03S1"
+    }
+  },
+  {
+    "id": "grant_nih_5U54AI170792_04",
+    "label": "Core 2",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5U54AI170792-04 | UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5U54AI170792-04"
+    }
+  },
+  {
+    "id": "grant_nih_1R21HL173710_01",
+    "label": "Targeted Delivery of Cas9 to Lung Epithelial Cells using Enveloped Delivery Vehicles",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 1R21HL173710-01 | J. DAVID GLADSTONE INSTITUTES",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/1R21HL173710-01"
+    }
+  },
+  {
+    "id": "grant_nih_5U19NS132303_02",
+    "label": "Correction of Neurological Disease via Allele Specific Excision of Pathogenic Repeats",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5U19NS132303-02 | UNIVERSITY OF CALIFORNIA BERKELEY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5U19NS132303-02"
+    }
+  },
+  {
+    "id": "grant_nih_5U54AI170792_03",
+    "label": "Core 2",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5U54AI170792-03 | UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5U54AI170792-03"
+    }
+  },
+  {
+    "id": "grant_nih_5U54AI170792_02",
+    "label": "Core 2",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5U54AI170792-02 | UNIVERSITY OF CALIFORNIA, SAN FRANCISCO",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5U54AI170792-02"
+    }
+  },
+  {
+    "id": "grant_nih_1U19NS132303_01",
+    "label": "Correction of Neurological Disease via Allele Specific Excision of Pathogenic Repeats",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 1U19NS132303-01 | UNIVERSITY OF CALIFORNIA BERKELEY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/1U19NS132303-01"
+    }
+  },
+  {
+    "id": "grant_nih_5R01AI132403_08",
+    "label": "Micron-scale Spatial Metagenomic Mapping of Microbial Biogeography in the Gastrointestinal Tract",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R01AI132403-08 | COLUMBIA UNIVERSITY HEALTH SCIENCES",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R01AI132403-08"
+    }
+  },
+  {
+    "id": "grant_nih_5R01EB031935_04",
+    "label": "A high-performance and versatile technology for precision microbiome engineering",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R01EB031935-04 | COLUMBIA UNIVERSITY HEALTH SCIENCES",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R01EB031935-04"
+    }
+  },
+  {
+    "id": "grant_nih_5R01AI132403_07",
+    "label": "Micron-scale Spatial Metagenomic Mapping of Microbial Biogeography in the Gastrointestinal Tract",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R01AI132403-07 | COLUMBIA UNIVERSITY HEALTH SCIENCES",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R01AI132403-07"
+    }
+  },
+  {
+    "id": "grant_nih_2R01AI132403_06A1",
+    "label": "Micron-scale Spatial Metagenomic Mapping of Microbial Biogeography in the Gastrointestinal Tract",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 2R01AI132403-06A1 | COLUMBIA UNIVERSITY HEALTH SCIENCES",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/2R01AI132403-06A1"
+    }
+  },
+  {
+    "id": "grant_nih_5R01EB031935_03",
+    "label": "A high-performance and versatile technology for precision microbiome engineering",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R01EB031935-03 | COLUMBIA UNIVERSITY HEALTH SCIENCES",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R01EB031935-03"
+    }
+  },
+  {
+    "id": "grant_nih_5R01AG091819_02",
+    "label": "Combinatorial Perturbation with Multi-Omics Readout to Dissect Etiology of Alzheimer's Disease Using Stem Cell and In Vivo Models",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R01AG091819-02 | STANFORD UNIVERSITY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R01AG091819-02"
+    }
+  },
+  {
+    "id": "grant_nih_1R01AG091819_01",
+    "label": "Combinatorial Perturbation with Multi-Omics Readout to Dissect Etiology of Alzheimer's Disease Using Stem Cell and In Vivo Models",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 1R01AG091819-01 | STANFORD UNIVERSITY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/1R01AG091819-01"
+    }
+  },
+  {
+    "id": "grant_nih_5R35HG011316_05",
+    "label": "Towards Robust Multiplex Genome Engineering Beyond CRISPR-Cas9",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R35HG011316-05 | STANFORD UNIVERSITY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R35HG011316-05"
+    }
+  },
+  {
+    "id": "grant_nih_5R35HG011316_04",
+    "label": "Towards Robust Multiplex Genome Engineering Beyond CRISPR-Cas9",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R35HG011316-04 | STANFORD UNIVERSITY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R35HG011316-04"
+    }
+  },
+  {
+    "id": "grant_nih_5R01GM141627_04",
+    "label": "Recombineering-based no-cleavage gene-editing toolkit for large-scale genome engineering and functional screening",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R01GM141627-04 | STANFORD UNIVERSITY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R01GM141627-04"
+    }
+  },
+  {
+    "id": "grant_nih_5R01GM141627_03",
+    "label": "Recombineering-based no-cleavage gene-editing toolkit for large-scale genome engineering and functional screening",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R01GM141627-03 | STANFORD UNIVERSITY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R01GM141627-03"
+    }
+  },
+  {
+    "id": "grant_nih_5R35GM139571_05",
+    "label": "Biophysical foundations of evolutionary dynamics",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R35GM139571-05 | HARVARD UNIVERSITY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R35GM139571-05"
+    }
+  },
+  {
+    "id": "grant_nih_5R35GM139571_04",
+    "label": "Biophysical foundations of evolutionary dynamics",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R35GM139571-04 | HARVARD UNIVERSITY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R35GM139571-04"
+    }
+  },
+  {
+    "id": "grant_nih_5R35GM139571_03",
+    "label": "Biophysical foundations of evolutionary dynamics",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5R35GM139571-03 | HARVARD UNIVERSITY",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5R35GM139571-03"
+    }
+  },
+  {
+    "id": "grant_nih_5RM1HG009490_09",
+    "label": "Center for Genomic Editing and Recording: Development and Application of Next-Generation Genome and Epigenome Editing Methods to Advance the Study and Treatment of Human Disease",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5RM1HG009490-09 | WHITEHEAD INSTITUTE FOR BIOMEDICAL RES",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5RM1HG009490-09"
+    }
+  },
+  {
+    "id": "grant_nih_5RM1HG009490_08",
+    "label": "Center for Genomic Editing and Recording: Development and Application of Next-Generation Genome and Epigenome Editing Methods to Advance the Study and Treatment of Human Disease",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5RM1HG009490-08 | WHITEHEAD INSTITUTE FOR BIOMEDICAL RES",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5RM1HG009490-08"
+    }
+  },
+  {
+    "id": "grant_nih_5RM1HG009490_07",
+    "label": "Center for Genomic Editing and Recording: Development and Application of Next-Generation Genome and Epigenome Editing Methods to Advance the Study and Treatment of Human Disease",
+    "type": "program",
+    "subtype": "nih_grant",
+    "data_source": "https://api.reporter.nih.gov",
+    "description": "NIH 5RM1HG009490-07 | WHITEHEAD INSTITUTE FOR BIOMEDICAL RES",
+    "details": {
+      "NIH RePORTER": "https://reporter.nih.gov/project-details/5RM1HG009490-07"
+    }
+  },
+  {
+    "id": "pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+    "label": "The WMDP Benchmark: Measuring and Reducing Malicious Use With Unlearning",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/06b9ad0b52d23231f650be0aeb0b17cc52c8a74b",
+    "description": "International Conference on Machine Learning (2024) | 350 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/06b9ad0b52d23231f650be0aeb0b17cc52c8a74b"
+    }
+  },
+  {
+    "id": "pub_s2_Can_large_language_models_democratize_ac_2023",
+    "label": "Can large language models democratize access to dual-use biotechnology?",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/192721aeffb62cf86564754b70f6c1d0fe1c670d",
+    "description": "arXiv.org (2023) | 61 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/192721aeffb62cf86564754b70f6c1d0fe1c670d"
+    }
+  },
+  {
+    "id": "pub_s2_Assessing_the_safety_of_new_germicidal_f_2023",
+    "label": "Assessing the safety of new germicidal far\u2010UVC technologies",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/36761893834d96e957771aa5321d91d414cdba73",
+    "description": "Photochemistry and Photobiology (2023) | 40 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/36761893834d96e957771aa5321d91d414cdba73"
+    }
+  },
+  {
+    "id": "pub_s2_CRISPR_technology__A_decade_of_genome_ed_2023",
+    "label": "CRISPR technology: A decade of genome editing is only the beginning",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/04992d7174dc01ef8c488f580deb7414b11d54c7",
+    "description": "Science (2023) | 740 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/04992d7174dc01ef8c488f580deb7414b11d54c7"
+    }
+  },
+  {
+    "id": "pub_s2_Mitigation_of_chromosome_loss_in_clinica_2023",
+    "label": "Mitigation of chromosome loss in clinical CRISPR-Cas9-engineered T cells",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/ff59396d8f8975aefbfd06f8eca3b8f4d27e8c00",
+    "description": "bioRxiv (2023) | 130 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/ff59396d8f8975aefbfd06f8eca3b8f4d27e8c00"
+    }
+  },
+  {
+    "id": "pub_s2_Rapid_assembly_of_SARS_CoV_2_genomes_rev_2023",
+    "label": "Rapid assembly of SARS-CoV-2 genomes reveals attenuation of the Omicron BA.1 variant through NSP6",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/47783614663392ecbaff76350253da361542f7c9",
+    "description": "Nature Communications (2023) | 39 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/47783614663392ecbaff76350253da361542f7c9"
+    }
+  },
+  {
+    "id": "pub_s2_Benchmarking_Graph_Neural_Networks_2023",
+    "label": "Benchmarking Graph Neural Networks",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/d08a0eb7024dff5c4fabd58144a38031633d4e1a",
+    "description": "Journal of machine learning research (2023) | 1124 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/d08a0eb7024dff5c4fabd58144a38031633d4e1a"
+    }
+  },
+  {
+    "id": "pub_s2_AI_and_Catastrophic_Risk_2023",
+    "label": "AI and Catastrophic Risk",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/0fdff0a9a42dfb00f1b99d9025be3759b8fe6fd2",
+    "description": "Journal of Democracy (2023) | 27 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/0fdff0a9a42dfb00f1b99d9025be3759b8fe6fd2"
+    }
+  },
+  {
+    "id": "pub_s2_Automated_Detection_of_Anatomical_Landma_2023",
+    "label": "Automated Detection of Anatomical Landmarks During Colonoscopy Using a Deep Learning Model",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/f25a86995de6d6275bd433eb33ebf52ba6c1e669",
+    "description": "Journal of the Canadian Association of Gastroenterology (2023) | 12 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/f25a86995de6d6275bd433eb33ebf52ba6c1e669"
+    }
+  },
+  {
+    "id": "pub_s2_Deciphering_cell_states_and_genealogies__2024",
+    "label": "Deciphering cell states and genealogies of human haematopoiesis",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/9227beae6f3e5a6c3d799638d1ea424bab5d01e7",
+    "description": "Nature (2024) | 101 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/9227beae6f3e5a6c3d799638d1ea424bab5d01e7"
+    }
+  },
+  {
+    "id": "pub_s2_Brain_wide_silencing_of_prion_protein_by_2024",
+    "label": "Brain-wide silencing of prion protein by AAV-mediated delivery of an engineered compact epigenetic editor",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/b363522b5c42e3ce6c0cb7a44eff0b803cda69d0",
+    "description": "Science (2024) | 63 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/b363522b5c42e3ce6c0cb7a44eff0b803cda69d0"
+    }
+  },
+  {
+    "id": "pub_s2_High_quality_peptide_evidence_for_annota_2024",
+    "label": "High-quality peptide evidence for annotating non-canonical open reading frames as human proteins",
+    "type": "publication",
+    "subtype": "research_paper",
+    "data_source": "https://api.semanticscholar.org/graph/v1/paper/6a6f8322e7a21e1793eb63a4272ee2bd6a1b05d1",
+    "description": "bioRxiv (2024) | 20 citations",
+    "details": {
+      "Semantic Scholar": "https://www.semanticscholar.org/paper/6a6f8322e7a21e1793eb63a4272ee2bd6a1b05d1"
+    }
+  }
+]
