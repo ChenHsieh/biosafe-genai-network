@@ -1,0 +1,60 @@
+{
+  "spending_level": "awards",
+  "limit": 100,
+  "results": [
+    {
+      "internal_id": 307304285,
+      "Award ID": "HR001117P0012",
+      "Recipient Name": "SPARKS & HONEY LLC",
+      "Description": "IGF::OT::IGF - SAFE GENES CULTURAL INTELLIGENCE SYSTEM DEMONSTRATION",
+      "Award Amount": 23042.0,
+      "Start Date": "2017-05-01",
+      "End Date": "2017-05-04",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Sub Agency": "Defense Advanced Research Projects Agency",
+      "Award Type": null,
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense",
+      "generated_internal_id": "CONT_AWD_HR001117P0012_9700_-NONE-_-NONE-"
+    },
+    {
+      "internal_id": 308036379,
+      "Award ID": "IND16PD01077",
+      "Recipient Name": "HAMILTON PRODUCTS GROUP, INC.",
+      "Description": "CLASS 6 SAFE - GENERAL PURPOSE CONTAINERS",
+      "Award Amount": 10864.46,
+      "Start Date": "2016-09-08",
+      "End Date": "2016-12-10",
+      "Awarding Agency": "Department of the Interior",
+      "Awarding Sub Agency": "Departmental Offices",
+      "Award Type": null,
+      "awarding_agency_id": 209,
+      "agency_slug": "department-of-the-interior",
+      "generated_internal_id": "CONT_AWD_IND16PD01077_1406_GS27F0016Y_4732"
+    },
+    {
+      "internal_id": 311150162,
+      "Award ID": "N6883610F0387",
+      "Recipient Name": "HAMILTON PRODUCTS GROUP, INC.",
+      "Description": "SAFE, GENERAL PURPOSE CABINET",
+      "Award Amount": 4750.0,
+      "Start Date": "2010-04-08",
+      "End Date": "2010-06-07",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Sub Agency": "Department of the Navy",
+      "Award Type": null,
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense",
+      "generated_internal_id": "CONT_AWD_N6883610F0387_9700_GS29F8997A_4730"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

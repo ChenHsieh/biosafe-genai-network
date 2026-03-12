@@ -1,0 +1,68 @@
+{
+  "fetch_date": "2026-03-11",
+  "source": "DARPA news releases + web searches",
+  "programs": {
+    "P3": {
+      "full_name": "Pandemic Prevention Platform",
+      "source_url": "https://www.darpa.mil/news/2018/halt-outbreaks",
+      "program_manager": "Col. Matthew Hepburn, M.D.",
+      "total_funding": null,
+      "performers": [
+        {"name": "AbCellera Biologics Inc.", "role": "performer"},
+        {"name": "Duke University", "role": "performer"},
+        {"name": "Vanderbilt University", "role": "performer"},
+        {"name": "MedImmune (AstraZeneca)", "role": "performer"}
+      ],
+      "bio_ai_relevance": "MODERATE — antibody discovery platform uses computational methods but primarily wet-lab"
+    },
+    "SAFE_GENES": {
+      "full_name": "Safe Genes",
+      "source_url": "https://www.darpa.mil/news-events/2017-07-19",
+      "total_funding": "$65M over 4 years",
+      "performers": [
+        {"name": "Broad Institute of MIT and Harvard", "pi": "Dr. Amit Choudhary", "focus": "on/off switches for genome editing"},
+        {"name": "Harvard Medical School", "pi": "Dr. George Church", "focus": "detect/prevent/reverse mutations from radiation"},
+        {"name": "Massachusetts General Hospital", "pi": "Dr. Keith Joung", "focus": "control and measure genome editing activity"},
+        {"name": "Massachusetts Institute of Technology", "pi": "Dr. Kevin Esvelt", "focus": "modular daisy drive platforms"},
+        {"name": "North Carolina State University", "pi": "Dr. John Godwin", "focus": "mammalian gene drive in rodents"},
+        {"name": "University of California, Berkeley", "pi": "Dr. Jennifer Doudna", "focus": "gene editing tools as antiviral agents, anti-CRISPR"},
+        {"name": "University of California, Riverside", "pi": "Dr. Omar Akbari", "focus": "reversible gene drive for mosquito control"}
+      ],
+      "bio_ai_relevance": "HIGH — Dr. Kevin Esvelt (MIT) is a key figure in biosecurity+AI discourse; gene drive modeling is computational"
+    },
+    "PREEMPT": {
+      "full_name": "PREventing EMerging Pathogenic Threats",
+      "source_url": "https://www.darpa.mil/news/2019/medical-preparedness",
+      "program_manager": "Jim Gimlett",
+      "duration": "3.5 years",
+      "performers": [
+        {"name": "Autonomous Therapeutics, Inc.", "pi": "Dr. Ariel Weinberger", "focus": "Avian influenza, CCHF",
+         "sub_team": ["CSIRO Australian Animal Health Lab", "Navy Medical Research Unit-2", "UCLA", "University of Chicago Medical School", "University of Texas Medical Branch"]},
+        {"name": "University of California, Davis", "pi": ["Dr. Peter Barry", "Dr. Brian Bird"], "focus": "Lassa virus, Ebola virus",
+         "sub_team": ["Leibniz Institute for Experimental Virology", "Mount Sinai School of Medicine", "Rocky Mountain Labs/NIH", "The Vaccine Group Ltd.", "University of Glasgow", "University of Idaho", "University of Western Australia"]},
+        {"name": "Institut Pasteur", "pi": "Dr. Carla Saleh", "focus": "Mosquito-borne arboviruses",
+         "sub_team": ["Institut Pasteur International Network", "Latham BioPharm Group", "Virginia Tech"]},
+        {"name": "Montana State University", "pi": "Dr. Raina Plowright", "focus": "Henipavirus spillover from bats",
+         "sub_team": ["Cary Institute of Ecosystem Studies", "Colorado State University", "Cornell University", "Griffith University", "Johns Hopkins University", "Rocky Mountain Labs/NIH", "Penn State", "Texas Tech", "UC Berkeley", "UCLA", "University of Cambridge"]},
+        {"name": "The Pirbright Institute", "pi": "Dr. Luke Alphey", "focus": "Mosquito transmission of flaviviruses",
+         "sub_team": ["University of Nottingham", "University of Tartu"]}
+      ],
+      "bio_ai_relevance": "LOW-MODERATE — primarily wet-lab/field virology; some computational modeling of spillover"
+    },
+    "PREPARE": {
+      "full_name": "PReemptive Expression of Protective Alleles and Response Elements",
+      "source_urls": [
+        "https://www.darpa.mil/news/2019/dose-inner-strength",
+        "https://www.darpa.mil/news/2021/defend-chemical-biolgical-threats"
+      ],
+      "performers": [
+        {"name": "Phil Santangelo team", "focus": "mRNA-encoded gene modulators for influenza"},
+        {"name": "University of Massachusetts Medical School", "pi": "Dr. Robert Finberg", "focus": "host/viral target sequences for influenza"},
+        {"name": "Columbia University Irving Medical Center", "pi": "Dr. Harris Wang", "focus": "orally delivered programmable gene modulator"},
+        {"name": "University of California, San Francisco", "pi": "Dr. Jonathan Weissman", "focus": "gene therapies against ionizing radiation"},
+        {"name": "Georgia Tech / Emory / Duke / Rockefeller / UGA", "pi": null, "focus": "ThIRM — Thwarting Influenza with RNA-powered Modulators"}
+      ],
+      "bio_ai_relevance": "MODERATE — programmable gene modulators involve computational design"
+    }
+  }
+}

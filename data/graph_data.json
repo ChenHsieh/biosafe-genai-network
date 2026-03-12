@@ -6695,6 +6695,410 @@
       "entity_type": "institution",
       "url": null,
       "degree": 1
+    },
+    {
+      "id": "funder_darpa",
+      "label": "DARPA",
+      "type": "funder",
+      "subtype": "government",
+      "description": "Defense Advanced Research Projects Agency \u2014 US DoD",
+      "url": "https://www.darpa.mil"
+    },
+    {
+      "id": "funder_iarpa",
+      "label": "IARPA",
+      "type": "funder",
+      "subtype": "government",
+      "description": "Intelligence Advanced Research Projects Activity \u2014 ODNI",
+      "url": "https://www.iarpa.gov"
+    },
+    {
+      "id": "program_darpa_prophecy",
+      "label": "DARPA PROPHECY",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "Pathogen prediction and viral evolution modeling"
+    },
+    {
+      "id": "program_darpa_living_foundries",
+      "label": "DARPA LIVING FOUNDRIES",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "Engineering biology \u2014 design-build-test cycle automation"
+    },
+    {
+      "id": "program_darpa_biological_control",
+      "label": "DARPA BIOLOGICAL CONTROL",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "Predictive closed-loop control of biological systems"
+    },
+    {
+      "id": "program_darpa_brics",
+      "label": "DARPA BRICS",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "Biologically Robust Interfaces in Complex Settings \u2014 synthetic biology"
+    },
+    {
+      "id": "program_darpa_l2m",
+      "label": "DARPA L2M",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "Lifelong Learning Machines \u2014 bio-inspired ML"
+    },
+    {
+      "id": "program_darpa_sigma",
+      "label": "DARPA SIGMA+",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "Biological threat detection systems"
+    },
+    {
+      "id": "program_darpa_leap",
+      "label": "DARPA LEAP",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "Laboratory Evaluation of AI-Developed Protocols for Biosecurity"
+    },
+    {
+      "id": "program_darpa_arcadia",
+      "label": "DARPA ARCADIA",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "Autonomous biological systems research"
+    },
+    {
+      "id": "program_darpa_triage_challenge",
+      "label": "DARPA TRIAGE CHALLENGE",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "DARPA Triage Challenge \u2014 automated medical triage"
+    },
+    {
+      "id": "program_darpa_bio_teleporter",
+      "label": "DARPA BIO TELEPORTER",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "Digital-to-biological conversion systems"
+    },
+    {
+      "id": "program_darpa_bto_baa",
+      "label": "DARPA BTO BAA",
+      "type": "program",
+      "subtype": "darpa_bto",
+      "description": "DARPA Biological Technologies Office open BAA awards"
+    },
+    {
+      "id": "program_iarpa_fungcat",
+      "label": "IARPA Fun GCAT",
+      "type": "program",
+      "subtype": "iarpa",
+      "description": "Functional Genomic and Computational Assessment of Threats \u2014 AI-driven DNA sequence threat screening (2017\u20132022)",
+      "url": "https://www.iarpa.gov/research-programs/fun-gcat",
+      "details": {
+        "BAA": "IARPA-BAA-16-08"
+      }
+    },
+    {
+      "id": "org_darpa_university_of_massachusetts_medical_school",
+      "label": "University Of Massachusetts Medical School",
+      "type": "org",
+      "subtype": "darpa_performer"
+    },
+    {
+      "id": "org_darpa_sri_international",
+      "label": "SRI International",
+      "type": "org",
+      "subtype": "darpa_performer"
+    },
+    {
+      "id": "org_darpa_california_institute_of_technology",
+      "label": "California Institute Of Technology",
+      "type": "org",
+      "subtype": "darpa_performer"
+    },
+    {
+      "id": "org_darpa_viridos_inc",
+      "label": "Viridos, Inc.",
+      "type": "org",
+      "subtype": "darpa_performer"
+    },
+    {
+      "id": "org_darpa_foundation_for_applied_molecular_evolution_inc",
+      "label": "Foundation For Applied Molecular Evolution, Inc.",
+      "type": "org",
+      "subtype": "darpa_performer"
+    },
+    {
+      "id": "org_darpa_zymergen_inc",
+      "label": "Zymergen Inc.",
+      "type": "org",
+      "subtype": "darpa_performer"
+    },
+    {
+      "id": "org_darpa_leidos_inc",
+      "label": "Leidos, Inc.",
+      "type": "org",
+      "subtype": "darpa_performer"
+    },
+    {
+      "id": "org_darpa_clemson_university",
+      "label": "Clemson University",
+      "type": "org",
+      "subtype": "darpa_performer"
+    },
+    {
+      "id": "org_darpa_university_of_vermont_state_agricultural_college",
+      "label": "University Of Vermont & State Agricultural College",
+      "type": "org",
+      "subtype": "darpa_performer"
+    },
+    {
+      "id": "org_iarpa_battelle_memorial_institute",
+      "label": "Battelle Memorial Institute",
+      "type": "org",
+      "subtype": "iarpa_prime_performer"
+    },
+    {
+      "id": "org_iarpa_signature_science",
+      "label": "Signature Science",
+      "type": "org",
+      "subtype": "iarpa_prime_performer"
+    },
+    {
+      "id": "org_iarpa_virginia_tech",
+      "label": "Virginia Tech",
+      "type": "org",
+      "subtype": "iarpa_prime_performer"
+    },
+    {
+      "id": "org_iarpa_los_alamos_national_laboratory",
+      "label": "Los Alamos National Laboratory",
+      "type": "org",
+      "subtype": "iarpa_test_eval"
+    },
+    {
+      "id": "org_iarpa_department_of_homeland_security",
+      "label": "Department of Homeland Security",
+      "type": "org",
+      "subtype": "iarpa_test_eval"
+    },
+    {
+      "id": "org_iarpa_united_states_army_medical_research_institute_of_infectious_",
+      "label": "United States Army Medical Research Institute of Infectious Diseases",
+      "type": "org",
+      "subtype": "iarpa_test_eval"
+    },
+    {
+      "id": "author_amit_choudhary",
+      "label": "Amit Choudhary",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA SAFE GENES",
+      "details": {
+        "source": "DARPA news 2017-07-19",
+        "source_type": "news_release",
+        "program": "SAFE GENES"
+      }
+    },
+    {
+      "id": "author_george_church",
+      "label": "George Church",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA SAFE GENES",
+      "details": {
+        "source": "DARPA news 2017-07-19",
+        "source_type": "news_release",
+        "program": "SAFE GENES"
+      }
+    },
+    {
+      "id": "author_keith_joung",
+      "label": "Keith Joung",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA SAFE GENES",
+      "details": {
+        "source": "DARPA news 2017-07-19",
+        "source_type": "news_release",
+        "program": "SAFE GENES"
+      }
+    },
+    {
+      "id": "org_darpa_massachusetts_general_hospital",
+      "label": "Massachusetts General Hospital",
+      "type": "org",
+      "subtype": "darpa_institution"
+    },
+    {
+      "id": "author_john_godwin",
+      "label": "John Godwin",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA SAFE GENES",
+      "details": {
+        "source": "DARPA news 2017-07-19",
+        "source_type": "news_release",
+        "program": "SAFE GENES"
+      }
+    },
+    {
+      "id": "org_darpa_north_carolina_state_university",
+      "label": "North Carolina State University",
+      "type": "org",
+      "subtype": "darpa_institution"
+    },
+    {
+      "id": "author_jennifer_doudna",
+      "label": "Jennifer Doudna",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA SAFE GENES",
+      "details": {
+        "source": "DARPA news 2017-07-19",
+        "source_type": "news_release",
+        "program": "SAFE GENES"
+      }
+    },
+    {
+      "id": "org_darpa_university_of_california_berkeley",
+      "label": "University of California, Berkeley",
+      "type": "org",
+      "subtype": "darpa_institution"
+    },
+    {
+      "id": "author_omar_akbari",
+      "label": "Omar Akbari",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA SAFE GENES",
+      "details": {
+        "source": "DARPA news 2017-07-19",
+        "source_type": "news_release",
+        "program": "SAFE GENES"
+      }
+    },
+    {
+      "id": "org_darpa_university_of_california_riverside",
+      "label": "University of California, Riverside",
+      "type": "org",
+      "subtype": "darpa_institution"
+    },
+    {
+      "id": "author_ariel_weinberger",
+      "label": "Ariel Weinberger",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA PREEMPT",
+      "details": {
+        "source": "DARPA news 2019",
+        "source_type": "news_release",
+        "program": "PREEMPT"
+      }
+    },
+    {
+      "id": "org_darpa_autonomous_therapeutics_inc",
+      "label": "Autonomous Therapeutics, Inc.",
+      "type": "org",
+      "subtype": "darpa_institution"
+    },
+    {
+      "id": "author_peter_barry",
+      "label": "Peter Barry",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA PREEMPT",
+      "details": {
+        "source": "DARPA news 2019",
+        "source_type": "news_release",
+        "program": "PREEMPT"
+      }
+    },
+    {
+      "id": "org_darpa_university_of_california_davis",
+      "label": "University of California, Davis",
+      "type": "org",
+      "subtype": "darpa_institution"
+    },
+    {
+      "id": "author_carla_saleh",
+      "label": "Carla Saleh",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA PREEMPT",
+      "details": {
+        "source": "DARPA news 2019",
+        "source_type": "news_release",
+        "program": "PREEMPT"
+      }
+    },
+    {
+      "id": "org_darpa_institut_pasteur",
+      "label": "Institut Pasteur",
+      "type": "org",
+      "subtype": "darpa_institution"
+    },
+    {
+      "id": "author_raina_plowright",
+      "label": "Raina Plowright",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA PREEMPT",
+      "details": {
+        "source": "DARPA news 2019",
+        "source_type": "news_release",
+        "program": "PREEMPT"
+      }
+    },
+    {
+      "id": "org_darpa_montana_state_university",
+      "label": "Montana State University",
+      "type": "org",
+      "subtype": "darpa_institution"
+    },
+    {
+      "id": "author_luke_alphey",
+      "label": "Luke Alphey",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA PREEMPT",
+      "details": {
+        "source": "DARPA news 2019",
+        "source_type": "news_release",
+        "program": "PREEMPT"
+      }
+    },
+    {
+      "id": "org_darpa_the_pirbright_institute",
+      "label": "The Pirbright Institute",
+      "type": "org",
+      "subtype": "darpa_institution"
+    },
+    {
+      "id": "author_harris_wang",
+      "label": "Harris Wang",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA PREPARE",
+      "details": {
+        "source": "DARPA news 2021",
+        "source_type": "news_release",
+        "program": "PREPARE"
+      }
+    },
+    {
+      "id": "author_jonathan_weissman",
+      "label": "Jonathan Weissman",
+      "type": "author",
+      "subtype": "darpa_pi",
+      "description": "PI for DARPA PREPARE",
+      "details": {
+        "source": "DARPA news 2021",
+        "source_type": "news_release",
+        "program": "PREPARE"
+      }
     }
   ],
   "edges": [
@@ -15283,6 +15687,609 @@
       "csv_org_name": "Blue Ribbon Study Panel on Biodefense",
       "csv_focus_area": "Biosecurity & Pandemic Preparedness",
       "inclusion_reason": "Focus area: Biosecurity & Pandemic Preparedness"
+    },
+    {
+      "id": "funds_darpa_program_darpa_prophecy",
+      "source": "funder_darpa",
+      "target": "program_darpa_prophecy",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_program_darpa_living_foundries",
+      "source": "funder_darpa",
+      "target": "program_darpa_living_foundries",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_program_darpa_biological_control",
+      "source": "funder_darpa",
+      "target": "program_darpa_biological_control",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_program_darpa_brics",
+      "source": "funder_darpa",
+      "target": "program_darpa_brics",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_program_darpa_l2m",
+      "source": "funder_darpa",
+      "target": "program_darpa_l2m",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_program_darpa_sigma",
+      "source": "funder_darpa",
+      "target": "program_darpa_sigma",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_program_darpa_leap",
+      "source": "funder_darpa",
+      "target": "program_darpa_leap",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_program_darpa_arcadia",
+      "source": "funder_darpa",
+      "target": "program_darpa_arcadia",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_program_darpa_triage_challenge",
+      "source": "funder_darpa",
+      "target": "program_darpa_triage_challenge",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_program_darpa_bio_teleporter",
+      "source": "funder_darpa",
+      "target": "program_darpa_bio_teleporter",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_program_darpa_bto_baa",
+      "source": "funder_darpa",
+      "target": "program_darpa_bto_baa",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_iarpa_fungcat",
+      "source": "funder_iarpa",
+      "target": "program_iarpa_fungcat",
+      "type": "funds",
+      "grant_title": null,
+      "amount": null,
+      "extraction_method": "hierarchy"
+    },
+    {
+      "id": "funds_darpa_HR001111C0093_0",
+      "source": "program_darpa_prophecy",
+      "target": "inst_Harvard_University",
+      "type": "funds",
+      "amount": 19590427,
+      "grant_title": "President And Fellows Of Harvard College \u2014 PROPHECY (HR001111C0093)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001111C0093",
+      "start_date": "2011-08-29",
+      "end_date": "2016-11-30"
+    },
+    {
+      "id": "funds_darpa_HR001111C0094_1",
+      "source": "program_darpa_prophecy",
+      "target": "org_university_of_california_san_francisco",
+      "type": "funds",
+      "amount": 13999877,
+      "grant_title": "Regents Of The University Of California, San Francisco, The \u2014 PROPHECY (HR001111C0094)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001111C0094",
+      "start_date": "2011-09-16",
+      "end_date": "2015-11-30"
+    },
+    {
+      "id": "funds_darpa_HR001111C0095_2",
+      "source": "program_darpa_prophecy",
+      "target": "org_darpa_university_of_massachusetts_medical_school",
+      "type": "funds",
+      "amount": 9657579,
+      "grant_title": "University Of Massachusetts Medical School \u2014 PROPHECY (HR001111C0095)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001111C0095",
+      "start_date": "2011-09-16",
+      "end_date": "2015-12-15"
+    },
+    {
+      "id": "funds_darpa_HR001116C0139_3",
+      "source": "program_darpa_biological_control",
+      "target": "inst_Johns_Hopkins_University",
+      "type": "funds",
+      "amount": 5937885,
+      "grant_title": "The Johns Hopkins University \u2014 BIOLOGICAL CONTROL (HR001116C0139)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001116C0139",
+      "start_date": "2016-09-23",
+      "end_date": "2021-03-31"
+    },
+    {
+      "id": "funds_darpa_HR001118C0051_4",
+      "source": "program_darpa_l2m",
+      "target": "org_darpa_sri_international",
+      "type": "funds",
+      "amount": 3764914,
+      "grant_title": "Sri International \u2014 L2M (HR001118C0051)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001118C0051",
+      "start_date": "2018-01-29",
+      "end_date": "2022-05-31"
+    },
+    {
+      "id": "funds_darpa_HR001115C0093_5",
+      "source": "program_darpa_brics",
+      "target": "org_darpa_california_institute_of_technology",
+      "type": "funds",
+      "amount": 3498401,
+      "grant_title": "California Institute Of Technology \u2014 BRICS (HR001115C0093)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001115C0093",
+      "start_date": "2015-05-29",
+      "end_date": "2017-11-27"
+    },
+    {
+      "id": "funds_darpa_HR001112C0057_6",
+      "source": "program_darpa_living_foundries",
+      "target": "inst_Stanford_University",
+      "type": "funds",
+      "amount": 3195958,
+      "grant_title": "The Leland Stanford Junior University \u2014 LIVING FOUNDRIES (HR001112C0057)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001112C0057",
+      "start_date": "2012-05-17",
+      "end_date": "2015-12-31"
+    },
+    {
+      "id": "funds_darpa_HR001116C0138_7",
+      "source": "program_darpa_biological_control",
+      "target": "org_duke_university",
+      "type": "funds",
+      "amount": 2799942,
+      "grant_title": "Duke University \u2014 BIOLOGICAL CONTROL (HR001116C0138)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001116C0138",
+      "start_date": "2016-10-01",
+      "end_date": "2021-01-05"
+    },
+    {
+      "id": "funds_darpa_HR001112C0065_8",
+      "source": "program_darpa_living_foundries",
+      "target": "org_darpa_california_institute_of_technology",
+      "type": "funds",
+      "amount": 2425306,
+      "grant_title": "California Institute Of Technology \u2014 LIVING FOUNDRIES (HR001112C0065)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001112C0065",
+      "start_date": "2012-05-21",
+      "end_date": "2015-03-31"
+    },
+    {
+      "id": "funds_darpa_HR001112C0066_9",
+      "source": "program_darpa_living_foundries",
+      "target": "inst_University_of_Texas_at_Austin",
+      "type": "funds",
+      "amount": 1342086,
+      "grant_title": "University Of Texas At Austin \u2014 LIVING FOUNDRIES (HR001112C0066)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001112C0066",
+      "start_date": "2012-05-17",
+      "end_date": "2014-11-17"
+    },
+    {
+      "id": "funds_darpa_HR001113C0073_10",
+      "source": "program_darpa_bio_teleporter",
+      "target": "org_darpa_viridos_inc",
+      "type": "funds",
+      "amount": 998847,
+      "grant_title": "Viridos, Inc. \u2014 BIO TELEPORTER (HR001113C0073)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001113C0073",
+      "start_date": "2013-06-05",
+      "end_date": "2014-09-12"
+    },
+    {
+      "id": "funds_darpa_HR001112C0061_11",
+      "source": "program_darpa_living_foundries",
+      "target": "inst_Harvard_University",
+      "type": "funds",
+      "amount": 907269,
+      "grant_title": "President And Fellows Of Harvard College \u2014 LIVING FOUNDRIES (HR001112C0061)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001112C0061",
+      "start_date": "2012-05-17",
+      "end_date": "2014-11-17"
+    },
+    {
+      "id": "funds_darpa_HR001125FE058_12",
+      "source": "program_darpa_leap",
+      "target": "inst_Johns_Hopkins_University",
+      "type": "funds",
+      "amount": 600000,
+      "grant_title": "The Johns Hopkins University Applied Physics Laboratory Llc \u2014 LEAP (HR001125FE058)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001125FE058",
+      "start_date": "2025-08-12",
+      "end_date": "2026-04-11"
+    },
+    {
+      "id": "funds_darpa_HR001112C0064_13",
+      "source": "program_darpa_living_foundries",
+      "target": "org_darpa_foundation_for_applied_molecular_evolution_inc",
+      "type": "funds",
+      "amount": 560397,
+      "grant_title": "Foundation For Applied Molecular Evolution, Inc. \u2014 LIVING FOUNDRIES (HR001112C0064)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001112C0064",
+      "start_date": "2012-05-17",
+      "end_date": "2013-09-30"
+    },
+    {
+      "id": "funds_darpa_HR001114C0033_14",
+      "source": "program_darpa_living_foundries",
+      "target": "org_darpa_zymergen_inc",
+      "type": "funds",
+      "amount": 267297,
+      "grant_title": "Zymergen Inc. \u2014 LIVING FOUNDRIES (HR001114C0033)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001114C0033",
+      "start_date": "2014-02-05",
+      "end_date": "2014-10-17"
+    },
+    {
+      "id": "funds_darpa_HR001114C0062_15",
+      "source": "program_darpa_prophecy",
+      "target": "org_darpa_leidos_inc",
+      "type": "funds",
+      "amount": 107173,
+      "grant_title": "Leidos, Inc. \u2014 PROPHECY (HR001114C0062)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR001114C0062",
+      "start_date": "2014-04-14",
+      "end_date": "2015-01-13"
+    },
+    {
+      "id": "funds_darpa_HR00112320008_16",
+      "source": "program_darpa_arcadia",
+      "target": "org_darpa_clemson_university",
+      "type": "funds",
+      "amount": 6787986,
+      "grant_title": "Clemson University \u2014 ARCADIA (HR00112320008)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR00112320008",
+      "start_date": "2022-12-09",
+      "end_date": "2024-12-23"
+    },
+    {
+      "id": "funds_darpa_HR00112420305_17",
+      "source": "program_darpa_triage_challenge",
+      "target": "inst_University_of_Pennsylvania",
+      "type": "funds",
+      "amount": 1849723,
+      "grant_title": "Trustees Of The University Of Pennsylvania, The \u2014 TRIAGE CHALLENGE (HR00112420305)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR00112420305",
+      "start_date": "2023-11-03",
+      "end_date": "2026-11-07"
+    },
+    {
+      "id": "funds_darpa_HR00112420304_18",
+      "source": "program_darpa_triage_challenge",
+      "target": "inst_University_of_Maryland__College_Park",
+      "type": "funds",
+      "amount": 1846454,
+      "grant_title": "University Of Maryland, College Park \u2014 TRIAGE CHALLENGE (HR00112420304)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR00112420304",
+      "start_date": "2023-11-03",
+      "end_date": "2026-10-20"
+    },
+    {
+      "id": "funds_darpa_HR00112420328_19",
+      "source": "program_darpa_triage_challenge",
+      "target": "org_darpa_university_of_vermont_state_agricultural_college",
+      "type": "funds",
+      "amount": 486056,
+      "grant_title": "University Of Vermont & State Agricultural College \u2014 TRIAGE CHALLENGE (HR00112420328)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR00112420328",
+      "start_date": "2023-11-13",
+      "end_date": "2024-11-07"
+    },
+    {
+      "id": "funds_darpa_HR00112520018_20",
+      "source": "program_darpa_bto_baa",
+      "target": "org_university_of_southern_california",
+      "type": "funds",
+      "amount": 268887,
+      "grant_title": "University Of Southern California \u2014 BTO BAA (HR00112520018)",
+      "extraction_method": "usaspending_api",
+      "data_source": "USASpending.gov",
+      "award_id": "HR00112520018",
+      "start_date": "2025-02-28",
+      "end_date": "2025-11-27"
+    },
+    {
+      "id": "funds_iarpa_fungcat_0",
+      "source": "program_iarpa_fungcat",
+      "target": "org_iarpa_battelle_memorial_institute",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "Battelle Memorial Institute \u2014 Fun GCAT (prime performer)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "funds_iarpa_fungcat_1",
+      "source": "program_iarpa_fungcat",
+      "target": "inst_Harvard_University",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "Harvard University \u2014 Fun GCAT (prime performer)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "funds_iarpa_fungcat_2",
+      "source": "program_iarpa_fungcat",
+      "target": "org_iarpa_signature_science",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "Signature Science \u2014 Fun GCAT (prime performer)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "funds_iarpa_fungcat_3",
+      "source": "program_iarpa_fungcat",
+      "target": "org_darpa_sri_international",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "SRI International \u2014 Fun GCAT (prime performer)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "funds_iarpa_fungcat_4",
+      "source": "program_iarpa_fungcat",
+      "target": "org_iarpa_virginia_tech",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "Virginia Tech \u2014 Fun GCAT (prime performer)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "funds_iarpa_fungcat_5",
+      "source": "program_iarpa_fungcat",
+      "target": "inst_Johns_Hopkins_University",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "Johns Hopkins University Applied Physics Laboratory \u2014 Fun GCAT (test eval)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "funds_iarpa_fungcat_6",
+      "source": "program_iarpa_fungcat",
+      "target": "inst_Lawrence_Livermore_National_Laboratory",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "Lawrence Livermore National Laboratory \u2014 Fun GCAT (test eval)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "funds_iarpa_fungcat_7",
+      "source": "program_iarpa_fungcat",
+      "target": "inst_Pacific_Northwest_National_Laboratory",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "Pacific Northwest National Laboratory \u2014 Fun GCAT (test eval)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "funds_iarpa_fungcat_8",
+      "source": "program_iarpa_fungcat",
+      "target": "org_iarpa_los_alamos_national_laboratory",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "Los Alamos National Laboratory \u2014 Fun GCAT (test eval)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "funds_iarpa_fungcat_9",
+      "source": "program_iarpa_fungcat",
+      "target": "org_iarpa_department_of_homeland_security",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "Department of Homeland Security \u2014 Fun GCAT (test eval)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "funds_iarpa_fungcat_10",
+      "source": "program_iarpa_fungcat",
+      "target": "org_iarpa_united_states_army_medical_research_institute_of_infectious_",
+      "type": "funds",
+      "amount": null,
+      "grant_title": "United States Army Medical Research Institute of Infectious Diseases \u2014 Fun GCAT (test eval)",
+      "extraction_method": "webpage_scrape",
+      "data_source": "https://www.iarpa.gov/research-programs/fun-gcat"
+    },
+    {
+      "id": "affil_darpa_pi__amit_choudhary",
+      "source": "author_amit_choudhary",
+      "target": "inst_Broad_Institute",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2017-07-19"
+    },
+    {
+      "id": "affil_darpa_pi__george_church",
+      "source": "author_george_church",
+      "target": "inst_Harvard_University",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2017-07-19"
+    },
+    {
+      "id": "affil_darpa_pi__keith_joung",
+      "source": "author_keith_joung",
+      "target": "org_darpa_massachusetts_general_hospital",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2017-07-19"
+    },
+    {
+      "id": "affil_darpa_pi__kevin_esvelt",
+      "source": "author_Kevin_M__Esvelt1",
+      "target": "inst_Massachusetts_Institute_of_Technology",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2017-07-19"
+    },
+    {
+      "id": "affil_darpa_pi__john_godwin",
+      "source": "author_john_godwin",
+      "target": "org_darpa_north_carolina_state_university",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2017-07-19"
+    },
+    {
+      "id": "affil_darpa_pi__jennifer_doudna",
+      "source": "author_jennifer_doudna",
+      "target": "org_darpa_university_of_california_berkeley",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2017-07-19"
+    },
+    {
+      "id": "affil_darpa_pi__omar_akbari",
+      "source": "author_omar_akbari",
+      "target": "org_darpa_university_of_california_riverside",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2017-07-19"
+    },
+    {
+      "id": "affil_darpa_pi__ariel_weinberger",
+      "source": "author_ariel_weinberger",
+      "target": "org_darpa_autonomous_therapeutics_inc",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2019"
+    },
+    {
+      "id": "affil_darpa_pi__peter_barry",
+      "source": "author_peter_barry",
+      "target": "org_darpa_university_of_california_davis",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2019"
+    },
+    {
+      "id": "affil_darpa_pi__carla_saleh",
+      "source": "author_carla_saleh",
+      "target": "org_darpa_institut_pasteur",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2019"
+    },
+    {
+      "id": "affil_darpa_pi__raina_plowright",
+      "source": "author_raina_plowright",
+      "target": "org_darpa_montana_state_university",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2019"
+    },
+    {
+      "id": "affil_darpa_pi__luke_alphey",
+      "source": "author_luke_alphey",
+      "target": "org_darpa_the_pirbright_institute",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2019"
+    },
+    {
+      "id": "affil_darpa_pi__harris_wang",
+      "source": "author_harris_wang",
+      "target": "inst_Columbia_University",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2021"
+    },
+    {
+      "id": "affil_darpa_pi__jonathan_weissman",
+      "source": "author_jonathan_weissman",
+      "target": "org_university_of_california_san_francisco",
+      "type": "current_affiliation",
+      "extraction_method": "news_release",
+      "data_source": "DARPA news 2021"
     }
   ],
   "metadata": {

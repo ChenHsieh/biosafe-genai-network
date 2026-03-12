@@ -1,0 +1,45 @@
+{
+  "spending_level": "awards",
+  "limit": 100,
+  "results": [
+    {
+      "internal_id": 267937765,
+      "Award ID": "HR00112020040",
+      "Recipient Name": "PRESIDENT AND FELLOWS OF HARVARD COLLEGE",
+      "Description": "COVID 19. THE PURPOSE OF THIS AGREEMENT IS TO FUND RESEARCH SUPPORTING THE DEFENSE ADVANCED RESEARCH PROJECTS AGENCY DARPA BIOLOGICAL TECHNOLOGIES OFFICE BTO PROGRAM PREEMPTIVE EXPRESSION OF PROTECTIVE ALLELES AND RESPONSE ELEMENTS PREPARE. THIS EFFORT SHALL BE CARRIED OUT GENERALLY AS SET FORTH IN EXHIBIT B, RESEARCH DESCRIPTION DOCUMENT, DATED APRIL 2020, AND IN THE RECIPIENTS PROPOSAL TITLED, ULTRA-RAPID DRUG REPURPOSING FOR COVID19 THERAPEUTICS.",
+      "Award Amount": 11770931.0,
+      "Start Date": "2020-06-05",
+      "End Date": "2021-06-04",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Sub Agency": "Defense Advanced Research Projects Agency",
+      "Award Type": "COOPERATIVE AGREEMENT (B)",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense",
+      "generated_internal_id": "ASST_NON_HR00112020040_097"
+    },
+    {
+      "internal_id": 267937688,
+      "Award ID": "HR00111920009",
+      "Recipient Name": "THE TRUSTEES OF COLUMBIA UNIVERSITY IN THE CITY OF NEW YORK",
+      "Description": "THE PURPOSE OF THIS AGREEMENT IS TO FUND RESEARCH SUPPORTING BTO PROGRAM PREEMPTIVE EXPRESSION OF PROTECTIVE ALLELES AND RESPONSE ELEMENTS.",
+      "Award Amount": 6985501.0,
+      "Start Date": "2019-04-01",
+      "End Date": "2023-06-30",
+      "Awarding Agency": "Department of Defense",
+      "Awarding Sub Agency": "Defense Advanced Research Projects Agency",
+      "Award Type": "COOPERATIVE AGREEMENT (B)",
+      "awarding_agency_id": 1173,
+      "agency_slug": "department-of-defense",
+      "generated_internal_id": "ASST_NON_HR00111920009_097"
+    }
+  ],
+  "page_metadata": {
+    "page": 1,
+    "hasNext": false,
+    "last_record_unique_id": null,
+    "last_record_sort_value": "None"
+  },
+  "messages": [
+    "For searches, time period start and end dates are currently limited to an earliest date of 2007-10-01.  For data going back to 2000-10-01, use either the Custom Award Download feature on the website or one of our download or bulk_download API endpoints as listed on https://api.usaspending.gov/docs/endpoints. "
+  ]
+}

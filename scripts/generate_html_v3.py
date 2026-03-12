@@ -208,6 +208,17 @@ def compute_force_layout(iterations=500):
     return {nid: (pos[nid][0], pos[nid][1]) for nid in node_ids}
 
 
+# Compute degree for all nodes (some may be missing if added in later sprints)
+node_ids_set = {n["id"] for n in nodes}
+degree_counter = {n["id"]: 0 for n in nodes}
+for e in edges:
+    if e["source"] in degree_counter:
+        degree_counter[e["source"]] += 1
+    if e["target"] in degree_counter:
+        degree_counter[e["target"]] += 1
+for n in nodes:
+    n["degree"] = degree_counter.get(n["id"], 0)
+
 print("Computing force layout (300 iterations)...")
 force_pos = compute_force_layout(300)
 print("Computing column layout...")
@@ -285,6 +296,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .conn:hover{color:#60a5fa}
 .conn .et{font-size:9px;color:#64748b;margin-left:4px}
 .conn .amt{font-size:9px;color:#fbbf24;margin-left:4px}
+.conn .grant-title{font-size:9px;color:#94a3b8;margin-top:1px;font-style:italic;padding-left:8px;border-left:2px solid #334155}
 #legend{padding:10px 16px;border-top:1px solid #1e293b;font-size:10px;color:#64748b}
 #legend h4{text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
 .li{display:flex;align-items:center;gap:5px;margin:2px 0;color:#94a3b8;font-size:11px}
@@ -624,7 +636,8 @@ function showInfo(n){
     items.sort((a,b)=>(b.e.amount||0)-(a.e.amount||0));
     items.forEach(({n:nn,e})=>{
       const amtStr=e.amount?'<span class="amt">'+fmtMoney(e.amount)+'</span>':'';
-      cn+='<div class="conn" data-id="'+nn.id+'">'+nn.label+amtStr+'<span class="et">'+et.replace(/_/g,' ')+'</span></div>';
+      const gtStr=(e.type==='funds'&&e.grant_title)?'<div class="grant-title">'+e.grant_title+'</div>':'';
+      cn+='<div class="conn" data-id="'+nn.id+'">'+nn.label+amtStr+'<span class="et">'+et.replace(/_/g,' ')+'</span>'+gtStr+'</div>';
     });
   });
   d.innerHTML='<div class="card"><div class="tag" style="background:'+c+'22;color:'+c+'">'+n.type+(n.subtype&&n.subtype!==n.type?' . '+n.subtype:'')+'</div>'+bridgeBadge+'<h3>'+n.label+'</h3>'+(n.tldr?'<p style="font-size:11px;color:#94a3b8;margin-top:5px">'+n.tldr+'</p>':'')+(n.description?'<p style="font-size:10px;color:#64748b;margin-top:3px">'+n.description+'</p>':'')+fundingHtml+'<div class="links" style="margin-top:6px">'+lnk+'</div><div class="conns">'+cn+'</div></div>';

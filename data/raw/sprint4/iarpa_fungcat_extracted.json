@@ -1,0 +1,43 @@
+{
+  "source_url": "https://www.iarpa.gov/research-programs/fun-gcat",
+  "fetch_date": "2026-03-11",
+  "fetch_method": "WebFetch (iarpa.gov returned 403 to requests lib; used WebFetch tool)",
+  "program": {
+    "name": "Fun GCAT",
+    "full_name": "Functional Genomic and Computational Assessment of Threats",
+    "agency": "IARPA",
+    "start_date": "2017-06",
+    "end_date": "2022-09",
+    "baa_number": "IARPA-BAA-16-08",
+    "baa_release_date": "2016-09-22",
+    "baa_due_date": "2016-11-08",
+    "description": "Develops rapid assessment methods for DNA sequences to identify biosecurity threats. Creates AI-driven threat screening software to evaluate: organism origin, biological function, and danger level.",
+    "key_achievements": [
+      "500x improvement in computational efficiency over state-of-the-art",
+      "High predictive accuracy on challenging test sets",
+      "Stable performance on short sequences (<50 base pairs)",
+      "Developed optical, cell-based tests identifying immune system disruptors",
+      "Discovered new functions for dozens of virus genes"
+    ],
+    "bio_ai_relevance": "VERY HIGH — directly at the biosafety+AI intersection: uses neural networks and bioinformatic analysis for DNA threat screening"
+  },
+  "prime_performers": [
+    {"name": "Battelle Memorial Institute", "role": "prime_performer"},
+    {"name": "Harvard University", "role": "prime_performer"},
+    {"name": "Signature Science", "role": "prime_performer"},
+    {"name": "SRI International", "role": "prime_performer"},
+    {"name": "Virginia Tech", "role": "prime_performer"}
+  ],
+  "test_eval_partners": [
+    {"name": "Johns Hopkins University Applied Physics Laboratory", "role": "test_eval"},
+    {"name": "Lawrence Livermore National Laboratory", "role": "test_eval"},
+    {"name": "Pacific Northwest National Laboratory", "role": "test_eval"},
+    {"name": "Los Alamos National Laboratory", "role": "test_eval"},
+    {"name": "Department of Homeland Security", "role": "test_eval"},
+    {"name": "United States Army Medical Research Institute of Infectious Diseases", "role": "test_eval"}
+  ],
+  "contact": {
+    "email": "dni-iarpa-info@iarpa.gov",
+    "phone": "301-243-1995"
+  }
+}

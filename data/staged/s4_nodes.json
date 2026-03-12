@@ -1,0 +1,406 @@
+[
+  {
+    "id": "funder_darpa",
+    "label": "DARPA",
+    "type": "funder",
+    "subtype": "government",
+    "description": "Defense Advanced Research Projects Agency \u2014 US DoD",
+    "url": "https://www.darpa.mil"
+  },
+  {
+    "id": "funder_iarpa",
+    "label": "IARPA",
+    "type": "funder",
+    "subtype": "government",
+    "description": "Intelligence Advanced Research Projects Activity \u2014 ODNI",
+    "url": "https://www.iarpa.gov"
+  },
+  {
+    "id": "program_darpa_prophecy",
+    "label": "DARPA PROPHECY",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "Pathogen prediction and viral evolution modeling"
+  },
+  {
+    "id": "program_darpa_living_foundries",
+    "label": "DARPA LIVING FOUNDRIES",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "Engineering biology \u2014 design-build-test cycle automation"
+  },
+  {
+    "id": "program_darpa_biological_control",
+    "label": "DARPA BIOLOGICAL CONTROL",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "Predictive closed-loop control of biological systems"
+  },
+  {
+    "id": "program_darpa_brics",
+    "label": "DARPA BRICS",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "Biologically Robust Interfaces in Complex Settings \u2014 synthetic biology"
+  },
+  {
+    "id": "program_darpa_l2m",
+    "label": "DARPA L2M",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "Lifelong Learning Machines \u2014 bio-inspired ML"
+  },
+  {
+    "id": "program_darpa_sigma",
+    "label": "DARPA SIGMA+",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "Biological threat detection systems"
+  },
+  {
+    "id": "program_darpa_leap",
+    "label": "DARPA LEAP",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "Laboratory Evaluation of AI-Developed Protocols for Biosecurity"
+  },
+  {
+    "id": "program_darpa_arcadia",
+    "label": "DARPA ARCADIA",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "Autonomous biological systems research"
+  },
+  {
+    "id": "program_darpa_triage_challenge",
+    "label": "DARPA TRIAGE CHALLENGE",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "DARPA Triage Challenge \u2014 automated medical triage"
+  },
+  {
+    "id": "program_darpa_bio_teleporter",
+    "label": "DARPA BIO TELEPORTER",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "Digital-to-biological conversion systems"
+  },
+  {
+    "id": "program_darpa_bto_baa",
+    "label": "DARPA BTO BAA",
+    "type": "program",
+    "subtype": "darpa_bto",
+    "description": "DARPA Biological Technologies Office open BAA awards"
+  },
+  {
+    "id": "program_iarpa_fungcat",
+    "label": "IARPA Fun GCAT",
+    "type": "program",
+    "subtype": "iarpa",
+    "description": "Functional Genomic and Computational Assessment of Threats \u2014 AI-driven DNA sequence threat screening (2017\u20132022)",
+    "url": "https://www.iarpa.gov/research-programs/fun-gcat",
+    "details": {
+      "BAA": "IARPA-BAA-16-08"
+    }
+  },
+  {
+    "id": "org_darpa_university_of_massachusetts_medical_school",
+    "label": "University Of Massachusetts Medical School",
+    "type": "org",
+    "subtype": "darpa_performer"
+  },
+  {
+    "id": "org_darpa_sri_international",
+    "label": "SRI International",
+    "type": "org",
+    "subtype": "darpa_performer"
+  },
+  {
+    "id": "org_darpa_california_institute_of_technology",
+    "label": "California Institute Of Technology",
+    "type": "org",
+    "subtype": "darpa_performer"
+  },
+  {
+    "id": "org_darpa_viridos_inc",
+    "label": "Viridos, Inc.",
+    "type": "org",
+    "subtype": "darpa_performer"
+  },
+  {
+    "id": "org_darpa_foundation_for_applied_molecular_evolution_inc",
+    "label": "Foundation For Applied Molecular Evolution, Inc.",
+    "type": "org",
+    "subtype": "darpa_performer"
+  },
+  {
+    "id": "org_darpa_zymergen_inc",
+    "label": "Zymergen Inc.",
+    "type": "org",
+    "subtype": "darpa_performer"
+  },
+  {
+    "id": "org_darpa_leidos_inc",
+    "label": "Leidos, Inc.",
+    "type": "org",
+    "subtype": "darpa_performer"
+  },
+  {
+    "id": "org_darpa_clemson_university",
+    "label": "Clemson University",
+    "type": "org",
+    "subtype": "darpa_performer"
+  },
+  {
+    "id": "org_darpa_university_of_vermont_state_agricultural_college",
+    "label": "University Of Vermont & State Agricultural College",
+    "type": "org",
+    "subtype": "darpa_performer"
+  },
+  {
+    "id": "org_iarpa_battelle_memorial_institute",
+    "label": "Battelle Memorial Institute",
+    "type": "org",
+    "subtype": "iarpa_prime_performer"
+  },
+  {
+    "id": "org_iarpa_signature_science",
+    "label": "Signature Science",
+    "type": "org",
+    "subtype": "iarpa_prime_performer"
+  },
+  {
+    "id": "org_iarpa_virginia_tech",
+    "label": "Virginia Tech",
+    "type": "org",
+    "subtype": "iarpa_prime_performer"
+  },
+  {
+    "id": "org_iarpa_los_alamos_national_laboratory",
+    "label": "Los Alamos National Laboratory",
+    "type": "org",
+    "subtype": "iarpa_test_eval"
+  },
+  {
+    "id": "org_iarpa_department_of_homeland_security",
+    "label": "Department of Homeland Security",
+    "type": "org",
+    "subtype": "iarpa_test_eval"
+  },
+  {
+    "id": "org_iarpa_united_states_army_medical_research_institute_of_infectious_",
+    "label": "United States Army Medical Research Institute of Infectious Diseases",
+    "type": "org",
+    "subtype": "iarpa_test_eval"
+  },
+  {
+    "id": "author_amit_choudhary",
+    "label": "Amit Choudhary",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA SAFE GENES",
+    "details": {
+      "source": "DARPA news 2017-07-19",
+      "source_type": "news_release",
+      "program": "SAFE GENES"
+    }
+  },
+  {
+    "id": "author_george_church",
+    "label": "George Church",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA SAFE GENES",
+    "details": {
+      "source": "DARPA news 2017-07-19",
+      "source_type": "news_release",
+      "program": "SAFE GENES"
+    }
+  },
+  {
+    "id": "author_keith_joung",
+    "label": "Keith Joung",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA SAFE GENES",
+    "details": {
+      "source": "DARPA news 2017-07-19",
+      "source_type": "news_release",
+      "program": "SAFE GENES"
+    }
+  },
+  {
+    "id": "org_darpa_massachusetts_general_hospital",
+    "label": "Massachusetts General Hospital",
+    "type": "org",
+    "subtype": "darpa_institution"
+  },
+  {
+    "id": "author_john_godwin",
+    "label": "John Godwin",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA SAFE GENES",
+    "details": {
+      "source": "DARPA news 2017-07-19",
+      "source_type": "news_release",
+      "program": "SAFE GENES"
+    }
+  },
+  {
+    "id": "org_darpa_north_carolina_state_university",
+    "label": "North Carolina State University",
+    "type": "org",
+    "subtype": "darpa_institution"
+  },
+  {
+    "id": "author_jennifer_doudna",
+    "label": "Jennifer Doudna",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA SAFE GENES",
+    "details": {
+      "source": "DARPA news 2017-07-19",
+      "source_type": "news_release",
+      "program": "SAFE GENES"
+    }
+  },
+  {
+    "id": "org_darpa_university_of_california_berkeley",
+    "label": "University of California, Berkeley",
+    "type": "org",
+    "subtype": "darpa_institution"
+  },
+  {
+    "id": "author_omar_akbari",
+    "label": "Omar Akbari",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA SAFE GENES",
+    "details": {
+      "source": "DARPA news 2017-07-19",
+      "source_type": "news_release",
+      "program": "SAFE GENES"
+    }
+  },
+  {
+    "id": "org_darpa_university_of_california_riverside",
+    "label": "University of California, Riverside",
+    "type": "org",
+    "subtype": "darpa_institution"
+  },
+  {
+    "id": "author_ariel_weinberger",
+    "label": "Ariel Weinberger",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA PREEMPT",
+    "details": {
+      "source": "DARPA news 2019",
+      "source_type": "news_release",
+      "program": "PREEMPT"
+    }
+  },
+  {
+    "id": "org_darpa_autonomous_therapeutics_inc",
+    "label": "Autonomous Therapeutics, Inc.",
+    "type": "org",
+    "subtype": "darpa_institution"
+  },
+  {
+    "id": "author_peter_barry",
+    "label": "Peter Barry",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA PREEMPT",
+    "details": {
+      "source": "DARPA news 2019",
+      "source_type": "news_release",
+      "program": "PREEMPT"
+    }
+  },
+  {
+    "id": "org_darpa_university_of_california_davis",
+    "label": "University of California, Davis",
+    "type": "org",
+    "subtype": "darpa_institution"
+  },
+  {
+    "id": "author_carla_saleh",
+    "label": "Carla Saleh",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA PREEMPT",
+    "details": {
+      "source": "DARPA news 2019",
+      "source_type": "news_release",
+      "program": "PREEMPT"
+    }
+  },
+  {
+    "id": "org_darpa_institut_pasteur",
+    "label": "Institut Pasteur",
+    "type": "org",
+    "subtype": "darpa_institution"
+  },
+  {
+    "id": "author_raina_plowright",
+    "label": "Raina Plowright",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA PREEMPT",
+    "details": {
+      "source": "DARPA news 2019",
+      "source_type": "news_release",
+      "program": "PREEMPT"
+    }
+  },
+  {
+    "id": "org_darpa_montana_state_university",
+    "label": "Montana State University",
+    "type": "org",
+    "subtype": "darpa_institution"
+  },
+  {
+    "id": "author_luke_alphey",
+    "label": "Luke Alphey",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA PREEMPT",
+    "details": {
+      "source": "DARPA news 2019",
+      "source_type": "news_release",
+      "program": "PREEMPT"
+    }
+  },
+  {
+    "id": "org_darpa_the_pirbright_institute",
+    "label": "The Pirbright Institute",
+    "type": "org",
+    "subtype": "darpa_institution"
+  },
+  {
+    "id": "author_harris_wang",
+    "label": "Harris Wang",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA PREPARE",
+    "details": {
+      "source": "DARPA news 2021",
+      "source_type": "news_release",
+      "program": "PREPARE"
+    }
+  },
+  {
+    "id": "author_jonathan_weissman",
+    "label": "Jonathan Weissman",
+    "type": "author",
+    "subtype": "darpa_pi",
+    "description": "PI for DARPA PREPARE",
+    "details": {
+      "source": "DARPA news 2021",
+      "source_type": "news_release",
+      "program": "PREPARE"
+    }
+  }
+]
