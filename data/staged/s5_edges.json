@@ -1,0 +1,430 @@
+[
+  {
+    "id": "affil_s5_author_ben_mueller",
+    "source": "author_ben_mueller",
+    "target": "inst_SecureBio",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "securebio.org/team/"
+  },
+  {
+    "id": "affil_s5_author_jeff_kaufman",
+    "source": "author_jeff_kaufman",
+    "target": "inst_SecureBio",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "securebio.org/team/"
+  },
+  {
+    "id": "affil_s5_author_coleman_breen",
+    "source": "author_coleman_breen",
+    "target": "inst_SecureBio",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "securebio.org/team/"
+  },
+  {
+    "id": "affil_s5_author_anjali_gopal",
+    "source": "author_anjali_gopal",
+    "target": "inst_SecureBio",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "securebio.org/team/"
+  },
+  {
+    "id": "affil_s5_author_rocco_casagrande",
+    "source": "author_rocco_casagrande",
+    "target": "org_gryphon_scientific",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "gryphon_deloitte_acquisition.md"
+  },
+  {
+    "id": "affil_s5_author_froggi_jackson",
+    "source": "author_froggi_jackson",
+    "target": "org_gryphon_scientific",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "gryphon_deloitte_acquisition.md"
+  },
+  {
+    "id": "affil_s5_author_daniel_greene",
+    "source": "author_daniel_greene",
+    "target": "org_gryphon_scientific",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "gryphon_deloitte_acquisition.md"
+  },
+  {
+    "id": "affil_s5_author_mark_kazmierczak",
+    "source": "author_mark_kazmierczak",
+    "target": "org_gryphon_scientific",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "gryphon_deloitte_acquisition.md"
+  },
+  {
+    "id": "affil_s5_author_christopher_mouton",
+    "source": "author_christopher_mouton",
+    "target": "inst_RAND_Corporation",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "rand.org"
+  },
+  {
+    "id": "affil_s5_author_caleb_lucas",
+    "source": "author_caleb_lucas",
+    "target": "inst_RAND_Corporation",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "rand.org"
+  },
+  {
+    "id": "affil_s5_author_tejal_patwardhan",
+    "source": "author_tejal_patwardhan",
+    "target": "inst_OpenAI",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "openai.com"
+  },
+  {
+    "id": "affil_s5_author_christine_parthemore",
+    "source": "author_christine_parthemore",
+    "target": "org_council_strategic_risks",
+    "type": "current_affiliation",
+    "extraction_method": "webpage_scrape",
+    "data_source": "securebio.org/team/"
+  },
+  {
+    "id": "eval_securebio_inst_Anthropic",
+    "source": "inst_SecureBio",
+    "target": "inst_Anthropic",
+    "type": "biosecurity_eval",
+    "models_evaluated": "Claude 3.7 Sonnet, Claude 4",
+    "confidence": "HIGH",
+    "extraction_method": "blog_post",
+    "data_source": "securebio.substack.com",
+    "evidence_node": "pub_securebio_biorisk_eval_overview"
+  },
+  {
+    "id": "eval_securebio_inst_OpenAI",
+    "source": "inst_SecureBio",
+    "target": "inst_OpenAI",
+    "type": "biosecurity_eval",
+    "models_evaluated": "GPT-4.5, o3-mini, o4-mini",
+    "confidence": "HIGH",
+    "extraction_method": "blog_post",
+    "data_source": "securebio.substack.com",
+    "evidence_node": "pub_securebio_biorisk_eval_overview"
+  },
+  {
+    "id": "eval_securebio_inst_Google_DeepMind",
+    "source": "inst_SecureBio",
+    "target": "inst_Google_DeepMind",
+    "type": "biosecurity_eval",
+    "models_evaluated": "Gemini 2.5 Pro",
+    "confidence": "HIGH",
+    "extraction_method": "blog_post",
+    "data_source": "securebio.substack.com",
+    "evidence_node": "pub_securebio_biorisk_eval_overview"
+  },
+  {
+    "id": "eval_securebio_inst_xAI",
+    "source": "inst_SecureBio",
+    "target": "inst_xAI",
+    "type": "biosecurity_eval",
+    "models_evaluated": "unspecified",
+    "confidence": "MEDIUM",
+    "extraction_method": "blog_post",
+    "data_source": "securebio.substack.com",
+    "evidence_node": "pub_securebio_biorisk_eval_overview"
+  },
+  {
+    "id": "eval_gryphon_openai",
+    "source": "org_gryphon_scientific",
+    "target": "inst_OpenAI",
+    "type": "biosecurity_eval",
+    "models_evaluated": "GPT-4",
+    "confidence": "HIGH",
+    "extraction_method": "blog_post",
+    "data_source": "openai.com",
+    "evidence_node": "pub_openai_bio_early_warning_2024"
+  },
+  {
+    "id": "eval_uk_aisi_anthropic",
+    "source": "inst_UK_AI_Safety_Institute",
+    "target": "inst_Anthropic",
+    "type": "biosecurity_eval",
+    "models_evaluated": "Claude 3.5 Sonnet",
+    "confidence": "HIGH",
+    "extraction_method": "news_article",
+    "data_source": "fedscoop.com",
+    "evidence_node": "pub_epoch_biorisk_eval_analysis"
+  },
+  {
+    "id": "eval_uk_aisi_openai",
+    "source": "inst_UK_AI_Safety_Institute",
+    "target": "inst_OpenAI",
+    "type": "biosecurity_eval",
+    "models_evaluated": "o1",
+    "confidence": "HIGH",
+    "extraction_method": "news_article",
+    "data_source": "epoch.ai",
+    "evidence_node": "pub_epoch_biorisk_eval_analysis"
+  },
+  {
+    "id": "authored_s5_pub_openai_bio_early_warning_2024_inst_OpenAI",
+    "source": "inst_OpenAI",
+    "target": "pub_openai_bio_early_warning_2024",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_openai_bio_early_warning_2024_org_gryphon_scientific",
+    "source": "org_gryphon_scientific",
+    "target": "pub_openai_bio_early_warning_2024",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_openai_bio_early_warning_2024_author_tejal_patwardhan",
+    "source": "author_tejal_patwardhan",
+    "target": "pub_openai_bio_early_warning_2024",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_openai_bio_early_warning_2024_author_rocco_casagrande",
+    "source": "author_rocco_casagrande",
+    "target": "pub_openai_bio_early_warning_2024",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_openai_bio_early_warning_2024_author_froggi_jackson",
+    "source": "author_froggi_jackson",
+    "target": "pub_openai_bio_early_warning_2024",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_rand_bio_attack_redteam_2024_inst_RAND_Corporation",
+    "source": "inst_RAND_Corporation",
+    "target": "pub_rand_bio_attack_redteam_2024",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_rand_bio_attack_redteam_2024_author_christopher_mouton",
+    "source": "author_christopher_mouton",
+    "target": "pub_rand_bio_attack_redteam_2024",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_rand_bio_attack_redteam_2024_author_caleb_lucas",
+    "source": "author_caleb_lucas",
+    "target": "pub_rand_bio_attack_redteam_2024",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_rand_automated_grading_2025_inst_RAND_Corporation",
+    "source": "inst_RAND_Corporation",
+    "target": "pub_rand_automated_grading_2025",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_securebio_ostp_rfi_2025_inst_SecureBio",
+    "source": "inst_SecureBio",
+    "target": "pub_securebio_ostp_rfi_2025",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_securebio_biorisk_eval_overview_inst_SecureBio",
+    "source": "inst_SecureBio",
+    "target": "pub_securebio_biorisk_eval_overview",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_anthropic_frontier_red_team_inst_Anthropic",
+    "source": "inst_Anthropic",
+    "target": "pub_anthropic_frontier_red_team",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_nti_aixbio_forum_statement_org_nuclear_threat_initiative",
+    "source": "org_nuclear_threat_initiative",
+    "target": "pub_nti_aixbio_forum_statement",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_epoch_biorisk_eval_analysis_org_epoch_ai",
+    "source": "org_epoch_ai",
+    "target": "pub_epoch_biorisk_eval_analysis",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "authored_s5_pub_futurehouse_lab_bench_org_futurehouse",
+    "source": "org_futurehouse",
+    "target": "pub_futurehouse_lab_bench",
+    "type": "authored",
+    "extraction_method": "webpage_scrape",
+    "data_source": "s5_evidence"
+  },
+  {
+    "id": "forum_nti_inst_Anthropic",
+    "source": "org_nuclear_threat_initiative",
+    "target": "inst_Anthropic",
+    "type": "policy_forum",
+    "activity": "AIxBio Global Forum",
+    "confidence": "MEDIUM",
+    "extraction_method": "webpage_scrape",
+    "data_source": "nti.org",
+    "evidence_node": "pub_nti_aixbio_forum_statement"
+  },
+  {
+    "id": "forum_nti_inst_Google_DeepMind",
+    "source": "org_nuclear_threat_initiative",
+    "target": "inst_Google_DeepMind",
+    "type": "policy_forum",
+    "activity": "AIxBio Global Forum",
+    "confidence": "MEDIUM",
+    "extraction_method": "webpage_scrape",
+    "data_source": "nti.org",
+    "evidence_node": "pub_nti_aixbio_forum_statement"
+  },
+  {
+    "id": "forum_nti_inst_RAND_Corporation",
+    "source": "org_nuclear_threat_initiative",
+    "target": "inst_RAND_Corporation",
+    "type": "policy_forum",
+    "activity": "AIxBio Global Forum",
+    "confidence": "MEDIUM",
+    "extraction_method": "webpage_scrape",
+    "data_source": "nti.org",
+    "evidence_node": "pub_nti_aixbio_forum_statement"
+  },
+  {
+    "id": "policy_securebio_ostp",
+    "source": "inst_SecureBio",
+    "target": "org_ostp",
+    "type": "policy_forum",
+    "activity": "RFI Response: AI Action Plan",
+    "confidence": "HIGH",
+    "extraction_method": "pdf_parse",
+    "data_source": "files.nitrd.gov",
+    "evidence_node": "pub_securebio_ostp_rfi_2025"
+  },
+  {
+    "id": "policy_securebio_us_aisi",
+    "source": "inst_SecureBio",
+    "target": "org_us_aisi",
+    "type": "policy_forum",
+    "activity": "Recommends empowering US AISI for AI evaluation",
+    "confidence": "HIGH",
+    "extraction_method": "pdf_parse",
+    "data_source": "files.nitrd.gov",
+    "evidence_node": "pub_securebio_ostp_rfi_2025"
+  },
+  {
+    "id": "collab_nti_rand_paris",
+    "source": "org_nuclear_threat_initiative",
+    "target": "inst_RAND_Corporation",
+    "type": "policy_forum",
+    "activity": "Co-organized AIxBio session at Paris AI Action Summit (Feb 2025)",
+    "confidence": "HIGH",
+    "extraction_method": "webpage_scrape",
+    "data_source": "nti.org"
+  },
+  {
+    "id": "acquired_deloitte_gryphon",
+    "source": "org_deloitte",
+    "target": "org_gryphon_scientific",
+    "type": "funds",
+    "description": "Deloitte acquired Gryphon Scientific assets (April 2024)",
+    "confidence": "HIGH",
+    "extraction_method": "news_article",
+    "data_source": "prnewswire.com"
+  },
+  {
+    "id": "board_parthemore_securebio",
+    "source": "author_christine_parthemore",
+    "target": "inst_SecureBio",
+    "type": "current_affiliation",
+    "description": "Board of Directors",
+    "extraction_method": "webpage_scrape",
+    "data_source": "securebio.org/team/"
+  },
+  {
+    "id": "collab_securebio_sigsci",
+    "source": "inst_SecureBio",
+    "target": "org_iarpa_signature_science",
+    "type": "biosecurity_eval",
+    "description": "Co-developed long-form virology evaluation tasks",
+    "confidence": "HIGH",
+    "extraction_method": "blog_post",
+    "data_source": "securebio.substack.com"
+  },
+  {
+    "id": "collab_securebio_deloitte",
+    "source": "inst_SecureBio",
+    "target": "org_deloitte",
+    "type": "biosecurity_eval",
+    "description": "Co-developed long-form virology evaluation tasks for Claude 4",
+    "confidence": "HIGH",
+    "extraction_method": "blog_post",
+    "data_source": "securebio.substack.com"
+  },
+  {
+    "id": "affil_esvelt_securebio_past",
+    "source": "author_Kevin_M__Esvelt1",
+    "target": "inst_SecureBio",
+    "type": "past_affiliation",
+    "description": "Founder / Past Member",
+    "extraction_method": "webpage_scrape",
+    "data_source": "securebio.org/team/"
+  },
+  {
+    "id": "study_rand_openai",
+    "source": "inst_RAND_Corporation",
+    "target": "inst_OpenAI",
+    "type": "published_study",
+    "description": "Tested OpenAI models in bio attack red-team study",
+    "confidence": "HIGH",
+    "extraction_method": "publication",
+    "data_source": "rand.org",
+    "evidence_node": "pub_rand_bio_attack_redteam_2024"
+  },
+  {
+    "id": "study_futurehouse_benchmark",
+    "source": "org_futurehouse",
+    "target": "inst_Anthropic",
+    "type": "biosecurity_eval",
+    "description": "LAB-Bench benchmark used in Anthropic biorisk evaluation",
+    "confidence": "MEDIUM",
+    "extraction_method": "publication",
+    "data_source": "epoch.ai",
+    "evidence_node": "pub_futurehouse_lab_bench"
+  }
+]

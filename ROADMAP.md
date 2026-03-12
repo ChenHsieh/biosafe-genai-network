@@ -214,25 +214,73 @@ scripts/s4_merge_darpa.py           → data/graph_data.json (updated)
 
 ---
 
-## Sprint 5: Policy & Big Tech Layer
+## Sprint 4b: Fix DARPA PI→Program Connections (Hotfix)
 
-**Goal:** Map AI companies' biosecurity evaluation relationships.
+**Goal:** Create missing program nodes (SAFE GENES, P3, PREEMPT, PREPARE) and connect 13 DARPA PI author nodes to their programs.
+
+**Status:** Identified during Sprint 5 dry run. 13 PI nodes (George Church, Jennifer Doudna, Harris Wang, etc.) have `current_affiliation` edges only — no connection to their DARPA programs.
+
+**Gap:**
+- Missing program nodes: `program_darpa_safe_genes`, `program_darpa_p3`, `program_darpa_preempt`, `program_darpa_prepare`
+- Missing edges: PI → program (`pi_of` or `performs_on` edge type)
+- Missing edges: program → DARPA funder (`funds` edge, hierarchy)
+- Missing edges: program → institution (`funds` edge, from press release performer data)
+
+**Data sources:** Already saved in `data/raw/s4_darpa_iarpa/darpa_programs_performers.json` + news release `.md` files.
+
+---
+
+## Sprint 5: Policy & Big Tech Layer — Biosecurity Evaluations 🔄 IN PROGRESS
+
+**Goal:** Map AI companies' biosecurity evaluation relationships, third-party eval partnerships, and policy forum participation.
+
+**Status:** Dry run complete. 10 relationships found across 6 sources, 7 at HIGH confidence.
 
 **Rule: only add edges with a specific, fetchable URL. If URL returns 403 and content cannot be verified from any fetchable source, the edge does not enter the graph.**
 
-| Relationship | Source URL | Expected confidence |
-|---|---|---|
-| Anthropic → SecureBio | securebio.substack.com | HIGH if fetchable |
-| OpenAI → Gryphon Scientific | openai.com press release | MEDIUM (403 expected) |
-| OpenAI → LANL | openai.com press release | MEDIUM (403 expected) |
-| Anthropic/OpenAI/DeepMind → NTI Bio | nti.org forum page | MEDIUM |
-| SecureBio → NIST | nitrd.gov PDF | HIGH if fetchable |
+### Verified Relationships (from dry run)
 
-**Scripts:**
+| Evaluator | Evaluated Lab | Models | Evidence | Confidence |
+|---|---|---|---|---|
+| SecureBio | Anthropic | Claude 3.7 Sonnet, Claude 4 | SecureBio substack, Epoch AI analysis | HIGH |
+| SecureBio | OpenAI | GPT-4.5, o3-mini, o4-mini | SecureBio substack | HIGH |
+| SecureBio | Google DeepMind | Gemini 2.5 Pro | SecureBio substack | HIGH |
+| SecureBio | xAI | unspecified | SecureBio substack | MEDIUM |
+| Gryphon Scientific | OpenAI | GPT-4 | OpenAI blog + VentureBeat | HIGH |
+| RAND Corporation | 30+ models | various | RAND publications | HIGH |
+| UK AI Safety Institute | Anthropic | Claude 3.5 Sonnet | FedScoop, Epoch AI | HIGH |
+| UK AI Safety Institute | OpenAI | o1 | Epoch AI analysis | HIGH |
+| FutureHouse | multiple | LAB-Bench | Epoch AI analysis | MEDIUM |
+
+### Policy/Convening Relationships
+
+| Convener | Participants | Activity | Confidence |
+|---|---|---|---|
+| NTI | DeepMind, OpenAI, Anthropic | AIxBio Global Forum | MEDIUM |
+
+### New Edge Types Proposed
+1. `biosecurity_eval` — Org A evaluated Org B's model for bio risk
+2. `policy_forum` — Org A convened/participated in biosecurity policy forum
+3. `published_study` — Org A published bio risk research involving Org B's models
+
+### New Nodes Needed
+- `org_xai` (xAI — not yet in graph)
+- `org_uk_aisi` (UK AI Safety Institute — not yet in graph)
+- `org_futurehouse` (FutureHouse — already in graph as Coefficient grantee? Check)
+- `org_deloitte` (co-developed virology tasks with SecureBio — edge case)
+- `org_signature_science` (co-developed virology tasks — already in Sprint 4 as IARPA Fun GCAT T&E)
+
+### Also Mentioned (co-developers, not primary eval relationship)
+- Deloitte — co-developed long-form virology tasks with SecureBio for Claude 4 eval
+- Signature Science — co-developed virology tasks with SecureBio (already in graph from IARPA Fun GCAT)
+
+**Raw data:** `data/raw/s5_policy_bigtech/` (5 files saved)
+
+**Notebook:** `scripts/notebooks/s5_policy_bigtech_exploration.ipynb`
+
+**Scripts (planned):**
 ```
-scripts/s5_fetch_partnerships.py       → data/raw/partnerships_{source}.html
-scripts/s5_extract_partnerships.py     → data/staged/partnership_edges.json
-scripts/s5_validate_partnerships.py    → data/staged/partnership_validation_report.json
+scripts/s5_extract_partnerships.py     → data/staged/s5_nodes.json, s5_edges.json
 scripts/s5_merge_partnerships.py       → data/graph_data.json (updated)
 ```
 
@@ -253,6 +301,43 @@ scripts/s5_merge_partnerships.py       → data/graph_data.json (updated)
 Add 2–3 sibling workshops. Only pull papers where ≥1 author is already in the graph.
 
 Candidates: NeurIPS SoLaR, ICLR ML for Drug Discovery, ACL/EMNLP dual-use risk workshops.
+
+---
+
+## Sprint 8: Key Personnel Research Projects & Lab Outputs
+
+**Goal:** Trace the research projects, publications, and lab outputs of key personnel at the intersection of biosafety and AI. Map their broader research footprint beyond the single NeurIPS workshop.
+
+**Why this matters:** Currently, authors enter the graph only via their NeurIPS 2025 BioSafe GenAI workshop papers. But many are PIs with larger lab groups, multiple grants, and extensive publication records that reveal the full scope of biosafety+AI work. This sprint surfaces the research *ecosystem* around each key person.
+
+**Scope — key personnel categories:**
+1. **Workshop authors with DARPA connections** (bridge nodes): Kevin Esvelt (MIT), others identified in Sprint 4
+2. **DARPA PIs working on biosafety+AI**: George Church (Harvard), Jennifer Doudna (UC Berkeley), Harris Wang (Columbia), Jonathan Weissman (UCSF)
+3. **Workshop organizers** (from Sprint 6): Mengdi Wang, Le Cong, Kevin Esvelt
+4. **Prolific workshop authors** (high degree in graph): Identify top-10 by authored edge count
+5. **SecureBio researchers** who also published at the workshop
+
+**Data sources to query:**
+| Source | API/Method | What we get |
+|---|---|---|
+| Google Scholar | Serpapi or scraping | Publication lists, h-index, co-authors |
+| Semantic Scholar | `api.semanticscholar.org/graph/v1` | Papers, citations, co-author network |
+| NIH RePORTER | `api.reporter.nih.gov/v2` | Active grants, amounts, co-PIs |
+| NSF Award Search | `api.nsf.gov/services/v1/awards.json` | NSF grants (AI+bio relevant) |
+| Lab websites | WebFetch | Current projects, team members, focus areas |
+| ORCID | `pub.orcid.org/v3.0` | Publication IDs, affiliations history |
+
+**Proposed edge types:**
+- `has_grant` — PI → grant/project node
+- `co_pi` — PI → co-PI (if both in graph)
+- `lab_member` — PI → lab group member (if relevant to biosafety+AI)
+- `published` — PI → publication node (bio+AI papers outside the workshop)
+
+**Approach:** Notebook-first dry run, same as Sprint 5. Query top 10–15 key personnel, present stats, iterate with human review.
+
+**Filtering strategy:** Only include grants/papers at the bio+AI intersection. Use keyword filters similar to Sprint 4's `AI_KW` + `BIO_REL` regex.
+
+**Expected output:** 50–150 new nodes (grants, key papers, co-PIs), 100–200 new edges, significantly richer connectivity for the core biosafety+AI personnel.
 
 ---
 
@@ -328,10 +413,14 @@ biosecurity-atlas/
 │   ├── nodes.csv
 │   ├── edges.csv
 │   └── raw/
-│       ├── openreview_papers.json      ← Sprint 1
-│       └── op_grants_full.csv          ← Sprint 2/3
+│       ├── s1_neurips_workshop/        ← Sprint 1: OpenReview papers + PDFs
+│       ├── s2s3_coefficient_funding/   ← Sprint 2/3: Coefficient grants CSV
+│       ├── s4_darpa_iarpa/             ← Sprint 4: USASpending JSON, DARPA/IARPA pages, news releases
+│       └── s5_policy_bigtech/          ← Sprint 5: AI company partnerships [planned]
 │   └── staged/
 │       ├── op_edges.json               ← Sprint 2/3 (272 grants, 288 edges)
+│       ├── s4_nodes.json               ← Sprint 4 (51 nodes)
+│       ├── s4_edges.json               ← Sprint 4 (58 edges)
 │       └── op_validation_report.json
 └── scripts/
     ├── extract_data.py                 ← Sprint 1: OpenReview extraction
@@ -341,5 +430,8 @@ biosecurity-atlas/
     ├── s2_fetch_op_grants.sh           ← Sprint 2/3: fetch Coefficient CSV
     ├── s2_extract_op_grants.py         ← Sprint 2/3: extract + classify grants
     ├── s2_validate_op.py               ← Sprint 2/3: validate staged data
-    └── s2_merge_op.py                  ← Sprint 2/3: merge into graph
+    ├── s2_merge_op.py                  ← Sprint 2/3: merge into graph
+    ├── s4_extract_darpa_iarpa.py       ← Sprint 4: DARPA/IARPA extraction
+    └── notebooks/
+        └── s4_darpa_iarpa_exploration.ipynb  ← Sprint 4 exploration
 ```

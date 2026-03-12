@@ -7099,6 +7099,289 @@
         "source_type": "news_release",
         "program": "PREPARE"
       }
+    },
+    {
+      "id": "program_darpa_safe_genes",
+      "label": "DARPA SAFE GENES",
+      "type": "program",
+      "full_name": "Safe Genes",
+      "url": "https://www.darpa.mil/research/programs/safe-genes",
+      "description": "Gene editing safety tools \u2014 $65M over 4 years (2017\u20132021)",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19"
+    },
+    {
+      "id": "program_darpa_p3",
+      "label": "DARPA P3",
+      "type": "program",
+      "full_name": "Pandemic Prevention Platform",
+      "url": "https://www.darpa.mil/research/programs/pandemic-prevention-platform",
+      "description": "Rapid antibody countermeasures \u2014 60-day pandemic response (2018\u20132022)",
+      "data_source": "https://www.darpa.mil/news/2018/halt-outbreaks"
+    },
+    {
+      "id": "program_darpa_preempt",
+      "label": "DARPA PREEMPT",
+      "type": "program",
+      "full_name": "PREventing EMerging Pathogenic Threats",
+      "url": "https://www.darpa.mil/research/programs/preventing-emerging-pathogenic-threats",
+      "description": "Zoonotic reservoir containment \u2014 3.5 years (2019\u20132022)",
+      "data_source": "https://www.darpa.mil/news/2019/medical-preparedness"
+    },
+    {
+      "id": "program_darpa_prepare",
+      "label": "DARPA PREPARE",
+      "type": "program",
+      "full_name": "PReemptive Expression of Protective Alleles and Response Elements",
+      "url": "https://www.darpa.mil/research/programs/preemptive-expression-protective-alleles-response-elements",
+      "description": "Gene-encoded broad-spectrum protection (2019\u20132023)",
+      "data_source": "https://www.darpa.mil/news/2019/dose-inner-strength"
+    },
+    {
+      "id": "inst_xAI",
+      "label": "xAI",
+      "type": "institution",
+      "url": "https://x.ai",
+      "description": "AI company founded by Elon Musk"
+    },
+    {
+      "id": "org_us_aisi",
+      "label": "US AI Safety Institute (NIST)",
+      "type": "org",
+      "url": "https://www.nist.gov/artificial-intelligence/ai-safety-institute",
+      "description": "US government AI safety evaluation body within NIST",
+      "entity_type": "government"
+    },
+    {
+      "id": "org_ostp",
+      "label": "Office of Science and Technology Policy (OSTP)",
+      "type": "org",
+      "url": "https://www.whitehouse.gov/ostp/",
+      "description": "White House Office of Science and Technology Policy",
+      "entity_type": "government"
+    },
+    {
+      "id": "org_deloitte",
+      "label": "Deloitte",
+      "type": "org",
+      "url": "https://www.deloitte.com",
+      "description": "Acquired Gryphon Scientific in April 2024",
+      "entity_type": "consulting"
+    },
+    {
+      "id": "org_council_strategic_risks",
+      "label": "Council on Strategic Risks",
+      "type": "org",
+      "url": "https://councilonstrategicrisks.org",
+      "description": "Biosecurity policy think tank; Christine Parthemore is CEO",
+      "entity_type": "think_tank"
+    },
+    {
+      "id": "pub_openai_bio_early_warning_2024",
+      "label": "Building an early warning system for LLM-aided biological threat creation",
+      "type": "publication",
+      "subtype": "blog_post",
+      "url": "https://openai.com/index/building-an-early-warning-system-for-llm-aided-biological-threat-creation/",
+      "date": "2024-01-31",
+      "description": "OpenAI + Gryphon study: 100 participants, GPT-4 bio threat eval. Found models \"at most mildly useful\"."
+    },
+    {
+      "id": "pub_rand_bio_attack_redteam_2024",
+      "label": "The Operational Risks of AI in Large-Scale Biological Attacks (RAND RRA2977-2)",
+      "type": "publication",
+      "subtype": "research_report",
+      "url": "https://www.rand.org/pubs/research_reports/RRA2977-2.html",
+      "date": "2024-01-25",
+      "description": "Red-team study: no significant difference in bio attack plan viability with/without LLMs."
+    },
+    {
+      "id": "pub_rand_automated_grading_2025",
+      "label": "Automated Grading for Evaluating Dual-Use Bio Capabilities of LLMs (RAND RRA3124-1)",
+      "type": "publication",
+      "subtype": "research_report",
+      "url": "https://www.rand.org/pubs/research_reports/RRA3124-1.html",
+      "date": "2025",
+      "description": "Proof-of-concept automated grader for LLM bio capabilities across 30+ models."
+    },
+    {
+      "id": "pub_securebio_ostp_rfi_2025",
+      "label": "SecureBio RFI Response: AI Action Plan (OSTP)",
+      "type": "publication",
+      "subtype": "policy_submission",
+      "url": "https://files.nitrd.gov/90-fr-9088/SecureBio-AI-RFI-2025.pdf",
+      "date": "2025-03-15",
+      "description": "SecureBio submission to OSTP: AI models now exceed human experts in bioweapon-relevant guidance."
+    },
+    {
+      "id": "pub_securebio_biorisk_eval_overview",
+      "label": "SecureBio's AI Team: An Overview of Our Biorisk Evaluations",
+      "type": "publication",
+      "subtype": "blog_post",
+      "url": "https://securebio.substack.com/p/securebios-ai-team-an-overview-of",
+      "date": "2025",
+      "description": "Overview of SecureBio eval portfolio: Anthropic, OpenAI, DeepMind, xAI models evaluated."
+    },
+    {
+      "id": "pub_epoch_biorisk_eval_analysis",
+      "label": "Do the biorisk evaluations of AI labs actually measure bioweapon risk? (Epoch AI)",
+      "type": "publication",
+      "subtype": "analysis",
+      "url": "https://epoch.ai/gradient-updates/do-the-biorisk-evaluations-of-ai-labs-actually-measure-the-risk-of-developing-bioweapons",
+      "date": "2025",
+      "description": "Comprehensive analysis of all AI lab biorisk evaluations. Maps evaluator landscape."
+    },
+    {
+      "id": "pub_anthropic_frontier_red_team",
+      "label": "Progress from our Frontier Red Team (Anthropic)",
+      "type": "publication",
+      "subtype": "blog_post",
+      "url": "https://www.anthropic.com/news/strategic-warning-for-ai-risk-progress-and-insights-from-our-frontier-red-team",
+      "date": "2025",
+      "description": "Anthropic frontier red team: ~15 researchers. Claude now exceeds expert virologists on VCT."
+    },
+    {
+      "id": "pub_nti_aixbio_forum_statement",
+      "label": "AIxBio Global Forum High-Level Statement on Biosecurity Risks",
+      "type": "publication",
+      "subtype": "policy_statement",
+      "url": "https://www.nti.org/about/programs-projects/project/aixbio-global-forum/",
+      "date": "2024",
+      "description": "NTI convened 25+ high-level participants including Anthropic, Google DeepMind representatives."
+    },
+    {
+      "id": "pub_futurehouse_lab_bench",
+      "label": "LAB-Bench: Measuring Capabilities of Language Models for Biology Research",
+      "type": "publication",
+      "subtype": "benchmark_paper",
+      "url": "https://arxiv.org/abs/2407.10362",
+      "date": "2024-07",
+      "description": "2,457 questions across 8 categories. Used by multiple AI labs for biorisk evaluation."
+    },
+    {
+      "id": "author_ben_mueller",
+      "label": "Ben Mueller",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Executive Director",
+      "details": {
+        "source": "securebio.org/team/"
+      }
+    },
+    {
+      "id": "author_jeff_kaufman",
+      "label": "Jeff Kaufman",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Director of Detection",
+      "details": {
+        "source": "securebio.org/team/"
+      }
+    },
+    {
+      "id": "author_coleman_breen",
+      "label": "Coleman Breen",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Senior AI Policy Researcher",
+      "details": {
+        "source": "securebio.org/team/"
+      }
+    },
+    {
+      "id": "author_anjali_gopal",
+      "label": "Anjali Gopal",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Research Scientist & AI Project Co-Lead (past)",
+      "details": {
+        "source": "securebio.org/team/"
+      }
+    },
+    {
+      "id": "author_rocco_casagrande",
+      "label": "Rocco Casagrande",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Founder and Executive Chairman",
+      "details": {
+        "source": "gryphon_deloitte_acquisition.md"
+      }
+    },
+    {
+      "id": "author_froggi_jackson",
+      "label": "Shawn S. \"Froggi\" Jackson",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Co-author on OpenAI bio threat study",
+      "details": {
+        "source": "gryphon_deloitte_acquisition.md"
+      }
+    },
+    {
+      "id": "author_daniel_greene",
+      "label": "Daniel Greene",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Senior Analyst",
+      "details": {
+        "source": "gryphon_deloitte_acquisition.md"
+      }
+    },
+    {
+      "id": "author_mark_kazmierczak",
+      "label": "Mark Kazmierczak",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Director of Biosafety, Biosecurity and Emerging Technologies",
+      "details": {
+        "source": "gryphon_deloitte_acquisition.md"
+      }
+    },
+    {
+      "id": "author_christopher_mouton",
+      "label": "Christopher A. Mouton",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Lead author, RAND bio attack red-team study",
+      "details": {
+        "source": "rand.org"
+      }
+    },
+    {
+      "id": "author_caleb_lucas",
+      "label": "Caleb Lucas",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Co-author, RAND bio attack red-team study",
+      "details": {
+        "source": "rand.org"
+      }
+    },
+    {
+      "id": "author_tejal_patwardhan",
+      "label": "Tejal Patwardhan",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "Lead author, OpenAI bio threat early warning study",
+      "details": {
+        "source": "openai.com"
+      }
+    },
+    {
+      "id": "author_christine_parthemore",
+      "label": "Christine Parthemore",
+      "type": "author",
+      "subtype": "evaluator",
+      "description": "CEO, Council on Strategic Risks; SecureBio Board",
+      "details": {
+        "source": "securebio.org/team/"
+      }
+    },
+    {
+      "id": "org_epoch_ai",
+      "label": "Epoch AI",
+      "type": "org",
+      "url": "https://epoch.ai",
+      "description": "AI research institute tracking AI capabilities and safety evaluations"
     }
   ],
   "edges": [
@@ -16290,6 +16573,668 @@
       "type": "current_affiliation",
       "extraction_method": "news_release",
       "data_source": "DARPA news 2021"
+    },
+    {
+      "id": "hier_darpa_safe_genes",
+      "source": "funder_darpa",
+      "target": "program_darpa_safe_genes",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "hier_darpa_p3",
+      "source": "funder_darpa",
+      "target": "program_darpa_p3",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2018/halt-outbreaks",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "hier_darpa_preempt",
+      "source": "funder_darpa",
+      "target": "program_darpa_preempt",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/medical-preparedness",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "hier_darpa_prepare",
+      "source": "funder_darpa",
+      "target": "program_darpa_prepare",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/dose-inner-strength",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_amit_choudhary_safe_genes",
+      "source": "author_amit_choudhary",
+      "target": "program_darpa_safe_genes",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_george_church_safe_genes",
+      "source": "author_george_church",
+      "target": "program_darpa_safe_genes",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_keith_joung_safe_genes",
+      "source": "author_keith_joung",
+      "target": "program_darpa_safe_genes",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_Kevin_M__Esvelt1_safe_genes",
+      "source": "author_Kevin_M__Esvelt1",
+      "target": "program_darpa_safe_genes",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_john_godwin_safe_genes",
+      "source": "author_john_godwin",
+      "target": "program_darpa_safe_genes",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_jennifer_doudna_safe_genes",
+      "source": "author_jennifer_doudna",
+      "target": "program_darpa_safe_genes",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_omar_akbari_safe_genes",
+      "source": "author_omar_akbari",
+      "target": "program_darpa_safe_genes",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_ariel_weinberger_preempt",
+      "source": "author_ariel_weinberger",
+      "target": "program_darpa_preempt",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/medical-preparedness",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_peter_barry_preempt",
+      "source": "author_peter_barry",
+      "target": "program_darpa_preempt",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/medical-preparedness",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_carla_saleh_preempt",
+      "source": "author_carla_saleh",
+      "target": "program_darpa_preempt",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/medical-preparedness",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_raina_plowright_preempt",
+      "source": "author_raina_plowright",
+      "target": "program_darpa_preempt",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/medical-preparedness",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_luke_alphey_preempt",
+      "source": "author_luke_alphey",
+      "target": "program_darpa_preempt",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/medical-preparedness",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_harris_wang_prepare",
+      "source": "author_harris_wang",
+      "target": "program_darpa_prepare",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/dose-inner-strength",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "performs_author_jonathan_weissman_prepare",
+      "source": "author_jonathan_weissman",
+      "target": "program_darpa_prepare",
+      "type": "performs_on",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/dose-inner-strength",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "perf_safe_genes_inst_Broad_Institute",
+      "source": "program_darpa_safe_genes",
+      "target": "inst_Broad_Institute",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "perf_safe_genes_inst_Harvard_University",
+      "source": "program_darpa_safe_genes",
+      "target": "inst_Harvard_University",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "perf_safe_genes_inst_Massachusetts_Institute_of_Technology",
+      "source": "program_darpa_safe_genes",
+      "target": "inst_Massachusetts_Institute_of_Technology",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news-events/2017-07-19",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "perf_p3_org_duke_university",
+      "source": "program_darpa_p3",
+      "target": "org_duke_university",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2018/halt-outbreaks",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "perf_preempt_inst_Johns_Hopkins_University",
+      "source": "program_darpa_preempt",
+      "target": "inst_Johns_Hopkins_University",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/medical-preparedness",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "perf_prepare_inst_Columbia_University",
+      "source": "program_darpa_prepare",
+      "target": "inst_Columbia_University",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/dose-inner-strength",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "perf_prepare_org_university_of_california_san_francisco",
+      "source": "program_darpa_prepare",
+      "target": "org_university_of_california_san_francisco",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/dose-inner-strength",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "perf_prepare_inst_Georgia_Institute_of_Technology",
+      "source": "program_darpa_prepare",
+      "target": "inst_Georgia_Institute_of_Technology",
+      "type": "funds",
+      "extraction_method": "news_release",
+      "data_source": "https://www.darpa.mil/news/2019/dose-inner-strength",
+      "confidence": "HIGH"
+    },
+    {
+      "id": "affil_s5_author_ben_mueller",
+      "source": "author_ben_mueller",
+      "target": "inst_SecureBio",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "securebio.org/team/"
+    },
+    {
+      "id": "affil_s5_author_jeff_kaufman",
+      "source": "author_jeff_kaufman",
+      "target": "inst_SecureBio",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "securebio.org/team/"
+    },
+    {
+      "id": "affil_s5_author_coleman_breen",
+      "source": "author_coleman_breen",
+      "target": "inst_SecureBio",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "securebio.org/team/"
+    },
+    {
+      "id": "affil_s5_author_anjali_gopal",
+      "source": "author_anjali_gopal",
+      "target": "inst_SecureBio",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "securebio.org/team/"
+    },
+    {
+      "id": "affil_s5_author_rocco_casagrande",
+      "source": "author_rocco_casagrande",
+      "target": "org_gryphon_scientific",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "gryphon_deloitte_acquisition.md"
+    },
+    {
+      "id": "affil_s5_author_froggi_jackson",
+      "source": "author_froggi_jackson",
+      "target": "org_gryphon_scientific",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "gryphon_deloitte_acquisition.md"
+    },
+    {
+      "id": "affil_s5_author_daniel_greene",
+      "source": "author_daniel_greene",
+      "target": "org_gryphon_scientific",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "gryphon_deloitte_acquisition.md"
+    },
+    {
+      "id": "affil_s5_author_mark_kazmierczak",
+      "source": "author_mark_kazmierczak",
+      "target": "org_gryphon_scientific",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "gryphon_deloitte_acquisition.md"
+    },
+    {
+      "id": "affil_s5_author_christopher_mouton",
+      "source": "author_christopher_mouton",
+      "target": "inst_RAND_Corporation",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "rand.org"
+    },
+    {
+      "id": "affil_s5_author_caleb_lucas",
+      "source": "author_caleb_lucas",
+      "target": "inst_RAND_Corporation",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "rand.org"
+    },
+    {
+      "id": "affil_s5_author_tejal_patwardhan",
+      "source": "author_tejal_patwardhan",
+      "target": "inst_OpenAI",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "openai.com"
+    },
+    {
+      "id": "affil_s5_author_christine_parthemore",
+      "source": "author_christine_parthemore",
+      "target": "org_council_strategic_risks",
+      "type": "current_affiliation",
+      "extraction_method": "webpage_scrape",
+      "data_source": "securebio.org/team/"
+    },
+    {
+      "id": "eval_securebio_inst_Anthropic",
+      "source": "inst_SecureBio",
+      "target": "inst_Anthropic",
+      "type": "biosecurity_eval",
+      "models_evaluated": "Claude 3.7 Sonnet, Claude 4",
+      "confidence": "HIGH",
+      "extraction_method": "blog_post",
+      "data_source": "securebio.substack.com",
+      "evidence_node": "pub_securebio_biorisk_eval_overview"
+    },
+    {
+      "id": "eval_securebio_inst_OpenAI",
+      "source": "inst_SecureBio",
+      "target": "inst_OpenAI",
+      "type": "biosecurity_eval",
+      "models_evaluated": "GPT-4.5, o3-mini, o4-mini",
+      "confidence": "HIGH",
+      "extraction_method": "blog_post",
+      "data_source": "securebio.substack.com",
+      "evidence_node": "pub_securebio_biorisk_eval_overview"
+    },
+    {
+      "id": "eval_securebio_inst_Google_DeepMind",
+      "source": "inst_SecureBio",
+      "target": "inst_Google_DeepMind",
+      "type": "biosecurity_eval",
+      "models_evaluated": "Gemini 2.5 Pro",
+      "confidence": "HIGH",
+      "extraction_method": "blog_post",
+      "data_source": "securebio.substack.com",
+      "evidence_node": "pub_securebio_biorisk_eval_overview"
+    },
+    {
+      "id": "eval_securebio_inst_xAI",
+      "source": "inst_SecureBio",
+      "target": "inst_xAI",
+      "type": "biosecurity_eval",
+      "models_evaluated": "unspecified",
+      "confidence": "MEDIUM",
+      "extraction_method": "blog_post",
+      "data_source": "securebio.substack.com",
+      "evidence_node": "pub_securebio_biorisk_eval_overview"
+    },
+    {
+      "id": "eval_gryphon_openai",
+      "source": "org_gryphon_scientific",
+      "target": "inst_OpenAI",
+      "type": "biosecurity_eval",
+      "models_evaluated": "GPT-4",
+      "confidence": "HIGH",
+      "extraction_method": "blog_post",
+      "data_source": "openai.com",
+      "evidence_node": "pub_openai_bio_early_warning_2024"
+    },
+    {
+      "id": "eval_uk_aisi_anthropic",
+      "source": "inst_UK_AI_Safety_Institute",
+      "target": "inst_Anthropic",
+      "type": "biosecurity_eval",
+      "models_evaluated": "Claude 3.5 Sonnet",
+      "confidence": "HIGH",
+      "extraction_method": "news_article",
+      "data_source": "fedscoop.com",
+      "evidence_node": "pub_epoch_biorisk_eval_analysis"
+    },
+    {
+      "id": "eval_uk_aisi_openai",
+      "source": "inst_UK_AI_Safety_Institute",
+      "target": "inst_OpenAI",
+      "type": "biosecurity_eval",
+      "models_evaluated": "o1",
+      "confidence": "HIGH",
+      "extraction_method": "news_article",
+      "data_source": "epoch.ai",
+      "evidence_node": "pub_epoch_biorisk_eval_analysis"
+    },
+    {
+      "id": "authored_s5_pub_openai_bio_early_warning_2024_inst_OpenAI",
+      "source": "inst_OpenAI",
+      "target": "pub_openai_bio_early_warning_2024",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_openai_bio_early_warning_2024_org_gryphon_scientific",
+      "source": "org_gryphon_scientific",
+      "target": "pub_openai_bio_early_warning_2024",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_openai_bio_early_warning_2024_author_tejal_patwardhan",
+      "source": "author_tejal_patwardhan",
+      "target": "pub_openai_bio_early_warning_2024",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_openai_bio_early_warning_2024_author_rocco_casagrande",
+      "source": "author_rocco_casagrande",
+      "target": "pub_openai_bio_early_warning_2024",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_openai_bio_early_warning_2024_author_froggi_jackson",
+      "source": "author_froggi_jackson",
+      "target": "pub_openai_bio_early_warning_2024",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_rand_bio_attack_redteam_2024_inst_RAND_Corporation",
+      "source": "inst_RAND_Corporation",
+      "target": "pub_rand_bio_attack_redteam_2024",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_rand_bio_attack_redteam_2024_author_christopher_mouton",
+      "source": "author_christopher_mouton",
+      "target": "pub_rand_bio_attack_redteam_2024",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_rand_bio_attack_redteam_2024_author_caleb_lucas",
+      "source": "author_caleb_lucas",
+      "target": "pub_rand_bio_attack_redteam_2024",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_rand_automated_grading_2025_inst_RAND_Corporation",
+      "source": "inst_RAND_Corporation",
+      "target": "pub_rand_automated_grading_2025",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_securebio_ostp_rfi_2025_inst_SecureBio",
+      "source": "inst_SecureBio",
+      "target": "pub_securebio_ostp_rfi_2025",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_securebio_biorisk_eval_overview_inst_SecureBio",
+      "source": "inst_SecureBio",
+      "target": "pub_securebio_biorisk_eval_overview",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_anthropic_frontier_red_team_inst_Anthropic",
+      "source": "inst_Anthropic",
+      "target": "pub_anthropic_frontier_red_team",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_nti_aixbio_forum_statement_org_nuclear_threat_initiative",
+      "source": "org_nuclear_threat_initiative",
+      "target": "pub_nti_aixbio_forum_statement",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_epoch_biorisk_eval_analysis_org_epoch_ai",
+      "source": "org_epoch_ai",
+      "target": "pub_epoch_biorisk_eval_analysis",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "authored_s5_pub_futurehouse_lab_bench_org_futurehouse",
+      "source": "org_futurehouse",
+      "target": "pub_futurehouse_lab_bench",
+      "type": "authored",
+      "extraction_method": "webpage_scrape",
+      "data_source": "s5_evidence"
+    },
+    {
+      "id": "forum_nti_inst_Anthropic",
+      "source": "org_nuclear_threat_initiative",
+      "target": "inst_Anthropic",
+      "type": "policy_forum",
+      "activity": "AIxBio Global Forum",
+      "confidence": "MEDIUM",
+      "extraction_method": "webpage_scrape",
+      "data_source": "nti.org",
+      "evidence_node": "pub_nti_aixbio_forum_statement"
+    },
+    {
+      "id": "forum_nti_inst_Google_DeepMind",
+      "source": "org_nuclear_threat_initiative",
+      "target": "inst_Google_DeepMind",
+      "type": "policy_forum",
+      "activity": "AIxBio Global Forum",
+      "confidence": "MEDIUM",
+      "extraction_method": "webpage_scrape",
+      "data_source": "nti.org",
+      "evidence_node": "pub_nti_aixbio_forum_statement"
+    },
+    {
+      "id": "forum_nti_inst_RAND_Corporation",
+      "source": "org_nuclear_threat_initiative",
+      "target": "inst_RAND_Corporation",
+      "type": "policy_forum",
+      "activity": "AIxBio Global Forum",
+      "confidence": "MEDIUM",
+      "extraction_method": "webpage_scrape",
+      "data_source": "nti.org",
+      "evidence_node": "pub_nti_aixbio_forum_statement"
+    },
+    {
+      "id": "policy_securebio_ostp",
+      "source": "inst_SecureBio",
+      "target": "org_ostp",
+      "type": "policy_forum",
+      "activity": "RFI Response: AI Action Plan",
+      "confidence": "HIGH",
+      "extraction_method": "pdf_parse",
+      "data_source": "files.nitrd.gov",
+      "evidence_node": "pub_securebio_ostp_rfi_2025"
+    },
+    {
+      "id": "policy_securebio_us_aisi",
+      "source": "inst_SecureBio",
+      "target": "org_us_aisi",
+      "type": "policy_forum",
+      "activity": "Recommends empowering US AISI for AI evaluation",
+      "confidence": "HIGH",
+      "extraction_method": "pdf_parse",
+      "data_source": "files.nitrd.gov",
+      "evidence_node": "pub_securebio_ostp_rfi_2025"
+    },
+    {
+      "id": "collab_nti_rand_paris",
+      "source": "org_nuclear_threat_initiative",
+      "target": "inst_RAND_Corporation",
+      "type": "policy_forum",
+      "activity": "Co-organized AIxBio session at Paris AI Action Summit (Feb 2025)",
+      "confidence": "HIGH",
+      "extraction_method": "webpage_scrape",
+      "data_source": "nti.org"
+    },
+    {
+      "id": "acquired_deloitte_gryphon",
+      "source": "org_deloitte",
+      "target": "org_gryphon_scientific",
+      "type": "funds",
+      "description": "Deloitte acquired Gryphon Scientific assets (April 2024)",
+      "confidence": "HIGH",
+      "extraction_method": "news_article",
+      "data_source": "prnewswire.com"
+    },
+    {
+      "id": "board_parthemore_securebio",
+      "source": "author_christine_parthemore",
+      "target": "inst_SecureBio",
+      "type": "current_affiliation",
+      "description": "Board of Directors",
+      "extraction_method": "webpage_scrape",
+      "data_source": "securebio.org/team/"
+    },
+    {
+      "id": "collab_securebio_sigsci",
+      "source": "inst_SecureBio",
+      "target": "org_iarpa_signature_science",
+      "type": "biosecurity_eval",
+      "description": "Co-developed long-form virology evaluation tasks",
+      "confidence": "HIGH",
+      "extraction_method": "blog_post",
+      "data_source": "securebio.substack.com"
+    },
+    {
+      "id": "collab_securebio_deloitte",
+      "source": "inst_SecureBio",
+      "target": "org_deloitte",
+      "type": "biosecurity_eval",
+      "description": "Co-developed long-form virology evaluation tasks for Claude 4",
+      "confidence": "HIGH",
+      "extraction_method": "blog_post",
+      "data_source": "securebio.substack.com"
+    },
+    {
+      "id": "affil_esvelt_securebio_past",
+      "source": "author_Kevin_M__Esvelt1",
+      "target": "inst_SecureBio",
+      "type": "past_affiliation",
+      "description": "Founder / Past Member",
+      "extraction_method": "webpage_scrape",
+      "data_source": "securebio.org/team/"
+    },
+    {
+      "id": "study_rand_openai",
+      "source": "inst_RAND_Corporation",
+      "target": "inst_OpenAI",
+      "type": "published_study",
+      "description": "Tested OpenAI models in bio attack red-team study",
+      "confidence": "HIGH",
+      "extraction_method": "publication",
+      "data_source": "rand.org",
+      "evidence_node": "pub_rand_bio_attack_redteam_2024"
+    },
+    {
+      "id": "study_futurehouse_benchmark",
+      "source": "org_futurehouse",
+      "target": "inst_Anthropic",
+      "type": "biosecurity_eval",
+      "description": "LAB-Bench benchmark used in Anthropic biorisk evaluation",
+      "confidence": "MEDIUM",
+      "extraction_method": "publication",
+      "data_source": "epoch.ai",
+      "evidence_node": "pub_futurehouse_lab_bench"
     }
   ],
   "metadata": {

@@ -15,7 +15,7 @@ import re
 from collections import defaultdict
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw', 'sprint4')
+RAW_DIR = os.path.join(BASE_DIR, 'data', 'raw', 's4_darpa_iarpa')
 STAGED_DIR = os.path.join(BASE_DIR, 'data', 'staged')
 GRAPH_FILE = os.path.join(BASE_DIR, 'data', 'graph_data.json')
 
