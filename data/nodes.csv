@@ -1,351 +1,503 @@
-id,label,type,subtype,degree,url,details
-paper_hZ6ra8ApLP,SafeGenie: Erasing Dangerous Concepts from Biological Diffusion Models,presentation,oral,4,https://openreview.net/forum?id=hZ6ra8ApLP,"{""Forum"": ""https://openreview.net/forum?id=hZ6ra8ApLP"", ""PDF"": ""https://openreview.net/pdf?id=hZ6ra8ApLP"", ""Type"": ""Oral"", ""Keywords"": ""Proteins, Diffusion, Biosafety, Erasing, Generation""}"
-paper_x3yCeCEIb3,"Position: Without Global Governance, AI-Enabled Biodesign Tools Risk Dangerous Proliferation",presentation,poster,3,https://openreview.net/forum?id=x3yCeCEIb3,"{""Forum"": ""https://openreview.net/forum?id=x3yCeCEIb3"", ""PDF"": ""https://openreview.net/pdf?id=x3yCeCEIb3"", ""Type"": ""Poster"", ""Keywords"": ""biosecurity, generative AI, dual-use governance, biotechnology, international regulation""}"
-paper_oPSMbYw7zx,Position: Biosafety-Critical Adjacent Technologies are Critical for Scalable and Safe Clinical Multi-modal LLM Deployment,presentation,poster,2,https://openreview.net/forum?id=oPSMbYw7zx,"{""Forum"": ""https://openreview.net/forum?id=oPSMbYw7zx"", ""PDF"": ""https://openreview.net/pdf?id=oPSMbYw7zx"", ""Type"": ""Poster"", ""Keywords"": ""Multimodal Large Language Models, Clinical AI Ecosystem, Healthcare Infrastructure, Precision Medicine Technologies""}"
-paper_Iik48LI1xX,"SafeBench-Seq: A Homology-Clustered, CPU-Only Baseline for Protein Hazard Screening with Physicochemical/Composition Features and Cluster-Aware Confidence Intervals",presentation,poster,1,https://openreview.net/forum?id=Iik48LI1xX,"{""Forum"": ""https://openreview.net/forum?id=Iik48LI1xX"", ""PDF"": ""https://openreview.net/pdf?id=Iik48LI1xX"", ""Type"": ""Poster"", ""Keywords"": ""Protein hazard screening, Biosecurity screening, Sequence-level classification, Homology-clustered evaluation, CPU-only baseline""}"
-paper_SoGnOiTGAH,A Biosecurity Agent for Lifecycle LLM Biosecurity Alignment,presentation,poster,2,https://openreview.net/forum?id=SoGnOiTGAH,"{""Forum"": ""https://openreview.net/forum?id=SoGnOiTGAH"", ""PDF"": ""https://openreview.net/pdf?id=SoGnOiTGAH"", ""Type"": ""Poster"", ""Keywords"": ""biosecurity, LLM safety, defense-in-depth, automated red teaming, preference alignment (DPO), runtime policy enforcement, STELLA agent orchestration""}"
-paper_DOsb0ZbtjA,Behavioral Red Teaming: Investigating Future Biosecurity Risk from Agentic AI and De Novo Sequence Design,presentation,poster,1,https://openreview.net/forum?id=DOsb0ZbtjA,"{""Forum"": ""https://openreview.net/forum?id=DOsb0ZbtjA"", ""PDF"": ""https://openreview.net/pdf?id=DOsb0ZbtjA"", ""Type"": ""Poster"", ""Keywords"": ""AI safety, agentic misalignment, biosecurity, red teaming, biological design tools, AI agents, constraint-based evaluation, large language models""}"
-paper_fpx52DO8oP,Exposing Critical Safety Failures: A Comprehensive Safety-Weighted Evaluation of LLaMA Models for Biochemical Toxicity Screening,presentation,poster,1,https://openreview.net/forum?id=fpx52DO8oP,"{""Forum"": ""https://openreview.net/forum?id=fpx52DO8oP"", ""PDF"": ""https://openreview.net/pdf?id=fpx52DO8oP"", ""Type"": ""Poster"", ""Keywords"": ""LLaMA, Safety-weighted evaluation, Biochemical toxicity screening, Robustness, Generative AI safeguards, AI safety""}"
-paper_qKxVD730Xt,Prompting Toxicity: Analyzing Biosafety Risks in Genomic Language Models,presentation,poster,5,https://openreview.net/forum?id=qKxVD730Xt,"{""Forum"": ""https://openreview.net/forum?id=qKxVD730Xt"", ""PDF"": ""https://openreview.net/pdf?id=qKxVD730Xt"", ""Type"": ""Poster"", ""Keywords"": ""Genomic Language Models, Toxicity, Biosecurity, Foundation Models""}"
-paper_byGQX45VWD,Zero-Shot Embedding Drift Detection: A Lightweight Defense Against Prompt Injections in LLMs,presentation,poster,6,https://openreview.net/forum?id=byGQX45VWD,"{""Forum"": ""https://openreview.net/forum?id=byGQX45VWD"", ""PDF"": ""https://openreview.net/pdf?id=byGQX45VWD"", ""Type"": ""Poster"", ""Keywords"": ""Prompt Injections, Embeddings, Drift Detection, Large Language Models""}"
-paper_Jf1ee1fyaM,Benchmarking Biosafety in Generative Protein Design: A Stress-Test Framework for Binder Models,presentation,poster,1,https://openreview.net/forum?id=Jf1ee1fyaM,"{""Forum"": ""https://openreview.net/forum?id=Jf1ee1fyaM"", ""PDF"": ""https://openreview.net/pdf?id=Jf1ee1fyaM"", ""Type"": ""Poster"", ""Keywords"": ""biosafety, generative models, protein design, biosecurity, benchmarks, RFdiffusion""}"
-paper_Jhj4rG9Oio,Structural Persistence Despite Sequence Redaction: A Biosecurity Evaluation of Protein Language Models,presentation,poster,1,https://openreview.net/forum?id=Jhj4rG9Oio,"{""Forum"": ""https://openreview.net/forum?id=Jhj4rG9Oio"", ""PDF"": ""https://openreview.net/pdf?id=Jhj4rG9Oio"", ""Type"": ""Poster"", ""Keywords"": ""Biosecurity, Protein Language Models, Sequence Redaction, Structural Recovery, Protein Knots, ESM3""}"
-paper_AFRn7DfXXE,Perspective: Lessons from Cybersecurity for Biological AI Safety,presentation,poster,2,https://openreview.net/forum?id=AFRn7DfXXE,"{""Forum"": ""https://openreview.net/forum?id=AFRn7DfXXE"", ""PDF"": ""https://openreview.net/pdf?id=AFRn7DfXXE"", ""Type"": ""Poster"", ""Keywords"": ""Generative AI, Biosecurity, Large Language Models (LLMs), Biological Design Tools (BDTs), Zero Trust Policy""}"
-paper_BItfXx4ozE,ProtGPT2 is Not Biosecure by Default,presentation,poster,1,https://openreview.net/forum?id=BItfXx4ozE,"{""Forum"": ""https://openreview.net/forum?id=BItfXx4ozE"", ""PDF"": ""https://openreview.net/pdf?id=BItfXx4ozE"", ""Type"": ""Poster"", ""Keywords"": ""ProtGPT2, proteins, genAI, biosecurity, biosafety, red teaming, adversarial, screening, dual-use, ML security, AI safety, empirical, safeguards""}"
-paper_KiZxvtn3JE,Where to Edit? : Complementary Protein Property Control from Weight and Activation Spaces,presentation,poster,5,https://openreview.net/forum?id=KiZxvtn3JE,"{""Forum"": ""https://openreview.net/forum?id=KiZxvtn3JE"", ""PDF"": ""https://openreview.net/pdf?id=KiZxvtn3JE"", ""Type"": ""Poster"", ""Keywords"": ""protein language models, steering, controllability, low resource data""}"
-paper_fDysOrWaGd,Agentic BAIM-LLM Evaluation (ABLE): Benchmarking LLM Use of Protein Design Tools,presentation,poster,5,https://openreview.net/forum?id=fDysOrWaGd,"{""Forum"": ""https://openreview.net/forum?id=fDysOrWaGd"", ""PDF"": ""https://openreview.net/pdf?id=fDysOrWaGd"", ""Type"": ""Poster"", ""Keywords"": ""AI evaluations, AI benchmarks, biosecurity, Bio-AI Models""}"
-paper_e7SmcN6tRZ,Property Adherent Molecular Generation with Constrained Discrete Diffusion,presentation,poster,5,https://openreview.net/forum?id=e7SmcN6tRZ,"{""Forum"": ""https://openreview.net/forum?id=e7SmcN6tRZ"", ""PDF"": ""https://openreview.net/pdf?id=e7SmcN6tRZ"", ""Type"": ""Poster"", ""Keywords"": ""Constrained Molecular Generation, Discrete Diffusion, constrained optimization, molecular design, safety-critical generation""}"
-paper_N5DhtpYJ21,Best Practices for Biorisk Evaluations on Open-Weight Bio-Foundation Models,presentation,poster,12,https://openreview.net/forum?id=N5DhtpYJ21,"{""Forum"": ""https://openreview.net/forum?id=N5DhtpYJ21"", ""PDF"": ""https://openreview.net/pdf?id=N5DhtpYJ21"", ""Type"": ""Poster"", ""Keywords"": ""AI safety, biosecurity, evaluation, fine-tuning""}"
-paper_JO8gyyeM9L,Biosecurity-Aware AI: Agentic Risk Auditing of Soft Prompt Attacks on ESM-Based Variant Predictors,presentation,poster,1,https://openreview.net/forum?id=JO8gyyeM9L,"{""Forum"": ""https://openreview.net/forum?id=JO8gyyeM9L"", ""PDF"": ""https://openreview.net/pdf?id=JO8gyyeM9L"", ""Type"": ""Poster"", ""Keywords"": ""Genomic foundation models, soft prompt attack, adversarial robustness""}"
-paper_ZNZn43baQX,Resisting RL Elicitation of Biosecurity Capabilities: Reasoning Models Exploration Hacking on WMDP,presentation,oral,6,https://openreview.net/forum?id=ZNZn43baQX,"{""Forum"": ""https://openreview.net/forum?id=ZNZn43baQX"", ""PDF"": ""https://openreview.net/pdf?id=ZNZn43baQX"", ""Type"": ""Oral"", ""Keywords"": ""biosecurity, reasoning models, reinforcement learning, exploration hacking, red teaming, sandbagging""}"
-paper_lZGgc845Uz,Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs,presentation,oral,10,https://openreview.net/forum?id=lZGgc845Uz,"{""Forum"": ""https://openreview.net/forum?id=lZGgc845Uz"", ""PDF"": ""https://openreview.net/pdf?id=lZGgc845Uz"", ""Type"": ""Oral"", ""Keywords"": ""safety, safeguards, tampering, tamper-resistance, unlearning, pretraining, data curation, adversarial attacks, open-weights""}"
-paper_FRNHz65p25,Securing the Language of Life: Inheritable Watermarks from DNA Language Models to Proteins,presentation,poster,4,https://openreview.net/forum?id=FRNHz65p25,"{""Forum"": ""https://openreview.net/forum?id=FRNHz65p25"", ""PDF"": ""https://openreview.net/pdf?id=FRNHz65p25"", ""Type"": ""Poster"", ""Keywords"": ""DNA, Watermark""}"
-paper_HQR89TwSjS,GeneBreaker: Jailbreak Attacks against DNA Language Models with Pathogenicity Guidance,presentation,oral,5,https://openreview.net/forum?id=HQR89TwSjS,"{""Forum"": ""https://openreview.net/forum?id=HQR89TwSjS"", ""PDF"": ""https://openreview.net/pdf?id=HQR89TwSjS"", ""Type"": ""Oral"", ""Keywords"": ""DNA, Jailbreak attacks, Pathogenicity""}"
-paper_uZG2ag5CLB,Deep Research Brings Deeper Harm,presentation,poster,10,https://openreview.net/forum?id=uZG2ag5CLB,"{""Forum"": ""https://openreview.net/forum?id=uZG2ag5CLB"", ""PDF"": ""https://openreview.net/pdf?id=uZG2ag5CLB"", ""Type"": ""Poster"", ""Keywords"": ""Deep Research, Large Language Models, Red teaming, safety, jailbreak LLMs""}"
-paper_Tgvew8gkrh,Is My Language Model a Biohazard?,presentation,poster,2,https://openreview.net/forum?id=Tgvew8gkrh,"{""Forum"": ""https://openreview.net/forum?id=Tgvew8gkrh"", ""PDF"": ""https://openreview.net/pdf?id=Tgvew8gkrh"", ""Type"": ""Poster"", ""Keywords"": ""Language Models, AI Safety, Biosecurity, NLP""}"
-paper_of2ZA4Zmv6,Benchmarking diffusion models for predicting perturbed cellular responses,presentation,poster,5,https://openreview.net/forum?id=of2ZA4Zmv6,"{""Forum"": ""https://openreview.net/forum?id=of2ZA4Zmv6"", ""PDF"": ""https://openreview.net/pdf?id=of2ZA4Zmv6"", ""Type"": ""Poster"", ""Keywords"": ""Perturbation prediction, Diffusion models, Benchmarking, Single-cell transcriptomics, Generative models, Deep learning, Computational biology""}"
-paper_9gmzIH0JJF,Monte Carlo Expected Threat (MOCET) Scoring,presentation,poster,2,https://openreview.net/forum?id=9gmzIH0JJF,"{""Forum"": ""https://openreview.net/forum?id=9gmzIH0JJF"", ""PDF"": ""https://openreview.net/pdf?id=9gmzIH0JJF"", ""Type"": ""Poster"", ""Keywords"": ""AI Safety, Biosecurity, Large Language Models, Risk Assessment, Threat Modeling, Monte Carlo Simulation, Evaluation Metrics, Catastrophic Risk""}"
-paper_bKLp7oaU1L,Open-weight genome language model safeguards: Assessing robustness via adversarial fine-tuning,presentation,poster,6,https://openreview.net/forum?id=bKLp7oaU1L,"{""Forum"": ""https://openreview.net/forum?id=bKLp7oaU1L"", ""PDF"": ""https://openreview.net/pdf?id=bKLp7oaU1L"", ""Type"": ""Poster"", ""Keywords"": ""Genomic Language Models, Biosecurity Safeguards, Data Exclusion, Viral Fine-tuning, Biological Foundation Models, Dual-use Risks, Responsible AI in Biology, Safety Frameworks""}"
-paper_MwajedbCfX,Biorisk-Shift: Converting AI Vulnerabilities into Biological Threat Vectors,presentation,poster,4,https://openreview.net/forum?id=MwajedbCfX,"{""Forum"": ""https://openreview.net/forum?id=MwajedbCfX"", ""PDF"": ""https://openreview.net/pdf?id=MwajedbCfX"", ""Type"": ""Poster"", ""Keywords"": ""biosafety guardrails, AI Safety, Jailbreak attacks, datasets, multi-turn jailbreaks""}"
-paper_rQgPJ3ILLN,RippleBench: Capturing Ripple Effects by Leveraging Existing Knowledge Repositories,presentation,poster,4,https://openreview.net/forum?id=rQgPJ3ILLN,"{""Forum"": ""https://openreview.net/forum?id=rQgPJ3ILLN"", ""PDF"": ""https://openreview.net/pdf?id=rQgPJ3ILLN"", ""Type"": ""Poster"", ""Keywords"": ""Benchmarks, Unlearning, Bio-weapons""}"
-paper_X8XvMXDs1J,Benchmarking Mitigations Against Covert Misuse,presentation,poster,7,https://openreview.net/forum?id=X8XvMXDs1J,"{""Forum"": ""https://openreview.net/forum?id=X8XvMXDs1J"", ""PDF"": ""https://openreview.net/pdf?id=X8XvMXDs1J"", ""Type"": ""Poster"", ""Keywords"": ""misuse, language model misuse, biosecurity, evaluation""}"
-paper_mo5H9VAr6r,ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity,presentation,oral,6,https://openreview.net/forum?id=mo5H9VAr6r,"{""Forum"": ""https://openreview.net/forum?id=mo5H9VAr6r"", ""PDF"": ""https://openreview.net/pdf?id=mo5H9VAr6r"", ""Type"": ""Oral"", ""Keywords"": ""biosecurity, benchmark, evaluations, llms, agents, biology""}"
-paper_ns8pgHHrPo,Translating Biomedical Observations into Signal Temporal Logic with LLMs using Structured Feedback,presentation,poster,4,https://openreview.net/forum?id=ns8pgHHrPo,"{""Forum"": ""https://openreview.net/forum?id=ns8pgHHrPo"", ""PDF"": ""https://openreview.net/pdf?id=ns8pgHHrPo"", ""Type"": ""Poster"", ""Keywords"": ""Large Language Models, Signal Temporal Logic, Systems Biology, AI Safety""}"
-paper_rAlReAI7bx,SafeProtein: Red-Teaming Framework and Benchmark for Protein Foundation Models,presentation,poster,6,https://openreview.net/forum?id=rAlReAI7bx,"{""Forum"": ""https://openreview.net/forum?id=rAlReAI7bx"", ""PDF"": ""https://openreview.net/pdf?id=rAlReAI7bx"", ""Type"": ""Poster"", ""Keywords"": ""Biosafety, Protein Red-teaming, Protein Jailbreak""}"
-paper_ZgD951FVe7,Securing Dual-Use Pathogen Data of Concern,presentation,poster,9,https://openreview.net/forum?id=ZgD951FVe7,"{""Forum"": ""https://openreview.net/forum?id=ZgD951FVe7"", ""PDF"": ""https://openreview.net/pdf?id=ZgD951FVe7"", ""Type"": ""Poster"", ""Keywords"": ""Artificial intelligence, biosecurity, biosafety, biological foundation models, genome language models, cybersecurity, data, governance, oversight""}"
-paper_7FGZVr6vlK,Robust LLM Unlearning with MUDMAN: Meta-Unlearning with Disruption Masking And Normalization,presentation,poster,4,https://openreview.net/forum?id=7FGZVr6vlK,"{""Forum"": ""https://openreview.net/forum?id=7FGZVr6vlK"", ""PDF"": ""https://openreview.net/pdf?id=7FGZVr6vlK"", ""Type"": ""Poster"", ""Keywords"": ""unlearning, representation-engineering, language-models, biosecurity, fine-tuning, robustness, adversarial-attacks, WMDP, AI-safety, neural-representations, evaluation-robustness, meta-learning, MAML, machine-unlearning, model-editing""}"
-paper_Ci3HSCeZ51,Involuntary Jailbreak,presentation,poster,3,https://openreview.net/forum?id=Ci3HSCeZ51,"{""Forum"": ""https://openreview.net/forum?id=Ci3HSCeZ51"", ""PDF"": ""https://openreview.net/pdf?id=Ci3HSCeZ51"", ""Type"": ""Poster"", ""Keywords"": ""Jailbreak attack, safety guardrail, LLMs""}"
-paper_x12eUGh0DE,"Without Safeguards, AI-Biology Integration Risks Creating Future Pandemics",presentation,oral,6,https://openreview.net/forum?id=x12eUGh0DE,"{""Forum"": ""https://openreview.net/forum?id=x12eUGh0DE"", ""PDF"": ""https://openreview.net/pdf?id=x12eUGh0DE"", ""Type"": ""Oral"", ""Keywords"": ""protein language models, AI-biology integration, artificial intelligence safety, biosecurity, dual-use research, viral fitness prediction, pandemic preparedness""}"
-paper_NAr5wbHghS,AI Bioweapons and the Failure of Inference-Time Filters,presentation,poster,2,https://openreview.net/forum?id=NAr5wbHghS,"{""Forum"": ""https://openreview.net/forum?id=NAr5wbHghS"", ""PDF"": ""https://openreview.net/pdf?id=NAr5wbHghS"", ""Type"": ""Poster"", ""Keywords"": ""Biosecurity, Governance, Protein design, PLMs, Bioweapons""}"
-author_Arjun_Banerjee1,Arjun Banerjee,author,author,2,https://openreview.net/profile?id=~Arjun_Banerjee1,"{""OpenReview"": ""https://openreview.net/profile?id=~Arjun_Banerjee1"", ""LinkedIn"": ""https://www.linkedin.com/in/abaner/""}"
-author_Ethan_Tam1,Ethan Tam,author,author,2,https://ethan-tam.me/,"{""OpenReview"": ""https://openreview.net/profile?id=~Ethan_Tam1"", ""Homepage"": ""https://ethan-tam.me/"", ""LinkedIn"": ""https://www.linkedin.com/in/ethantam5133/""}"
-author_Camille_Dang1,Camille Dang,author,author,2,https://openreview.net/profile?id=~Camille_Dang1,"{""OpenReview"": ""https://openreview.net/profile?id=~Camille_Dang1"", ""LinkedIn"": ""https://www.linkedin.com/in/camille-dang-53b058232/""}"
-author_David_Martinez3,David Martinez,author,author,2,https://openreview.net/profile?id=~David_Martinez3,"{""OpenReview"": ""https://openreview.net/profile?id=~David_Martinez3"", ""LinkedIn"": ""https://www.linkedin.com/in/dmartinez212/""}"
-author_Azmine_Toushik_Wasi1,Azmine Toushik Wasi,author,author,6,https://azminewasi.github.io,"{""OpenReview"": ""https://openreview.net/profile?id=~Azmine_Toushik_Wasi1"", ""Homepage"": ""https://azminewasi.github.io"", ""Google Scholar"": ""https://scholar.google.com/citations?user=X3gRvogAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/346/0484"", ""LinkedIn"": ""https://www.linkedin.com/in/azmine-toushik-wasi/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Azmine-Toushik-Wasi/2215887932"", ""ORCID"": ""https://orcid.org/0000-0001-9509-5804""}"
-author_Mst_Rafia_Islam1,Mst Rafia Islam,author,author,3,https://rafia-islam.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Mst_Rafia_Islam1"", ""Homepage"": ""https://rafia-islam.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=HA7nDmAAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/374/6747"", ""LinkedIn"": ""https://www.linkedin.com/in/rafia-islam-6818a6215"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Mst-Rafia-Islam/2313590933"", ""ORCID"": ""https://orcid.org/0009-0000-2561-3418""}"
-author_Rahatun_Nesa_Priti1,Rahatun Nesa Priti,author,author,2,https://openreview.net/profile?id=~Rahatun_Nesa_Priti1,"{""OpenReview"": ""https://openreview.net/profile?id=~Rahatun_Nesa_Priti1"", ""Google Scholar"": ""https://scholar.google.com/citations?user=UsSnulQAAAAJ&hl=en&oi=ao"", ""LinkedIn"": ""https://www.linkedin.com/in/rahatun-nesa/""}"
-author_Md__Iqramul_Hoque1,Md. Iqramul Hoque,author,author,2,https://ikramul-hq.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Md._Iqramul_Hoque1"", ""Homepage"": ""https://ikramul-hq.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=1WYAO1MAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/405/1530"", ""LinkedIn"": ""https://www.linkedin.com/in/iqramulhaque/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Md.-Iqramul-Hoque/2354119330"", ""ORCID"": ""https://orcid.org/0009-0000-2087-3800""}"
-author_Muhammad_Haris_Khan4,Muhammad Haris Khan,author,author,2,https://openreview.net/profile?id=~Muhammad_Haris_Khan4,"{""OpenReview"": ""https://openreview.net/profile?id=~Muhammad_Haris_Khan4"", ""Google Scholar"": ""https://scholar.google.com/citations?user=kV6lA2QAAAAJ&hl=en""}"
-author_Meiyin_Meng1,Meiyin Meng,author,author,2,https://openreview.net/profile?id=~Meiyin_Meng1,"{""OpenReview"": ""https://openreview.net/profile?id=~Meiyin_Meng1"", ""LinkedIn"": ""https://www.linkedin.com/in/meiyin-meng-5137592b4/""}"
-author_ZAIXI_ZHANG2,ZAIXI ZHANG,author,author,7,http://home.ustc.edu.cn/~zaixi/,"{""OpenReview"": ""https://openreview.net/profile?id=~ZAIXI_ZHANG2"", ""Homepage"": ""http://home.ustc.edu.cn/~zaixi/"", ""Google Scholar"": ""https://scholar.google.com/citations?hl=zh-CN&user=EL4wCtUAAAAJ"", ""DBLP"": ""https://dblp.org/pid/267/9295.html""}"
-author_Akash_Arunabharathi1,Akash Arunabharathi,author,author,2,https://openreview.net/profile?id=~Akash_Arunabharathi1,"{""OpenReview"": ""https://openreview.net/profile?id=~Akash_Arunabharathi1"", ""LinkedIn"": ""https://www.linkedin.com/in/akasharunabharathi/""}"
-author_Gokul_Srinath_Seetha_Ram1,Gokul Srinath Seetha Ram,author,author,4,https://openreview.net/profile?id=~Gokul_Srinath_Seetha_Ram1,"{""OpenReview"": ""https://openreview.net/profile?id=~Gokul_Srinath_Seetha_Ram1"", ""Google Scholar"": ""https://scholar.google.com/citations?hl=en&user=-Z__h58AAAAJ"", ""LinkedIn"": ""https://www.linkedin.com/in/gokulsrinath/""}"
-author_Akshay_Murthy2,Akshay Murthy,author,author,2,https://akshaymurthy.com,"{""OpenReview"": ""https://openreview.net/profile?id=~Akshay_Murthy2"", ""Homepage"": ""https://akshaymurthy.com""}"
-author_Mengmeng_Zhang2,Mengmeng Zhang,author,author,2,https://schoolhouse.world/u/mengmengz,"{""OpenReview"": ""https://openreview.net/profile?id=~Mengmeng_Zhang2"", ""Homepage"": ""https://schoolhouse.world/u/mengmengz""}"
-author_Shanmukhi_Kannamangalam1,Shanmukhi Kannamangalam,author,author,2,https://openreview.net/profile?id=~Shanmukhi_Kannamangalam1,"{""OpenReview"": ""https://openreview.net/profile?id=~Shanmukhi_Kannamangalam1"", ""LinkedIn"": ""https://www.linkedin.com/in/shanmukhi-kannamangalam-620895252""}"
-author_Benjamin_Liu2,Benjamin Liu,author,author,1,Not found,"{""OpenReview"": ""https://openreview.net/profile?id=~Benjamin_Liu2"", ""Homepage"": ""Not found"", ""Google Scholar"": ""Not specifically identified"", ""LinkedIn"": ""Not found"", ""Twitter"": ""Not found""}"
-author_Kevin_Zhu3,Kevin Zhu,author,author,3,https://kevinzhu.ai/ and https://www.kevin-zhu.com/,"{""OpenReview"": ""https://openreview.net/profile?id=~Kevin_Zhu3"", ""Homepage"": ""https://kevinzhu.ai/ and https://www.kevin-zhu.com/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=fJtlyVQAAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/zhu-kevin1/"", ""Twitter"": ""Not found""}"
-author_Arjun_Damerla1,Arjun Damerla,author,author,3,https://shonenmind.github.io/arjun_website/,"{""OpenReview"": ""https://openreview.net/profile?id=~Arjun_Damerla1"", ""Homepage"": ""https://shonenmind.github.io/arjun_website/"", ""LinkedIn"": ""https://www.linkedin.com/in/arjun-damerla-955125227/""}"
-author_Anirudh_Sekar1,Anirudh Sekar,author,author,2,https://openreview.net/profile?id=~Anirudh_Sekar1,"{""OpenReview"": ""https://openreview.net/profile?id=~Anirudh_Sekar1"", ""LinkedIn"": ""https://www.linkedin.com/in/anirudh-sekar-642289288/""}"
-author_Rachel_Sharma1,Rachel Sharma,author,author,2,https://openreview.net/profile?id=~Rachel_Sharma1,"{""OpenReview"": ""https://openreview.net/profile?id=~Rachel_Sharma1"", ""LinkedIn"": ""https://www.linkedin.com/in/rachel-sharma-451b19337?original_referer=https%3A%2F%2Fwww.google.com%2F""}"
-author_Mrinal_Agarwal1,Mrinal Agarwal,author,author,2,https://openreview.net/profile?id=~Mrinal_Agarwal1,"{""OpenReview"": ""https://openreview.net/profile?id=~Mrinal_Agarwal1"", ""LinkedIn"": ""https://www.linkedin.com/in/mrinal-agarwal-71017535a/""}"
-author_Jasmine_Zhang1,Jasmine Zhang,author,author,2,https://openreview.net/profile?id=~Jasmine_Zhang1,"{""OpenReview"": ""https://openreview.net/profile?id=~Jasmine_Zhang1"", ""LinkedIn"": ""https://www.linkedin.com/in/jasmine-zhang-961485305/""}"
-author_Akitsugu_Tanaka1,Akitsugu Tanaka,author,author,2,https://openreview.net/profile?id=~Akitsugu_Tanaka1,"{""OpenReview"": ""https://openreview.net/profile?id=~Akitsugu_Tanaka1"", ""LinkedIn"": ""https://www.linkedin.com/in/akitsugu-tanaka-468237355/""}"
-author_Mingyang_Xu2,Mingyang Xu,author,author,4,https://openreview.net/profile?id=~Mingyang_Xu2,"{""OpenReview"": ""https://openreview.net/profile?id=~Mingyang_Xu2"", ""LinkedIn"": ""https://www.linkedin.com/in/xmy?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app""}"
-author_Petr_Simecek1,Petr Simecek,author,author,4,https://www.ceitec.cz/mgr-petr-simecek-msc-ph-d/u92853?page=publication,"{""OpenReview"": ""https://openreview.net/profile?id=~Petr_Simecek1"", ""Homepage"": ""https://www.ceitec.cz/mgr-petr-simecek-msc-ph-d/u92853?page=publication"", ""Google Scholar"": ""https://scholar.google.cz/citations?user=248ewekAAAAJ&hl=en""}"
-author_Tia_Pope1,Tia Pope,author,author,2,https://openreview.net/profile?id=~Tia_Pope1,"{""OpenReview"": ""https://openreview.net/profile?id=~Tia_Pope1"", ""LinkedIn"": ""https://linkedin.com/in/tiapope/""}"
-author_Armaity_Katki1,Armaity Katki,author,author,2,https://openreview.net/profile?id=~Armaity_Katki1,"{""OpenReview"": ""https://openreview.net/profile?id=~Armaity_Katki1"", ""LinkedIn"": ""https://www.linkedin.com/in/armaitykatki/""}"
-author_Nathan_Choi1,Nathan Choi,author,author,3,https://nathans-portfolio-six.vercel.app/localhost_5126/index.html,"{""OpenReview"": ""https://openreview.net/profile?id=~Nathan_Choi1"", ""Homepage"": ""https://nathans-portfolio-six.vercel.app/localhost_5126/index.html"", ""LinkedIn"": ""https://www.linkedin.com/in/nathan-choi-b995b3321/""}"
-author_Son_Sophak_Otra1,Son Sophak Otra,author,author,2,https://www.linkedin.com/in/son-sophak-otra-37011628b/,"{""OpenReview"": ""https://openreview.net/profile?id=~Son_Sophak_Otra1"", ""Homepage"": ""https://www.linkedin.com/in/son-sophak-otra-37011628b/""}"
-author_George_Flint1,George Flint,author,author,2,https://georgeflint.com,"{""OpenReview"": ""https://openreview.net/profile?id=~George_Flint1"", ""Homepage"": ""https://georgeflint.com"", ""Google Scholar"": ""https://scholar.google.com/citations?user=tTvBASkAAAAJ&hl=en&oi=sra""}"
-author_Bryce_Cai1,Bryce Cai,author,author,4,https://openreview.net/profile?id=~Bryce_Cai1,"{""OpenReview"": ""https://openreview.net/profile?id=~Bryce_Cai1"", ""LinkedIn"": ""https://www.linkedin.com/in/brycecai/""}"
-author_Geetha_Jeyapragasan1,Geetha Jeyapragasan,author,author,2,https://openreview.net/profile?id=~Geetha_Jeyapragasan1,"{""OpenReview"": ""https://openreview.net/profile?id=~Geetha_Jeyapragasan1"", ""Google Scholar"": ""https://scholar.google.com/citations?user=FmiMmaoAAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/geetha-jeyapragasan/""}"
-author_Samira_Nedungadi1,Samira Nedungadi,author,author,5,https://samiranne.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Samira_Nedungadi1"", ""Homepage"": ""https://samiranne.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=Y_CxxGkAAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/samiranedungadi""}"
-author_Jake_Yukich1,Jake Yukich,author,author,2,https://openreview.net/profile?id=~Jake_Yukich1,"{""OpenReview"": ""https://openreview.net/profile?id=~Jake_Yukich1"", ""LinkedIn"": ""https://www.linkedin.com/in/jake-yukich/"", ""ORCID"": ""https://orcid.org/0009-0008-5387-6088""}"
-author_Seth_Donoughe1,Seth Donoughe,author,author,8,https://www.sethdonoughe.com/,"{""OpenReview"": ""https://openreview.net/profile?id=~Seth_Donoughe1"", ""Homepage"": ""https://www.sethdonoughe.com/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=w6VqnqkAAAAJ"", ""ORCID"": ""https://orcid.org/0000-0002-4773-5739""}"
-author_Michael_Cardei1,Michael Cardei,author,author,3,https://openreview.net/profile?id=~Michael_Cardei1,"{""OpenReview"": ""https://openreview.net/profile?id=~Michael_Cardei1"", ""LinkedIn"": ""https://www.linkedin.com/in/michael-cardei/""}"
-author_Jacob_K_Christopher1,Jacob K Christopher,author,author,4,https://www.linkedin.com/in/jacob-christopher-834a02239,"{""OpenReview"": ""https://openreview.net/profile?id=~Jacob_K_Christopher1"", ""Homepage"": ""https://www.linkedin.com/in/jacob-christopher-834a02239""}"
-author_Bhavya_Kailkhura1,Bhavya Kailkhura,author,author,3,https://people.llnl.gov/kailkhura1,"{""OpenReview"": ""https://openreview.net/profile?id=~Bhavya_Kailkhura1"", ""Homepage"": ""https://people.llnl.gov/kailkhura1"", ""Google Scholar"": ""https://scholar.google.com/citations?user=SQpJmOgAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/132/8938""}"
-author_Thomas_Hartvigsen1,Thomas Hartvigsen,author,author,5,https://www.tomhartvigsen.com,"{""OpenReview"": ""https://openreview.net/profile?id=~Thomas_Hartvigsen1"", ""Homepage"": ""https://www.tomhartvigsen.com"", ""Google Scholar"": ""https://scholar.google.com/citations?user=rIjeeRsAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/211/5752"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Thomas-Hartvigsen/32452740""}"
-author_Ferdinando_Fioretto1,Ferdinando Fioretto,author,author,7,https://nandofioretto.github.io,"{""OpenReview"": ""https://openreview.net/profile?id=~Ferdinando_Fioretto1"", ""Homepage"": ""https://nandofioretto.github.io"", ""Google Scholar"": ""https://scholar.google.com/citations?user=ASf9Q04AAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/119/6404""}"
-author_Boyi_Wei2,Boyi Wei,author,author,5,https://www.boyiwei.com/,"{""OpenReview"": ""https://openreview.net/profile?id=~Boyi_Wei2"", ""Homepage"": ""https://www.boyiwei.com/""}"
-author_Zora_Che1,Zora Che,author,author,3,https://zorache.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Zora_Che1"", ""Homepage"": ""https://zorache.github.io/""}"
-author_Nathaniel_Li1,Nathaniel Li,author,author,4,https://nli0.github.io,"{""OpenReview"": ""https://openreview.net/profile?id=~Nathaniel_Li1"", ""Homepage"": ""https://nli0.github.io"", ""Google Scholar"": ""https://scholar.google.com/citations?user=2XmBzbcAAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/nli0/""}"
-author_Jasper_G_tting1,Jasper Götting,author,author,2,https://openreview.net/profile?id=~Jasper_Götting1,"{""OpenReview"": ""https://openreview.net/profile?id=~Jasper_G\u00f6tting1"", ""LinkedIn"": ""https://www.linkedin.com/in/jasper-g\u00f6tting-792208128/""}"
-author_Julian_Michael1,Julian Michael,author,author,6,https://julianmichael.org,"{""OpenReview"": ""https://openreview.net/profile?id=~Julian_Michael1"", ""Homepage"": ""https://julianmichael.org"", ""Google Scholar"": ""https://scholar.google.com/citations?user=9DDOHR8AAAAJ"", ""DBLP"": ""https://dblp.org/pid/185/0981"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Julian-Michael/38614754"", ""ORCID"": ""https://orcid.org/0000-0002-5358-3102""}"
-author_Summer_Yue2,Summer Yue,author,author,3,https://openreview.net/profile?id=~Summer_Yue2,"{""OpenReview"": ""https://openreview.net/profile?id=~Summer_Yue2"", ""LinkedIn"": ""https://www.linkedin.com/in/yutingyue/""}"
-author_Dan_Hendrycks1,Dan Hendrycks,author,author,3,https://openreview.net/profile?id=~Dan_Hendrycks1,"{""OpenReview"": ""https://openreview.net/profile?id=~Dan_Hendrycks1"", ""DBLP"": ""https://dblp.org/pid/182/2504""}"
-author_Peter_Henderson1,Peter Henderson,author,author,6,http://www.peterhenderson.co/,"{""OpenReview"": ""https://openreview.net/profile?id=~Peter_Henderson1"", ""Homepage"": ""http://www.peterhenderson.co/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=dy_JBs0AAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/h/PeterHenderson2"", ""LinkedIn"": ""https://www.linkedin.com/in/phende/""}"
-author_Zifan_Wang1,Zifan Wang,author,author,4,https://www.zifanw.net,"{""OpenReview"": ""https://openreview.net/profile?id=~Zifan_Wang1"", ""Homepage"": ""https://www.zifanw.net"", ""Google Scholar"": ""https://scholar.google.com/citations?user=HJOP3wMAAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/zifan-wang-sail/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Zifan-Wang/50219096""}"
-author_Mantas_Mazeika3,Mantas Mazeika,author,author,4,https://github.com/mmazeika,"{""OpenReview"": ""https://openreview.net/profile?id=~Mantas_Mazeika3"", ""Homepage"": ""https://github.com/mmazeika"", ""DBLP"": ""https://dblp.org/pid/215/4447""}"
-author_Huixin_Zhan1,Huixin Zhan,author,author,6,https://huixin-zhan-ai.github.io//,"{""OpenReview"": ""https://openreview.net/profile?id=~Huixin_Zhan1"", ""Homepage"": ""https://huixin-zhan-ai.github.io//"", ""Google Scholar"": ""https://scholar.google.com/citations?user=ePwxgXsAAAAJ"", ""DBLP"": ""https://dblp.org/pid/249/5454"", ""LinkedIn"": ""https://www.linkedin.com/in/huixin-zhan-9a0b3a143/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Huixin-Zhan/1380909956"", ""ORCID"": ""https://orcid.org/0000-0001-8926-1941""}"
-author_Joschka_Braun1,Joschka Braun,author,author,4,https://joschkacbraun.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Joschka_Braun1"", ""Homepage"": ""https://joschkacbraun.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?&hl=en&user=hsNmAWYAAAAJ"", ""LinkedIn"": ""https://www.linkedin.com/in/joschka-braun/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Joschka-Braun/2363977821"", ""ORCID"": ""https://orcid.org/0009-0001-0281-2091""}"
-author_Yeonwoo_Jang1,Yeonwoo Jang,author,author,4,https://eyonjang.me/,"{""OpenReview"": ""https://openreview.net/profile?id=~Yeonwoo_Jang1"", ""Homepage"": ""https://eyonjang.me/"", ""Google Scholar"": ""https://scholar.google.com/citations?view_op=list_works&hl=en&authuser=1&hl=en&user=jXfklAEAAAAJ&authuser=1"", ""LinkedIn"": ""https://www.linkedin.com/in/eyonjang""}"
-author_Damon_Falck1,Damon Falck,author,author,3,http://damonfalck.me,"{""OpenReview"": ""https://openreview.net/profile?id=~Damon_Falck1"", ""Homepage"": ""http://damonfalck.me"", ""LinkedIn"": ""https://www.linkedin.com/in/damon-falck""}"
-author_Roland_S__Zimmermann1,Roland S. Zimmermann,author,author,6,https://rzimmermann.com,"{""OpenReview"": ""https://openreview.net/profile?id=~Roland_S._Zimmermann1"", ""Homepage"": ""https://rzimmermann.com"", ""Google Scholar"": ""https://scholar.google.de/citations?user=4jdISHwAAAAJ&hl=en&oi=ao"", ""DBLP"": ""https://dblp.org/pid/227/2603""}"
-author_David_Lindner1,David Lindner,author,author,2,https://www.davidlindner.me/,"{""OpenReview"": ""https://openreview.net/profile?id=~David_Lindner1"", ""Homepage"": ""https://www.davidlindner.me/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=p_aH5fgAAAAJ&hl=en"", ""LinkedIn"": ""https://uk.linkedin.com/in/dlindn"", ""Twitter"": ""https://x.com/davlindner""}"
-author_Scott_Emmons1,Scott Emmons,author,author,6,http://scottemmons.com/,"{""OpenReview"": ""https://openreview.net/profile?id=~Scott_Emmons1"", ""Homepage"": ""http://scottemmons.com/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=LoT0z6oAAAAJ"", ""DBLP"": ""https://dblp.org/pid/180/5699"", ""LinkedIn"": ""https://www.linkedin.com/in/scott-emmons-5258005b/"", ""ORCID"": ""https://orcid.org/0000-0002-7946-7046""}"
-author_Kyle_O_Brien1,Kyle O'Brien,author,author,2,https://www.kyobrien.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Kyle_O'Brien1"", ""Homepage"": ""https://www.kyobrien.io/"", ""Google Scholar"": ""https://scholar.google.ca/citations?user=_Lw8tJ8AAAAJ&hl=en&oi=ao"", ""LinkedIn"": ""https://www.linkedin.com/in/kyle1668/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Kyle-O'Brien/2212970046""}"
-author_Stephen_Casper1,Stephen Casper,author,author,3,https://stephencasper.com/,"{""OpenReview"": ""https://openreview.net/profile?id=~Stephen_Casper1"", ""Homepage"": ""https://stephencasper.com/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=N4aglP4AAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/255/5295.html"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Stephen-Casper/2103487700"", ""ORCID"": ""https://orcid.org/0000-0003-0084-1937""}"
-author_Quentin_Gregory_Anthony1,Quentin Gregory Anthony,author,author,4,https://quentin-anthony.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Quentin_Gregory_Anthony1"", ""Homepage"": ""https://quentin-anthony.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?hl=en&user=GDm6BIAAAAAJ"", ""LinkedIn"": ""https://www.linkedin.com/in/quentin-anthony"", ""ORCID"": ""https://orcid.org/0000-0002-6823-9080""}"
-author_Tomek_Korbak1,Tomek Korbak,author,author,5,https://tomekkorbak.com,"{""OpenReview"": ""https://openreview.net/profile?id=~Tomek_Korbak1"", ""Homepage"": ""https://tomekkorbak.com"", ""Google Scholar"": ""https://scholar.google.com/citations?user=YQ5rrk4AAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/209/9713.html"", ""LinkedIn"": ""https://www.linkedin.com/in/tomaszkorbak/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Tomasz-Korbak/30023177"", ""ORCID"": ""https://orcid.org/0000-0002-6258-2013""}"
-author_Robert_Kirk1,Robert Kirk,author,author,5,https://robertkirk.github.io,"{""OpenReview"": ""https://openreview.net/profile?id=~Robert_Kirk1"", ""Homepage"": ""https://robertkirk.github.io"", ""Google Scholar"": ""https://scholar.google.co.uk/citations?user=PL5KWdYAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/01/9684"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/2066422293""}"
-author_Xander_Davies1,Xander Davies,author,author,4,https://xanderdavies.com/,"{""OpenReview"": ""https://openreview.net/profile?id=~Xander_Davies1"", ""Homepage"": ""https://xanderdavies.com/"", ""LinkedIn"": ""https://www.linkedin.com/in/alexander-l-davies""}"
-author_Ishan_Mishra3,Ishan Mishra,author,author,2,https://openreview.net/profile?id=~Ishan_Mishra3,"{""OpenReview"": ""https://openreview.net/profile?id=~Ishan_Mishra3"", ""LinkedIn"": ""https://linkedin.com/in/ishanmishra0/""}"
-author_Geoffrey_Irving2,Geoffrey Irving,author,author,5,https://naml.us,"{""OpenReview"": ""https://openreview.net/profile?id=~Geoffrey_Irving2"", ""Homepage"": ""https://naml.us"", ""Google Scholar"": ""https://scholar.google.com/citations?user=TrdtzgwAAAAJ"", ""DBLP"": ""https://dblp.org/pid/95/4978"", ""LinkedIn"": ""https://www.linkedin.com/in/geoffreyirving""}"
-author_Yarin_Gal1,Yarin Gal,author,author,2,http://www.cs.ox.ac.uk/people/yarin.gal/website//,"{""OpenReview"": ""https://openreview.net/profile?id=~Yarin_Gal1"", ""Homepage"": ""http://www.cs.ox.ac.uk/people/yarin.gal/website//"", ""Google Scholar"": ""https://scholar.google.co.uk/citations?user=SIayDoQAAAAJ&hl=en&oi=ao"", ""DBLP"": ""https://dblp.org/pid/67/9076""}"
-author_Stella_Biderman1,Stella Biderman,author,author,5,http://www.stellabiderman.ai,"{""OpenReview"": ""https://openreview.net/profile?id=~Stella_Biderman1"", ""Homepage"": ""http://www.stellabiderman.ai"", ""Google Scholar"": ""https://scholar.google.com/citations?user=bO7H0DAAAAAJ"", ""DBLP"": ""https://dblp.org/pid/239/5641"", ""LinkedIn"": ""https://www.linkedin.com/in/stellabiderman"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Stella-Rose-Biderman/103476203"", ""ORCID"": ""https://orcid.org/0000-0001-8228-1042""}"
-author_Ruofan_Jin1,Ruofan Jin,author,author,4,https://openreview.net/profile?id=~Ruofan_Jin1,"{""OpenReview"": ""https://openreview.net/profile?id=~Ruofan_Jin1"", ""ORCID"": ""https://orcid.org/0009-0001-3017-2423""}"
-author_Mengdi_Wang1,Mengdi Wang,author,author,6,http://mwang.princeton.edu,"{""OpenReview"": ""https://openreview.net/profile?id=~Mengdi_Wang1"", ""Homepage"": ""http://mwang.princeton.edu""}"
-author_Le_Cong2,Le Cong,author,author,7,http://www.conglab.com,"{""OpenReview"": ""https://openreview.net/profile?id=~Le_Cong2"", ""Homepage"": ""http://www.conglab.com"", ""Google Scholar"": ""https://scholar.google.com/citations?user=sfJIWdcAAAAJ"", ""ORCID"": ""https://orcid.org/0000-0003-4725-8714""}"
-author_Zhenghong_Zhou2,Zhenghong Zhou,author,author,3,https://openreview.net/profile?id=~Zhenghong_Zhou2,"{""OpenReview"": ""https://openreview.net/profile?id=~Zhenghong_Zhou2"", ""ORCID"": ""https://orcid.org/0009-0000-5431-2307""}"
-author_Shuo_Chen12,Shuo Chen,author,author,5,https://chenxshuo.github.io,"{""OpenReview"": ""https://openreview.net/profile?id=~Shuo_Chen12"", ""Homepage"": ""https://chenxshuo.github.io"", ""Google Scholar"": ""https://scholar.google.com/citations?user=BKvdGiwAAAAJ"", ""DBLP"": ""https://dblp.org/pid/00/6472-14"", ""ORCID"": ""https://orcid.org/0000-0001-7305-3793""}"
-author_Zonggen_Li1,Zonggen Li,author,author,4,https://kidlanli.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Zonggen_Li1"", ""Homepage"": ""https://kidlanli.github.io/"", ""DBLP"": ""https://dblp.org/pid/375/8588.html"", ""LinkedIn"": ""https://www.linkedin.com/in/zonggen-li-112900210/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Zonggen-Li/2280648795"", ""ORCID"": ""https://orcid.org/0000-0001-9295-2030""}"
-author_Zhen_Han3,Zhen Han,author,author,4,https://sites.google.com/view/zhenhan/home,"{""OpenReview"": ""https://openreview.net/profile?id=~Zhen_Han3"", ""Homepage"": ""https://sites.google.com/view/zhenhan/home"", ""Google Scholar"": ""https://scholar.google.com/citations?user=HMdgrwoAAAAJ&hl=zh-CN"", ""LinkedIn"": ""https://www.linkedin.com/in/zhen-han-08a769128/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Zhen-Han/2765914""}"
-author_Bailan_He1,Bailan He,author,author,2,https://zuseschoolrelai.de/people/scientists/bailan-he/,"{""OpenReview"": ""https://openreview.net/profile?id=~Bailan_He1"", ""Homepage"": ""https://zuseschoolrelai.de/people/scientists/bailan-he/"", ""Google Scholar"": ""Not specifically identified"", ""LinkedIn"": ""https://www.linkedin.com/in/bailan-he-6031461a5/"", ""Twitter"": ""Not found""}"
-author_Tong_Liu9,Tong Liu,author,author,2,Not found,"{""OpenReview"": ""https://openreview.net/profile?id=~Tong_Liu9"", ""Homepage"": ""Not found"", ""LinkedIn"": ""Not found"", ""Twitter"": ""Not found""}"
-author_Haokun_Chen3,Haokun Chen,author,author,4,https://haokunchen245.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Haokun_Chen3"", ""Homepage"": ""https://haokunchen245.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=ilbqzDwAAAAJ&hl=en-EN"", ""LinkedIn"": ""https://www.linkedin.com/in/haokun-chen-4a08991a4/""}"
-author_Georg_Groh2,Georg Groh,author,author,2,https://www.in.tum.de/social/team/georggroh/,"{""OpenReview"": ""https://openreview.net/profile?id=~Georg_Groh2"", ""Homepage"": ""https://www.in.tum.de/social/team/georggroh/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=aTPKRO0AAAAJ&hl=en&oi=ao"", ""DBLP"": ""https://dblp.org/pid/09/5335"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Georg-Groh/1711829"", ""ORCID"": ""https://orcid.org/0000-0002-5942-2297""}"
-author_Philip_Torr1,Philip Torr,author,author,2,http://www.robots.ox.ac.uk/~tvg/,"{""OpenReview"": ""https://openreview.net/profile?id=~Philip_Torr1"", ""Homepage"": ""http://www.robots.ox.ac.uk/~tvg/""}"
-author_Volker_Tresp1,Volker Tresp,author,author,4,https://www.dbs.ifi.lmu.de/~tresp/,"{""OpenReview"": ""https://openreview.net/profile?id=~Volker_Tresp1"", ""Homepage"": ""https://www.dbs.ifi.lmu.de/~tresp/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=xIJHTUwAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/t/VolkerTresp"", ""LinkedIn"": ""https://www.linkedin.com/in/volker-tresp-8110a118/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Volker-Tresp/1700754"", ""ORCID"": ""https://orcid.org/0000-0001-9428-3686""}"
-author_Jindong_Gu1,Jindong Gu,author,author,2,https://jindonggu.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Jindong_Gu1"", ""Homepage"": ""https://jindonggu.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=mj3ff80AAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/jindong-gu-44024713a/"", ""Twitter"": ""https://x.com/Jindong73504766""}"
-author_Aldan_Creo1,Aldan Creo,author,author,4,https://acmc-website.web.app/intro,"{""OpenReview"": ""https://openreview.net/profile?id=~Aldan_Creo1"", ""Homepage"": ""https://acmc-website.web.app/intro"", ""Google Scholar"": ""https://scholar.google.com/citations?user=YxyY5ywAAAAJ"", ""DBLP"": ""https://dblp.org/pid/364/5804"", ""LinkedIn"": ""https://linkedin.com/in/acmcmc"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Aldan-Creo/2273928505"", ""ORCID"": ""https://orcid.org/0000-0002-7401-5198""}"
-author_Cristina_Correa1,Cristina Correa,author,author,2,https://openreview.net/profile?id=~Cristina_Correa1,"{""OpenReview"": ""https://openreview.net/profile?id=~Cristina_Correa1"", ""LinkedIn"": ""https://www.linkedin.com/in/cristina-correa-segade/"", ""ORCID"": ""https://orcid.org/0009-0006-5667-9296""}"
-author_Zijun_Song2,Zijun Song,author,author,3,https://github.com/ZijunSong,"{""OpenReview"": ""https://openreview.net/profile?id=~Zijun_Song2"", ""Homepage"": ""https://github.com/ZijunSong"", ""Google Scholar"": ""https://scholar.google.com/citations?user=oCGK2GoAAAAJ&hl=zh-CN""}"
-author_Changwen_Zheng1,Changwen Zheng,author,author,3,http://people.ucas.ac.cn/~cwzheng,"{""OpenReview"": ""https://openreview.net/profile?id=~Changwen_Zheng1"", ""Homepage"": ""http://people.ucas.ac.cn/~cwzheng"", ""Google Scholar"": ""https://scholar.google.com/citations?user=-lErK1QAAAAJ&hl=zh-CN"", ""DBLP"": ""https://dblp.org/pid/81/2728"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/C.-Zheng/1708505"", ""ORCID"": ""https://orcid.org/0000-0002-2311-6757""}"
-author_Jiangmeng_Li1,Jiangmeng Li,author,author,7,https://jiangmengli.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Jiangmeng_Li1"", ""Homepage"": ""https://jiangmengli.github.io/"", ""Google Scholar"": ""https://scholar.google.com.sg/citations?user=-kU4VLcAAAAJ&hl=en&oi=ao"", ""DBLP"": ""https://dblp.org/pid/293/0997"", ""LinkedIn"": ""https://www.linkedin.com/in/jiangmeng-li-86aaa7125/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Jiangmeng-Li/2118506408"", ""ORCID"": ""https://orcid.org/0000-0002-3376-1522""}"
-author_Linhai_Xie1,Linhai Xie,author,author,3,https://openreview.net/profile?id=~Linhai_Xie1,"{""OpenReview"": ""https://openreview.net/profile?id=~Linhai_Xie1"", ""Google Scholar"": ""https://scholar.google.com/citations?user=tEAAlTQAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/202/1741"", ""ORCID"": ""https://orcid.org/0000-0001-8593-2277""}"
-author_Yujia_Xiang1,Yujia Xiang,author,author,2,https://openreview.net/profile?id=~Yujia_Xiang1,"{""OpenReview"": ""https://openreview.net/profile?id=~Yujia_Xiang1"", ""Google Scholar"": ""https://scholar.google.com/citations?user=kEjVZQsAAAAJ""}"
-author_Joseph_Kim4,Joseph Kim,author,author,2,https://openreview.net/profile?id=~Joseph_Kim4,"{""OpenReview"": ""https://openreview.net/profile?id=~Joseph_Kim4"", ""ORCID"": ""https://orcid.org/0009-0000-8633-0833""}"
-author_Saahith_Potluri1,Saahith Potluri,author,author,2,https://openreview.net/profile?id=~Saahith_Potluri1,"{""OpenReview"": ""https://openreview.net/profile?id=~Saahith_Potluri1"", ""LinkedIn"": ""https://www.linkedin.com/in/saahith-potluri-448a63239/"", ""ORCID"": ""https://orcid.org/0009-0006-6201-9075""}"
-author_James_R__M__Black1,James R. M. Black,author,author,5,https://openreview.net/profile?id=~James_R._M._Black1,"{""OpenReview"": ""https://openreview.net/profile?id=~James_R._M._Black1"", ""Google Scholar"": ""https://scholar.google.com/citations?user=6fvbtMIAAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/james-black-b98939217/"", ""ORCID"": ""https://orcid.org/0000-0001-5598-7752""}"
-author_Moritz_S__Hanke1,Moritz S. Hanke,author,author,5,https://openreview.net/profile?id=~Moritz_S._Hanke1,"{""OpenReview"": ""https://openreview.net/profile?id=~Moritz_S._Hanke1"", ""LinkedIn"": ""https://www.linkedin.com/in/moritz-hanke/""}"
-author_Aaron_Maiwald1,Aaron Maiwald,author,author,4,https://openreview.net/profile?id=~Aaron_Maiwald1,"{""OpenReview"": ""https://openreview.net/profile?id=~Aaron_Maiwald1"", ""Google Scholar"": ""https://scholar.google.com/citations?hl=de&user=a73od5sAAAAJ"", ""LinkedIn"": ""https://www.linkedin.com/in/aaron-maiwald-939b891b3"", ""ORCID"": ""https://orcid.org/0009-0000-2897-2862""}"
-author_Tina_Hernandez_Boussard1,Tina Hernandez-Boussard,author,author,3,https://med.stanford.edu/boussard-lab.html,"{""OpenReview"": ""https://openreview.net/profile?id=~Tina_Hernandez-Boussard1"", ""Homepage"": ""https://med.stanford.edu/boussard-lab.html"", ""Google Scholar"": ""https://scholar.google.com/citations?user=ht_PaFUAAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/tina-hernandez-boussard-1801556""}"
-author_Oliver_M_Crook1,Oliver M Crook,author,author,5,https://kavli.web.ox.ac.uk/people/oliver-crook,"{""OpenReview"": ""https://openreview.net/profile?id=~Oliver_M_Crook1"", ""Homepage"": ""https://kavli.web.ox.ac.uk/people/oliver-crook"", ""Google Scholar"": ""https://scholar.google.com/citations?user=upVbk-kAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/249/5766.html"", ""ORCID"": ""https://orcid.org/0000-0001-5669-8506""}"
-author_Jassi_Pannu1,Jassi Pannu,author,author,5,https://www.linkedin.com/in/jassipannu/,"{""OpenReview"": ""https://openreview.net/profile?id=~Jassi_Pannu1"", ""Homepage"": ""https://www.linkedin.com/in/jassipannu/"", ""Google Scholar"": ""https://scholar.google.com/citations?hl=en&user=byqJ6AIAAAAJ&view_op=list_works&sortby=pubdate"", ""DBLP"": ""https://dblp.org/pid/383/6836"", ""LinkedIn"": ""https://www.linkedin.com/in/jassipannu/"", ""ORCID"": ""https://orcid.org/0000-0002-1030-8776""}"
-author_Eun_Ro1,Eun Ro,author,author,3,http://www.gojuly.ai,"{""OpenReview"": ""https://openreview.net/profile?id=~Eun_Ro1"", ""Homepage"": ""http://www.gojuly.ai""}"
-author_Yoshi_Nakachi1,Yoshi Nakachi,author,author,2,https://openreview.net/profile?id=~Yoshi_Nakachi1,"{""OpenReview"": ""https://openreview.net/profile?id=~Yoshi_Nakachi1"", ""LinkedIn"": ""https://www.linkedin.com/in/yoshinakachi/""}"
-author_Yang_Chung1,Yang Chung,author,author,3,https://openreview.net/profile?id=~Yang_Chung1,"{""OpenReview"": ""https://openreview.net/profile?id=~Yang_Chung1"", ""LinkedIn"": ""https://www.linkedin.com/in/yangchung/""}"
-author_Steven_Basart1,Steven Basart,author,author,3,http://stevenbas.art,"{""OpenReview"": ""https://openreview.net/profile?id=~Steven_Basart1"", ""Homepage"": ""http://stevenbas.art"", ""Google Scholar"": ""https://scholar.google.com/citations?user=MzKvJhAAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/245/2547"", ""LinkedIn"": ""https://www.linkedin.com/in/xksteven/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Steven-Basart/104444594""}"
-author_Roy_Rinberg1,Roy Rinberg,author,author,4,https://www.royrinberg.com,"{""OpenReview"": ""https://openreview.net/profile?id=~Roy_Rinberg1"", ""Homepage"": ""https://www.royrinberg.com"", ""Google Scholar"": ""https://scholar.google.com/citations?&user=D_d_d8wAAAAJ"", ""DBLP"": ""https://dblp.org/pid/286/5605"", ""ORCID"": ""https://orcid.org/0000-0002-0937-2236""}"
-author_Usha_Bhalla1,Usha Bhalla,author,author,2,https://ushabhalla.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Usha_Bhalla1"", ""Homepage"": ""https://ushabhalla.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=8xZrwdsAAAAJ&hl=en"", ""LinkedIn"": ""Not found in search results"", ""Twitter"": ""https://x.com/ushabhalla_""}"
-author_Igor_Shilov1,Igor Shilov,author,author,5,https://igorshilov.com/,"{""OpenReview"": ""https://openreview.net/profile?id=~Igor_Shilov1"", ""Homepage"": ""https://igorshilov.com/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=wkAVIooAAAAJ"", ""LinkedIn"": ""https://www.linkedin.com/in/igor-shilov-9988b0a0/"", ""ORCID"": ""https://orcid.org/0009-0002-5755-9457""}"
-author_Rohit_Gandikota1,Rohit Gandikota,author,author,3,https://rohitgandikota.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Rohit_Gandikota1"", ""Homepage"": ""https://rohitgandikota.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=BKW8p24AAAAJ&hl=en&oi=ao"", ""DBLP"": ""https://dblp.org/pid/230/4602"", ""LinkedIn"": ""https://www.linkedin.com/in/rohitgandikota""}"
-author_Davis_Brown1,Davis Brown,author,author,4,https://davisrbrown.com/,"{""OpenReview"": ""https://openreview.net/profile?id=~Davis_Brown1"", ""Homepage"": ""https://davisrbrown.com/"", ""Google Scholar"": ""https://scholar.google.com/citations?hl=en&user=zQEbpYYAAAAJ&view_op=list_works&sortby=pubdate"", ""DBLP"": ""https://dblp.org/pid/304/3144"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Davis-Brown/2153500151""}"
-author_Mahdi_Sabbaghi1,Mahdi Sabbaghi,author,author,2,https://openreview.net/profile?id=~Mahdi_Sabbaghi1,"{""OpenReview"": ""https://openreview.net/profile?id=~Mahdi_Sabbaghi1"", ""DBLP"": ""https://dblp.org/pid/379/3689"", ""LinkedIn"": ""https://www.linkedin.com/in/mohammad-mahdi-sabbaghi-nadooshan""}"
-author_Luze_Sun1,Luze Sun,author,author,4,https://openreview.net/profile?id=~Luze_Sun1,"{""OpenReview"": ""https://openreview.net/profile?id=~Luze_Sun1"", ""LinkedIn"": ""https://www.linkedin.com/in/luze-sun-45624a1b7/""}"
-author_Alexander_Robey1,Alexander Robey,author,author,7,https://arobey1.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Alexander_Robey1"", ""Homepage"": ""https://arobey1.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=V5NWZc8AAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/242/9113"", ""LinkedIn"": ""https://www.linkedin.com/in/alexrobey/""}"
-author_George_J__Pappas1,George J. Pappas,author,author,2,http://www.georgejpappas.org/,"{""OpenReview"": ""https://openreview.net/profile?id=~George_J._Pappas1"", ""Homepage"": ""http://www.georgejpappas.org/"", ""Google Scholar"": ""https://scholar.google.com.tw/citations?user=Kia-4B0AAAAJ"", ""DBLP"": ""https://dblp.org/pid/p/GeorgeJPappas"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/George-Pappas/143770945"", ""ORCID"": ""https://orcid.org/0000-0001-9081-0637""}"
-author_Eric_Wong1,Eric Wong,author,author,4,http://riceric22.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Eric_Wong1"", ""Homepage"": ""http://riceric22.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=pWnTMRkAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/64/1811-1.html""}"
-author_Hamed_Hassani2,Hamed Hassani,author,author,2,https://www.seas.upenn.edu/~hassani/,"{""OpenReview"": ""https://openreview.net/profile?id=~Hamed_Hassani2"", ""Homepage"": ""https://www.seas.upenn.edu/~hassani/"", ""DBLP"": ""https://dblp.org/pid/73/4984""}"
-author_Andrew_Bo_Liu1,Andrew Bo Liu,author,author,3,https://abliu.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Andrew_Bo_Liu1"", ""Homepage"": ""https://abliu.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=2f2AIg4AAAAJ&hl=en&inst=6453797383205921872"", ""LinkedIn"": ""https://www.linkedin.com/in/andrew-liu-phd-8bb07929/"", ""ORCID"": ""https://orcid.org/0000-0003-2222-9423""}"
-author_Alex_Kleinman1,Alex Kleinman,author,author,3,https://openreview.net/profile?id=~Alex_Kleinman1,"{""OpenReview"": ""https://openreview.net/profile?id=~Alex_Kleinman1"", ""LinkedIn"": ""https://www.linkedin.com/in/alex-kleinman/""}"
-author_Harmon_Bhasin1,Harmon Bhasin,author,author,4,https://harm0n.com/,"{""OpenReview"": ""https://openreview.net/profile?id=~Harmon_Bhasin1"", ""Homepage"": ""https://harm0n.com/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=60B9CO0AAAAJ&hl=en&oi=ao"", ""LinkedIn"": ""https://www.linkedin.com/in/harmonbhasin/"", ""ORCID"": ""https://orcid.org/0009-0003-1569-5749""}"
-author_Hanna_Krasowski1,Hanna Krasowski,author,author,3,https://hanna.krasowski.io,"{""OpenReview"": ""https://openreview.net/profile?id=~Hanna_Krasowski1"", ""Homepage"": ""https://hanna.krasowski.io"", ""Google Scholar"": ""https://scholar.google.com/citations?user=BNUx83UAAAAJ"", ""ORCID"": ""https://orcid.org/0000-0002-6730-3802""}"
-author_Lauren_E__Malek1,Lauren E. Malek,author,author,4,https://openreview.net/profile?id=~Lauren_E._Malek1,"{""OpenReview"": ""https://openreview.net/profile?id=~Lauren_E._Malek1"", ""ORCID"": ""https://orcid.org/0009-0008-0310-1268""}"
-author_Sanjit_A__Seshia1,Sanjit A. Seshia,author,author,2,https://people.eecs.berkeley.edu/~sseshia/,"{""OpenReview"": ""https://openreview.net/profile?id=~Sanjit_A._Seshia1"", ""Homepage"": ""https://people.eecs.berkeley.edu/~sseshia/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=SlZavnIAAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/sanjit-seshia-22149b117"", ""Twitter"": ""Not found""}"
-author_Murat_Arcak2,Murat Arcak,author,author,4,https://www2.eecs.berkeley.edu/Faculty/Homepages/arcak.html,"{""OpenReview"": ""https://openreview.net/profile?id=~Murat_Arcak2"", ""Homepage"": ""https://www2.eecs.berkeley.edu/Faculty/Homepages/arcak.html"", ""Google Scholar"": ""https://scholar.google.com/citations?user=rtmW640AAAAJ&hl=en&authuser=1"", ""ORCID"": ""https://orcid.org/0000-0001-9060-4032""}"
-author_Jigang_Fan2,Jigang Fan,author,author,4,https://openreview.net/profile?id=~Jigang_Fan2,"{""OpenReview"": ""https://openreview.net/profile?id=~Jigang_Fan2"", ""Google Scholar"": ""https://scholar.google.com/citations?user=qS2NDFcAAAAJ&sortby=pubdate""}"
-author_Doni_Bloomfield1,Doni Bloomfield,author,author,2,https://www.fordham.edu/school-of-law/faculty/directory/full-time/doni-bloomfield/,"{""OpenReview"": ""https://openreview.net/profile?id=~Doni_Bloomfield1"", ""Homepage"": ""https://www.fordham.edu/school-of-law/faculty/directory/full-time/doni-bloomfield/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=u-5peIYAAAAJ&hl=en""}"
-author_Toby_Webster1,Toby Webster,author,author,5,https://www.rand.org/pubs/authors/w/webster_toby.html,"{""OpenReview"": ""https://openreview.net/profile?id=~Toby_Webster1"", ""Homepage"": ""https://www.rand.org/pubs/authors/w/webster_toby.html"", ""LinkedIn"": ""https://www.linkedin.com/in/toby-webster-97107764/"", ""ORCID"": ""https://orcid.org/0000-0001-8030-8598""}"
-author_Allison_Berke1,Allison Berke,author,author,4,https://www.rand.org/pubs/authors/b/berke_allison.html,"{""OpenReview"": ""https://openreview.net/profile?id=~Allison_Berke1"", ""Homepage"": ""https://www.rand.org/pubs/authors/b/berke_allison.html"", ""Google Scholar"": ""https://scholar.google.com/citations?user=mL9O4yYAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/32/6429""}"
-author_Filip_Sondej1,Filip Sondej,author,author,2,https://github.com/filyp/,"{""OpenReview"": ""https://openreview.net/profile?id=~Filip_Sondej1"", ""Homepage"": ""https://github.com/filyp/"", ""Google Scholar"": ""https://scholar.google.pl/citations?hl=pl&user=oNsrQNcAAAAJ"", ""DBLP"": ""https://dblp.org/pid/257/7255"", ""LinkedIn"": ""https://www.linkedin.com/in/filip-sondej-549593191/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Filip-Sondej/2330190491"", ""ORCID"": ""https://orcid.org/0009-0000-5490-0651""}"
-author_Yushi_Yang2,Yushi Yang,author,author,2,https://www.oii.ox.ac.uk/people/profiles/yushi-yang/,"{""OpenReview"": ""https://openreview.net/profile?id=~Yushi_Yang2"", ""Homepage"": ""https://www.oii.ox.ac.uk/people/profiles/yushi-yang/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=9PnIwnYAAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/yushiyang514/"", ""Twitter"": ""Not found""}"
-author_Mikolaj_Kniejski1,Mikolaj Kniejski,author,author,3,https://openreview.net/profile?id=~Mikolaj_Kniejski1,"{""OpenReview"": ""https://openreview.net/profile?id=~Mikolaj_Kniejski1"", ""DBLP"": ""https://dblp.org/pid/400/6420"", ""LinkedIn"": ""https://www.linkedin.com/in/miko%C5%82aj-k-3aab3b1b3/"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Mikolaj-Kniejski/2347354734""}"
-author_Marcel_Windys1,Marcel Windys,author,author,2,https://openreview.net/profile?id=~Marcel_Windys1,"{""OpenReview"": ""https://openreview.net/profile?id=~Marcel_Windys1"", ""LinkedIn"": ""https://pl.linkedin.com/in/marcel-windys-73aa44340""}"
-author_Yangyang_Guo1,Yangyang Guo,author,author,5,https://guoyang9.github.io/,"{""OpenReview"": ""https://openreview.net/profile?id=~Yangyang_Guo1"", ""Homepage"": ""https://guoyang9.github.io/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=E4pqJ8wAAAAJ&hl=en&oi=sra"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/Yangyang-Guo/30921555""}"
-author_Yangyan_Li1,Yangyan Li,author,author,7,https://yangyan.li/,"{""OpenReview"": ""https://openreview.net/profile?id=~Yangyan_Li1"", ""Homepage"": ""https://yangyan.li/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=9RxI7UAAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/50/8293""}"
-author_Mohan_Kankanhalli1,Mohan Kankanhalli,author,author,3,https://www.comp.nus.edu.sg/cs/people/mohan/,"{""OpenReview"": ""https://openreview.net/profile?id=~Mohan_Kankanhalli1"", ""Homepage"": ""https://www.comp.nus.edu.sg/cs/people/mohan/"", ""Google Scholar"": ""https://scholar.google.com/citations?user=6Lx_eowAAAAJ&hl=en&oi=ao"", ""DBLP"": ""https://dblp.org/pid/09/3613"", ""LinkedIn"": ""https://www.linkedin.com/in/mohan-kankanhalli-583417221"", ""Semantic Scholar"": ""https://www.semanticscholar.org/author/M.-Kankanhalli/1744045"", ""ORCID"": ""https://orcid.org/0000-0002-4846-2015""}"
-author_Dianzhuo_Wang1,Dianzhuo Wang,author,author,2,https://openreview.net/profile?id=~Dianzhuo_Wang1,"{""OpenReview"": ""https://openreview.net/profile?id=~Dianzhuo_Wang1"", ""Google Scholar"": ""https://scholar.google.com/citations?user=y0HlEPQAAAAJ&hl=en""}"
-author_Marian_Huot1,Marian Huot,author,author,2,https://shakhnovich.faculty.chemistry.harvard.edu/people,"{""OpenReview"": ""https://openreview.net/profile?id=~Marian_Huot1"", ""Homepage"": ""https://shakhnovich.faculty.chemistry.harvard.edu/people"", ""ORCID"": ""https://orcid.org/0009-0002-2359-5185""}"
-author_Zechen_Zhang2,Zechen Zhang,author,author,2,https://cbmm.mit.edu/about/people/zhang-3,"{""OpenReview"": ""https://openreview.net/profile?id=~Zechen_Zhang2"", ""Homepage"": ""https://cbmm.mit.edu/about/people/zhang-3"", ""DBLP"": ""https://dblp.org/pid/202/5537-1""}"
-author_Kaiyi_Jiang1,Kaiyi Jiang,author,author,5,https://openreview.net/profile?id=~Kaiyi_Jiang1,"{""OpenReview"": ""https://openreview.net/profile?id=~Kaiyi_Jiang1"", ""Google Scholar"": ""https://scholar.google.com/citations?user=DxgDNVQAAAAJ&hl=en""}"
-author_Eugene_Shakhnovich1,Eugene Shakhnovich,author,author,2,https://openreview.net/profile?id=~Eugene_Shakhnovich1,"{""OpenReview"": ""https://openreview.net/profile?id=~Eugene_Shakhnovich1""}"
-author_Kevin_M__Esvelt1,Kevin M. Esvelt,author,author,5,https://www.sculptingevolution.org,"{""OpenReview"": ""https://openreview.net/profile?id=~Kevin_M._Esvelt1"", ""Homepage"": ""https://www.sculptingevolution.org"", ""Google Scholar"": ""https://scholar.google.com/citations?user=eJ9qDHMAAAAJ&hl=en"", ""LinkedIn"": ""https://www.linkedin.com/in/kevin-esvelt/"", ""ORCID"": ""https://orcid.org/0000-0001-8797-3945""}"
-author_Jonathan_Feldman1,Jonathan Feldman,author,author,2,https://openreview.net/profile?id=~Jonathan_Feldman1,"{""OpenReview"": ""https://openreview.net/profile?id=~Jonathan_Feldman1"", ""Google Scholar"": ""https://scholar.google.com/citations?user=ee5JUKYAAAAJ&hl=en"", ""DBLP"": ""https://dblp.org/pid/53/9014"", ""ORCID"": ""https://orcid.org/0000-0003-4130-6447""}"
-author_Tal_Feldman1,Tal Feldman,author,author,2,https://openreview.net/profile?id=~Tal_Feldman1,"{""OpenReview"": ""https://openreview.net/profile?id=~Tal_Feldman1"", ""LinkedIn"": ""https://www.linkedin.com/in/talfeldman/""}"
-inst_University_of_California__Berkeley,"University of California, Berkeley",institution,institution,15,https://www.berkeley.edu,"{""Website"": ""https://www.berkeley.edu"", ""Country"": ""US""}"
-inst_Computational_Intelligence_and_Operations_Laboratory,Computational Intelligence and Operations Laboratory,institution,institution,1,https://ciol-researchlab.github.io,"{""Website"": ""https://ciol-researchlab.github.io"", ""Country"": ""BD""}"
-inst_Pi_School,Pi School,institution,institution,1,https://picampus-school.com,"{""Website"": ""https://picampus-school.com"", ""Country"": ""IT""}"
-inst_Shahjalal_University_of_Science_and_Technology,Shahjalal University of Science and Technology,institution,institution,3,https://sust.edu,"{""Website"": ""https://sust.edu"", ""Country"": ""BD""}"
-inst_Independent_University__Bangladesh,"Independent University, Bangladesh",institution,institution,1,https://iub.edu.bd,"{""Website"": ""https://iub.edu.bd"", ""Country"": ""BD""}"
-inst_Skolkovo_Institute_of_Science_and_Technology,Skolkovo Institute of Science and Technology,institution,institution,1,https://skoltech.ru,"{""Website"": ""https://skoltech.ru"", ""Country"": ""RU""}"
-inst_Imperial_College_London,Imperial College London,institution,institution,3,https://imperial.ac.uk,"{""Website"": ""https://imperial.ac.uk"", ""Country"": ""GB""}"
-inst_Princeton_University,Princeton University,institution,institution,7,https://www.princeton.edu,"{""Website"": ""https://www.princeton.edu"", ""Country"": ""US""}"
-inst_University_of_Science_and_Technology_of_China,University of Science and Technology of China,institution,institution,2,https://ustc.edu.cn,"{""Website"": ""https://ustc.edu.cn"", ""Country"": ""CN""}"
-inst_Tencent_Company,Tencent Company,institution,institution,1,https://tencent.com,"{""Website"": ""https://tencent.com"", ""Country"": """"}"
-inst_Department_of_Computer_Science__University_of_Illinois_at_Urbana_Champaign,"Department of Computer Science, University of Illinois at Urbana-Champaign",institution,institution,1,https://cs.illinois.edu,"{""Website"": ""https://cs.illinois.edu"", ""Country"": ""US""}"
-inst_PareIT,PareIT,institution,institution,1,https://pareit.com,"{""Website"": ""https://pareit.com"", ""Country"": ""US""}"
-inst_California_Polytechnic_State_University__Pomona,"California Polytechnic State University, Pomona",institution,institution,1,https://cpp.edu,"{""Website"": ""https://cpp.edu"", ""Country"": ""US""}"
-inst_Vellore_Institute_of_Technology,Vellore Institute of Technology,institution,institution,1,https://vit.ac.in,"{""Website"": ""https://vit.ac.in"", ""Country"": ""IN""}"
-inst_Bothell_High_School,Bothell High School,institution,institution,1,https://ucsb.edu,"{""Website"": ""https://ucsb.edu"", ""Country"": ""US""}"
-inst_Westford_Academy,Westford Academy,institution,institution,1,https://westfordk12.us,"{""Website"": ""https://westfordk12.us"", ""Country"": ""US""}"
-inst_Rutgers_University,Rutgers University,institution,institution,2,https://rutgers.edu,"{""Website"": ""https://rutgers.edu"", ""Country"": ""US""}"
-dept_University_of_California__Berkeley_Center_for_Computational_Biology__Berkeley,Center for Computational Biology (Berkeley),department,department,2,,"{""Department"": ""Center for Computational Biology (Berkeley)"", ""Institution"": ""University of California, Berkeley""}"
-inst_Algoverse_Coding_Academy_LLC,Algoverse Coding Academy LLC,institution,institution,1,https://algoversecodingacademy.com,"{""Website"": ""https://algoversecodingacademy.com"", ""Country"": ""US""}"
-inst_Algoverse_AI_Research,Algoverse AI Research,institution,institution,5,https://algoverse.us,"{""Website"": ""https://algoverse.us"", ""Country"": ""US""}"
-inst_University_of_Michigan___Ann_Arbor,University of Michigan - Ann Arbor,institution,institution,1,https://umich.edu,"{""Website"": ""https://umich.edu"", ""Country"": ""US""}"
-inst_Cornell_University,Cornell University,institution,institution,1,https://cornell.edu,"{""Website"": ""https://cornell.edu"", ""Country"": ""US""}"
-inst_Regeneron_Pharmaceuticals__Inc,"Regeneron Pharmaceuticals, Inc",institution,institution,1,https://regeneron.com,"{""Website"": ""https://regeneron.com"", ""Country"": ""US""}"
-inst_Masaryk_University,Masaryk University,institution,institution,1,https://muni.cz,"{""Website"": ""https://muni.cz"", ""Country"": """"}"
-inst_The_Jackson_Laboratory,The Jackson Laboratory,institution,institution,1,https://jax.org,"{""Website"": ""https://jax.org"", ""Country"": """"}"
-inst_Institute_of_Molecular_Genetics_in_Prague,Institute of Molecular Genetics in Prague,institution,institution,1,https://img.cas.cz,"{""Website"": ""https://img.cas.cz"", ""Country"": """"}"
-inst_North_Carolina_A_T_State_University,North Carolina A&T State University,institution,institution,1,https://ncat.edu,"{""Website"": ""https://ncat.edu"", ""Country"": ""US""}"
-inst_University_of_Georgia,University of Georgia,institution,institution,1,https://uga.edu,"{""Website"": ""https://uga.edu"", ""Country"": ""US""}"
-inst_California_State_University__Fullerton,"California State University, Fullerton",institution,institution,1,https://csu.fullerton.edu,"{""Website"": ""https://csu.fullerton.edu"", ""Country"": ""US""}"
-inst_OpenQQuantify,OpenQQuantify,institution,institution,1,https://gmail.com,"{""Website"": ""https://gmail.com"", ""Country"": ""US""}"
-inst_Fort_hays_State_University,Fort hays State University,institution,institution,1,https://fhsu.edu,"{""Website"": ""https://fhsu.edu"", ""Country"": ""US""}"
-inst_SecureBio,SecureBio,institution,institution,7,https://securebio.org,"{""Website"": ""https://securebio.org"", ""Country"": ""US""}"
-inst_Stanford_University,Stanford University,institution,institution,9,https://www.stanford.edu,"{""Website"": ""https://www.stanford.edu"", ""Country"": ""US""}"
-inst_Pomona_College,Pomona College,institution,institution,2,https://pomona.edu,"{""Website"": ""https://pomona.edu"", ""Country"": ""US""}"
-inst_University_of_Chicago,University of Chicago,institution,institution,4,https://uchicago.edu,"{""Website"": ""https://uchicago.edu"", ""Country"": ""US""}"
-inst_Harvard_University,Harvard University,institution,institution,12,https://www.harvard.edu,"{""Website"": ""https://www.harvard.edu"", ""Country"": ""US""}"
-inst_University_of_Pennsylvania,University of Pennsylvania,institution,institution,7,https://www.upenn.edu,"{""Website"": ""https://www.upenn.edu"", ""Country"": ""US""}"
-inst_Swarthmore_College,Swarthmore College,institution,institution,2,https://swarthmore.edu,"{""Website"": ""https://swarthmore.edu"", ""Country"": ""US""}"
-inst_University_of_Virginia__Charlottesville,"University of Virginia, Charlottesville",institution,institution,3,https://virginia.edu,"{""Website"": ""https://virginia.edu"", ""Country"": ""US""}"
-inst_University_of_Florida,University of Florida,institution,institution,1,https://ufl.edu,"{""Website"": ""https://ufl.edu"", ""Country"": ""US""}"
-inst_Syracuse_University,Syracuse University,institution,institution,3,https://syr.edu,"{""Website"": ""https://syr.edu"", ""Country"": """"}"
-inst_Gordon_College,Gordon College,institution,institution,1,https://gordon.edu,"{""Website"": ""https://gordon.edu"", ""Country"": """"}"
-inst_Lawrence_Livermore_National_Laboratory,Lawrence Livermore National Laboratory,institution,institution,1,https://www.llnl.gov,"{""Website"": ""https://www.llnl.gov"", ""Country"": ""US""}"
-inst_Massachusetts_Institute_of_Technology,Massachusetts Institute of Technology,institution,institution,7,https://www.mit.edu,"{""Website"": ""https://www.mit.edu"", ""Country"": ""US""}"
-inst_Worcester_Polytechnic_Institute,Worcester Polytechnic Institute,institution,institution,1,https://wpi.edu,"{""Website"": ""https://wpi.edu"", ""Country"": ""US""}"
-inst_SUNY_Geneseo,SUNY Geneseo,institution,institution,1,https://geneseo.edu,"{""Website"": ""https://geneseo.edu"", ""Country"": ""US""}"
-inst_University_of_Virginia,University of Virginia,institution,institution,1,https://www.virginia.edu,"{""Website"": ""https://www.virginia.edu"", ""Country"": ""US""}"
-inst_Georgia_Institute_of_Technology,Georgia Institute of Technology,institution,institution,4,https://gatech.edu,"{""Website"": ""https://gatech.edu"", ""Country"": """"}"
-inst_University_of_Michigan,University of Michigan,institution,institution,1,https://umich.edu,"{""Website"": ""https://umich.edu"", ""Country"": """"}"
-inst_University_of_Udine,University of Udine,institution,institution,1,https://uniud.it,"{""Website"": ""https://uniud.it"", ""Country"": """"}"
-inst_New_Mexico_State_University,New Mexico State University,institution,institution,1,https://nmsu.edu,"{""Website"": ""https://nmsu.edu"", ""Country"": """"}"
-inst_University_of_California__Irvine,"University of California, Irvine",institution,institution,1,https://uci.edu,"{""Website"": ""https://uci.edu"", ""Country"": ""US""}"
-inst_University_of_Maryland__College_Park,"University of Maryland, College Park",institution,institution,1,https://umd.edu,"{""Website"": ""https://umd.edu"", ""Country"": ""US""}"
-inst_Boston_University,Boston University,institution,institution,1,https://bu.edu,"{""Website"": ""https://bu.edu"", ""Country"": """"}"
-inst_Scale_AI,Scale AI,institution,institution,4,https://scale.com,"{""Website"": ""https://scale.com"", ""Country"": ""US""}"
-inst_Center_for_AI_Safety,Center for AI Safety,institution,institution,5,https://www.safe.ai,"{""Website"": ""https://www.safe.ai"", ""Country"": ""US""}"
-inst_Meta,Meta,institution,institution,1,https://www.meta.com,"{""Website"": ""https://www.meta.com"", ""Country"": ""US""}"
-inst_New_York_University,New York University,institution,institution,4,https://www.nyu.edu,"{""Website"": ""https://www.nyu.edu"", ""Country"": ""US""}"
-inst_University_of_Washington,University of Washington,institution,institution,1,https://www.washington.edu,"{""Website"": ""https://www.washington.edu"", ""Country"": ""US""}"
-inst_University_of_Texas_at_Austin,University of Texas at Austin,institution,institution,1,https://cs.utexas.edu,"{""Website"": ""https://cs.utexas.edu"", ""Country"": ""US""}"
-inst_Google,Google,institution,institution,3,https://www.google.com,"{""Website"": ""https://www.google.com"", ""Country"": """"}"
-inst_Amazon,Amazon,institution,institution,3,https://amazon.com,"{""Website"": ""https://amazon.com"", ""Country"": """"}"
-inst_McGill_University,McGill University,institution,institution,2,https://mcgill.ca,"{""Website"": ""https://mcgill.ca"", ""Country"": """"}"
-inst_Montreal_Institute_for_Learning_Algorithms__University_of_Montreal__University_o,"Montreal Institute for Learning Algorithms, University of Montreal, University of Montreal",institution,institution,1,https://mila.umontreal.ca,"{""Website"": ""https://mila.umontreal.ca"", ""Country"": """"}"
-inst_Carnegie_Mellon_University,Carnegie Mellon University,institution,institution,2,https://www.cmu.edu,"{""Website"": ""https://www.cmu.edu"", ""Country"": """"}"
-inst_University_of_Illinois__Urbana_Champaign,"University of Illinois, Urbana-Champaign",institution,institution,1,https://uiuc.edu,"{""Website"": ""https://uiuc.edu"", ""Country"": ""US""}"
-inst_New_Mexico_Institute_of_Mining___Technology,New Mexico Institute of Mining & Technology,institution,institution,1,https://nmt.edu,"{""Website"": ""https://nmt.edu"", ""Country"": ""US""}"
-inst_Cedars_Sinai_Medical_Center,Cedars-Sinai Medical Center,institution,institution,1,https://cshs.org,"{""Website"": ""https://cshs.org"", ""Country"": ""US""}"
-inst_Texas_Tech_University,Texas Tech University,institution,institution,1,https://ttu.edu,"{""Website"": ""https://ttu.edu"", ""Country"": """"}"
-inst_University_of_Texas__San_Antonio,"University of Texas, San Antonio",institution,institution,1,https://utsa.edu,"{""Website"": ""https://utsa.edu"", ""Country"": """"}"
-inst_Nanjing_University_of_Science_and_Technology,Nanjing University of Science and Technology,institution,institution,1,https://njust.edu,"{""Website"": ""https://njust.edu"", ""Country"": """"}"
-inst_MATS,MATS,institution,institution,3,https://www.matsprogram.org,"{""Website"": ""https://www.matsprogram.org"", ""Country"": ""US""}"
-inst_University_of_Cambridge,University of Cambridge,institution,institution,2,https://www.cam.ac.uk,"{""Website"": ""https://www.cam.ac.uk"", ""Country"": ""GB""}"
-inst_Eberhard_Karls_Universit_t_T_bingen,Eberhard-Karls-Universität Tübingen,institution,institution,3,https://uni-tuebingen.de,"{""Website"": ""https://uni-tuebingen.de"", ""Country"": ""DE""}"
-inst_University_of_Oxford,University of Oxford,institution,institution,11,https://www.ox.ac.uk,"{""Website"": ""https://www.ox.ac.uk"", ""Country"": ""GB""}"
-inst_Google_DeepMind,Google DeepMind,institution,institution,3,https://deepmind.google,"{""Website"": ""https://deepmind.google"", ""Country"": ""US""}"
-inst_Max_Planck_Institute_for_Intelligent_Systems,Max-Planck Institute for Intelligent Systems,institution,institution,1,https://mpg.tuebingen.de,"{""Website"": ""https://mpg.tuebingen.de"", ""Country"": ""DE""}"
-inst_Volkswagen_Group_Research,Volkswagen Group Research,institution,institution,1,https://volkswagen.de,"{""Website"": ""https://volkswagen.de"", ""Country"": ""DE""}"
-dept_Google_DeepMind_AGI_Safety_and_Alignment_Team,AGI Safety and Alignment Team,department,department,2,,"{""Department"": ""AGI Safety and Alignment Team"", ""Institution"": ""Google DeepMind""}"
-inst_Anthropic,Anthropic,institution,institution,3,https://www.anthropic.com,"{""Website"": ""https://www.anthropic.com"", ""Country"": ""US""}"
-inst_University_of_California_Berkeley,University of California Berkeley,institution,institution,2,https://berkeley.edu,"{""Website"": ""https://berkeley.edu"", ""Country"": ""US""}"
-inst_University_of_North_Carolina__Chapel_Hill,"University of North Carolina, Chapel Hill",institution,institution,2,https://unc.edu,"{""Website"": ""https://unc.edu"", ""Country"": ""US""}"
-inst_Indiana_University,Indiana University,institution,institution,1,https://indiana.edu,"{""Website"": ""https://indiana.edu"", ""Country"": ""US""}"
-inst_Microsoft,Microsoft,institution,institution,1,https://www.microsoft.com,"{""Website"": ""https://www.microsoft.com"", ""Country"": """"}"
-inst_Zyphra_Technologies,Zyphra Technologies,institution,institution,1,https://zyphra.com,"{""Website"": ""https://zyphra.com"", ""Country"": ""US""}"
-inst_EleutherAI,EleutherAI,institution,institution,2,https://www.eleuther.ai,"{""Website"": ""https://www.eleuther.ai"", ""Country"": ""US""}"
-inst_Ohio_State_University__Columbus,"Ohio State University, Columbus",institution,institution,1,https://osu.edu,"{""Website"": ""https://osu.edu"", ""Country"": ""US""}"
-inst_UK_AI_Security_Institute,UK AI Security Institute,institution,institution,3,https://dsit.gov.uk,"{""Website"": ""https://dsit.gov.uk"", ""Country"": ""GB""}"
-inst_University_of_Sussex,University of Sussex,institution,institution,1,https://sussex.ac.uk,"{""Website"": ""https://sussex.ac.uk"", ""Country"": """"}"
-inst_UK_AI_Safety_Institute,UK AI Safety Institute,institution,institution,1,https://www.aisi.gov.uk,"{""Website"": ""https://www.aisi.gov.uk"", ""Country"": ""GB""}"
-inst_University_College_London,University College London,institution,institution,1,https://www.ucl.ac.uk,"{""Website"": ""https://www.ucl.ac.uk"", ""Country"": ""GB""}"
-inst_Facebook,Facebook,institution,institution,1,https://fb.com,"{""Website"": ""https://fb.com"", ""Country"": ""GB""}"
-inst_AI_Security_Institute,AI Security Institute,institution,institution,1,https://gov.uk,"{""Website"": ""https://gov.uk"", ""Country"": ""GB""}"
-inst_DeepMind,DeepMind,institution,institution,1,https://deepmind.google,"{""Website"": ""https://deepmind.google"", ""Country"": ""GB""}"
-inst_OpenAI,OpenAI,institution,institution,1,https://openai.com,"{""Website"": ""https://openai.com"", ""Country"": ""US""}"
-inst_Google_Brain,Google Brain,institution,institution,1,https://google.com,"{""Website"": ""https://google.com"", ""Country"": ""US""}"
-inst_Booz_Allen_Hamilton,Booz Allen Hamilton,institution,institution,1,https://boozallen.com,"{""Website"": ""https://boozallen.com"", ""Country"": ""US""}"
-inst_Zhejiang_University,Zhejiang University,institution,institution,1,https://zju.edu.cn,"{""Website"": ""https://zju.edu.cn"", ""Country"": ""CN""}"
-inst_Tsinghua_University,Tsinghua University,institution,institution,3,https://www.tsinghua.edu.cn/en/,"{""Website"": ""https://www.tsinghua.edu.cn/en/"", ""Country"": ""CN""}"
-inst_Broad_Institute,Broad Institute,institution,institution,1,https://broadinstitute.org,"{""Website"": ""https://broadinstitute.org"", ""Country"": """"}"
-inst_Shanghai_Jiaotong_University,Shanghai Jiaotong University,institution,institution,1,https://sjtu.edu.cn,"{""Website"": ""https://sjtu.edu.cn"", ""Country"": ""CN""}"
-inst_Siemens_Corporate_Research,Siemens Corporate Research,institution,institution,2,https://siemens.com,"{""Website"": ""https://siemens.com"", ""Country"": ""DE""}"
-inst_University_of_Munich__Ludwig_Maximilians_Universit_t_M_nchen,"University of Munich, Ludwig-Maximilians-Universität München",institution,institution,2,https://campus.lmu.de,"{""Website"": ""https://campus.lmu.de"", ""Country"": ""DE""}"
-inst_Sun_Yat_Sen_University,Sun Yat-Sen University,institution,institution,1,https://mail.sysu.edu.cn,"{""Website"": ""https://mail.sysu.edu.cn"", ""Country"": ""CN""}"
-inst_University_of_Hong_Kong,University of Hong Kong,institution,institution,1,https://hku.hk,"{""Website"": ""https://hku.hk"", ""Country"": ""HK""}"
-inst_Technical_University_of_Munich,Technical University of Munich,institution,institution,3,https://www.tum.de,"{""Website"": ""https://www.tum.de"", ""Country"": ""DE""}"
-inst_LMU_Munich,LMU Munich,institution,institution,3,https://www.lmu.de,"{""Website"": ""https://www.lmu.de"", ""Country"": ""DE""}"
-inst_Ludwig_Maximilian_University_of_Munich,Ludwig Maximilian University of Munich,institution,institution,2,https://lmu.de,"{""Website"": ""https://lmu.de"", ""Country"": """"}"
-inst_Technical_University_Munich,Technical University Munich,institution,institution,2,https://tum.de,"{""Website"": ""https://tum.de"", ""Country"": """"}"
-dept_LMU_Munich_Chair_of_Database_Systems_and_Data_Mining,Chair of Database Systems and Data Mining,department,department,2,,"{""Department"": ""Chair of Database Systems and Data Mining"", ""Institution"": ""LMU Munich""}"
-dept_LMU_Munich_Unknown___Associated_with_relAI,Unknown - Associated with relAI,department,department,2,,"{""Department"": ""Unknown - Associated with relAI"", ""Institution"": ""LMU Munich""}"
-inst_Tongji_University,Tongji University,institution,institution,1,https://tongji.edu.cn,"{""Website"": ""https://tongji.edu.cn"", ""Country"": """"}"
-inst_Yale_University,Yale University,institution,institution,2,https://yale.edu,"{""Website"": ""https://yale.edu"", ""Country"": ""US""}"
-dept_University_of_Oxford_Department_of_Engineering_Science___Torr_Vision_Group,Department of Engineering Science / Torr Vision Group,department,department,2,,"{""Department"": ""Department of Engineering Science / Torr Vision Group"", ""Institution"": ""University of Oxford""}"
-inst_University_of_California__San_Diego,"University of California, San Diego",institution,institution,1,https://ucsd.edu,"{""Website"": ""https://ucsd.edu"", ""Country"": ""US""}"
-inst_Accenture,Accenture,institution,institution,1,https://accenture.com,"{""Website"": ""https://accenture.com"", ""Country"": ""IE""}"
-inst_Universidad_de_Santiago_de_Compostela,Universidad de Santiago de Compostela,institution,institution,1,https://usc.es,"{""Website"": ""https://usc.es"", ""Country"": ""ES""}"
-inst_University_of_Sunderland,University of Sunderland,institution,institution,1,https://sunderland.ac.uk,"{""Website"": ""https://sunderland.ac.uk"", ""Country"": ""GB""}"
-inst_University_of_the_Chinese_Academy_of_Sciences,University of the Chinese Academy of Sciences,institution,institution,2,https://ucas.edu.cn,"{""Website"": ""https://ucas.edu.cn"", ""Country"": ""CN""}"
-inst_Dalian_University_of_Technology,Dalian University of Technology,institution,institution,1,https://dlut.edu.cn,"{""Website"": ""https://dlut.edu.cn"", ""Country"": ""CN""}"
-inst_Institute_of_Software__Chinese_Academy_of_Sciences,"Institute of Software, Chinese Academy of Sciences",institution,institution,2,https://iscas.ac.cn,"{""Website"": ""https://iscas.ac.cn"", ""Country"": ""CN""}"
-inst_Huazhong_University_of_Science_and_Technology,Huazhong University of Science and Technology,institution,institution,1,https://hust.edu.cn,"{""Website"": ""https://hust.edu.cn"", ""Country"": ""CN""}"
-inst_University_of_Chinese_Academy_of_Sciences,University of Chinese Academy of Sciences,institution,institution,1,https://ucas.ac.cn,"{""Website"": ""https://ucas.ac.cn"", ""Country"": """"}"
-inst_Baidu,Baidu,institution,institution,1,https://baidu.com,"{""Website"": ""https://baidu.com"", ""Country"": """"}"
-inst_Xiamen_University,Xiamen University,institution,institution,1,https://xmu.edu.cn,"{""Website"": ""https://xmu.edu.cn"", ""Country"": """"}"
-inst_National_Center_for_Protein_Sciences__Beijing,National Center for Protein Sciences (Beijing),institution,institution,1,https://ncpsb.org.cn,"{""Website"": ""https://ncpsb.org.cn"", ""Country"": ""CN""}"
-inst_Johns_Hopkins_University,Johns Hopkins University,institution,institution,5,https://www.jhu.edu,"{""Website"": ""https://www.jhu.edu"", ""Country"": ""US""}"
-inst_The_Francis_Crick_Institute,The Francis Crick Institute,institution,institution,1,https://crick.ac.uk,"{""Website"": ""https://crick.ac.uk"", ""Country"": ""US""}"
-inst_University_College_London__University_of_London,"University College London, University of London",institution,institution,1,https://ucl.ac.uk,"{""Website"": ""https://ucl.ac.uk"", ""Country"": """"}"
-inst_Charit____Universit_tsmedizin_Berlin,Charité - Universitätsmedizin Berlin,institution,institution,1,https://charite.de,"{""Website"": ""https://charite.de"", ""Country"": ""DE""}"
-inst_Universit_t_Osnabr_ck,Universität Osnabrück,institution,institution,1,https://uni-osnabrueck.de,"{""Website"": ""https://uni-osnabrueck.de"", ""Country"": ""DE""}"
-inst_The_university_of_Warwick,The university of Warwick,institution,institution,1,https://warwick.ac.uk,"{""Website"": ""https://warwick.ac.uk"", ""Country"": """"}"
-inst_July_AI,July AI,institution,institution,2,https://gojuly.ai,"{""Website"": ""https://gojuly.ai"", ""Country"": ""US""}"
-inst_Adept,Adept,institution,institution,1,https://adept.ai,"{""Website"": ""https://adept.ai"", ""Country"": ""US""}"
-inst_Columbia_University,Columbia University,institution,institution,1,https://www.columbia.edu,"{""Website"": ""https://www.columbia.edu"", ""Country"": """"}"
-dept_Harvard_University_Computer_Science___Harvard_John_A__Paulson_School_of_Engineering_and_Applied_Sci,Computer Science / Harvard John A. Paulson School of Engineering and Applied Sciences,department,department,2,,"{""Department"": ""Computer Science / Harvard John A. Paulson School of Engineering and Applied Sciences"", ""Institution"": ""Harvard University""}"
-inst_Meta_AI,Meta AI,institution,institution,1,https://ai.meta.com,"{""Website"": ""https://ai.meta.com"", ""Country"": ""GB""}"
-inst_Lomonosov_Moscow_State_University,Lomonosov Moscow State University,institution,institution,1,https://msu.ru,"{""Website"": ""https://msu.ru"", ""Country"": """"}"
-inst_Northeastern_University,Northeastern University,institution,institution,2,https://neu.edu,"{""Website"": ""https://neu.edu"", ""Country"": ""US""}"
-inst_Adobe_Systems,Adobe Systems,institution,institution,1,https://adobe.com,"{""Website"": ""https://adobe.com"", ""Country"": ""US""}"
-inst_Pacific_Northwest_National_Laboratory,Pacific Northwest National Laboratory,institution,institution,1,https://pnnl.gov,"{""Website"": ""https://pnnl.gov"", ""Country"": ""US""}"
-inst_University_of_Bristol,University of Bristol,institution,institution,1,https://bristol.ac.uk,"{""Website"": ""https://bristol.ac.uk"", ""Country"": ""GB""}"
-inst_CMU__Carnegie_Mellon_University,"CMU, Carnegie Mellon University",institution,institution,1,https://andrew.cmu.edu,"{""Website"": ""https://andrew.cmu.edu"", ""Country"": ""US""}"
-inst_Gray_Swan,Gray Swan,institution,institution,1,https://grayswan.ai,"{""Website"": ""https://grayswan.ai"", ""Country"": ""US""}"
-inst_School_of_Engineering_and_Applied_Science__University_of_Pennsylvania,"School of Engineering and Applied Science, University of Pennsylvania",institution,institution,2,https://seas.upenn.edu,"{""Website"": ""https://seas.upenn.edu"", ""Country"": ""US""}"
-inst_Lawrence_Livermore_National_Labs,Lawrence Livermore National Labs,institution,institution,1,https://llnl.gov,"{""Website"": ""https://llnl.gov"", ""Country"": ""US""}"
-inst_Panoplia_Laboratories,Panoplia Laboratories,institution,institution,1,https://panoplialabs.org,"{""Website"": ""https://panoplialabs.org"", ""Country"": ""US""}"
-inst_University_of_Wisconsin___Madison,University of Wisconsin - Madison,institution,institution,1,https://wisc.edu,"{""Website"": ""https://wisc.edu"", ""Country"": ""US""}"
-inst_Icahn_School_of_Medicine_at_Mount_Sinai,Icahn School of Medicine at Mount Sinai,institution,institution,1,https://mountsinai.org,"{""Website"": ""https://mountsinai.org"", ""Country"": ""US""}"
-dept_University_of_California__Berkeley_Electrical_Engineering_and_Computer_Sciences__EECS,Electrical Engineering and Computer Sciences (EECS),department,department,2,,"{""Department"": ""Electrical Engineering and Computer Sciences (EECS)"", ""Institution"": ""University of California, Berkeley""}"
-inst_Rensselaer_Polytechnic_Institute,Rensselaer Polytechnic Institute,institution,institution,1,https://rpi.edu,"{""Website"": ""https://rpi.edu"", ""Country"": """"}"
-inst_Peking_University,Peking University,institution,institution,1,https://english.pku.edu.cn,"{""Website"": ""https://english.pku.edu.cn"", ""Country"": ""CN""}"
-inst_Fordham_University_School_of_Law,Fordham University School of Law,institution,institution,1,https://fordham.edu,"{""Website"": ""https://fordham.edu"", ""Country"": ""US""}"
-inst_RAND_Corporation,RAND Corporation,institution,institution,2,https://rand.org,"{""Website"": ""https://rand.org"", ""Country"": ""GB""}"
-inst_Epsom_and_St_Helier_University_Hospitals_NHS_Trust,Epsom and St Helier University Hospitals NHS Trust,institution,institution,1,https://epsom-sthelier.nhs.uk,"{""Website"": ""https://epsom-sthelier.nhs.uk"", ""Country"": ""GB""}"
-inst_Centre_for_Evidence_Based_Drug_Policy,Centre for Evidence Based Drug Policy,institution,institution,1,https://drugpolicycentre.org,"{""Website"": ""https://drugpolicycentre.org"", ""Country"": ""GB""}"
-inst_St_George_s_University_Hospitals_NHS_Trust,St George's University Hospitals NHS Trust,institution,institution,1,https://stgeorges.nhs.uk,"{""Website"": ""https://stgeorges.nhs.uk"", ""Country"": ""GB""}"
-inst_Jagiellonian_University_in_Krakow,Jagiellonian University in Krakow,institution,institution,1,https://uj.edu.pl,"{""Website"": ""https://uj.edu.pl"", ""Country"": ""PL""}"
-dept_University_of_Oxford_Oxford_Internet_Institute__OII,Oxford Internet Institute (OII),department,department,2,,"{""Department"": ""Oxford Internet Institute (OII)"", ""Institution"": ""University of Oxford""}"
-inst_University_of_Warsaw,University of Warsaw,institution,institution,1,https://uw.edu.pl,"{""Website"": ""https://uw.edu.pl"", ""Country"": ""PL""}"
-inst_KEA,KEA,institution,institution,1,https://kea.dk,"{""Website"": ""https://kea.dk"", ""Country"": ""DK""}"
-inst_Independent,Independent,institution,institution,1,https://gmail.com,"{""Website"": ""https://gmail.com"", ""Country"": ""PL""}"
-inst_Beihang_University,Beihang University,institution,institution,1,https://buaa.edu.cn,"{""Website"": ""https://buaa.edu.cn"", ""Country"": ""CN""}"
-inst_National_University_of_Singapore,National University of Singapore,institution,institution,2,https://www.nus.edu.sg,"{""Website"": ""https://www.nus.edu.sg"", ""Country"": ""SG""}"
-inst_Shandong_University,Shandong University,institution,institution,2,https://sdu.edu.cn,"{""Website"": ""https://sdu.edu.cn"", ""Country"": ""CN""}"
-inst_Ocean_University_of_China,Ocean University of China,institution,institution,1,https://ouc.edu.cn,"{""Website"": ""https://ouc.edu.cn"", ""Country"": ""CN""}"
-inst_Ant_Group,Ant Group,institution,institution,1,https://antgroup.com,"{""Website"": ""https://antgroup.com"", ""Country"": ""CN""}"
-inst_Alibaba_Group,Alibaba Group,institution,institution,1,https://alibaba-inc.com,"{""Website"": ""https://alibaba-inc.com"", ""Country"": ""CN""}"
-inst_Tel_Aviv_University,Tel Aviv University,institution,institution,1,https://tau.ac.il,"{""Website"": ""https://tau.ac.il"", ""Country"": """"}"
-inst_Indian_Institute_of_Science,Indian Institute of Science,institution,institution,1,https://iisc.ernet.in,"{""Website"": ""https://iisc.ernet.in"", ""Country"": ""IN""}"
-inst_Amgen,Amgen,institution,institution,1,https://amgen.com,"{""Website"": ""https://amgen.com"", ""Country"": ""US""}"
-inst_Rice_University,Rice University,institution,institution,1,https://rice.edu,"{""Website"": ""https://rice.edu"", ""Country"": """"}"
-inst_Wyss_Institute__Harvard_University,"Wyss Institute, Harvard University",institution,institution,1,https://wyss.harvard.edu,"{""Website"": ""https://wyss.harvard.edu"", ""Country"": ""US""}"
-inst_Harvey_Mudd_College,Harvey Mudd College,institution,institution,1,https://hmc.edu,"{""Website"": ""https://hmc.edu"", ""Country"": """"}"
+id,type,label,degree,url,is_bridge,org_subtype
+program_biosecurity_pandemic_preparedness,program,Biosecurity & Pandemic Preparedness,149,https://www.openphilanthropy.org/focus/biosecurity/,,
+program_human_health_and_wellbeing,program,Human Health and Wellbeing,37,https://www.openphilanthropy.org/focus/global-health-and-wellbeing/,,
+program_scientific_research,program,Scientific Research,22,https://www.openphilanthropy.org/focus/science/,,
+inst_Harvard_University,institution,Harvard University,17,https://www.harvard.edu,True,
+program_science_supporting_biosecurity_and_pandemic_preparedness,program,Science Supporting Biosecurity and Pandemic Preparedness,17,https://www.openphilanthropy.org/focus/biosecurity/,,
+inst_University_of_Oxford,institution,University of Oxford,16,https://www.ox.ac.uk,True,
+funder_coefficient,funder,Coefficient (prev. Open Philanthropy),16,https://www.openphilanthropy.org/,,
+inst_University_of_California__Berkeley,institution,"University of California, Berkeley",15,https://www.berkeley.edu,,
+inst_Stanford_University,institution,Stanford University,14,https://www.stanford.edu,True,
+inst_Johns_Hopkins_University,institution,Johns Hopkins University,14,https://www.jhu.edu,True,
+inst_SecureBio,institution,SecureBio,13,https://securebio.org,True,
+inst_Massachusetts_Institute_of_Technology,institution,Massachusetts Institute of Technology,13,https://www.mit.edu,True,
+program_global_health_r_d,program,Global Health R&D,13,https://www.openphilanthropy.org/focus/global-health-and-wellbeing/,,
+program_global_catastrophic_risks_capacity_building,program,Global Catastrophic Risks Capacity Building,13,https://www.openphilanthropy.org/focus/global-catastrophic-risks/,,
+paper_N5DhtpYJ21,presentation,Best Practices for Biorisk Evaluations on Open-Weight Bio-Foundation Models,12,https://openreview.net/forum?id=N5DhtpYJ21,,
+paper_lZGgc845Uz,presentation,Deep Ignorance: Filtering Pretraining Data Builds Tamper-Resistant Safeguards into Open-Weight LLMs,10,https://openreview.net/forum?id=lZGgc845Uz,,
+paper_uZG2ag5CLB,presentation,Deep Research Brings Deeper Harm,10,https://openreview.net/forum?id=uZG2ag5CLB,,
+paper_ZgD951FVe7,presentation,Securing Dual-Use Pathogen Data of Concern,9,https://openreview.net/forum?id=ZgD951FVe7,,
+author_Seth_Donoughe1,author,Seth Donoughe,8,https://www.sethdonoughe.com/,,
+inst_University_of_Washington,institution,University of Washington,8,https://www.washington.edu,True,
+program_transformative_basic_science,program,Transformative Basic Science,8,https://www.openphilanthropy.org/focus/science/,,
+org_nuclear_threat_initiative,org,Nuclear Threat Initiative,8,https://www.nti.org/,,think_tank
+paper_X8XvMXDs1J,presentation,Benchmarking Mitigations Against Covert Misuse,7,https://openreview.net/forum?id=X8XvMXDs1J,,
+author_ZAIXI_ZHANG2,author,ZAIXI ZHANG,7,http://home.ustc.edu.cn/~zaixi/,,
+author_Ferdinando_Fioretto1,author,Ferdinando Fioretto,7,https://nandofioretto.github.io,,
+author_Le_Cong2,author,Le Cong,7,http://www.conglab.com,,
+author_Jiangmeng_Li1,author,Jiangmeng Li,7,https://jiangmengli.github.io/,,
+author_Alexander_Robey1,author,Alexander Robey,7,https://arobey1.github.io/,,
+author_Yangyan_Li1,author,Yangyan Li,7,https://yangyan.li/,,
+inst_Princeton_University,institution,Princeton University,7,https://www.princeton.edu,,
+inst_University_of_Chicago,institution,University of Chicago,7,https://uchicago.edu,True,
+inst_University_of_Pennsylvania,institution,University of Pennsylvania,7,https://www.upenn.edu,,
+org_life_sciences_research_foundation,org,Life Sciences Research Foundation,7,,,
+org_international_vaccine_institute,org,International Vaccine Institute,7,,,
+paper_byGQX45VWD,presentation,Zero-Shot Embedding Drift Detection: A Lightweight Defense Against Prompt Injections in LLMs,6,https://openreview.net/forum?id=byGQX45VWD,,
+paper_ZNZn43baQX,presentation,Resisting RL Elicitation of Biosecurity Capabilities: Reasoning Models Exploration Hacking on WMDP,6,https://openreview.net/forum?id=ZNZn43baQX,,
+paper_bKLp7oaU1L,presentation,Open-weight genome language model safeguards: Assessing robustness via adversarial fine-tuning,6,https://openreview.net/forum?id=bKLp7oaU1L,,
+paper_mo5H9VAr6r,presentation,ABC-Bench: An Agentic Bio-Capabilities Benchmark for Biosecurity,6,https://openreview.net/forum?id=mo5H9VAr6r,,
+paper_rAlReAI7bx,presentation,SafeProtein: Red-Teaming Framework and Benchmark for Protein Foundation Models,6,https://openreview.net/forum?id=rAlReAI7bx,,
+paper_x12eUGh0DE,presentation,"Without Safeguards, AI-Biology Integration Risks Creating Future Pandemics",6,https://openreview.net/forum?id=x12eUGh0DE,,
+author_Azmine_Toushik_Wasi1,author,Azmine Toushik Wasi,6,https://azminewasi.github.io,,
+author_Julian_Michael1,author,Julian Michael,6,https://julianmichael.org,,
+author_Peter_Henderson1,author,Peter Henderson,6,http://www.peterhenderson.co/,,
+author_Huixin_Zhan1,author,Huixin Zhan,6,https://huixin-zhan-ai.github.io//,,
+author_Roland_S__Zimmermann1,author,Roland S. Zimmermann,6,https://rzimmermann.com,,
+author_Scott_Emmons1,author,Scott Emmons,6,http://scottemmons.com/,,
+author_Mengdi_Wang1,author,Mengdi Wang,6,http://mwang.princeton.edu,,
+inst_Georgia_Institute_of_Technology,institution,Georgia Institute of Technology,6,https://gatech.edu,True,
+program_global_health_development,program,Global Health & Development,6,https://www.openphilanthropy.org/focus/global-health-and-wellbeing/,,
+org_council_on_strategic_risks,org,Council on Strategic Risks,6,,,
+paper_qKxVD730Xt,presentation,Prompting Toxicity: Analyzing Biosafety Risks in Genomic Language Models,5,https://openreview.net/forum?id=qKxVD730Xt,,
+paper_KiZxvtn3JE,presentation,Where to Edit? : Complementary Protein Property Control from Weight and Activation Spaces,5,https://openreview.net/forum?id=KiZxvtn3JE,,
+paper_fDysOrWaGd,presentation,Agentic BAIM-LLM Evaluation (ABLE): Benchmarking LLM Use of Protein Design Tools,5,https://openreview.net/forum?id=fDysOrWaGd,,
+paper_e7SmcN6tRZ,presentation,Property Adherent Molecular Generation with Constrained Discrete Diffusion,5,https://openreview.net/forum?id=e7SmcN6tRZ,,
+paper_HQR89TwSjS,presentation,GeneBreaker: Jailbreak Attacks against DNA Language Models with Pathogenicity Guidance,5,https://openreview.net/forum?id=HQR89TwSjS,,
+paper_of2ZA4Zmv6,presentation,Benchmarking diffusion models for predicting perturbed cellular responses,5,https://openreview.net/forum?id=of2ZA4Zmv6,,
+author_Samira_Nedungadi1,author,Samira Nedungadi,5,https://samiranne.github.io/,,
+author_Thomas_Hartvigsen1,author,Thomas Hartvigsen,5,https://www.tomhartvigsen.com,,
+author_Boyi_Wei2,author,Boyi Wei,5,https://www.boyiwei.com/,,
+author_Tomek_Korbak1,author,Tomek Korbak,5,https://tomekkorbak.com,,
+author_Robert_Kirk1,author,Robert Kirk,5,https://robertkirk.github.io,,
+author_Geoffrey_Irving2,author,Geoffrey Irving,5,https://naml.us,,
+author_Stella_Biderman1,author,Stella Biderman,5,http://www.stellabiderman.ai,,
+author_Shuo_Chen12,author,Shuo Chen,5,https://chenxshuo.github.io,,
+author_James_R__M__Black1,author,James R. M. Black,5,https://openreview.net/profile?id=~James_R._M._Black1,,
+author_Moritz_S__Hanke1,author,Moritz S. Hanke,5,https://openreview.net/profile?id=~Moritz_S._Hanke1,,
+author_Oliver_M_Crook1,author,Oliver M Crook,5,https://kavli.web.ox.ac.uk/people/oliver-crook,,
+author_Jassi_Pannu1,author,Jassi Pannu,5,https://www.linkedin.com/in/jassipannu/,,
+author_Igor_Shilov1,author,Igor Shilov,5,https://igorshilov.com/,,
+author_Toby_Webster1,author,Toby Webster,5,https://www.rand.org/pubs/authors/w/webster_toby.html,,
+author_Yangyang_Guo1,author,Yangyang Guo,5,https://guoyang9.github.io/,,
+author_Kaiyi_Jiang1,author,Kaiyi Jiang,5,https://openreview.net/profile?id=~Kaiyi_Jiang1,,
+author_Kevin_M__Esvelt1,author,Kevin M. Esvelt,5,https://www.sculptingevolution.org,,
+inst_Algoverse_AI_Research,institution,Algoverse AI Research,5,https://algoverse.us,,
+inst_Center_for_AI_Safety,institution,Center for AI Safety,5,https://www.safe.ai,,
+inst_Yale_University,institution,Yale University,5,https://yale.edu,True,
+program_scientific_innovation_tools_and_techniques,program,Scientific Innovation: Tools and Techniques,5,https://www.openphilanthropy.org/grants/,,
+org_blueprint_biosecurity,org,Blueprint Biosecurity,5,,,
+org_bluedot_impact,org,BlueDot Impact,5,,,
+paper_hZ6ra8ApLP,presentation,SafeGenie: Erasing Dangerous Concepts from Biological Diffusion Models,4,https://openreview.net/forum?id=hZ6ra8ApLP,,
+paper_FRNHz65p25,presentation,Securing the Language of Life: Inheritable Watermarks from DNA Language Models to Proteins,4,https://openreview.net/forum?id=FRNHz65p25,,
+paper_MwajedbCfX,presentation,Biorisk-Shift: Converting AI Vulnerabilities into Biological Threat Vectors,4,https://openreview.net/forum?id=MwajedbCfX,,
+paper_rQgPJ3ILLN,presentation,RippleBench: Capturing Ripple Effects by Leveraging Existing Knowledge Repositories,4,https://openreview.net/forum?id=rQgPJ3ILLN,,
+paper_ns8pgHHrPo,presentation,Translating Biomedical Observations into Signal Temporal Logic with LLMs using Structured Feedback,4,https://openreview.net/forum?id=ns8pgHHrPo,,
+paper_7FGZVr6vlK,presentation,Robust LLM Unlearning with MUDMAN: Meta-Unlearning with Disruption Masking And Normalization,4,https://openreview.net/forum?id=7FGZVr6vlK,,
+author_Gokul_Srinath_Seetha_Ram1,author,Gokul Srinath Seetha Ram,4,https://openreview.net/profile?id=~Gokul_Srinath_Seetha_Ram1,,
+author_Mingyang_Xu2,author,Mingyang Xu,4,https://openreview.net/profile?id=~Mingyang_Xu2,,
+author_Petr_Simecek1,author,Petr Simecek,4,https://www.ceitec.cz/mgr-petr-simecek-msc-ph-d/u92853?page=publication,,
+author_Bryce_Cai1,author,Bryce Cai,4,https://openreview.net/profile?id=~Bryce_Cai1,,
+author_Jacob_K_Christopher1,author,Jacob K Christopher,4,https://www.linkedin.com/in/jacob-christopher-834a02239,,
+author_Nathaniel_Li1,author,Nathaniel Li,4,https://nli0.github.io,,
+author_Zifan_Wang1,author,Zifan Wang,4,https://www.zifanw.net,,
+author_Mantas_Mazeika3,author,Mantas Mazeika,4,https://github.com/mmazeika,,
+author_Joschka_Braun1,author,Joschka Braun,4,https://joschkacbraun.github.io/,,
+author_Yeonwoo_Jang1,author,Yeonwoo Jang,4,https://eyonjang.me/,,
+author_Quentin_Gregory_Anthony1,author,Quentin Gregory Anthony,4,https://quentin-anthony.github.io/,,
+author_Xander_Davies1,author,Xander Davies,4,https://xanderdavies.com/,,
+author_Ruofan_Jin1,author,Ruofan Jin,4,https://openreview.net/profile?id=~Ruofan_Jin1,,
+author_Zonggen_Li1,author,Zonggen Li,4,https://kidlanli.github.io/,,
+author_Zhen_Han3,author,Zhen Han,4,https://sites.google.com/view/zhenhan/home,,
+author_Haokun_Chen3,author,Haokun Chen,4,https://haokunchen245.github.io/,,
+author_Volker_Tresp1,author,Volker Tresp,4,https://www.dbs.ifi.lmu.de/~tresp/,,
+author_Aldan_Creo1,author,Aldan Creo,4,https://acmc-website.web.app/intro,,
+author_Aaron_Maiwald1,author,Aaron Maiwald,4,https://openreview.net/profile?id=~Aaron_Maiwald1,,
+author_Roy_Rinberg1,author,Roy Rinberg,4,https://www.royrinberg.com,,
+author_Davis_Brown1,author,Davis Brown,4,https://davisrbrown.com/,,
+author_Luze_Sun1,author,Luze Sun,4,https://openreview.net/profile?id=~Luze_Sun1,,
+author_Eric_Wong1,author,Eric Wong,4,http://riceric22.github.io/,,
+author_Harmon_Bhasin1,author,Harmon Bhasin,4,https://harm0n.com/,,
+author_Lauren_E__Malek1,author,Lauren E. Malek,4,https://openreview.net/profile?id=~Lauren_E._Malek1,,
+author_Murat_Arcak2,author,Murat Arcak,4,https://www2.eecs.berkeley.edu/Faculty/Homepages/arcak.html,,
+author_Jigang_Fan2,author,Jigang Fan,4,https://openreview.net/profile?id=~Jigang_Fan2,,
+author_Allison_Berke1,author,Allison Berke,4,https://www.rand.org/pubs/authors/b/berke_allison.html,,
+inst_Imperial_College_London,institution,Imperial College London,4,https://imperial.ac.uk,True,
+inst_Rutgers_University,institution,Rutgers University,4,https://rutgers.edu,True,
+inst_Scale_AI,institution,Scale AI,4,https://scale.com,,
+inst_New_York_University,institution,New York University,4,https://www.nyu.edu,,
+org_bipartisan_commission_on_biodefense,org,Bipartisan Commission on Biodefense,4,,,
+org_igem_foundation,org,iGEM Foundation,4,,,
+org_georgetown_center_for_global_health_science_and_security,org,Georgetown Center for Global Health Science and Security,4,,,
+org_blue_ribbon_study_panel_on_biodefense,org,Blue Ribbon Study Panel on Biodefense,4,,,
+paper_x3yCeCEIb3,presentation,"Position: Without Global Governance, AI-Enabled Biodesign Tools Risk Dangerous Proliferation",3,https://openreview.net/forum?id=x3yCeCEIb3,,
+paper_Ci3HSCeZ51,presentation,Involuntary Jailbreak,3,https://openreview.net/forum?id=Ci3HSCeZ51,,
+author_Mst_Rafia_Islam1,author,Mst Rafia Islam,3,https://rafia-islam.github.io/,,
+author_Kevin_Zhu3,author,Kevin Zhu,3,https://kevinzhu.ai/ and https://www.kevin-zhu.com/,,
+author_Arjun_Damerla1,author,Arjun Damerla,3,https://shonenmind.github.io/arjun_website/,,
+author_Nathan_Choi1,author,Nathan Choi,3,https://nathans-portfolio-six.vercel.app/localhost_5126/index.html,,
+author_Michael_Cardei1,author,Michael Cardei,3,https://openreview.net/profile?id=~Michael_Cardei1,,
+author_Bhavya_Kailkhura1,author,Bhavya Kailkhura,3,https://people.llnl.gov/kailkhura1,,
+author_Zora_Che1,author,Zora Che,3,https://zorache.github.io/,,
+author_Summer_Yue2,author,Summer Yue,3,https://openreview.net/profile?id=~Summer_Yue2,,
+author_Dan_Hendrycks1,author,Dan Hendrycks,3,https://openreview.net/profile?id=~Dan_Hendrycks1,,
+author_Damon_Falck1,author,Damon Falck,3,http://damonfalck.me,,
+author_Stephen_Casper1,author,Stephen Casper,3,https://stephencasper.com/,,
+author_Zhenghong_Zhou2,author,Zhenghong Zhou,3,https://openreview.net/profile?id=~Zhenghong_Zhou2,,
+author_Zijun_Song2,author,Zijun Song,3,https://github.com/ZijunSong,,
+author_Changwen_Zheng1,author,Changwen Zheng,3,http://people.ucas.ac.cn/~cwzheng,,
+author_Linhai_Xie1,author,Linhai Xie,3,https://openreview.net/profile?id=~Linhai_Xie1,,
+author_Tina_Hernandez_Boussard1,author,Tina Hernandez-Boussard,3,https://med.stanford.edu/boussard-lab.html,,
+author_Eun_Ro1,author,Eun Ro,3,http://www.gojuly.ai,,
+author_Yang_Chung1,author,Yang Chung,3,https://openreview.net/profile?id=~Yang_Chung1,,
+author_Steven_Basart1,author,Steven Basart,3,http://stevenbas.art,,
+author_Rohit_Gandikota1,author,Rohit Gandikota,3,https://rohitgandikota.github.io/,,
+author_Andrew_Bo_Liu1,author,Andrew Bo Liu,3,https://abliu.github.io/,,
+author_Alex_Kleinman1,author,Alex Kleinman,3,https://openreview.net/profile?id=~Alex_Kleinman1,,
+author_Hanna_Krasowski1,author,Hanna Krasowski,3,https://hanna.krasowski.io,,
+author_Mikolaj_Kniejski1,author,Mikolaj Kniejski,3,https://openreview.net/profile?id=~Mikolaj_Kniejski1,,
+author_Mohan_Kankanhalli1,author,Mohan Kankanhalli,3,https://www.comp.nus.edu.sg/cs/people/mohan/,,
+inst_Shahjalal_University_of_Science_and_Technology,institution,Shahjalal University of Science and Technology,3,https://sust.edu,,
+inst_University_of_Virginia__Charlottesville,institution,"University of Virginia, Charlottesville",3,https://virginia.edu,,
+inst_Syracuse_University,institution,Syracuse University,3,https://syr.edu,,
+inst_Google,institution,Google,3,https://www.google.com,,
+inst_Amazon,institution,Amazon,3,https://amazon.com,,
+inst_MATS,institution,MATS,3,https://www.matsprogram.org,,
+inst_Eberhard_Karls_Universit_t_T_bingen,institution,Eberhard-Karls-Universität Tübingen,3,https://uni-tuebingen.de,,
+inst_Google_DeepMind,institution,Google DeepMind,3,https://deepmind.google,,
+inst_Anthropic,institution,Anthropic,3,https://www.anthropic.com,,
+inst_UK_AI_Security_Institute,institution,UK AI Security Institute,3,https://dsit.gov.uk,,
+inst_Tsinghua_University,institution,Tsinghua University,3,https://www.tsinghua.edu.cn/en/,,
+inst_Technical_University_of_Munich,institution,Technical University of Munich,3,https://www.tum.de,,
+inst_LMU_Munich,institution,LMU Munich,3,https://www.lmu.de,,
+inst_RAND_Corporation,institution,RAND Corporation,3,https://rand.org,True,
+program_global_aid_policy,program,Global Aid Policy,3,https://www.openphilanthropy.org/grants/,,
+program_global_catastrophic_risks,program,Global Catastrophic Risks,3,https://www.openphilanthropy.org/focus/global-catastrophic-risks/,,
+program_global_health_wellbeing,program,Global Health & Wellbeing,3,https://www.openphilanthropy.org/grants/,,
+program_navigating_transformative_ai,program,Navigating Transformative AI,3,https://www.openphilanthropy.org/focus/transformative-artificial-intelligence/,,
+org_duke_university,org,Duke University,3,,,
+org_center_for_global_development,org,Center for Global Development,3,,,
+org_early_career_funding_for_global_catastrophic_biological_risk,org,Early-Career Funding for Global Catastrophic Biological Risks,3,,,
+paper_oPSMbYw7zx,presentation,Position: Biosafety-Critical Adjacent Technologies are Critical for Scalable and Safe Clinical Multi-modal LLM Deployment,2,https://openreview.net/forum?id=oPSMbYw7zx,,
+paper_SoGnOiTGAH,presentation,A Biosecurity Agent for Lifecycle LLM Biosecurity Alignment,2,https://openreview.net/forum?id=SoGnOiTGAH,,
+paper_AFRn7DfXXE,presentation,Perspective: Lessons from Cybersecurity for Biological AI Safety,2,https://openreview.net/forum?id=AFRn7DfXXE,,
+paper_Tgvew8gkrh,presentation,Is My Language Model a Biohazard?,2,https://openreview.net/forum?id=Tgvew8gkrh,,
+paper_9gmzIH0JJF,presentation,Monte Carlo Expected Threat (MOCET) Scoring,2,https://openreview.net/forum?id=9gmzIH0JJF,,
+paper_NAr5wbHghS,presentation,AI Bioweapons and the Failure of Inference-Time Filters,2,https://openreview.net/forum?id=NAr5wbHghS,,
+author_Arjun_Banerjee1,author,Arjun Banerjee,2,https://openreview.net/profile?id=~Arjun_Banerjee1,,
+author_Ethan_Tam1,author,Ethan Tam,2,https://ethan-tam.me/,,
+author_Camille_Dang1,author,Camille Dang,2,https://openreview.net/profile?id=~Camille_Dang1,,
+author_David_Martinez3,author,David Martinez,2,https://openreview.net/profile?id=~David_Martinez3,,
+author_Rahatun_Nesa_Priti1,author,Rahatun Nesa Priti,2,https://openreview.net/profile?id=~Rahatun_Nesa_Priti1,,
+author_Md__Iqramul_Hoque1,author,Md. Iqramul Hoque,2,https://ikramul-hq.github.io/,,
+author_Muhammad_Haris_Khan4,author,Muhammad Haris Khan,2,https://openreview.net/profile?id=~Muhammad_Haris_Khan4,,
+author_Meiyin_Meng1,author,Meiyin Meng,2,https://openreview.net/profile?id=~Meiyin_Meng1,,
+author_Akash_Arunabharathi1,author,Akash Arunabharathi,2,https://openreview.net/profile?id=~Akash_Arunabharathi1,,
+author_Akshay_Murthy2,author,Akshay Murthy,2,https://akshaymurthy.com,,
+author_Mengmeng_Zhang2,author,Mengmeng Zhang,2,https://schoolhouse.world/u/mengmengz,,
+author_Shanmukhi_Kannamangalam1,author,Shanmukhi Kannamangalam,2,https://openreview.net/profile?id=~Shanmukhi_Kannamangalam1,,
+author_Anirudh_Sekar1,author,Anirudh Sekar,2,https://openreview.net/profile?id=~Anirudh_Sekar1,,
+author_Rachel_Sharma1,author,Rachel Sharma,2,https://openreview.net/profile?id=~Rachel_Sharma1,,
+author_Mrinal_Agarwal1,author,Mrinal Agarwal,2,https://openreview.net/profile?id=~Mrinal_Agarwal1,,
+author_Jasmine_Zhang1,author,Jasmine Zhang,2,https://openreview.net/profile?id=~Jasmine_Zhang1,,
+author_Akitsugu_Tanaka1,author,Akitsugu Tanaka,2,https://openreview.net/profile?id=~Akitsugu_Tanaka1,,
+author_Tia_Pope1,author,Tia Pope,2,https://openreview.net/profile?id=~Tia_Pope1,,
+author_Armaity_Katki1,author,Armaity Katki,2,https://openreview.net/profile?id=~Armaity_Katki1,,
+author_Son_Sophak_Otra1,author,Son Sophak Otra,2,https://www.linkedin.com/in/son-sophak-otra-37011628b/,,
+author_George_Flint1,author,George Flint,2,https://georgeflint.com,,
+author_Geetha_Jeyapragasan1,author,Geetha Jeyapragasan,2,https://openreview.net/profile?id=~Geetha_Jeyapragasan1,,
+author_Jake_Yukich1,author,Jake Yukich,2,https://openreview.net/profile?id=~Jake_Yukich1,,
+author_Jasper_G_tting1,author,Jasper Götting,2,https://openreview.net/profile?id=~Jasper_Götting1,,
+author_David_Lindner1,author,David Lindner,2,https://www.davidlindner.me/,,
+author_Kyle_O_Brien1,author,Kyle O'Brien,2,https://www.kyobrien.io/,,
+author_Ishan_Mishra3,author,Ishan Mishra,2,https://openreview.net/profile?id=~Ishan_Mishra3,,
+author_Yarin_Gal1,author,Yarin Gal,2,http://www.cs.ox.ac.uk/people/yarin.gal/website//,,
+author_Bailan_He1,author,Bailan He,2,https://zuseschoolrelai.de/people/scientists/bailan-he/,,
+author_Tong_Liu9,author,Tong Liu,2,Not found,,
+author_Georg_Groh2,author,Georg Groh,2,https://www.in.tum.de/social/team/georggroh/,,
+author_Philip_Torr1,author,Philip Torr,2,http://www.robots.ox.ac.uk/~tvg/,,
+author_Jindong_Gu1,author,Jindong Gu,2,https://jindonggu.github.io/,,
+author_Cristina_Correa1,author,Cristina Correa,2,https://openreview.net/profile?id=~Cristina_Correa1,,
+author_Yujia_Xiang1,author,Yujia Xiang,2,https://openreview.net/profile?id=~Yujia_Xiang1,,
+author_Joseph_Kim4,author,Joseph Kim,2,https://openreview.net/profile?id=~Joseph_Kim4,,
+author_Saahith_Potluri1,author,Saahith Potluri,2,https://openreview.net/profile?id=~Saahith_Potluri1,,
+author_Yoshi_Nakachi1,author,Yoshi Nakachi,2,https://openreview.net/profile?id=~Yoshi_Nakachi1,,
+author_Usha_Bhalla1,author,Usha Bhalla,2,https://ushabhalla.github.io/,,
+author_Mahdi_Sabbaghi1,author,Mahdi Sabbaghi,2,https://openreview.net/profile?id=~Mahdi_Sabbaghi1,,
+author_George_J__Pappas1,author,George J. Pappas,2,http://www.georgejpappas.org/,,
+author_Hamed_Hassani2,author,Hamed Hassani,2,https://www.seas.upenn.edu/~hassani/,,
+author_Sanjit_A__Seshia1,author,Sanjit A. Seshia,2,https://people.eecs.berkeley.edu/~sseshia/,,
+author_Doni_Bloomfield1,author,Doni Bloomfield,2,https://www.fordham.edu/school-of-law/faculty/directory/full-time/doni-bloomfield/,,
+author_Filip_Sondej1,author,Filip Sondej,2,https://github.com/filyp/,,
+author_Yushi_Yang2,author,Yushi Yang,2,https://www.oii.ox.ac.uk/people/profiles/yushi-yang/,,
+author_Marcel_Windys1,author,Marcel Windys,2,https://openreview.net/profile?id=~Marcel_Windys1,,
+author_Dianzhuo_Wang1,author,Dianzhuo Wang,2,https://openreview.net/profile?id=~Dianzhuo_Wang1,,
+author_Marian_Huot1,author,Marian Huot,2,https://shakhnovich.faculty.chemistry.harvard.edu/people,,
+author_Zechen_Zhang2,author,Zechen Zhang,2,https://cbmm.mit.edu/about/people/zhang-3,,
+author_Eugene_Shakhnovich1,author,Eugene Shakhnovich,2,https://openreview.net/profile?id=~Eugene_Shakhnovich1,,
+author_Jonathan_Feldman1,author,Jonathan Feldman,2,https://openreview.net/profile?id=~Jonathan_Feldman1,,
+author_Tal_Feldman1,author,Tal Feldman,2,https://openreview.net/profile?id=~Tal_Feldman1,,
+inst_University_of_Science_and_Technology_of_China,institution,University of Science and Technology of China,2,https://ustc.edu.cn,,
+dept_University_of_California__Berkeley_Center_for_Computational_Biology__Berkeley,department,Center for Computational Biology (Berkeley),2,,,
+inst_University_of_Georgia,institution,University of Georgia,2,https://uga.edu,True,
+inst_Pomona_College,institution,Pomona College,2,https://pomona.edu,,
+inst_Swarthmore_College,institution,Swarthmore College,2,https://swarthmore.edu,,
+inst_University_of_Michigan,institution,University of Michigan,2,https://umich.edu,True,
+inst_University_of_Maryland__College_Park,institution,"University of Maryland, College Park",2,https://umd.edu,True,
+inst_McGill_University,institution,McGill University,2,https://mcgill.ca,,
+inst_Carnegie_Mellon_University,institution,Carnegie Mellon University,2,https://www.cmu.edu,,
+inst_University_of_Cambridge,institution,University of Cambridge,2,https://www.cam.ac.uk,,
+dept_Google_DeepMind_AGI_Safety_and_Alignment_Team,department,AGI Safety and Alignment Team,2,,,
+inst_University_of_California_Berkeley,institution,University of California Berkeley,2,https://berkeley.edu,,
+inst_University_of_North_Carolina__Chapel_Hill,institution,"University of North Carolina, Chapel Hill",2,https://unc.edu,,
+inst_EleutherAI,institution,EleutherAI,2,https://www.eleuther.ai,,
+inst_Broad_Institute,institution,Broad Institute,2,https://broadinstitute.org,True,
+inst_Siemens_Corporate_Research,institution,Siemens Corporate Research,2,https://siemens.com,,
+inst_University_of_Munich__Ludwig_Maximilians_Universit_t_M_nchen,institution,"University of Munich, Ludwig-Maximilians-Universität München",2,https://campus.lmu.de,,
+inst_Ludwig_Maximilian_University_of_Munich,institution,Ludwig Maximilian University of Munich,2,https://lmu.de,,
+inst_Technical_University_Munich,institution,Technical University Munich,2,https://tum.de,,
+dept_LMU_Munich_Chair_of_Database_Systems_and_Data_Mining,department,Chair of Database Systems and Data Mining,2,,,
+dept_LMU_Munich_Unknown___Associated_with_relAI,department,Unknown - Associated with relAI,2,,,
+dept_University_of_Oxford_Department_of_Engineering_Science___Torr_Vision_Group,department,Department of Engineering Science / Torr Vision Group,2,,,
+inst_University_of_the_Chinese_Academy_of_Sciences,institution,University of the Chinese Academy of Sciences,2,https://ucas.edu.cn,,
+inst_Institute_of_Software__Chinese_Academy_of_Sciences,institution,"Institute of Software, Chinese Academy of Sciences",2,https://iscas.ac.cn,,
+inst_July_AI,institution,July AI,2,https://gojuly.ai,,
+inst_Columbia_University,institution,Columbia University,2,https://www.columbia.edu,True,
+dept_Harvard_University_Computer_Science___Harvard_John_A__Paulson_School_of_Engineering_and_Applied_Sci,department,Computer Science / Harvard John A. Paulson School of Engineering and Applied Sciences,2,,,
+inst_Northeastern_University,institution,Northeastern University,2,https://neu.edu,,
+inst_School_of_Engineering_and_Applied_Science__University_of_Pennsylvania,institution,"School of Engineering and Applied Science, University of Pennsylvania",2,https://seas.upenn.edu,,
+inst_Icahn_School_of_Medicine_at_Mount_Sinai,institution,Icahn School of Medicine at Mount Sinai,2,https://mountsinai.org,True,
+dept_University_of_California__Berkeley_Electrical_Engineering_and_Computer_Sciences__EECS,department,Electrical Engineering and Computer Sciences (EECS),2,,,
+dept_University_of_Oxford_Oxford_Internet_Institute__OII,department,Oxford Internet Institute (OII),2,,,
+inst_National_University_of_Singapore,institution,National University of Singapore,2,https://www.nus.edu.sg,,
+inst_Shandong_University,institution,Shandong University,2,https://sdu.edu.cn,,
+program_givewell_recommended_charities,program,GiveWell-Recommended Charities,2,https://www.openphilanthropy.org/grants/,,
+program_other_scientific_research_areas,program,Other Scientific Research Areas,2,https://www.openphilanthropy.org/grants/,,
+program_forecasting,program,Forecasting,2,https://www.openphilanthropy.org/grants/,,
+org_principles_of_intelligent_behavior_in_biological_and_social_,org,Principles of Intelligent Behavior in Biological and Social Systems,2,,,
+org_telethon_kids_institute,org,Telethon Kids Institute,2,,,
+org_world_health_organization,org,World Health Organization,2,,,
+org_cambridge_biosecurity_hub,org,Cambridge Biosecurity Hub,2,,,
+org_wilton_park,org,Wilton Park,2,,,
+org_university_of_utah,org,University of Utah,2,,,
+org_path,org,PATH,2,,,
+org_convergent_research,org,Convergent Research,2,,,
+org_gates_philanthropy_partners,org,Gates Philanthropy Partners,2,,,
+org_alvea,org,Alvea,2,,,
+org_university_of_southern_california,org,University of Southern California,2,,,
+org_longview_philanthropy,org,Longview Philanthropy,2,,,
+org_scholarship_various,org,Scholarship (Various),2,,,
+org_applied_research_laboratory_for_intelligence_and_security,org,Applied Research Laboratory for Intelligence and Security,2,,,
+org_centre_for_effective_altruism,org,Centre for Effective Altruism,2,,,
+org_biosecure_ltd,org,Biosecure Ltd,2,,,
+org_beri_berkeley_existential_risk_initiative,org,BERI (Berkeley Existential Risk Initiative),2,,,
+org_good_forever_foundation,org,Good Forever Foundation,2,,,
+org_federation_of_american_scientists,org,Federation of American Scientists,2,,,
+org_university_of_notre_dame,org,University of Notre Dame,2,,,
+org_altruistic_technology_labs,org,Altruistic Technology Labs,2,,,
+org_university_of_california_davis,org,"University of California, Davis",2,,,
+org_1day_sooner,org,1Day Sooner,2,,,
+org_research_institute_of_industrial_economics,org,Research Institute of Industrial Economics,2,,,
+org_center_for_international_security_and_cooperation,org,Center for International Security and Cooperation,2,,,
+org_genspace,org,Genspace,2,,,
+paper_Iik48LI1xX,presentation,"SafeBench-Seq: A Homology-Clustered, CPU-Only Baseline for Protein Hazard Screening with Physicochemical/Composition Features and Cluster-Aware Confidence Intervals",1,https://openreview.net/forum?id=Iik48LI1xX,,
+paper_DOsb0ZbtjA,presentation,Behavioral Red Teaming: Investigating Future Biosecurity Risk from Agentic AI and De Novo Sequence Design,1,https://openreview.net/forum?id=DOsb0ZbtjA,,
+paper_fpx52DO8oP,presentation,Exposing Critical Safety Failures: A Comprehensive Safety-Weighted Evaluation of LLaMA Models for Biochemical Toxicity Screening,1,https://openreview.net/forum?id=fpx52DO8oP,,
+paper_Jf1ee1fyaM,presentation,Benchmarking Biosafety in Generative Protein Design: A Stress-Test Framework for Binder Models,1,https://openreview.net/forum?id=Jf1ee1fyaM,,
+paper_Jhj4rG9Oio,presentation,Structural Persistence Despite Sequence Redaction: A Biosecurity Evaluation of Protein Language Models,1,https://openreview.net/forum?id=Jhj4rG9Oio,,
+paper_BItfXx4ozE,presentation,ProtGPT2 is Not Biosecure by Default,1,https://openreview.net/forum?id=BItfXx4ozE,,
+paper_JO8gyyeM9L,presentation,Biosecurity-Aware AI: Agentic Risk Auditing of Soft Prompt Attacks on ESM-Based Variant Predictors,1,https://openreview.net/forum?id=JO8gyyeM9L,,
+author_Benjamin_Liu2,author,Benjamin Liu,1,Not found,,
+inst_Computational_Intelligence_and_Operations_Laboratory,institution,Computational Intelligence and Operations Laboratory,1,https://ciol-researchlab.github.io,,
+inst_Pi_School,institution,Pi School,1,https://picampus-school.com,,
+inst_Independent_University__Bangladesh,institution,"Independent University, Bangladesh",1,https://iub.edu.bd,,
+inst_Skolkovo_Institute_of_Science_and_Technology,institution,Skolkovo Institute of Science and Technology,1,https://skoltech.ru,,
+inst_Tencent_Company,institution,Tencent Company,1,https://tencent.com,,
+inst_Department_of_Computer_Science__University_of_Illinois_at_Urbana_Champaign,institution,"Department of Computer Science, University of Illinois at Urbana-Champaign",1,https://cs.illinois.edu,,
+inst_PareIT,institution,PareIT,1,https://pareit.com,,
+inst_California_Polytechnic_State_University__Pomona,institution,"California Polytechnic State University, Pomona",1,https://cpp.edu,,
+inst_Vellore_Institute_of_Technology,institution,Vellore Institute of Technology,1,https://vit.ac.in,,
+inst_Bothell_High_School,institution,Bothell High School,1,https://ucsb.edu,,
+inst_Westford_Academy,institution,Westford Academy,1,https://westfordk12.us,,
+inst_Algoverse_Coding_Academy_LLC,institution,Algoverse Coding Academy LLC,1,https://algoversecodingacademy.com,,
+inst_University_of_Michigan___Ann_Arbor,institution,University of Michigan - Ann Arbor,1,https://umich.edu,,
+inst_Cornell_University,institution,Cornell University,1,https://cornell.edu,,
+inst_Regeneron_Pharmaceuticals__Inc,institution,"Regeneron Pharmaceuticals, Inc",1,https://regeneron.com,,
+inst_Masaryk_University,institution,Masaryk University,1,https://muni.cz,,
+inst_The_Jackson_Laboratory,institution,The Jackson Laboratory,1,https://jax.org,,
+inst_Institute_of_Molecular_Genetics_in_Prague,institution,Institute of Molecular Genetics in Prague,1,https://img.cas.cz,,
+inst_North_Carolina_A_T_State_University,institution,North Carolina A&T State University,1,https://ncat.edu,,
+inst_California_State_University__Fullerton,institution,"California State University, Fullerton",1,https://csu.fullerton.edu,,
+inst_OpenQQuantify,institution,OpenQQuantify,1,https://gmail.com,,
+inst_Fort_hays_State_University,institution,Fort hays State University,1,https://fhsu.edu,,
+inst_University_of_Florida,institution,University of Florida,1,https://ufl.edu,,
+inst_Gordon_College,institution,Gordon College,1,https://gordon.edu,,
+inst_Lawrence_Livermore_National_Laboratory,institution,Lawrence Livermore National Laboratory,1,https://www.llnl.gov,,
+inst_Worcester_Polytechnic_Institute,institution,Worcester Polytechnic Institute,1,https://wpi.edu,,
+inst_SUNY_Geneseo,institution,SUNY Geneseo,1,https://geneseo.edu,,
+inst_University_of_Virginia,institution,University of Virginia,1,https://www.virginia.edu,,
+inst_University_of_Udine,institution,University of Udine,1,https://uniud.it,,
+inst_New_Mexico_State_University,institution,New Mexico State University,1,https://nmsu.edu,,
+inst_University_of_California__Irvine,institution,"University of California, Irvine",1,https://uci.edu,,
+inst_Boston_University,institution,Boston University,1,https://bu.edu,,
+inst_Meta,institution,Meta,1,https://www.meta.com,,
+inst_University_of_Texas_at_Austin,institution,University of Texas at Austin,1,https://cs.utexas.edu,,
+inst_Montreal_Institute_for_Learning_Algorithms__University_of_Montreal__University_o,institution,"Montreal Institute for Learning Algorithms, University of Montreal, University of Montreal",1,https://mila.umontreal.ca,,
+inst_University_of_Illinois__Urbana_Champaign,institution,"University of Illinois, Urbana-Champaign",1,https://uiuc.edu,,
+inst_New_Mexico_Institute_of_Mining___Technology,institution,New Mexico Institute of Mining & Technology,1,https://nmt.edu,,
+inst_Cedars_Sinai_Medical_Center,institution,Cedars-Sinai Medical Center,1,https://cshs.org,,
+inst_Texas_Tech_University,institution,Texas Tech University,1,https://ttu.edu,,
+inst_University_of_Texas__San_Antonio,institution,"University of Texas, San Antonio",1,https://utsa.edu,,
+inst_Nanjing_University_of_Science_and_Technology,institution,Nanjing University of Science and Technology,1,https://njust.edu,,
+inst_Max_Planck_Institute_for_Intelligent_Systems,institution,Max-Planck Institute for Intelligent Systems,1,https://mpg.tuebingen.de,,
+inst_Volkswagen_Group_Research,institution,Volkswagen Group Research,1,https://volkswagen.de,,
+inst_Indiana_University,institution,Indiana University,1,https://indiana.edu,,
+inst_Microsoft,institution,Microsoft,1,https://www.microsoft.com,,
+inst_Zyphra_Technologies,institution,Zyphra Technologies,1,https://zyphra.com,,
+inst_Ohio_State_University__Columbus,institution,"Ohio State University, Columbus",1,https://osu.edu,,
+inst_University_of_Sussex,institution,University of Sussex,1,https://sussex.ac.uk,,
+inst_UK_AI_Safety_Institute,institution,UK AI Safety Institute,1,https://www.aisi.gov.uk,,
+inst_University_College_London,institution,University College London,1,https://www.ucl.ac.uk,,
+inst_Facebook,institution,Facebook,1,https://fb.com,,
+inst_AI_Security_Institute,institution,AI Security Institute,1,https://gov.uk,,
+inst_DeepMind,institution,DeepMind,1,https://deepmind.google,,
+inst_OpenAI,institution,OpenAI,1,https://openai.com,,
+inst_Google_Brain,institution,Google Brain,1,https://google.com,,
+inst_Booz_Allen_Hamilton,institution,Booz Allen Hamilton,1,https://boozallen.com,,
+inst_Zhejiang_University,institution,Zhejiang University,1,https://zju.edu.cn,,
+inst_Shanghai_Jiaotong_University,institution,Shanghai Jiaotong University,1,https://sjtu.edu.cn,,
+inst_Sun_Yat_Sen_University,institution,Sun Yat-Sen University,1,https://mail.sysu.edu.cn,,
+inst_University_of_Hong_Kong,institution,University of Hong Kong,1,https://hku.hk,,
+inst_Tongji_University,institution,Tongji University,1,https://tongji.edu.cn,,
+inst_University_of_California__San_Diego,institution,"University of California, San Diego",1,https://ucsd.edu,,
+inst_Accenture,institution,Accenture,1,https://accenture.com,,
+inst_Universidad_de_Santiago_de_Compostela,institution,Universidad de Santiago de Compostela,1,https://usc.es,,
+inst_University_of_Sunderland,institution,University of Sunderland,1,https://sunderland.ac.uk,,
+inst_Dalian_University_of_Technology,institution,Dalian University of Technology,1,https://dlut.edu.cn,,
+inst_Huazhong_University_of_Science_and_Technology,institution,Huazhong University of Science and Technology,1,https://hust.edu.cn,,
+inst_University_of_Chinese_Academy_of_Sciences,institution,University of Chinese Academy of Sciences,1,https://ucas.ac.cn,,
+inst_Baidu,institution,Baidu,1,https://baidu.com,,
+inst_Xiamen_University,institution,Xiamen University,1,https://xmu.edu.cn,,
+inst_National_Center_for_Protein_Sciences__Beijing,institution,National Center for Protein Sciences (Beijing),1,https://ncpsb.org.cn,,
+inst_The_Francis_Crick_Institute,institution,The Francis Crick Institute,1,https://crick.ac.uk,,
+inst_University_College_London__University_of_London,institution,"University College London, University of London",1,https://ucl.ac.uk,,
+inst_Charit____Universit_tsmedizin_Berlin,institution,Charité - Universitätsmedizin Berlin,1,https://charite.de,,
+inst_Universit_t_Osnabr_ck,institution,Universität Osnabrück,1,https://uni-osnabrueck.de,,
+inst_The_university_of_Warwick,institution,The university of Warwick,1,https://warwick.ac.uk,,
+inst_Adept,institution,Adept,1,https://adept.ai,,
+inst_Meta_AI,institution,Meta AI,1,https://ai.meta.com,,
+inst_Lomonosov_Moscow_State_University,institution,Lomonosov Moscow State University,1,https://msu.ru,,
+inst_Adobe_Systems,institution,Adobe Systems,1,https://adobe.com,,
+inst_Pacific_Northwest_National_Laboratory,institution,Pacific Northwest National Laboratory,1,https://pnnl.gov,,
+inst_University_of_Bristol,institution,University of Bristol,1,https://bristol.ac.uk,,
+inst_CMU__Carnegie_Mellon_University,institution,"CMU, Carnegie Mellon University",1,https://andrew.cmu.edu,,
+inst_Gray_Swan,institution,Gray Swan,1,https://grayswan.ai,,
+inst_Lawrence_Livermore_National_Labs,institution,Lawrence Livermore National Labs,1,https://llnl.gov,,
+inst_Panoplia_Laboratories,institution,Panoplia Laboratories,1,https://panoplialabs.org,,
+inst_University_of_Wisconsin___Madison,institution,University of Wisconsin - Madison,1,https://wisc.edu,,
+inst_Rensselaer_Polytechnic_Institute,institution,Rensselaer Polytechnic Institute,1,https://rpi.edu,,
+inst_Peking_University,institution,Peking University,1,https://english.pku.edu.cn,,
+inst_Fordham_University_School_of_Law,institution,Fordham University School of Law,1,https://fordham.edu,,
+inst_Epsom_and_St_Helier_University_Hospitals_NHS_Trust,institution,Epsom and St Helier University Hospitals NHS Trust,1,https://epsom-sthelier.nhs.uk,,
+inst_Centre_for_Evidence_Based_Drug_Policy,institution,Centre for Evidence Based Drug Policy,1,https://drugpolicycentre.org,,
+inst_St_George_s_University_Hospitals_NHS_Trust,institution,St George's University Hospitals NHS Trust,1,https://stgeorges.nhs.uk,,
+inst_Jagiellonian_University_in_Krakow,institution,Jagiellonian University in Krakow,1,https://uj.edu.pl,,
+inst_University_of_Warsaw,institution,University of Warsaw,1,https://uw.edu.pl,,
+inst_KEA,institution,KEA,1,https://kea.dk,,
+inst_Independent,institution,Independent,1,https://gmail.com,,
+inst_Beihang_University,institution,Beihang University,1,https://buaa.edu.cn,,
+inst_Ocean_University_of_China,institution,Ocean University of China,1,https://ouc.edu.cn,,
+inst_Ant_Group,institution,Ant Group,1,https://antgroup.com,,
+inst_Alibaba_Group,institution,Alibaba Group,1,https://alibaba-inc.com,,
+inst_Tel_Aviv_University,institution,Tel Aviv University,1,https://tau.ac.il,,
+inst_Indian_Institute_of_Science,institution,Indian Institute of Science,1,https://iisc.ernet.in,,
+inst_Amgen,institution,Amgen,1,https://amgen.com,,
+inst_Rice_University,institution,Rice University,1,https://rice.edu,,
+inst_Wyss_Institute__Harvard_University,institution,"Wyss Institute, Harvard University",1,https://wyss.harvard.edu,,
+inst_Harvey_Mudd_College,institution,Harvey Mudd College,1,https://hmc.edu,,
+org_statens_serum_institut,org,Statens Serum Institut,1,,,
+org_national_institute_of_allergy_and_infectious_diseases,org,National Institute of Allergy and Infectious Diseases,1,,,
+org_albion_east_aid_policy_advocacy,org,Albion East — Aid Policy Advocacy,1,,,
+org_london_school_of_hygiene_and_tropical_medicine,org,London School of Hygiene and Tropical Medicine,1,,,
+org_brown_university,org,Brown University,1,,,
+org_4j_therapeutics,org,4J Therapeutics,1,,,
+org_university_of_pretoria,org,University of Pretoria,1,,,
+org_global_shield,org,Global Shield,1,,,
+org_zipline,org,Zipline,1,,,
+org_vaccine_formulation_institute,org,Vaccine Formulation Institute,1,,,
+org_the_kids_research_institute_australia,org,The Kids Research Institute Australia,1,,,
+org_eiger_innotherapeutics,org,Eiger InnoTherapeutics,1,,,
+org_the_centre_for_long_term_resilience,org,The Centre for Long-Term Resilience,1,,,
+org_science_history_institute,org,Science History Institute,1,,,
+org_university_of_cape_town,org,University of Cape Town,1,,,
+org_massachusetts_general_hospital,org,Massachusetts General Hospital,1,,,
+org_university_of_dundee,org,University of Dundee,1,,,
+org_wits_health_consortium,org,WITS Health Consortium,1,,,
+org_effective_altruism_uk,org,Effective Altruism UK,1,,,
+org_hospital_for_sick_children,org,Hospital for Sick Children,1,,,
+org_mary_ann_liebert_inc,org,Mary Ann Liebert Inc.,1,,,
+org_ku_leuven,org,KU Leuven,1,,,
+org_futurehouse,org,FutureHouse,1,,,
+org_pandemic_action_network,org,Pandemic Action Network,1,,,
+org_international_aids_vaccine_initiative,org,International AIDS Vaccine Initiative,1,,,
+org_fiocruz,org,Fiocruz,1,,,
+org_biosecurity_fellowships,org,Biosecurity Fellowships,1,,,
+org_the_university_of_queensland_in_america,org,The University of Queensland in America,1,,,
+org_synonym_bio,org,Synonym Bio,1,,,
+org_exscientia,org,Exscientia,1,,,
+org_eradivir,org,Eradivir,1,,,
+org_university_of_bonn,org,University of Bonn,1,,,
+org_university_of_amsterdam,org,University of Amsterdam,1,,,
+org_university_of_edinburgh,org,University of Edinburgh,1,,,
+org_ryan_teo_publishing_fees_for_bwc_paper,org,Ryan Teo — Publishing Fees for BWC Paper,1,,,
+org_university_of_texas_medical_branch,org,University of Texas Medical Branch,1,,,
+org_university_of_birmingham,org,University of Birmingham,1,,,
+org_csiro,org,CSIRO,1,,,
+org_viroclinics_biosciences,org,Viroclinics Biosciences,1,,,
+org_evotec,org,Evotec,1,,,
+org_charity_entrepreneurship,org,Charity Entrepreneurship,1,,,
+org_byron_cohen_biosecurity_community_building,org,Byron Cohen — Biosecurity Community Building,1,,,
+org_jake_pencharz_metagenomic_sequencing_research,org,Jake Pencharz — Metagenomic Sequencing Research,1,,,
+org_oliver_crook_travel_grant_for_biological_attribution_event,org,Oliver Crook — Travel Grant for Biological Attribution Event,1,,,
+org_foundation_for_professional_development_fund,org,Foundation for Professional Development Fund,1,,,
+org_tyler_whitmer_scoping_work_for_biosecurity_legal_research,org,Tyler Whitmer — Scoping Work for Biosecurity Legal Research,1,,,
+org_open_philanthropy_technology_policy_fellowship_2022,org,Open Philanthropy Technology Policy Fellowship (2022),1,,,
+org_national_animal_disease_center,org,National Animal Disease Center,1,,,
+org_translational_health_science_and_technology_institute,org,Translational Health Science and Technology Institute,1,,,
+org_cate_hall_self_study_for_career_transition,org,Cate Hall — Self-Study for Career Transition,1,,,
+org_andrew_szanton_operation_warp_speed_memoir,org,Andrew Szanton — Operation Warp Speed Memoir,1,,,
+org_chelsea_liang_biosecurity_policy_in_australia,org,Chelsea Liang — Biosecurity Policy in Australia,1,,,
+org_helena,org,Helena,1,,,
+org_travel_grants_for_the_biological_weapons_convention_review_c,org,Travel Grants for the Biological Weapons Convention Review Conference (2022),1,,,
+org_funding_for_projects_to_estimate_biological_risk,org,Funding for Projects to Estimate Biological Risk,1,,,
+org_university_of_maine,org,University of Maine,1,,,
+org_university_of_connecticut_health_center,org,University of Connecticut Health Center,1,,,
+org_flanders_institute_of_biotechnology,org,Flanders Institute of Biotechnology,1,,,
+org_university_of_science_technical_and_technologies_de_bamako,org,University Of Science Technical And Technologies De Bamako,1,,,
+org_institut_des_sciences_et_techniques_bobo_dioulasso,org,"Institut des Sciences et Techniques, Bobo-Dioulasso",1,,,
+org_institut_de_recherche_en_sciences_de_la_sant,org,Institut de Recherche en Sciences de la Santé,1,,,
+org_the_kemri_wellcome_trust_research_programme,org,The KEMRI-Wellcome Trust Research Programme,1,,,
+org_ifakara_health_institute,org,Ifakara Health Institute,1,,,
+org_effective_altruism_foundation,org,Effective Altruism Foundation,1,,,
+org_nigerian_institute_of_medical_research,org,Nigerian Institute of Medical Research,1,,,
+org_biosecurity_funding_for_individuals,org,Biosecurity Funding for Individuals,1,,,
+org_george_washington_university,org,George Washington University,1,,,
+org_californians_against_pandemics,org,Californians Against Pandemics,1,,,
+org_center_for_security_and_emerging_technology,org,Center for Security and Emerging Technology,1,,,
+org_tampere_university,org,Tampere University,1,,,
+org_weill_cornell_medical_college,org,Weill Cornell Medical College,1,,,
+org_center_for_a_new_american_security,org,Center for a New American Security,1,,,
+org_immune_observatory,org,Immune Observatory,1,,,
+org_global_health_security_network,org,Global Health Security Network,1,,,
+org_binx,org,Binx,1,,,
+org_icosavax,org,Icosavax,1,,,
+org_acceleratinght,org,AcceleratingHT,1,,,
+org_riboscience,org,Riboscience,1,,,
+org_center_for_population_level_bioethics,org,Center for Population-Level Bioethics,1,,,
+org_gryphon_scientific,org,Gryphon Scientific,1,https://www.gryphonscientific.com/,,company
+org_brown_institute_for_media_innovation,org,Brown Institute for Media Innovation,1,,,
+org_sea_long_global_respiratory_systems,org,Sea-Long Global Respiratory Systems,1,,,
+org_against_covid_19,org,Against COVID-19,1,,,
+org_university_of_colorado,org,University of Colorado,1,,,
+org_sherlock_biosciences,org,Sherlock Biosciences,1,,,
+org_university_of_sydney,org,University of Sydney,1,,,
+org_university_of_california_san_francisco,org,"University of California, San Francisco",1,,,
+org_american_society_for_microbiology,org,American Society for Microbiology,1,,,
+org_david_manheim_research_on_existential_risk_from_infectious_d,org,David Manheim — Research on Existential Risk from Infectious Disease,1,,,
+org_carnegie_endowment_for_international_peace,org,Carnegie Endowment for International Peace,1,,,
+org_interacademy_partnership,org,InterAcademy Partnership,1,,,
+org_north_carolina_state_university,org,North Carolina State University,1,,,
+org_biobricks_foundation,org,BioBricks Foundation,1,,,
+org_national_academies_of_sciences_engineering_and_medicine,org,"National Academies of Sciences, Engineering, and Medicine",1,,,
+org_smithsonian_institution,org,Smithsonian Institution,1,,,
+org_future_of_humanity_institute,org,Future of Humanity Institute,1,,,

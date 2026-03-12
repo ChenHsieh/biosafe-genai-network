@@ -1,0 +1,6 @@
+paths-ignore:
+  - "data/**"
+  - "scripts/**"
+matches-ignore:
+  - name: "OpenReview paper/profile IDs"
+    match: "paper_*"

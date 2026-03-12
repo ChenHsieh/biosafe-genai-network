@@ -2,12 +2,17 @@
 """
 Generate v3 HTML: pre-compute all layouts in Python, NO animation/physics in the browser.
 The browser just renders static SVG and handles interaction (hover, click, zoom, pan, drag).
+
+Sprint 2: Added funder, program, org node types and funds edge type.
 """
-import json, math, random
+import json, math, random, os
 
 random.seed(42)
 
-with open("graph_data.json") as f:
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+GRAPH_FILE = os.path.join(BASE_DIR, "data", "graph_data.json")
+
+with open(GRAPH_FILE) as f:
     graph = json.load(f)
 
 nodes = graph["nodes"]
@@ -21,63 +26,84 @@ for e in edges:
     adj.setdefault(e["source"], []).append(e["target"])
     adj.setdefault(e["target"], []).append(e["source"])
 
+# All known node types (Sprint 1 + Sprint 2)
+ALL_NODE_TYPES = ["funder", "program", "presentation", "author", "department", "institution", "org"]
+ALL_EDGE_TYPES = ["funds", "authored", "current_affiliation", "past_affiliation", "part_of"]
+
 # =======================================
 # PRE-COMPUTE LAYOUTS IN PYTHON
 # =======================================
 
-# We'll compute 3 layouts and embed all positions.
-# The browser just picks which set of (x,y) to use.
-
-W, H = 1400, 900  # reference viewport
+W, H = 1600, 900  # wider for more columns
 
 def compute_column_layout():
-    """4 columns: Presentations | Authors | Departments | Institutions"""
-    cols_order = ["presentation", "author", "department", "institution"]
+    """6 columns: Funders | Programs | Institutions+Orgs | Departments | Authors | Presentations"""
+    # Left-to-right = funding source → outcome (money flows right)
+    cols_order = ["funder", "program", "institution", "department", "author", "presentation"]
     col_x = {}
-    pad = 80
+    pad = 60
     col_w = (W - pad * 2) / len(cols_order)
     for i, t in enumerate(cols_order):
         col_x[t] = pad + i * col_w + col_w / 2
+    # Org nodes share the institution column
+    col_x["org"] = col_x["institution"]
 
-    groups = {t: [] for t in cols_order}
+    groups = {t: [] for t in cols_order + ["org"]}
     for n in nodes:
         if n["type"] in groups:
             groups[n["type"]].append(n)
 
     # Sort by degree descending within each column
     for t in groups:
-        groups[t].sort(key=lambda n: -n["degree"])
+        groups[t].sort(key=lambda n: -n.get("degree", 0))
+
+    # Merge org into institution column for layout, but keep them visually distinct
+    inst_and_org = groups["institution"] + groups["org"]
+    inst_and_org.sort(key=lambda n: -n.get("degree", 0))
 
     positions = {}
-    for t, arr in groups.items():
+    for t in ["funder", "program", "department", "author", "presentation"]:
+        arr = groups[t]
         if not arr:
             continue
-        spacing = min(20, (H - 100) / max(len(arr), 1))
+        spacing = min(22, (H - 100) / max(len(arr), 1))
         total_h = len(arr) * spacing
         start_y = max(50, (H - total_h) / 2)
         cx = col_x[t]
         for i, n in enumerate(arr):
             positions[n["id"]] = (cx, start_y + i * spacing)
 
+    # Institution + Org column
+    if inst_and_org:
+        spacing = min(18, (H - 100) / max(len(inst_and_org), 1))
+        total_h = len(inst_and_org) * spacing
+        start_y = max(50, (H - total_h) / 2)
+        cx = col_x["institution"]
+        for i, n in enumerate(inst_and_org):
+            positions[n["id"]] = (cx, start_y + i * spacing)
+
     return positions
 
 
 def compute_radial_layout():
-    """Concentric rings: presentations in center, then authors, dept, institutions."""
-    rings = {"presentation": 60, "author": 200, "department": 320, "institution": 400}
-    groups = {"presentation": [], "author": [], "department": [], "institution": []}
+    """Concentric rings, same order as column: funder→program→institution→dept→author→presentation."""
+    # Rings ordered center-out = funding source → outcome
+    rings = {"funder": 30, "program": 100, "institution": 185, "org": 185,
+             "department": 270, "author": 355, "presentation": 430}
+    groups = {}
+    for t in ALL_NODE_TYPES:
+        groups[t] = []
     for n in nodes:
         if n["type"] in groups:
             groups[n["type"]].append(n)
 
-    # Sort by degree descending so high-degree nodes are spread
     for t in groups:
-        groups[t].sort(key=lambda n: -n["degree"])
+        groups[t].sort(key=lambda n: -n.get("degree", 0))
 
     cx, cy = W / 2, H / 2
     positions = {}
     for t, arr in groups.items():
-        r = rings[t]
+        r = rings.get(t, 300)
         for i, n in enumerate(arr):
             angle = (i / max(len(arr), 1)) * math.pi * 2 - math.pi / 2
             positions[n["id"]] = (cx + math.cos(angle) * r, cy + math.sin(angle) * r)
@@ -85,18 +111,21 @@ def compute_radial_layout():
     return positions
 
 
-def compute_force_layout(iterations=400):
-    """Force-directed with type-cluster separation. Fully converged in Python."""
+def compute_force_layout(iterations=500):
+    """Force-directed with strong type-cluster separation to avoid cross-type overlap."""
     pos = {}
     vel = {}
     cx, cy = W / 2, H / 2
 
-    # Type cluster centers — spread far apart so types don't overlap
+    # Spread type centers far apart — arranged so same-order as column (left→right)
     type_centers = {
-        "presentation": (cx - 350, cy - 200),
-        "author":       (cx, cy),
-        "department":   (cx + 200, cy + 250),
-        "institution":  (cx + 350, cy - 100),
+        "funder":       (cx - 620, cy - 50),
+        "program":      (cx - 400, cy - 220),
+        "institution":  (cx - 150, cy - 280),
+        "org":          (cx - 100, cy + 220),
+        "department":   (cx + 120, cy + 280),
+        "author":       (cx + 300, cy),
+        "presentation": (cx + 520, cy - 100),
     }
 
     node_type = {}
@@ -108,10 +137,10 @@ def compute_force_layout(iterations=400):
     for t, arr in groups.items():
         tcx, tcy = type_centers.get(t, (cx, cy))
         for i, n in enumerate(arr):
-            angle = (i / len(arr)) * math.pi * 2
+            angle = (i / max(len(arr), 1)) * math.pi * 2
             r = 30 + math.sqrt(len(arr)) * 14
-            pos[n["id"]] = [tcx + math.cos(angle) * r + random.uniform(-15, 15),
-                            tcy + math.sin(angle) * r + random.uniform(-15, 15)]
+            pos[n["id"]] = [tcx + math.cos(angle) * r + random.uniform(-10, 10),
+                            tcy + math.sin(angle) * r + random.uniform(-10, 10)]
             vel[n["id"]] = [0.0, 0.0]
 
     node_ids = [n["id"] for n in nodes]
@@ -120,22 +149,26 @@ def compute_force_layout(iterations=400):
     for iteration in range(iterations):
         alpha = max(0.001, 1.0 - iteration / iterations)
 
-        # Repulsion
+        # Repulsion — stronger multiplier for cross-type pairs to prevent overlap
         for i in range(len(node_ids)):
             for j in range(i + 1, len(node_ids)):
                 ai, bi = node_ids[i], node_ids[j]
                 dx = pos[bi][0] - pos[ai][0]
                 dy = pos[bi][1] - pos[ai][1]
                 dist = math.sqrt(dx * dx + dy * dy) or 0.1
-                if dist > 400:
+                # Cross-type: use larger repulsion radius and stronger force
+                same_type = node_type[ai] == node_type[bi]
+                radius_cutoff = 300 if same_type else 500
+                base_strength = 350 if same_type else 900
+                if dist > radius_cutoff:
                     continue
-                force = -400 / (dist * dist) * alpha
+                force = -base_strength / (dist * dist) * alpha
                 fx = dx / dist * force
                 fy = dy / dist * force
                 vel[ai][0] -= fx; vel[ai][1] -= fy
                 vel[bi][0] += fx; vel[bi][1] += fy
 
-        # Attraction along edges (weaker to preserve cluster shape)
+        # Attraction along edges (weaker — cluster gravity does the heavy lifting)
         for e in edges:
             s, t = e["source"], e["target"]
             if s not in id_set or t not in id_set:
@@ -143,25 +176,26 @@ def compute_force_layout(iterations=400):
             dx = pos[t][0] - pos[s][0]
             dy = pos[t][1] - pos[s][1]
             dist = math.sqrt(dx * dx + dy * dy) or 0.1
-            ideal = 100
-            force = (dist - ideal) * 0.012 * alpha
+            ideal = 120
+            force = (dist - ideal) * 0.008 * alpha
             fx = dx / dist * force
             fy = dy / dist * force
             vel[s][0] += fx; vel[s][1] += fy
             vel[t][0] -= fx; vel[t][1] -= fy
 
-        # Type-cluster gravity: each node pulled toward its type center
+        # Strong type-cluster gravity — pulls each node firmly toward its cluster center
+        gravity_strength = 0.012  # increased from 0.004
         for nid in node_ids:
             tcx, tcy = type_centers.get(node_type[nid], (cx, cy))
-            vel[nid][0] += (tcx - pos[nid][0]) * 0.004 * alpha
-            vel[nid][1] += (tcy - pos[nid][1]) * 0.004 * alpha
+            vel[nid][0] += (tcx - pos[nid][0]) * gravity_strength * alpha
+            vel[nid][1] += (tcy - pos[nid][1]) * gravity_strength * alpha
 
         # Gentle global center gravity
         for nid in node_ids:
             vel[nid][0] += (cx - pos[nid][0]) * 0.0003 * alpha
             vel[nid][1] += (cy - pos[nid][1]) * 0.0003 * alpha
 
-        # Integrate with heavy damping
+        # Integrate with damping
         for nid in node_ids:
             vel[nid][0] *= 0.4; vel[nid][1] *= 0.4
             speed = math.sqrt(vel[nid][0] ** 2 + vel[nid][1] ** 2)
@@ -188,6 +222,20 @@ for n in nodes:
     n["pos_column"] = list(column_pos.get(nid, (W/2, H/2)))
     n["pos_radial"] = list(radial_pos.get(nid, (W/2, H/2)))
 
+# Compute stats
+total_papers = sum(1 for n in nodes if n["type"] == "presentation")
+total_authors = sum(1 for n in nodes if n["type"] == "author")
+total_insts = sum(1 for n in nodes if n["type"] in ("institution", "org"))
+total_funding = sum(e.get("amount", 0) or 0 for e in edges if e.get("type") == "funds" and e.get("amount"))
+bridge_count = sum(1 for n in nodes if n.get("is_bridge"))
+
+graph["metadata"] = graph.get("metadata", {})
+graph["metadata"]["total_papers"] = total_papers
+graph["metadata"]["total_authors"] = total_authors
+graph["metadata"]["total_institutions"] = total_insts
+graph["metadata"]["total_funding"] = total_funding
+graph["metadata"]["bridge_nodes"] = bridge_count
+
 graph_json = json.dumps(graph)
 
 # =======================================
@@ -198,12 +246,12 @@ html = r"""<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BioSafe GenAI 2025 — Author-Affiliation Network</title>
+<title>Biosecurity Atlas — BioSafe GenAI 2025</title>
 <style>
 *{margin:0;padding:0;box-sizing:border-box}
 body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a0e17;color:#e0e6f0;overflow:hidden}
 #app{display:flex;height:100vh;width:100vw}
-#sidebar{width:360px;min-width:360px;background:#111827;border-right:1px solid #1e293b;display:flex;flex-direction:column;z-index:10}
+#sidebar{width:380px;min-width:380px;background:#111827;border-right:1px solid #1e293b;display:flex;flex-direction:column;z-index:10}
 #sidebar-header{padding:14px 16px;border-bottom:1px solid #1e293b}
 #sidebar-header h1{font-size:14px;font-weight:700;color:#f8fafc}
 #sidebar-header p{font-size:11px;color:#94a3b8;margin-top:2px}
@@ -231,10 +279,12 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .card .tag{font-size:9px;display:inline-block;padding:1px 6px;border-radius:3px;margin-bottom:6px}
 .card .links a{display:inline-block;margin:2px 4px 2px 0;padding:2px 7px;font-size:10px;color:#93c5fd;background:#1e3a5f;border-radius:3px;text-decoration:none}
 .card .links a:hover{background:#2563eb;color:#fff}
+.card .funding{font-size:11px;color:#fbbf24;margin-top:4px}
 .conns h4{font-size:10px;color:#94a3b8;margin:8px 0 3px}
 .conn{font-size:11px;color:#cbd5e1;padding:1px 0;cursor:pointer}
 .conn:hover{color:#60a5fa}
 .conn .et{font-size:9px;color:#64748b;margin-left:4px}
+.conn .amt{font-size:9px;color:#fbbf24;margin-left:4px}
 #legend{padding:10px 16px;border-top:1px solid #1e293b;font-size:10px;color:#64748b}
 #legend h4{text-transform:uppercase;letter-spacing:.5px;margin-bottom:4px}
 .li{display:flex;align-items:center;gap:5px;margin:2px 0;color:#94a3b8;font-size:11px}
@@ -245,14 +295,15 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
 .tt-t{font-size:10px;color:#94a3b8}
 .tt-d{font-size:10px;color:#64748b;margin-top:1px}
 .col-lbl{position:absolute;top:10px;font-size:11px;font-weight:700;color:#334155;text-transform:uppercase;letter-spacing:1px;pointer-events:none;z-index:5;display:none;text-align:center}
+.bridge-badge{display:inline-block;font-size:8px;background:#fbbf24;color:#000;padding:0 4px;border-radius:3px;margin-left:4px;font-weight:700}
 </style>
 </head>
 <body>
 <div id="app">
   <div id="sidebar">
     <div id="sidebar-header">
-      <h1>BioSafe GenAI 2025</h1>
-      <p>NeurIPS Workshop — Author &amp; Affiliation Network</p>
+      <h1>Biosecurity Atlas</h1>
+      <p>NeurIPS BioSafe GenAI 2025 + Funding Network</p>
     </div>
     <div id="controls">
       <div class="cg"><label>Layout</label>
@@ -262,15 +313,22 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
           <button class="btn" data-layout="radial">Radial</button>
         </div>
       </div>
+      <div class="cg"><label>Layer</label>
+        <div class="row">
+          <button class="btn active" data-layer="all">All</button>
+          <button class="btn" data-layer="workshop">Workshop Only</button>
+          <button class="btn" data-layer="funding">Funding Only</button>
+        </div>
+      </div>
       <div class="cg"><label>Complexity</label>
         <div class="row">
-          <button class="btn active" data-detail="full">Full (350 nodes)</button>
+          <button class="btn active" data-detail="full">Full</button>
           <button class="btn" data-detail="simple">Simplified</button>
         </div>
       </div>
       <div class="cg"><label>Node Types</label><div class="row" id="filters"></div></div>
       <div class="cg"><label>Edge Types</label><div class="row" id="edge-filters"></div></div>
-      <div class="cg"><label>Search</label><input type="text" id="search" placeholder="Search nodes…" /></div>
+      <div class="cg"><label>Search</label><input type="text" id="search" placeholder="Search nodes..." /></div>
     </div>
     <div id="stats"></div>
     <div id="detail"><div class="placeholder">Click a node to see details</div></div>
@@ -279,59 +337,84 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
   <div id="graph-container">
     <svg id="svg"></svg>
     <div id="tooltip"></div>
-    <div class="col-lbl" id="cl0">Presentations</div>
-    <div class="col-lbl" id="cl1">Authors</div>
-    <div class="col-lbl" id="cl2">Departments</div>
-    <div class="col-lbl" id="cl3">Institutions</div>
+    <div class="col-lbl" id="cl0">Funders</div>
+    <div class="col-lbl" id="cl1">Programs</div>
+    <div class="col-lbl" id="cl2">Institutions</div>
+    <div class="col-lbl" id="cl3">Departments</div>
+    <div class="col-lbl" id="cl4">Authors</div>
+    <div class="col-lbl" id="cl5">Presentations</div>
   </div>
 </div>
 <script>
 const G = __GRAPH_JSON__;
-const REF_W = 1400, REF_H = 900;
+const REF_W = 1600, REF_H = 900;
 
 const COL={
+  funder:{fill:'#ef4444',stroke:'#b91c1c',label:'Funder',shape:'diamond'},
+  program:{fill:'#f97316',stroke:'#c2410c',label:'Program',shape:'rect'},
   presentation:{fill:'#f59e0b',stroke:'#b45309',label:'Presentation'},
   author:{fill:'#3b82f6',stroke:'#1d4ed8',label:'Author'},
   institution:{fill:'#10b981',stroke:'#047857',label:'Institution'},
-  department:{fill:'#8b5cf6',stroke:'#6d28d9',label:'Department'}
+  department:{fill:'#8b5cf6',stroke:'#6d28d9',label:'Department'},
+  org:{fill:'#14b8a6',stroke:'#0d9488',label:'Organization',shape:'rect'},
 };
-const ECOL={authored:'#f59e0b',current_affiliation:'#10b981',past_affiliation:'#065f46',part_of:'#8b5cf6'};
+const ECOL={funds:'#ef4444',authored:'#f59e0b',current_affiliation:'#10b981',past_affiliation:'#065f46',part_of:'#8b5cf6'};
+
+// Layer definitions: which node/edge types belong to each layer
+const LAYERS={
+  all:{nodes:new Set(Object.keys(COL)),edges:new Set(Object.keys(ECOL))},
+  workshop:{nodes:new Set(['presentation','author','institution','department']),edges:new Set(['authored','current_affiliation','past_affiliation','part_of'])},
+  funding:{nodes:new Set(['funder','program','institution','org']),edges:new Set(['funds'])},
+};
 
 let allNodes=G.nodes, allEdges=G.edges, nodeMap={};
 allNodes.forEach(n=>nodeMap[n.id]=n);
 
 let layout='column';
-let filtType={presentation:true,author:true,institution:true,department:true};
-let filtEdge={authored:true,current_affiliation:true,past_affiliation:true,part_of:true};
+let layer='all';
+let filtType={};
+Object.keys(COL).forEach(t=>filtType[t]=true);
+let filtEdge={};
+Object.keys(ECOL).forEach(t=>filtEdge[t]=true);
 let searchQ='', selNode=null, hovNode=null;
 let simpleMode=false;
 let tx=0,ty=0,tk=1;
-
-// Which nodes/edges are active (after simplification filter)
 let activeNodes=allNodes, activeEdges=allEdges;
 
 function setSimple(on){
   simpleMode=on;
   if(!on){ activeNodes=allNodes; activeEdges=allEdges; }
   else {
-    // Keep: all presentations, all authors, all departments,
-    // institutions with degree>=3 OR with current_affiliation edges
     const keepInst=new Set();
-    allEdges.forEach(e=>{if(e.type==='current_affiliation'||e.type==='part_of'){keepInst.add(e.target);keepInst.add(e.source);}});
+    allEdges.forEach(e=>{if(e.type==='current_affiliation'||e.type==='part_of'||e.type==='funds'){keepInst.add(e.target);keepInst.add(e.source);}});
     allNodes.forEach(n=>{if(n.type==='institution'&&n.degree>=3) keepInst.add(n.id);});
     const keep=new Set();
-    allNodes.forEach(n=>{if(n.type!=='institution'||keepInst.has(n.id)) keep.add(n.id);});
+    allNodes.forEach(n=>{
+      if(n.type==='funder'||n.type==='program'||n.type==='org') keep.add(n.id);
+      else if(n.type!=='institution'||keepInst.has(n.id)) keep.add(n.id);
+    });
     activeNodes=allNodes.filter(n=>keep.has(n.id));
     activeEdges=allEdges.filter(e=>keep.has(e.source)&&keep.has(e.target));
   }
 }
 
-function vis(){ return activeNodes.filter(n=>filtType[n.type]&&(!searchQ||n.label.toLowerCase().includes(searchQ))); }
-function visE(){ const s=new Set(vis().map(n=>n.id)); return activeEdges.filter(e=>filtEdge[e.type]&&s.has(e.source)&&s.has(e.target)); }
-function neighbors(id){ const r=[]; activeEdges.forEach(e=>{
-  if(e.source===id&&nodeMap[e.target]) r.push({n:nodeMap[e.target],e});
-  if(e.target===id&&nodeMap[e.source]) r.push({n:nodeMap[e.source],e});
-}); return r; }
+function vis(){
+  const layerTypes=LAYERS[layer].nodes;
+  return activeNodes.filter(n=>layerTypes.has(n.type)&&filtType[n.type]&&(!searchQ||n.label.toLowerCase().includes(searchQ)));
+}
+function visE(){
+  const s=new Set(vis().map(n=>n.id));
+  const layerEdges=LAYERS[layer].edges;
+  return activeEdges.filter(e=>layerEdges.has(e.type)&&filtEdge[e.type]&&s.has(e.source)&&s.has(e.target));
+}
+function neighbors(id){
+  const r=[];
+  activeEdges.forEach(e=>{
+    if(e.source===id&&nodeMap[e.target]) r.push({n:nodeMap[e.target],e});
+    if(e.target===id&&nodeMap[e.source]) r.push({n:nodeMap[e.source],e});
+  });
+  return r;
+}
 
 const svg=document.getElementById('svg'), ctr=document.getElementById('graph-container'), tip=document.getElementById('tooltip');
 let W,H;
@@ -339,16 +422,18 @@ function resize(){ const r=ctr.getBoundingClientRect(); W=r.width; H=r.height; s
 resize();
 window.addEventListener('resize',()=>{resize();render();});
 
-function nr(n){ return Math.max(3,Math.min(18,2+n.degree*1.1)); }
+function nr(n){
+  if(n.type==='funder') return 20;
+  if(n.type==='program') return Math.max(8,Math.min(16,4+n.degree*1.5));
+  return Math.max(3,Math.min(18,2+n.degree*1.1));
+}
 
-// Get node position for current layout, scaled to viewport
 function getPos(n){
   const key='pos_'+layout;
   const p=n[key]||[REF_W/2,REF_H/2];
   return [p[0]*W/REF_W, p[1]*H/REF_H];
 }
 
-// Animated transition
 let animating=false, animStart=0, animDur=600;
 let posFrom={}, posTo={};
 
@@ -363,7 +448,6 @@ function animateToLayout(){
   animating=true;
   function tick(now){
     let t=Math.min(1,(now-animStart)/animDur);
-    // ease out cubic
     t=1-Math.pow(1-t,3);
     vn.forEach(n=>{
       const f=posFrom[n.id]||getPos(n), to=posTo[n.id]||getPos(n);
@@ -377,10 +461,17 @@ function animateToLayout(){
   requestAnimationFrame(tick);
 }
 
-// ===== RENDER (pure, no physics) =====
+function fmtMoney(v){
+  if(!v) return '';
+  if(v>=1e9) return '$'+(v/1e9).toFixed(1)+'B';
+  if(v>=1e6) return '$'+(v/1e6).toFixed(1)+'M';
+  if(v>=1e3) return '$'+(v/1e3).toFixed(0)+'K';
+  return '$'+v;
+}
+
+// ===== RENDER =====
 function render(){
   const vn=vis(), ve=visE();
-  // Ensure positions exist
   vn.forEach(n=>{ if(n._rx==null){const p=getPos(n);n._rx=p[0];n._ry=p[1];} });
 
   svg.innerHTML='';
@@ -388,7 +479,6 @@ function render(){
   g.setAttribute('transform','translate('+tx+','+ty+') scale('+tk+')');
   svg.appendChild(g);
 
-  // Highlight set: selected node takes priority over hover
   const hn=selNode||hovNode;
   const hl=new Set();
   if(hn){ hl.add(hn.id); neighbors(hn.id).forEach(({n})=>hl.add(n.id)); }
@@ -401,11 +491,13 @@ function render(){
     ln.setAttribute('x1',a._rx);ln.setAttribute('y1',a._ry);
     ln.setAttribute('x2',b._rx);ln.setAttribute('y2',b._ry);
     let col=ECOL[e.type]||'#444',w=0.4,op=0.2;
+    if(e.type==='funds'){w=1.2;op=0.35;}
     if(hn){
-      if(e.source===hn.id||e.target===hn.id){col=COL[hn.type]?.fill||'#fff';w=1.8;op=0.9;}
+      if(e.source===hn.id||e.target===hn.id){col=COL[hn.type]?.fill||'#fff';w=e.type==='funds'?2.5:1.8;op=0.9;}
       else op=0.03;
     }
     ln.setAttribute('stroke',col);ln.setAttribute('stroke-width',w);ln.setAttribute('opacity',op);
+    if(e.type==='funds') ln.setAttribute('stroke-dasharray','6,3');
     g.appendChild(ln);
   });
 
@@ -415,8 +507,31 @@ function render(){
     let op=hn&&!hl.has(n.id)?0.08:1;
     let sw=n===selNode?2.5:0.8, sc=n===selNode?'#fff':c.stroke;
     const x=n._rx, y=n._ry;
+    const shape=c.shape||'circle';
 
-    if(n.subtype==='oral'){
+    if(n.is_bridge){
+      // Bridge node: double ring
+      const ring=document.createElementNS('http://www.w3.org/2000/svg','circle');
+      ring.setAttribute('cx',x);ring.setAttribute('cy',y);ring.setAttribute('r',r+4);
+      ring.setAttribute('fill','none');ring.setAttribute('stroke','#fbbf24');ring.setAttribute('stroke-width',1.5);
+      ring.setAttribute('stroke-dasharray','3,2');ring.setAttribute('opacity',op*0.7);
+      g.appendChild(ring);
+    }
+
+    if(shape==='diamond'){
+      const s=r*1.3;
+      const p=document.createElementNS('http://www.w3.org/2000/svg','polygon');
+      p.setAttribute('points',x+','+(y-s)+' '+(x+s)+','+y+' '+x+','+(y+s)+' '+(x-s)+','+y);
+      p.setAttribute('fill',c.fill);p.setAttribute('stroke',sc);p.setAttribute('stroke-width',sw);
+      p.setAttribute('opacity',op);p.dataset.id=n.id;p.style.cursor='pointer';g.appendChild(p);
+    } else if(shape==='rect'){
+      const rw=r*2, rh=r*1.4;
+      const rc=document.createElementNS('http://www.w3.org/2000/svg','rect');
+      rc.setAttribute('x',x-rw/2);rc.setAttribute('y',y-rh/2);rc.setAttribute('width',rw);rc.setAttribute('height',rh);
+      rc.setAttribute('rx',3);
+      rc.setAttribute('fill',c.fill);rc.setAttribute('stroke',sc);rc.setAttribute('stroke-width',sw);
+      rc.setAttribute('opacity',op);rc.dataset.id=n.id;rc.style.cursor='pointer';g.appendChild(rc);
+    } else if(n.subtype==='oral'){
       const s=r*1.3;
       const p=document.createElementNS('http://www.w3.org/2000/svg','polygon');
       p.setAttribute('points',x+','+(y-s)+' '+(x+s)+','+y+' '+x+','+(y+s)+' '+(x-s)+','+y);
@@ -430,23 +545,24 @@ function render(){
     }
 
     // Labels
-    const showLabel=n.degree>=8||n===selNode||n===hovNode||(hn&&hl.has(n.id)&&n.degree>=2);
+    const showLabel=n.degree>=8||n.type==='funder'||n.type==='program'||n===selNode||n===hovNode||(hn&&hl.has(n.id)&&n.degree>=2);
     if(showLabel){
       const t=document.createElementNS('http://www.w3.org/2000/svg','text');
       t.setAttribute('x',x);t.setAttribute('y',y-r-3);
       t.setAttribute('text-anchor','middle');t.setAttribute('fill','#cbd5e1');
-      t.setAttribute('font-size',Math.max(7,Math.min(11,5+n.degree*0.3)));
+      t.setAttribute('font-size',Math.max(7,Math.min(12,5+n.degree*0.3)));
       t.setAttribute('opacity',op);t.setAttribute('pointer-events','none');
-      const mx=35;t.textContent=n.label.length>mx?n.label.slice(0,mx)+'…':n.label;
+      const mx=40;t.textContent=n.label.length>mx?n.label.slice(0,mx)+'...':n.label;
       g.appendChild(t);
     }
   });
 
   // Column headers
-  ['cl0','cl1','cl2','cl3'].forEach(id=>document.getElementById(id).style.display='none');
+  const colLabels=['cl0','cl1','cl2','cl3','cl4','cl5'];
+  colLabels.forEach(id=>document.getElementById(id).style.display='none');
   if(layout==='column'){
-    const pad=80*W/REF_W, colW=(W-pad*2)/4;
-    ['cl0','cl1','cl2','cl3'].forEach((id,i)=>{
+    const pad=60*W/REF_W, colW=(W-pad*2)/6;
+    colLabels.forEach((id,i)=>{
       const el=document.getElementById(id);
       el.style.display='block';
       el.style.left=(pad+i*colW+colW/2-50)+'px';
@@ -454,12 +570,24 @@ function render(){
     });
   }
 
-  document.getElementById('stats').textContent=vn.length+' nodes, '+ve.length+' edges | '+G.metadata.total_papers+' papers, '+G.metadata.total_authors+' authors';
+  // Stats
+  const meta=G.metadata||{};
+  let statTxt=vn.length+' nodes, '+ve.length+' edges';
+  if(meta.total_papers) statTxt+=' | '+meta.total_papers+' papers, '+meta.total_authors+' authors';
+  if(meta.total_funding) statTxt+=' | Funding: '+fmtMoney(meta.total_funding);
+  if(meta.bridge_nodes) statTxt+=' | '+meta.bridge_nodes+' bridge nodes';
+  document.getElementById('stats').textContent=statTxt;
 }
 
 // ===== INTERACTION =====
 function showTip(n,x,y){
-  tip.innerHTML='<div class="tt-l">'+n.label+'</div><div class="tt-t">'+n.type+(n.subtype!==n.type?' · '+n.subtype:'')+'</div><div class="tt-d">'+n.degree+' connections</div>';
+  let extra='';
+  if(n.is_bridge) extra=' <span style="color:#fbbf24">[BRIDGE]</span>';
+  if(n.type==='funder'||n.type==='program'){
+    const totalFunding=neighbors(n.id).reduce((s,{e})=>s+(e.amount||0),0);
+    if(totalFunding) extra+='<br>Total: '+fmtMoney(totalFunding);
+  }
+  tip.innerHTML='<div class="tt-l">'+n.label+extra+'</div><div class="tt-t">'+n.type+(n.subtype&&n.subtype!==n.type?' . '+n.subtype:'')+'</div><div class="tt-d">'+n.degree+' connections</div>';
   tip.style.opacity=1;tip.style.left=(x+14)+'px';tip.style.top=(y-8)+'px';
 }
 
@@ -470,14 +598,36 @@ function showInfo(n){
     if(v&&typeof v==='string'&&v.startsWith('http')) lnk+='<a href="'+v+'" target="_blank">'+k+'</a>';
     else if(v) lnk+='<span style="font-size:10px;color:#94a3b8;margin-right:6px">'+k+': '+v+'</span>';
   });
+  if(n.url) lnk+='<a href="'+n.url+'" target="_blank">Website</a>';
+
+  // Funding info
+  let fundingHtml='';
+  if(n.type==='funder'||n.type==='program'||n.type==='org'||n.type==='institution'){
+    const fundEdges=neighbors(n.id).filter(({e})=>e.type==='funds');
+    if(fundEdges.length>0){
+      const total=fundEdges.reduce((s,{e})=>s+(e.amount||0),0);
+      fundingHtml='<div class="funding">Funding: '+fmtMoney(total)+' across '+fundEdges.length+' grants</div>';
+    }
+  }
+
+  const bridgeBadge=n.is_bridge?'<span class="bridge-badge">BRIDGE</span>':'';
+
   const nb=neighbors(n.id), grp={};
-  nb.forEach(({n:nn,e})=>{if(!grp[nn.type])grp[nn.type]=[];grp[nn.type].push({n:nn,et:e.type});});
-  let cn='';
-  Object.entries(grp).forEach(([t,items])=>{
-    cn+='<h4 style="color:'+(COL[t]?.fill||'#888')+'">'+(COL[t]?.label||t)+' ('+items.length+')</h4>';
-    items.forEach(({n:nn,et})=>{cn+='<div class="conn" data-id="'+nn.id+'">'+nn.label+'<span class="et">'+et.replace(/_/g,' ')+'</span></div>';});
+  nb.forEach(({n:nn,e})=>{
+    const key=nn.type+'_'+e.type;
+    if(!grp[key])grp[key]={type:nn.type,edgeType:e.type,items:[]};
+    grp[key].items.push({n:nn,e});
   });
-  d.innerHTML='<div class="card"><div class="tag" style="background:'+c+'22;color:'+c+'">'+n.type+(n.subtype!==n.type?' · '+n.subtype:'')+'</div><h3>'+n.label+'</h3>'+(n.tldr?'<p style="font-size:11px;color:#94a3b8;margin-top:5px">'+n.tldr+'</p>':'')+'<div class="links" style="margin-top:6px">'+lnk+'</div><div class="conns">'+cn+'</div></div>';
+  let cn='';
+  Object.values(grp).forEach(({type:t,edgeType:et,items})=>{
+    cn+='<h4 style="color:'+(COL[t]?.fill||'#888')+'">'+(COL[t]?.label||t)+' - '+et.replace(/_/g,' ')+' ('+items.length+')</h4>';
+    items.sort((a,b)=>(b.e.amount||0)-(a.e.amount||0));
+    items.forEach(({n:nn,e})=>{
+      const amtStr=e.amount?'<span class="amt">'+fmtMoney(e.amount)+'</span>':'';
+      cn+='<div class="conn" data-id="'+nn.id+'">'+nn.label+amtStr+'<span class="et">'+et.replace(/_/g,' ')+'</span></div>';
+    });
+  });
+  d.innerHTML='<div class="card"><div class="tag" style="background:'+c+'22;color:'+c+'">'+n.type+(n.subtype&&n.subtype!==n.type?' . '+n.subtype:'')+'</div>'+bridgeBadge+'<h3>'+n.label+'</h3>'+(n.tldr?'<p style="font-size:11px;color:#94a3b8;margin-top:5px">'+n.tldr+'</p>':'')+(n.description?'<p style="font-size:10px;color:#64748b;margin-top:3px">'+n.description+'</p>':'')+fundingHtml+'<div class="links" style="margin-top:6px">'+lnk+'</div><div class="conns">'+cn+'</div></div>';
   d.querySelectorAll('.conn').forEach(el=>el.addEventListener('click',()=>{
     const t=nodeMap[el.dataset.id];if(t){selNode=t;showInfo(t);render();}
   }));
@@ -502,7 +652,6 @@ svg.addEventListener('mousemove',e=>{
     hovNode=cl;
     if(cl){
       showTip(cl,e.clientX-r.left,e.clientY-r.top);
-      // Only re-render hover highlight if nothing is selected
       if(!selNode) render();
     } else {
       tip.style.opacity=0;
@@ -521,14 +670,12 @@ svg.addEventListener('click',e=>{
   if(cl){
     selNode=cl;showInfo(cl);
   } else {
-    // Only deselect if clicking on empty space (not panning)
     selNode=null;hovNode=null;
     document.getElementById('detail').innerHTML='<div class="placeholder">Click a node to see details</div>';
   }
   render();
 });
 
-// Drag nodes
 let dragging=null, dragOff={x:0,y:0}, justDragged=false;
 svg.addEventListener('mousedown',e=>{
   if(e.button!==0) return;
@@ -538,7 +685,6 @@ svg.addEventListener('mousedown',e=>{
   if(cl){dragging=cl;dragOff={x:cl._rx-mx,y:cl._ry-my};e.preventDefault();e.stopPropagation();return;}
 });
 
-// Pan
 let panning=false, panS={x:0,y:0};
 svg.addEventListener('mousedown',e=>{
   if(!dragging&&e.button===0){panning=true;panS={x:e.clientX-tx,y:e.clientY-ty};}
@@ -554,7 +700,6 @@ window.addEventListener('mousemove',e=>{
 });
 window.addEventListener('mouseup',()=>{dragging=null;panning=false;});
 
-// Zoom
 svg.addEventListener('wheel',e=>{
   e.preventDefault();
   const r=ctr.getBoundingClientRect();
@@ -571,6 +716,15 @@ document.querySelectorAll('[data-layout]').forEach(b=>b.addEventListener('click'
   b.classList.add('active'); layout=b.dataset.layout;
   animateToLayout();
 }));
+
+document.querySelectorAll('[data-layer]').forEach(b=>b.addEventListener('click',()=>{
+  document.querySelectorAll('[data-layer]').forEach(x=>x.classList.remove('active'));
+  b.classList.add('active'); layer=b.dataset.layer;
+  tx=0;ty=0;tk=1;
+  vis().forEach(n=>{const p=getPos(n);n._rx=p[0];n._ry=p[1];});
+  render();
+}));
+
 document.querySelectorAll('[data-detail]').forEach(b=>b.addEventListener('click',()=>{
   document.querySelectorAll('[data-detail]').forEach(x=>x.classList.remove('active'));
   b.classList.add('active');
@@ -598,8 +752,11 @@ document.getElementById('search').addEventListener('input',e=>{searchQ=e.target.
 
 const lg=document.getElementById('legend');
 lg.innerHTML='<h4>Legend</h4>';
-Object.entries(COL).forEach(([t,cfg])=>{lg.innerHTML+='<div class="li"><span class="ld" style="background:'+cfg.fill+'"></span>'+cfg.label+'</div>';});
-lg.innerHTML+='<div class="li" style="margin-top:3px"><span style="font-size:10px">&#9670; Oral &nbsp; &#9679; Poster &nbsp; Size = degree</span></div>';
+Object.entries(COL).forEach(([t,cfg])=>{
+  const shape=cfg.shape==='diamond'?'&#9670;':cfg.shape==='rect'?'&#9632;':'&#9679;';
+  lg.innerHTML+='<div class="li"><span style="color:'+cfg.fill+'">'+shape+'</span> '+cfg.label+'</div>';
+});
+lg.innerHTML+='<div class="li" style="margin-top:3px"><span style="font-size:10px;color:#fbbf24">--- = funding &nbsp; &#8856; = bridge node</span></div>';
 
 // ===== BOOT =====
 setSimple(false);
@@ -611,8 +768,12 @@ render();
 
 html = html.replace('__GRAPH_JSON__', graph_json)
 
-out_path = "/sessions/eloquent-jolly-knuth/mnt/outputs/biosafe_network.html"
+out_path = os.path.join(BASE_DIR, "index.html")
 with open(out_path, "w") as f:
     f.write(html)
 
-print(f"Generated v3: {len(html)//1024} KB — ZERO physics in browser, all pre-computed")
+print(f"Generated index.html: {len(html)//1024} KB")
+print(f"  Nodes: {len(nodes)}, Edges: {len(edges)}")
+print(f"  Papers: {total_papers}, Authors: {total_authors}, Institutions: {total_insts}")
+print(f"  Total funding: ${total_funding:,.0f}")
+print(f"  Bridge nodes: {bridge_count}")

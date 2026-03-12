@@ -1,0 +1,496 @@
+{
+  "validated_at": "2026-03-11T22:45:51.699261",
+  "source_file": "/sessions/eloquent-jolly-knuth/mnt/biosafe-genai-network/data/staged/op_edges.json",
+  "raw_csv": "/sessions/eloquent-jolly-knuth/mnt/biosafe-genai-network/data/raw/op_grants_full.csv",
+  "summary": {
+    "total_nodes": 173,
+    "total_edges": 288,
+    "grant_edges": 272,
+    "program_edges": 16,
+    "errors": 0,
+    "warnings": 0,
+    "bridge_nodes": 39,
+    "total_funding": 543350509,
+    "pass": true
+  },
+  "errors": [],
+  "warnings": [],
+  "info": [
+    {
+      "assertion": 7,
+      "message": "Found 39 potential bridge nodes",
+      "bridge_nodes": [
+        {
+          "sprint2_id": "org_university_of_oxford",
+          "sprint2_label": "University of Oxford",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_university_of_chicago",
+          "sprint2_label": "University of Chicago",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_securebio",
+          "sprint2_label": "SecureBio",
+          "sprint1_id": "inst_SecureBio",
+          "sprint1_label": "SecureBio"
+        },
+        {
+          "sprint2_id": "org_university_of_pretoria",
+          "sprint2_label": "University of Pretoria",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_massachusetts_institute_of_technology_media_lab",
+          "sprint2_label": "Massachusetts Institute of Technology Media Lab",
+          "sprint1_id": "inst_Vellore_Institute_of_Technology",
+          "sprint1_label": "Vellore Institute of Technology"
+        },
+        {
+          "sprint2_id": "org_stanford_university",
+          "sprint2_label": "Stanford University",
+          "sprint1_id": "inst_Stanford_University",
+          "sprint1_label": "Stanford University"
+        },
+        {
+          "sprint2_id": "org_university_of_dundee",
+          "sprint2_label": "University of Dundee",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_university_of_utah",
+          "sprint2_label": "University of Utah",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_rutgers_university",
+          "sprint2_label": "Rutgers University",
+          "sprint1_id": "inst_Rutgers_University",
+          "sprint1_label": "Rutgers University"
+        },
+        {
+          "sprint2_id": "org_university_of_washington",
+          "sprint2_label": "University of Washington",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_imperial_college_london",
+          "sprint2_label": "Imperial College London",
+          "sprint1_id": "inst_Imperial_College_London",
+          "sprint1_label": "Imperial College London"
+        },
+        {
+          "sprint2_id": "org_harvard_university",
+          "sprint2_label": "Harvard University",
+          "sprint1_id": "inst_Harvard_University",
+          "sprint1_label": "Harvard University"
+        },
+        {
+          "sprint2_id": "org_the_university_of_queensland_in_america",
+          "sprint2_label": "The University of Queensland in America",
+          "sprint1_id": "inst_The_university_of_Warwick",
+          "sprint1_label": "The university of Warwick"
+        },
+        {
+          "sprint2_id": "org_path",
+          "sprint2_label": "PATH",
+          "sprint1_id": "paper_HQR89TwSjS",
+          "sprint1_label": "GeneBreaker: Jailbreak Attacks against DNA Language Models with Pathogenicity Guidance"
+        },
+        {
+          "sprint2_id": "org_university_of_maryland",
+          "sprint2_label": "University of Maryland",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_university_of_bonn",
+          "sprint2_label": "University of Bonn",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_university_of_amsterdam",
+          "sprint2_label": "University of Amsterdam",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_university_of_edinburgh",
+          "sprint2_label": "University of Edinburgh",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_university_of_texas_medical_branch",
+          "sprint2_label": "University of Texas Medical Branch",
+          "sprint1_id": "inst_University_of_Texas_at_Austin",
+          "sprint1_label": "University of Texas at Austin"
+        },
+        {
+          "sprint2_id": "org_rand_corporation",
+          "sprint2_label": "RAND Corporation",
+          "sprint1_id": "inst_RAND_Corporation",
+          "sprint1_label": "RAND Corporation"
+        },
+        {
+          "sprint2_id": "org_university_of_birmingham",
+          "sprint2_label": "University of Birmingham",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_jake_pencharz_metagenomic_sequencing_research",
+          "sprint2_label": "Jake Pencharz \u2014 Metagenomic Sequencing Research",
+          "sprint1_id": "inst_Meta",
+          "sprint1_label": "Meta"
+        },
+        {
+          "sprint2_id": "org_university_of_southern_california",
+          "sprint2_label": "University of Southern California",
+          "sprint1_id": "inst_University_of_California_Berkeley",
+          "sprint1_label": "University of California Berkeley"
+        },
+        {
+          "sprint2_id": "org_translational_health_science_and_technology_institute",
+          "sprint2_label": "Translational Health Science and Technology Institute",
+          "sprint1_id": "inst_Skolkovo_Institute_of_Science_and_Technology",
+          "sprint1_label": "Skolkovo Institute of Science and Technology"
+        },
+        {
+          "sprint2_id": "org_icahn_school_of_medicine_at_mount_sinai",
+          "sprint2_label": "Icahn School of Medicine at Mount Sinai",
+          "sprint1_id": "inst_Icahn_School_of_Medicine_at_Mount_Sinai",
+          "sprint1_label": "Icahn School of Medicine at Mount Sinai"
+        },
+        {
+          "sprint2_id": "org_university_of_georgia",
+          "sprint2_label": "University of Georgia",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_columbia_university",
+          "sprint2_label": "Columbia University",
+          "sprint1_id": "inst_Columbia_University",
+          "sprint1_label": "Columbia University"
+        },
+        {
+          "sprint2_id": "org_yale_university",
+          "sprint2_label": "Yale University",
+          "sprint1_id": "inst_Yale_University",
+          "sprint1_label": "Yale University"
+        },
+        {
+          "sprint2_id": "org_university_of_maine",
+          "sprint2_label": "University of Maine",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_georgia_institute_of_technology",
+          "sprint2_label": "Georgia Institute of Technology",
+          "sprint1_id": "inst_Skolkovo_Institute_of_Science_and_Technology",
+          "sprint1_label": "Skolkovo Institute of Science and Technology"
+        },
+        {
+          "sprint2_id": "org_university_of_washington_institute_for_protein_design",
+          "sprint2_label": "University of Washington (Institute for Protein Design)",
+          "sprint1_id": "inst_University_of_Washington",
+          "sprint1_label": "University of Washington"
+        },
+        {
+          "sprint2_id": "org_george_washington_university",
+          "sprint2_label": "George Washington University",
+          "sprint1_id": "inst_University_of_Washington",
+          "sprint1_label": "University of Washington"
+        },
+        {
+          "sprint2_id": "org_university_of_california_davis",
+          "sprint2_label": "University of California, Davis",
+          "sprint1_id": "inst_University_of_California__Berkeley",
+          "sprint1_label": "University of California, Berkeley"
+        },
+        {
+          "sprint2_id": "org_university_of_michigan",
+          "sprint2_label": "University of Michigan",
+          "sprint1_id": "inst_University_of_Michigan___Ann_Arbor",
+          "sprint1_label": "University of Michigan - Ann Arbor"
+        },
+        {
+          "sprint2_id": "org_broad_institute",
+          "sprint2_label": "Broad Institute",
+          "sprint1_id": "inst_Broad_Institute",
+          "sprint1_label": "Broad Institute"
+        },
+        {
+          "sprint2_id": "org_university_of_colorado",
+          "sprint2_label": "University of Colorado",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_university_of_sydney",
+          "sprint2_label": "University of Sydney",
+          "sprint1_id": "inst_University_of_Georgia",
+          "sprint1_label": "University of Georgia"
+        },
+        {
+          "sprint2_id": "org_university_of_california_san_francisco",
+          "sprint2_label": "University of California, San Francisco",
+          "sprint1_id": "inst_University_of_California__Berkeley",
+          "sprint1_label": "University of California, Berkeley"
+        },
+        {
+          "sprint2_id": "org_north_carolina_state_university",
+          "sprint2_label": "North Carolina State University",
+          "sprint1_id": "inst_North_Carolina_A_T_State_University",
+          "sprint1_label": "North Carolina A&T State University"
+        }
+      ]
+    }
+  ],
+  "bridge_nodes": [
+    {
+      "sprint2_id": "org_university_of_oxford",
+      "sprint2_label": "University of Oxford",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_university_of_chicago",
+      "sprint2_label": "University of Chicago",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_securebio",
+      "sprint2_label": "SecureBio",
+      "sprint1_id": "inst_SecureBio",
+      "sprint1_label": "SecureBio"
+    },
+    {
+      "sprint2_id": "org_university_of_pretoria",
+      "sprint2_label": "University of Pretoria",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_massachusetts_institute_of_technology_media_lab",
+      "sprint2_label": "Massachusetts Institute of Technology Media Lab",
+      "sprint1_id": "inst_Vellore_Institute_of_Technology",
+      "sprint1_label": "Vellore Institute of Technology"
+    },
+    {
+      "sprint2_id": "org_stanford_university",
+      "sprint2_label": "Stanford University",
+      "sprint1_id": "inst_Stanford_University",
+      "sprint1_label": "Stanford University"
+    },
+    {
+      "sprint2_id": "org_university_of_dundee",
+      "sprint2_label": "University of Dundee",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_university_of_utah",
+      "sprint2_label": "University of Utah",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_rutgers_university",
+      "sprint2_label": "Rutgers University",
+      "sprint1_id": "inst_Rutgers_University",
+      "sprint1_label": "Rutgers University"
+    },
+    {
+      "sprint2_id": "org_university_of_washington",
+      "sprint2_label": "University of Washington",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_imperial_college_london",
+      "sprint2_label": "Imperial College London",
+      "sprint1_id": "inst_Imperial_College_London",
+      "sprint1_label": "Imperial College London"
+    },
+    {
+      "sprint2_id": "org_harvard_university",
+      "sprint2_label": "Harvard University",
+      "sprint1_id": "inst_Harvard_University",
+      "sprint1_label": "Harvard University"
+    },
+    {
+      "sprint2_id": "org_the_university_of_queensland_in_america",
+      "sprint2_label": "The University of Queensland in America",
+      "sprint1_id": "inst_The_university_of_Warwick",
+      "sprint1_label": "The university of Warwick"
+    },
+    {
+      "sprint2_id": "org_path",
+      "sprint2_label": "PATH",
+      "sprint1_id": "paper_HQR89TwSjS",
+      "sprint1_label": "GeneBreaker: Jailbreak Attacks against DNA Language Models with Pathogenicity Guidance"
+    },
+    {
+      "sprint2_id": "org_university_of_maryland",
+      "sprint2_label": "University of Maryland",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_university_of_bonn",
+      "sprint2_label": "University of Bonn",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_university_of_amsterdam",
+      "sprint2_label": "University of Amsterdam",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_university_of_edinburgh",
+      "sprint2_label": "University of Edinburgh",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_university_of_texas_medical_branch",
+      "sprint2_label": "University of Texas Medical Branch",
+      "sprint1_id": "inst_University_of_Texas_at_Austin",
+      "sprint1_label": "University of Texas at Austin"
+    },
+    {
+      "sprint2_id": "org_rand_corporation",
+      "sprint2_label": "RAND Corporation",
+      "sprint1_id": "inst_RAND_Corporation",
+      "sprint1_label": "RAND Corporation"
+    },
+    {
+      "sprint2_id": "org_university_of_birmingham",
+      "sprint2_label": "University of Birmingham",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_jake_pencharz_metagenomic_sequencing_research",
+      "sprint2_label": "Jake Pencharz \u2014 Metagenomic Sequencing Research",
+      "sprint1_id": "inst_Meta",
+      "sprint1_label": "Meta"
+    },
+    {
+      "sprint2_id": "org_university_of_southern_california",
+      "sprint2_label": "University of Southern California",
+      "sprint1_id": "inst_University_of_California_Berkeley",
+      "sprint1_label": "University of California Berkeley"
+    },
+    {
+      "sprint2_id": "org_translational_health_science_and_technology_institute",
+      "sprint2_label": "Translational Health Science and Technology Institute",
+      "sprint1_id": "inst_Skolkovo_Institute_of_Science_and_Technology",
+      "sprint1_label": "Skolkovo Institute of Science and Technology"
+    },
+    {
+      "sprint2_id": "org_icahn_school_of_medicine_at_mount_sinai",
+      "sprint2_label": "Icahn School of Medicine at Mount Sinai",
+      "sprint1_id": "inst_Icahn_School_of_Medicine_at_Mount_Sinai",
+      "sprint1_label": "Icahn School of Medicine at Mount Sinai"
+    },
+    {
+      "sprint2_id": "org_university_of_georgia",
+      "sprint2_label": "University of Georgia",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_columbia_university",
+      "sprint2_label": "Columbia University",
+      "sprint1_id": "inst_Columbia_University",
+      "sprint1_label": "Columbia University"
+    },
+    {
+      "sprint2_id": "org_yale_university",
+      "sprint2_label": "Yale University",
+      "sprint1_id": "inst_Yale_University",
+      "sprint1_label": "Yale University"
+    },
+    {
+      "sprint2_id": "org_university_of_maine",
+      "sprint2_label": "University of Maine",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_georgia_institute_of_technology",
+      "sprint2_label": "Georgia Institute of Technology",
+      "sprint1_id": "inst_Skolkovo_Institute_of_Science_and_Technology",
+      "sprint1_label": "Skolkovo Institute of Science and Technology"
+    },
+    {
+      "sprint2_id": "org_university_of_washington_institute_for_protein_design",
+      "sprint2_label": "University of Washington (Institute for Protein Design)",
+      "sprint1_id": "inst_University_of_Washington",
+      "sprint1_label": "University of Washington"
+    },
+    {
+      "sprint2_id": "org_george_washington_university",
+      "sprint2_label": "George Washington University",
+      "sprint1_id": "inst_University_of_Washington",
+      "sprint1_label": "University of Washington"
+    },
+    {
+      "sprint2_id": "org_university_of_california_davis",
+      "sprint2_label": "University of California, Davis",
+      "sprint1_id": "inst_University_of_California__Berkeley",
+      "sprint1_label": "University of California, Berkeley"
+    },
+    {
+      "sprint2_id": "org_university_of_michigan",
+      "sprint2_label": "University of Michigan",
+      "sprint1_id": "inst_University_of_Michigan___Ann_Arbor",
+      "sprint1_label": "University of Michigan - Ann Arbor"
+    },
+    {
+      "sprint2_id": "org_broad_institute",
+      "sprint2_label": "Broad Institute",
+      "sprint1_id": "inst_Broad_Institute",
+      "sprint1_label": "Broad Institute"
+    },
+    {
+      "sprint2_id": "org_university_of_colorado",
+      "sprint2_label": "University of Colorado",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_university_of_sydney",
+      "sprint2_label": "University of Sydney",
+      "sprint1_id": "inst_University_of_Georgia",
+      "sprint1_label": "University of Georgia"
+    },
+    {
+      "sprint2_id": "org_university_of_california_san_francisco",
+      "sprint2_label": "University of California, San Francisco",
+      "sprint1_id": "inst_University_of_California__Berkeley",
+      "sprint1_label": "University of California, Berkeley"
+    },
+    {
+      "sprint2_id": "org_north_carolina_state_university",
+      "sprint2_label": "North Carolina State University",
+      "sprint1_id": "inst_North_Carolina_A_T_State_University",
+      "sprint1_label": "North Carolina A&T State University"
+    }
+  ]
+}
