@@ -7382,6 +7382,154 @@
       "type": "org",
       "url": "https://epoch.ai",
       "description": "AI research institute tracking AI capabilities and safety evaluations"
+    },
+    {
+      "id": "event_neurips_biosafe_genai_2025",
+      "label": "NeurIPS 2025 BioSafe GenAI Workshop",
+      "type": "presentation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "subtype": "workshop",
+      "url": "https://biosafe-gen-ai.github.io",
+      "description": "Workshop on Biosecurity Safeguards for Generative AI at NeurIPS 2025"
+    },
+    {
+      "id": "inst_University_of_Central_Florida",
+      "label": "University of Central Florida",
+      "type": "institution",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "inst_Universite_de_Montreal",
+      "label": "Universit\u00e9 de Montr\u00e9al",
+      "type": "institution",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "inst_MBZUAI",
+      "label": "MBZUAI",
+      "type": "institution",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "description": "Mohamed bin Zayed University of Artificial Intelligence"
+    },
+    {
+      "id": "org_mila",
+      "label": "Mila",
+      "type": "org",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "description": "Quebec AI Institute",
+      "url": "https://mila.quebec"
+    },
+    {
+      "id": "org_chan_zuckerberg_initiative",
+      "label": "Chan Zuckerberg Initiative",
+      "type": "org",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "url": "https://chanzuckerberg.com"
+    },
+    {
+      "id": "org_iris_medicine",
+      "label": "Iris Medicine",
+      "type": "org",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "org_kelonia_therapeutics",
+      "label": "Kelonia Therapeutics",
+      "type": "org",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "org_nist",
+      "label": "NIST",
+      "type": "org",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "description": "National Institute of Standards and Technology",
+      "url": "https://www.nist.gov"
+    },
+    {
+      "id": "org_nebius",
+      "label": "Nebius",
+      "type": "org",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "url": "https://nebius.com"
+    },
+    {
+      "id": "org_petuum",
+      "label": "Petuum Inc.",
+      "type": "org",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_amrit_singh_bedi",
+      "label": "Amrit Singh Bedi",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_alvaro_velasquez",
+      "label": "Alvaro Velasquez",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_souradip_chakraborty",
+      "label": "Souradip Chakraborty",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_avinash_reddy",
+      "label": "Avinash Reddy",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_yoshua_bengio",
+      "label": "Yoshua Bengio",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_jian_ma",
+      "label": "Jian Ma",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_russ_altman",
+      "label": "Russ Altman",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_eric_xing",
+      "label": "Eric Xing",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_theofanis_karaletsos",
+      "label": "Theofanis Karaletsos",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_megan_blewett",
+      "label": "Megan Blewett",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_sheng_lin_gibson",
+      "label": "Sheng Lin-Gibson",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
+    },
+    {
+      "id": "author_artem_elmuratov",
+      "label": "Artem Elmuratov",
+      "type": "author",
+      "data_source": "https://biosafe-gen-ai.github.io"
     }
   ],
   "edges": [
@@ -17235,6 +17383,348 @@
       "extraction_method": "publication",
       "data_source": "epoch.ai",
       "evidence_node": "pub_futurehouse_lab_bench"
+    },
+    {
+      "id": "org_author_Mengdi_Wang1_event_neurips_biosafe_genai_2025",
+      "source": "author_Mengdi_Wang1",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "organized",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "org_author_Le_Cong2_event_neurips_biosafe_genai_2025",
+      "source": "author_Le_Cong2",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "organized",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "org_author_amrit_singh_bedi_event_neurips_biosafe_genai_2025",
+      "source": "author_amrit_singh_bedi",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "organized",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_amrit_singh_bedi_inst_University_of_Central_Florida",
+      "source": "author_amrit_singh_bedi",
+      "target": "inst_University_of_Central_Florida",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "org_author_alvaro_velasquez_event_neurips_biosafe_genai_2025",
+      "source": "author_alvaro_velasquez",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "organized",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_alvaro_velasquez_org_university_of_colorado",
+      "source": "author_alvaro_velasquez",
+      "target": "org_university_of_colorado",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "org_author_ZAIXI_ZHANG2_event_neurips_biosafe_genai_2025",
+      "source": "author_ZAIXI_ZHANG2",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "organized",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "org_author_Ruofan_Jin1_event_neurips_biosafe_genai_2025",
+      "source": "author_Ruofan_Jin1",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "organized",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "org_author_souradip_chakraborty_event_neurips_biosafe_genai_2025",
+      "source": "author_souradip_chakraborty",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "organized",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_souradip_chakraborty_inst_University_of_Maryland__College_Park",
+      "source": "author_souradip_chakraborty",
+      "target": "inst_University_of_Maryland__College_Park",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "org_author_Jigang_Fan2_event_neurips_biosafe_genai_2025",
+      "source": "author_Jigang_Fan2",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "organized",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "org_author_Zhenghong_Zhou2_event_neurips_biosafe_genai_2025",
+      "source": "author_Zhenghong_Zhou2",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "organized",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "org_author_avinash_reddy_event_neurips_biosafe_genai_2025",
+      "source": "author_avinash_reddy",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "organized",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_avinash_reddy_inst_University_of_Central_Florida",
+      "source": "author_avinash_reddy",
+      "target": "inst_University_of_Central_Florida",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "spk_author_yoshua_bengio_event_neurips_biosafe_genai_2025",
+      "source": "author_yoshua_bengio",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "invited_speaker",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_yoshua_bengio_org_mila",
+      "source": "author_yoshua_bengio",
+      "target": "org_mila",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_yoshua_bengio_inst_Universite_de_Montreal",
+      "source": "author_yoshua_bengio",
+      "target": "inst_Universite_de_Montreal",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "spk_author_Peter_Henderson1_event_neurips_biosafe_genai_2025",
+      "source": "author_Peter_Henderson1",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "invited_speaker",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "spk_author_jian_ma_event_neurips_biosafe_genai_2025",
+      "source": "author_jian_ma",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "invited_speaker",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_jian_ma_inst_Carnegie_Mellon_University",
+      "source": "author_jian_ma",
+      "target": "inst_Carnegie_Mellon_University",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "spk_author_russ_altman_event_neurips_biosafe_genai_2025",
+      "source": "author_russ_altman",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "invited_speaker",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_russ_altman_inst_Stanford_University",
+      "source": "author_russ_altman",
+      "target": "inst_Stanford_University",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "spk_author_eric_xing_event_neurips_biosafe_genai_2025",
+      "source": "author_eric_xing",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "invited_speaker",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_eric_xing_inst_Carnegie_Mellon_University",
+      "source": "author_eric_xing",
+      "target": "inst_Carnegie_Mellon_University",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_eric_xing_inst_MBZUAI",
+      "source": "author_eric_xing",
+      "target": "inst_MBZUAI",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_eric_xing_org_petuum",
+      "source": "author_eric_xing",
+      "target": "org_petuum",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "spk_author_theofanis_karaletsos_event_neurips_biosafe_genai_2025",
+      "source": "author_theofanis_karaletsos",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "invited_speaker",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_theofanis_karaletsos_org_chan_zuckerberg_initiative",
+      "source": "author_theofanis_karaletsos",
+      "target": "org_chan_zuckerberg_initiative",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "spk_author_megan_blewett_event_neurips_biosafe_genai_2025",
+      "source": "author_megan_blewett",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "invited_speaker",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_megan_blewett_org_iris_medicine",
+      "source": "author_megan_blewett",
+      "target": "org_iris_medicine",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_megan_blewett_org_kelonia_therapeutics",
+      "source": "author_megan_blewett",
+      "target": "org_kelonia_therapeutics",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "spk_author_sheng_lin_gibson_event_neurips_biosafe_genai_2025",
+      "source": "author_sheng_lin_gibson",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "invited_speaker",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_sheng_lin_gibson_org_nist",
+      "source": "author_sheng_lin_gibson",
+      "target": "org_nist",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "spk_author_Le_Cong2_event_neurips_biosafe_genai_2025",
+      "source": "author_Le_Cong2",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "invited_speaker",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "spk_author_artem_elmuratov_event_neurips_biosafe_genai_2025",
+      "source": "author_artem_elmuratov",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "invited_speaker",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "aff_author_artem_elmuratov_org_nebius",
+      "source": "author_artem_elmuratov",
+      "target": "org_nebius",
+      "type": "current_affiliation",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "workshop_website"
+    },
+    {
+      "id": "partof_mila_udem",
+      "source": "org_mila",
+      "target": "inst_Universite_de_Montreal",
+      "type": "part_of",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "general_knowledge"
+    },
+    {
+      "id": "partof_us_aisi_nist",
+      "source": "org_us_aisi",
+      "target": "org_nist",
+      "type": "part_of",
+      "data_source": "https://biosafe-gen-ai.github.io",
+      "confidence": "HIGH",
+      "extraction_method": "general_knowledge"
     }
   ],
   "metadata": {

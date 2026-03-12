@@ -416,11 +416,16 @@ biosecurity-atlas/
 │       ├── s1_neurips_workshop/        ← Sprint 1: OpenReview papers + PDFs
 │       ├── s2s3_coefficient_funding/   ← Sprint 2/3: Coefficient grants CSV
 │       ├── s4_darpa_iarpa/             ← Sprint 4: USASpending JSON, DARPA/IARPA pages, news releases
-│       └── s5_policy_bigtech/          ← Sprint 5: AI company partnerships [planned]
+│       ├── s5_policy_bigtech/          ← Sprint 5: SecureBio, RAND, NTI publications & evals
+│       └── s6_organizers_speakers/     ← Sprint 6: Workshop organizers & invited speakers
 │   └── staged/
 │       ├── op_edges.json               ← Sprint 2/3 (272 grants, 288 edges)
 │       ├── s4_nodes.json               ← Sprint 4 (51 nodes)
 │       ├── s4_edges.json               ← Sprint 4 (58 edges)
+│       ├── s5_nodes.json               ← Sprint 5 (27 nodes)
+│       ├── s5_edges.json               ← Sprint 5 (47 edges)
+│       ├── s6_nodes.json               ← Sprint 6 (23 nodes)
+│       ├── s6_edges.json               ← Sprint 6 (38 edges)
 │       └── op_validation_report.json
 └── scripts/
     ├── extract_data.py                 ← Sprint 1: OpenReview extraction
@@ -432,6 +437,9 @@ biosecurity-atlas/
     ├── s2_validate_op.py               ← Sprint 2/3: validate staged data
     ├── s2_merge_op.py                  ← Sprint 2/3: merge into graph
     ├── s4_extract_darpa_iarpa.py       ← Sprint 4: DARPA/IARPA extraction
+    ├── s4b_fix_darpa_programs.py       ← Sprint 4b: DARPA program nodes hotfix
+    ├── s5_extract_policy_bigtech.py    ← Sprint 5: Policy & Big Tech extraction
+    ├── s6_extract_organizers_speakers.py ← Sprint 6: Organizers & speakers extraction
     └── notebooks/
-        └── s4_darpa_iarpa_exploration.ipynb  ← Sprint 4 exploration
+        └── s5_policy_bigtech_exploration.ipynb  ← Sprint 5 exploration
 ```

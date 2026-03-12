@@ -1,0 +1,156 @@
+[
+  {
+    "id": "event_neurips_biosafe_genai_2025",
+    "label": "NeurIPS 2025 BioSafe GenAI Workshop",
+    "type": "presentation",
+    "data_source": "https://biosafe-gen-ai.github.io",
+    "subtype": "workshop",
+    "url": "https://biosafe-gen-ai.github.io",
+    "description": "Workshop on Biosecurity Safeguards for Generative AI at NeurIPS 2025"
+  },
+  {
+    "id": "inst_University_of_Central_Florida",
+    "label": "University of Central Florida",
+    "type": "institution",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "inst_Shanghai_Jiao_Tong_University",
+    "label": "Shanghai Jiao Tong University",
+    "type": "institution",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "inst_Universite_de_Montreal",
+    "label": "Universit\u00e9 de Montr\u00e9al",
+    "type": "institution",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "inst_MBZUAI",
+    "label": "MBZUAI",
+    "type": "institution",
+    "data_source": "https://biosafe-gen-ai.github.io",
+    "description": "Mohamed bin Zayed University of Artificial Intelligence"
+  },
+  {
+    "id": "org_mila",
+    "label": "Mila",
+    "type": "org",
+    "data_source": "https://biosafe-gen-ai.github.io",
+    "description": "Quebec AI Institute",
+    "url": "https://mila.quebec"
+  },
+  {
+    "id": "org_chan_zuckerberg_initiative",
+    "label": "Chan Zuckerberg Initiative",
+    "type": "org",
+    "data_source": "https://biosafe-gen-ai.github.io",
+    "url": "https://chanzuckerberg.com"
+  },
+  {
+    "id": "org_iris_medicine",
+    "label": "Iris Medicine",
+    "type": "org",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "org_kelonia_therapeutics",
+    "label": "Kelonia Therapeutics",
+    "type": "org",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "org_nist",
+    "label": "NIST",
+    "type": "org",
+    "data_source": "https://biosafe-gen-ai.github.io",
+    "description": "National Institute of Standards and Technology",
+    "url": "https://www.nist.gov"
+  },
+  {
+    "id": "org_nebius",
+    "label": "Nebius",
+    "type": "org",
+    "data_source": "https://biosafe-gen-ai.github.io",
+    "url": "https://nebius.com"
+  },
+  {
+    "id": "org_petuum",
+    "label": "Petuum Inc.",
+    "type": "org",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_amrit_singh_bedi",
+    "label": "Amrit Singh Bedi",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_alvaro_velasquez",
+    "label": "Alvaro Velasquez",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_souradip_chakraborty",
+    "label": "Souradip Chakraborty",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_avinash_reddy",
+    "label": "Avinash Reddy",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_yoshua_bengio",
+    "label": "Yoshua Bengio",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_jian_ma",
+    "label": "Jian Ma",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_russ_altman",
+    "label": "Russ Altman",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_eric_xing",
+    "label": "Eric Xing",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_theofanis_karaletsos",
+    "label": "Theofanis Karaletsos",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_megan_blewett",
+    "label": "Megan Blewett",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_sheng_lin_gibson",
+    "label": "Sheng Lin-Gibson",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  },
+  {
+    "id": "author_artem_elmuratov",
+    "label": "Artem Elmuratov",
+    "type": "author",
+    "data_source": "https://biosafe-gen-ai.github.io"
+  }
+]

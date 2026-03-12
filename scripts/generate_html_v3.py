@@ -26,9 +26,11 @@ for e in edges:
     adj.setdefault(e["source"], []).append(e["target"])
     adj.setdefault(e["target"], []).append(e["source"])
 
-# All known node types (Sprint 1 + Sprint 2)
-ALL_NODE_TYPES = ["funder", "program", "presentation", "author", "department", "institution", "org"]
-ALL_EDGE_TYPES = ["funds", "authored", "current_affiliation", "past_affiliation", "part_of"]
+# All known node types (Sprints 1–5)
+ALL_NODE_TYPES = ["funder", "program", "presentation", "author", "department", "institution", "org", "publication"]
+ALL_EDGE_TYPES = ["funds", "authored", "current_affiliation", "past_affiliation", "part_of",
+                  "performs_on", "biosecurity_eval", "policy_forum", "published_study",
+                  "organized", "invited_speaker"]
 
 # =======================================
 # PRE-COMPUTE LAYOUTS IN PYTHON
@@ -37,9 +39,9 @@ ALL_EDGE_TYPES = ["funds", "authored", "current_affiliation", "past_affiliation"
 W, H = 1600, 900  # wider for more columns
 
 def compute_column_layout():
-    """6 columns: Funders | Programs | Institutions+Orgs | Departments | Authors | Presentations"""
+    """7 columns: Funders | Programs | Institutions+Orgs | Departments | Authors | Presentations | Publications"""
     # Left-to-right = funding source → outcome (money flows right)
-    cols_order = ["funder", "program", "institution", "department", "author", "presentation"]
+    cols_order = ["funder", "program", "institution", "department", "author", "presentation", "publication"]
     col_x = {}
     pad = 60
     col_w = (W - pad * 2) / len(cols_order)
@@ -62,7 +64,7 @@ def compute_column_layout():
     inst_and_org.sort(key=lambda n: -n.get("degree", 0))
 
     positions = {}
-    for t in ["funder", "program", "department", "author", "presentation"]:
+    for t in ["funder", "program", "department", "author", "presentation", "publication"]:
         arr = groups[t]
         if not arr:
             continue
@@ -89,7 +91,7 @@ def compute_radial_layout():
     """Concentric rings, same order as column: funder→program→institution→dept→author→presentation."""
     # Rings ordered center-out = funding source → outcome
     rings = {"funder": 30, "program": 100, "institution": 185, "org": 185,
-             "department": 270, "author": 355, "presentation": 430}
+             "department": 270, "author": 355, "presentation": 430, "publication": 460}
     groups = {}
     for t in ALL_NODE_TYPES:
         groups[t] = []
@@ -126,6 +128,7 @@ def compute_force_layout(iterations=500):
         "department":   (cx + 120, cy + 280),
         "author":       (cx + 300, cy),
         "presentation": (cx + 520, cy - 100),
+        "publication":  (cx + 450, cy + 250),
     }
 
     node_type = {}
@@ -330,6 +333,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
           <button class="btn active" data-layer="all">All</button>
           <button class="btn" data-layer="workshop">Workshop Only</button>
           <button class="btn" data-layer="funding">Funding Only</button>
+          <button class="btn" data-layer="policy">Policy & Evals</button>
         </div>
       </div>
       <div class="cg"><label>Complexity</label>
@@ -355,6 +359,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;b
     <div class="col-lbl" id="cl3">Departments</div>
     <div class="col-lbl" id="cl4">Authors</div>
     <div class="col-lbl" id="cl5">Presentations</div>
+    <div class="col-lbl" id="cl6">Publications</div>
   </div>
 </div>
 <script>
@@ -369,14 +374,16 @@ const COL={
   institution:{fill:'#10b981',stroke:'#047857',label:'Institution'},
   department:{fill:'#8b5cf6',stroke:'#6d28d9',label:'Department'},
   org:{fill:'#14b8a6',stroke:'#0d9488',label:'Organization',shape:'rect'},
+  publication:{fill:'#ec4899',stroke:'#be185d',label:'Publication',shape:'rect'},
 };
-const ECOL={funds:'#ef4444',authored:'#f59e0b',current_affiliation:'#10b981',past_affiliation:'#065f46',part_of:'#8b5cf6'};
+const ECOL={funds:'#ef4444',authored:'#f59e0b',current_affiliation:'#10b981',past_affiliation:'#065f46',part_of:'#8b5cf6',performs_on:'#f97316',biosecurity_eval:'#ec4899',policy_forum:'#a855f7',published_study:'#06b6d4',organized:'#22d3ee',invited_speaker:'#facc15'};
 
 // Layer definitions: which node/edge types belong to each layer
 const LAYERS={
   all:{nodes:new Set(Object.keys(COL)),edges:new Set(Object.keys(ECOL))},
-  workshop:{nodes:new Set(['presentation','author','institution','department']),edges:new Set(['authored','current_affiliation','past_affiliation','part_of'])},
-  funding:{nodes:new Set(['funder','program','institution','org']),edges:new Set(['funds'])},
+  workshop:{nodes:new Set(['presentation','author','institution','department']),edges:new Set(['authored','current_affiliation','past_affiliation','part_of','organized','invited_speaker'])},
+  funding:{nodes:new Set(['funder','program','institution','org']),edges:new Set(['funds','performs_on'])},
+  policy:{nodes:new Set(['institution','org','publication','author']),edges:new Set(['biosecurity_eval','policy_forum','published_study','authored'])},
 };
 
 let allNodes=G.nodes, allEdges=G.edges, nodeMap={};
@@ -402,7 +409,7 @@ function setSimple(on){
     allNodes.forEach(n=>{if(n.type==='institution'&&n.degree>=3) keepInst.add(n.id);});
     const keep=new Set();
     allNodes.forEach(n=>{
-      if(n.type==='funder'||n.type==='program'||n.type==='org') keep.add(n.id);
+      if(n.type==='funder'||n.type==='program'||n.type==='org'||n.type==='publication') keep.add(n.id);
       else if(n.type!=='institution'||keepInst.has(n.id)) keep.add(n.id);
     });
     activeNodes=allNodes.filter(n=>keep.has(n.id));
@@ -570,10 +577,10 @@ function render(){
   });
 
   // Column headers
-  const colLabels=['cl0','cl1','cl2','cl3','cl4','cl5'];
+  const colLabels=['cl0','cl1','cl2','cl3','cl4','cl5','cl6'];
   colLabels.forEach(id=>document.getElementById(id).style.display='none');
   if(layout==='column'){
-    const pad=60*W/REF_W, colW=(W-pad*2)/6;
+    const pad=60*W/REF_W, colW=(W-pad*2)/7;
     colLabels.forEach((id,i)=>{
       const el=document.getElementById(id);
       el.style.display='block';
