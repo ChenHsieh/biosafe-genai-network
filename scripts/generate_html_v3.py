@@ -788,11 +788,11 @@ render();
 
 html = html.replace('__GRAPH_JSON__', graph_json)
 
-out_path = os.path.join(BASE_DIR, "index.html")
+out_path = os.path.join(BASE_DIR, "index_svg.html")
 with open(out_path, "w") as f:
     f.write(html)
 
-print(f"Generated index.html: {len(html)//1024} KB")
+print(f"Generated index_svg.html: {len(html)//1024} KB")
 print(f"  Nodes: {len(nodes)}, Edges: {len(edges)}")
 print(f"  Papers: {total_papers}, Authors: {total_authors}, Institutions: {total_insts}")
 print(f"  Total funding: ${total_funding:,.0f}")

@@ -93,12 +93,12 @@ Supplementary analysis is available in `analysis_biosecurity_atlas.ipynb`, which
 | Type | Key Fields | Count (current) |
 |------|-----------|-----------------|
 | `funder` | id, label, short, url, description | 8 |
-| `program` | id, label, parent→funder, url, subtype (nih_grant/nsf_grant/ukri_grant/wellcome_grant/barda_contract/cepi_grant), year, year_start | 71 |
-| `org` | id, label, entity_type, url, country | 182 |
-| `institution` | id, label, url, lat, lon, location, country (Sprint 12) | 171 |
+| `program` | id, label, parent→funder, url, subtype (nih_grant/nsf_grant/ukri_grant/wellcome_grant/barda_contract/cepi_grant), year, year_start | 53 |
+| `org` | id, label, entity_type, url, country | 178 |
+| `institution` | id, label, url, lat, lon, location, country (Sprint 12) | 169 |
 | `author` | id, label, url, details | 238 |
 | `presentation` | id, label, url, subtype (poster/oral/workshop), year, venue | 57 |
-| `publication` | id, label, url, subtype (research_paper/research_report), year, citation_count | 31 |
+| `publication` | id, label, url, subtype (research_paper/research_report), year, citation_count | 27 |
 | `department` | id, label, parent→institution | 8 |
 
 `org.entity_type`: `institution` / `org` / `individual` / `pooled_grant`
@@ -107,15 +107,15 @@ Supplementary analysis is available in `analysis_biosecurity_atlas.ipynb`, which
 
 | Type | Direction | Key Fields | Count (current) |
 |------|-----------|-----------|-----------------|
-| `funds` | funder/program → org/inst | amount, date_range, grant_title, confidence | 419 |
-| `authored` | author → presentation | — | 263 |
-| `current_affiliation` | author → institution | — | 223 |
+| `funds` | funder/program → org/inst | amount, date_range, grant_title, confidence | 291 |
+| `authored` | author → presentation | — | 254 |
+| `current_affiliation` | author → institution | — | 221 |
 | `past_affiliation` | author → institution | — | 137 |
-| `part_of` | department/presentation → institution/workshop | — | 67 |
-| `performs_on` | PI → program | — | 49 |
+| `part_of` | department/presentation → institution/workshop | — | 68 |
+| `performs_on` | PI → program | — | 31 |
 | `biosecurity_eval` | evaluator → publication/report | evidence | 26 |
-| `policy_forum` | org → publication | — | 22 |
-| `published_study` | author → publication | — | 25 |
+| `policy_forum` | org → publication | — | 31 |
+| `published_study` | author → publication | — | 23 |
 | `organized` | author → workshop event | — | 10 |
 | `invited_speaker` | author → workshop event | — | 10 |
 | `co_authored_with` | author ↔ author (≥3 shared papers) | shared_papers | 11 |
@@ -587,10 +587,12 @@ data/staged/s10_edges.json   (11 edges)
 | Sprint 16 | 757 | 1,244 | $1.22B | SVG + Canvas 2D ✅ |
 | Sprint 13 DD | 759 | 1,253 | $1.22B | SVG + Canvas 2D ✅ |
 | Sprint 17 | 766 | 1,262 | $1.22B | SVG + Canvas 2D ✅ |
+| Sprint 17 DD | 766 | 1,264 | $1.22B | SVG + Canvas 2D ✅ |
+| **Comprehensive Audit** | **738** | **1,113** | **$1.22B** | SVG + Canvas 2D ✅ |
 
-**Dual renderer approach (Sprint 7+):** Rather than replacing SVG with WebGL, we added a Canvas 2D alternative (`index_webgl.html`) alongside the SVG version (`index.html`). Both share the same graph data, layout computation, sidebar, filters, and interaction model. Canvas 2D provides better performance at 700+ nodes via batched edge rendering by type, `ctx.arc()`/`ctx.roundRect()` for nodes, and includes an FPS counter.
+**Dual renderer approach (Sprint 7+):** Canvas 2D (`index.html`) is the default renderer. SVG is preserved as `index_svg.html` for reference. Both share the same graph data, layout computation, sidebar, filters, and interaction model. Canvas 2D provides better performance at 700+ nodes via batched edge rendering by type, `ctx.arc()`/`ctx.roundRect()` for nodes, and includes an FPS counter.
 
-**Scripts:** `generate_html_v3.py` → `index.html` (SVG), `generate_webgl.py` → `index_webgl.html` (Canvas 2D)
+**Scripts:** `generate_webgl.py` → `index.html` (Canvas 2D, **default**), `generate_html_v3.py` → `index_svg.html` (SVG, reference)
 
 ---
 
@@ -860,6 +862,22 @@ data/raw/s16_protein_design/            ← Science/EMBO/NatBiotech abstracts, E
 
 **Post-sprint graph:** 766 nodes, 1,262 edges | $1.22B tracked | 14/14 quality checks | 100% connectivity
 
+### Sprint 17 Due Diligence ✅ COMPLETE
+
+*Completed: 2026-03-13 | 3 fixes applied | 2 new edges added*
+
+**Audit findings and fixes:**
+
+| Fix | Severity | Description |
+|-----|----------|-------------|
+| Fix 1 | 🔴 CRITICAL | 9 OP funds edges ($55.3M) were targeting `inst_Johns_Hopkins_University` but grant titles say "Johns Hopkins Center for Health Security". Retargeted all 9 to `org_jhu_center_for_health_security`. JHU CHS now correctly shows deg=13 with $55.3M funding; JHU institution retains 5 edges ($6.5M for APL contracts + BARDA) |
+| Fix 2 | 🟡 MEDIUM | RAND GRI publication had no individual author links. Added `published_study` edges for Christopher A. Mouton and Caleb Lucas (both already in graph as RAND authors of the related bio-attack-redteam pub) |
+| Fix 3 | 🟢 LOW | CSET → Georgetown Global Health edge had type `current_affiliation` (reserved for author→institution). Changed to `part_of` to reflect that both are research centers housed within Georgetown University |
+
+**Post-DD graph:** 766 nodes, 1,264 edges | $1.22B | 14/14 quality checks | 100% connectivity
+
+**Script:** `scripts/s17_dd_fixes.py`
+
 **Data sources:**
 - JHU CHS: centerforhealthsecurity.org (Jassi Pannu profile, publications page)
 - Georgetown CSET: cset.georgetown.edu (Biosecurity Policy Toolkit, Dec 2024)
@@ -871,6 +889,41 @@ data/raw/s16_protein_design/            ← Science/EMBO/NatBiotech abstracts, E
 scripts/s17_extract_governance.py   → data/graph_data.json (direct merge)
 data/raw/s17_governance/            ← s17_evidence.json (7 node records)
 ```
+
+---
+
+## Comprehensive Audit ✅ COMPLETE
+
+*Completed: 2026-03-13 | 27 nodes removed, 151 edges removed/deduplicated | See `AUDIT_REPORT.md`*
+
+**Motivation:** After 17 sprints the graph grew from 350 to 766 nodes, accumulating structural debt: duplicate nodes from inconsistent naming across sprints, NIH grant fiscal-year inflation, off-topic publications that slipped past the dual-axis relevance test, and schema inconsistencies.
+
+**Findings (8 categories):**
+
+1. **Duplicate nodes (Critical):** 4 exact-duplicate org pairs (DARPA sprint prefix collision), 1 near-duplicate institution ("the" vs no "the" in UCAS name), 18 NIH grant FY instances that should be 8 base projects
+2. **SecureBio type inconsistency:** Typed as `institution` but is an evaluation org — changed to `org` (subtype `evaluator`)
+3. **Edge type violations:** 9 `authored` edges from org/institution sources changed to `policy_forum`; 8 `current_affiliation` edges targeting departments documented
+4. **Scope creep:** 4 publications fail the dual-axis (bio AND AI) relevance test — removed
+5. **40% degree-1 nodes:** 310/766 nodes had exactly one edge; partly unavoidable but noted
+6. **IARPA $0 funding:** 11 Fun GCAT grants show $0 (classified amounts) — documented
+7. **Funding double-count risk:** $1.22B includes broad Wellcome/Coefficient figures — documented
+8. **Missing s10 script:** Sprint 10 script was inline-only — documented
+
+**Fixes applied:**
+
+| Fix | Nodes Removed | Edges Affected |
+|-----|--------------|----------------|
+| Merge 5 duplicate org pairs (incl. UC Berkeley) | -5 | ~5 retargeted |
+| Merge UCAS near-duplicate | -1 | ~1 retargeted |
+| Deduplicate 18 NIH grant FY instances | -18 | ~46 removed + summed amounts |
+| Remove 4 off-topic publications | -4 | -4 removed |
+| SecureBio type → org (evaluator) | 0 | 0 |
+| 9 authored edges → policy_forum | 0 | 9 type-changed |
+| Edge deduplication (post-merge) | 0 | 95 deduplicated |
+
+**Post-audit graph:** 738 nodes, 1,113 edges | $1.22B tracked | 14/14 quality checks | 100% connectivity
+
+**Scripts:** `scripts/audit_fixes.py` (all fixes), plus inline RM1HG009490 final dedup
 
 ---
 
@@ -919,11 +972,12 @@ Previous AI-assisted builds produced ~9% false edge rate, ~11% wrong amounts:
 
 ```
 biosecurity-atlas/
-├── index.html                          ← SVG visualization (self-contained)
-├── index_webgl.html                    ← Canvas 2D visualization (self-contained)
+├── index.html                          ← Canvas 2D visualization (self-contained, default)
+├── index_svg.html                      ← SVG visualization (self-contained, reference)
 ├── index_d3.html                       ← D3 force-directed visualization
 ├── README.md
 ├── ROADMAP.md                          ← this file
+├── AUDIT_REPORT.md                     ← comprehensive audit findings (8 categories)
 ├── METHODOLOGY.md
 ├── assets/
 ├── figures/                            ← Generated analysis figures (PNG)
@@ -933,7 +987,7 @@ biosecurity-atlas/
 │   ├── s4_darpa_iarpa_exploration.ipynb    ← Sprint 4 DARPA/IARPA dry run
 │   └── s5_policy_bigtech_exploration.ipynb ← Sprint 5 Policy & Big Tech dry run
 ├── data/
-│   ├── graph_data.json                 ← assembled graph (766 nodes, 1,262 edges)
+│   ├── graph_data.json                 ← assembled graph (738 nodes, 1,113 edges)
 │   ├── nodes.csv
 │   ├── edges.csv
 │   ├── raw/
@@ -992,8 +1046,8 @@ biosecurity-atlas/
 └── scripts/
     ├── extract_data.py                 ← Sprint 1: OpenReview extraction
     ├── build_graph.py                  ← Sprint 1: graph assembly
-    ├── generate_html_v3.py             ← SVG visualization generator (all sprints)
-    ├── generate_webgl.py               ← Canvas 2D visualization generator (Sprint 7+)
+    ├── generate_webgl.py               ← Canvas 2D visualization generator → index.html (default)
+    ├── generate_html_v3.py             ← SVG visualization generator → index_svg.html (reference)
     ├── quality_check.py                ← cumulative checks (all sprints, 14 checks)
     ├── s2_fetch_op_grants.sh           ← Sprint 2/3: fetch Coefficient CSV
     ├── s2_extract_op_grants.py         ← Sprint 2/3: extract + classify grants
@@ -1011,5 +1065,7 @@ biosecurity-atlas/
     ├── s14_extract_funding.py          ← Sprint 14: Wellcome, BARDA, CEPI funding
     ├── s15_extract_global_south.py     ← Sprint 15: Africa CDC, SynBio Africa, NTI
     ├── s16_extract_protein_design.py   ← Sprint 16: Baker, EvolutionaryScale, protein design safety
-    └── s17_extract_governance.py       ← Sprint 17: JHU CHS, Georgetown CSET, NSABB, RAND GRI
+    ├── s17_extract_governance.py       ← Sprint 17: JHU CHS, Georgetown CSET, NSABB, RAND GRI
+    ├── s17_dd_fixes.py                 ← Sprint 17 DD: JHU CHS $55M funding retarget, RAND GRI authors, CSET edge fix
+    └── audit_fixes.py                  ← Comprehensive audit: dedup orgs/NIH FY grants, remove off-topic pubs, fix types
 ```
