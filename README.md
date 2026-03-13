@@ -2,6 +2,8 @@
 
 An interactive map of the people, institutions, funding, and research connecting **biosafety, biosecurity, and AI**.
 
+![snapshot of the atlas](assets/preview.png)
+
 **[Explore the Atlas](https://chenhsieh.github.io/biosafe-genai-network/)**
 
 ---
