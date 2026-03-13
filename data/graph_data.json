@@ -3155,7 +3155,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://tencent.com",
-      "country": "",
+      "country": "China",
       "details": {
         "Website": "https://tencent.com",
         "Country": ""
@@ -3351,7 +3351,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://muni.cz",
-      "country": "",
+      "country": "Czech Republic",
       "details": {
         "Website": "https://muni.cz",
         "Country": ""
@@ -3364,7 +3364,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://jax.org",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://jax.org",
         "Country": ""
@@ -3377,7 +3377,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://img.cas.cz",
-      "country": "",
+      "country": "Czech Republic",
       "details": {
         "Website": "https://img.cas.cz",
         "Country": ""
@@ -3644,7 +3644,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://gordon.edu",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://gordon.edu",
         "Country": ""
@@ -3779,7 +3779,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://uniud.it",
-      "country": "",
+      "country": "Italy",
       "details": {
         "Website": "https://uniud.it",
         "Country": ""
@@ -3792,7 +3792,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://nmsu.edu",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://nmsu.edu",
         "Country": ""
@@ -3948,7 +3948,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://www.google.com",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://www.google.com",
         "Country": ""
@@ -3961,7 +3961,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://amazon.com",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://amazon.com",
         "Country": ""
@@ -3990,7 +3990,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://mila.umontreal.ca",
-      "country": "",
+      "country": "Canada",
       "details": {
         "Website": "https://mila.umontreal.ca",
         "Country": ""
@@ -4059,7 +4059,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://ttu.edu",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://ttu.edu",
         "Country": ""
@@ -4072,7 +4072,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://utsa.edu",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://utsa.edu",
         "Country": ""
@@ -4085,7 +4085,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://njust.edu",
-      "country": "",
+      "country": "China",
       "details": {
         "Website": "https://njust.edu",
         "Country": ""
@@ -4258,7 +4258,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://www.microsoft.com",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://www.microsoft.com",
         "Country": ""
@@ -4326,7 +4326,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://sussex.ac.uk",
-      "country": "",
+      "country": "United Kingdom",
       "details": {
         "Website": "https://sussex.ac.uk",
         "Country": ""
@@ -4618,7 +4618,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://tum.de",
-      "country": "",
+      "country": "Germany",
       "details": {
         "Website": "https://tum.de",
         "Country": ""
@@ -4657,7 +4657,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://tongji.edu.cn",
-      "country": "",
+      "country": "China",
       "details": {
         "Website": "https://tongji.edu.cn",
         "Country": ""
@@ -4817,7 +4817,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://baidu.com",
-      "country": "",
+      "country": "China",
       "details": {
         "Website": "https://baidu.com",
         "Country": ""
@@ -4830,7 +4830,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://xmu.edu.cn",
-      "country": "",
+      "country": "China",
       "details": {
         "Website": "https://xmu.edu.cn",
         "Country": ""
@@ -4931,11 +4931,11 @@
     },
     {
       "id": "inst_The_university_of_Warwick",
-      "label": "The university of Warwick",
+      "label": "University of Warwick",
       "type": "institution",
       "subtype": "institution",
       "url": "https://warwick.ac.uk",
-      "country": "",
+      "country": "United Kingdom",
       "details": {
         "Website": "https://warwick.ac.uk",
         "Country": ""
@@ -5021,7 +5021,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://msu.ru",
-      "country": "",
+      "country": "Russia",
       "details": {
         "Website": "https://msu.ru",
         "Country": ""
@@ -5214,7 +5214,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://rpi.edu",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://rpi.edu",
         "Country": ""
@@ -5465,7 +5465,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://tau.ac.il",
-      "country": "",
+      "country": "Israel",
       "details": {
         "Website": "https://tau.ac.il",
         "Country": ""
@@ -5504,7 +5504,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://rice.edu",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://rice.edu",
         "Country": ""
@@ -5533,7 +5533,7 @@
       "type": "institution",
       "subtype": "institution",
       "url": "https://hmc.edu",
-      "country": "",
+      "country": "United States",
       "details": {
         "Website": "https://hmc.edu",
         "Country": ""
@@ -7347,7 +7347,8 @@
       "label": "xAI",
       "type": "institution",
       "url": "https://x.ai",
-      "description": "AI company founded by Elon Musk"
+      "description": "AI company founded by Elon Musk",
+      "country": "United States"
     },
     {
       "id": "org_us_aisi",
@@ -7390,7 +7391,8 @@
       "subtype": "research_report",
       "url": "https://www.rand.org/pubs/research_reports/RRA2977-2.html",
       "date": "2024-01-25",
-      "description": "Red-team study: no significant difference in bio attack plan viability with/without LLMs."
+      "description": "Red-team study: no significant difference in bio attack plan viability with/without LLMs.",
+      "year": 2024
     },
     {
       "id": "pub_rand_automated_grading_2025",
@@ -7399,7 +7401,8 @@
       "subtype": "research_report",
       "url": "https://www.rand.org/pubs/research_reports/RRA3124-1.html",
       "date": "2025",
-      "description": "Proof-of-concept automated grader for LLM bio capabilities across 30+ models."
+      "description": "Proof-of-concept automated grader for LLM bio capabilities across 30+ models.",
+      "year": 2025
     },
     {
       "id": "pub_securebio_ostp_rfi_2025",
@@ -17006,14 +17009,6 @@
       "data_source": "s5_evidence"
     },
     {
-      "id": "authored_s5_pub_rand_bio_attack_redteam_2024_inst_RAND_Corporation",
-      "source": "inst_RAND_Corporation",
-      "target": "pub_rand_bio_attack_redteam_2024",
-      "type": "policy_forum",
-      "extraction_method": "webpage_scrape",
-      "data_source": "s5_evidence"
-    },
-    {
       "id": "authored_s5_pub_rand_bio_attack_redteam_2024_author_christopher_mouton",
       "source": "author_christopher_mouton",
       "target": "pub_rand_bio_attack_redteam_2024",
@@ -17026,14 +17021,6 @@
       "source": "author_caleb_lucas",
       "target": "pub_rand_bio_attack_redteam_2024",
       "type": "authored",
-      "extraction_method": "webpage_scrape",
-      "data_source": "s5_evidence"
-    },
-    {
-      "id": "authored_s5_pub_rand_automated_grading_2025_inst_RAND_Corporation",
-      "source": "inst_RAND_Corporation",
-      "target": "pub_rand_automated_grading_2025",
-      "type": "policy_forum",
       "extraction_method": "webpage_scrape",
       "data_source": "s5_evidence"
     },
@@ -17100,17 +17087,6 @@
       "id": "forum_nti_inst_Google_DeepMind",
       "source": "org_nuclear_threat_initiative",
       "target": "inst_Google_DeepMind",
-      "type": "policy_forum",
-      "activity": "AIxBio Global Forum",
-      "confidence": "MEDIUM",
-      "extraction_method": "webpage_scrape",
-      "data_source": "nti.org",
-      "evidence_node": "pub_nti_aixbio_forum_statement"
-    },
-    {
-      "id": "forum_nti_inst_RAND_Corporation",
-      "source": "org_nuclear_threat_initiative",
-      "target": "inst_RAND_Corporation",
       "type": "policy_forum",
       "activity": "AIxBio Global Forum",
       "confidence": "MEDIUM",
