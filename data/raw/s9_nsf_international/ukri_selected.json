@@ -1,0 +1,26 @@
+[
+  {
+    "ukri_id": "60CC1114-FFEC-41D9-A683-EBB262AA2C58",
+    "title": "Antivirus Pandemic Preparedness EuropeAn pLatform (Appeal)",
+    "status": "Active",
+    "start": null,
+    "end": null,
+    "leadFunder": "Horizon Europe Guarantee",
+    "org_name": "IMPERIAL COLLEGE LONDON",
+    "inst_id": "inst_Imperial_College_London",
+    "amount_gbp": 475084.0,
+    "amount_usd": 603356
+  },
+  {
+    "ukri_id": "14C22F2F-2182-405D-81B0-D528360FD9EE",
+    "title": "Computational and synthetic biology approaches for optimised mammalian bioproduction",
+    "status": "Closed",
+    "start": null,
+    "end": null,
+    "leadFunder": "Innovate UK",
+    "org_name": "UNIVERSITY OF OXFORD",
+    "inst_id": "inst_University_of_Oxford",
+    "amount_gbp": 224835.0,
+    "amount_usd": 285540
+  }
+]

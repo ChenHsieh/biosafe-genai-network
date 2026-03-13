@@ -1,0 +1,267 @@
+{
+  "George Church": {
+    "author_id": "author_george_church",
+    "s2_author": {
+      "authorId": "145823705",
+      "name": "George M. Church",
+      "affiliations": [],
+      "paperCount": 23,
+      "citationCount": 683,
+      "hIndex": 7
+    },
+    "s2_papers": [
+      {
+        "paperId": "7dd4e1176285e8034ce3d8b52b4342b6365f69e8",
+        "externalIds": {
+          "DOI": "10.1038/s41586-023-05824-z",
+          "CorpusId": 257565544,
+          "PubMed": "36922599"
+        },
+        "title": "A swapped genetic code prevents viral infections and gene transfer",
+        "year": 2023,
+        "citationCount": 68,
+        "openAccessPdf": {
+          "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC10151025",
+          "status": "GREEN",
+          "license": null
+        }
+      },
+      {
+        "paperId": "10a54eb6edaf737d77a8ae90b8a91dabd77ed711",
+        "externalIds": {
+          "PubMedCentral": "11347153",
+          "MAG": "2795075440",
+          "DOI": "10.1093/nar/gkae592",
+          "CorpusId": 270971412,
+          "PubMed": "38966983"
+        },
+        "title": "Multiplexed in situ protein imaging using DNA-barcoded antibodies with extended hybridization chain reactions",
+        "year": 2018,
+        "citationCount": 31,
+        "openAccessPdf": {
+          "url": "https://doi.org/10.1093/nar/gkae592",
+          "status": "GOLD",
+          "license": "CCBYNC"
+        }
+      },
+      {
+        "paperId": "298a62c761bea9f5ddf5c7f4324f863e8ab58354",
+        "externalIds": {
+          "PubMedCentral": "9724296",
+          "DOI": "10.1186/s12967-022-03792-y",
+          "CorpusId": 254248613,
+          "PubMed": "36474268"
+        },
+        "title": "Reconstruction of the gastric cancer microenvironment after neoadjuvant chemotherapy by longitudinal single-cell sequencing",
+        "year": 2022,
+        "citationCount": 19,
+        "openAccessPdf": {
+          "url": "https://translational-medicine.biomedcentral.com/counter/pdf/10.1186/s12967-022-03792-y",
+          "status": "GOLD",
+          "license": "CCBY"
+        }
+      },
+      {
+        "paperId": "07b78d6d8995943c51412f7afff2a3cfa4ef6a89",
+        "externalIds": {
+          "DOI": "10.1101/2024.11.26.624747",
+          "CorpusId": 274341854
+        },
+        "title": "Synthetic ratio computation for programming population composition and multicellular morphology",
+        "year": 2025,
+        "citationCount": 3,
+        "openAccessPdf": {
+          "url": "https://www.biorxiv.org/content/biorxiv/early/2024/11/26/2024.11.26.624747.full.pdf",
+          "status": "GREEN",
+          "license": "CCBYNCND"
+        }
+      },
+      {
+        "paperId": "9f6d585af96ffb30a65ecec34a28000eb35e07fc",
+        "externalIds": {
+          "PubMedCentral": "12054835",
+          "DOI": "10.1073/pnas.2414342122",
+          "CorpusId": 277961024,
+          "PubMed": "40258142"
+        },
+        "title": "A diverse single-stranded DNA\u2013annealing protein library enables efficient genome editing across bacterial phyla",
+        "year": 2025,
+        "citationCount": 3,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": "CCBYNCND"
+        }
+      }
+    ]
+  },
+  "Harris Wang": {
+    "author_id": "author_harris_wang",
+    "s2_papers": []
+  },
+  "Le Cong": {
+    "author_id": "author_Le_Cong2",
+    "s2_author": {
+      "authorId": "2360711345",
+      "name": "C. Le",
+      "affiliations": [],
+      "paperCount": 3,
+      "citationCount": 26,
+      "hIndex": 2
+    },
+    "s2_papers": [
+      {
+        "paperId": "cda59ea2be6e692fd52df5a7fcd7157a7be38f5a",
+        "externalIds": {
+          "PubMedCentral": "10402217",
+          "DOI": "10.1002/alz.082628",
+          "CorpusId": 260109065,
+          "PubMed": "37547016"
+        },
+        "title": "APOE loss-of-function variants: Compatible with longevity and associated with resistance to Alzheimer\u2019s Disease pathology",
+        "year": 2023,
+        "citationCount": 13,
+        "openAccessPdf": {
+          "url": "https://onlinelibrary.wiley.com/doi/pdfdirect/10.1002/alz.082628",
+          "status": "BRONZE",
+          "license": "CCBYNCND"
+        }
+      }
+    ]
+  },
+  "Eugene Shakhnovich": {
+    "author_id": "author_eugene_shakhnovich",
+    "s2_author": {
+      "authorId": "2049886020",
+      "name": "E. Shakhnovich",
+      "affiliations": [],
+      "paperCount": 16,
+      "citationCount": 478,
+      "hIndex": 3
+    },
+    "s2_papers": [
+      {
+        "paperId": "da6d12c79b306f102b991e467b1800aed7be445e",
+        "externalIds": {
+          "MAG": "1970440715",
+          "DOI": "10.1063/1.475393",
+          "CorpusId": 94556450
+        },
+        "title": "On the transition coordinate for protein folding",
+        "year": 1998,
+        "citationCount": 466,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null
+        }
+      },
+      {
+        "paperId": "b6fb373688146766441fc36c17b0b3d0208a1751",
+        "externalIds": {
+          "DOI": "10.1016/j.bpj.2023.10.033",
+          "CorpusId": 264932872,
+          "PubMed": "37915170"
+        },
+        "title": "Enzymatic metabolons dramatically enhance metabolic fluxes of low-efficiency biochemical reactions.",
+        "year": 2023,
+        "citationCount": 8,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null
+        }
+      },
+      {
+        "paperId": "66dffca980b3aa8cd438795b0b0b86d97bf9cf53",
+        "externalIds": {
+          "DOI": "10.1016/j.coisb.2023.100485",
+          "CorpusId": 265416818
+        },
+        "title": "The critical role of co-translational folding: an evolutionary and biophysical perspective",
+        "year": 2023,
+        "citationCount": 3,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null
+        }
+      },
+      {
+        "paperId": "147149c24663dfaf32ea3f60b781c2a070537fde",
+        "externalIds": {
+          "DOI": "10.1016/j.bpj.2024.11.1181",
+          "CorpusId": 276354053
+        },
+        "title": "BPS2025 - Entropy-driven protein conformational changes mediated by water network",
+        "year": 2025,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null
+        }
+      },
+      {
+        "paperId": "ac81a6a8a4d1771438b377a67b7f35c1e3c36a55",
+        "externalIds": {
+          "DOI": "10.1016/j.bpj.2024.11.1784",
+          "CorpusId": 276386927
+        },
+        "title": "BPS2025 - How protein structures affect ESM3's binding affinity predictions",
+        "year": 2025,
+        "citationCount": 0,
+        "openAccessPdf": {
+          "url": "",
+          "status": "CLOSED",
+          "license": null
+        }
+      }
+    ]
+  },
+  "Peter Henderson": {
+    "author_id": "author_peter_henderson",
+    "s2_author": {
+      "authorId": "80691215",
+      "name": "P. Henderson",
+      "affiliations": [],
+      "paperCount": 6,
+      "citationCount": 41,
+      "hIndex": 2
+    },
+    "s2_papers": []
+  },
+  "Eric Xing": {
+    "author_id": "author_eric_xing",
+    "s2_author": {
+      "authorId": "2251052375",
+      "name": "Eric P. Xing",
+      "affiliations": [],
+      "paperCount": 5,
+      "citationCount": 2648,
+      "hIndex": 4
+    },
+    "s2_papers": [
+      {
+        "paperId": "e2d370f0641fc14ab21d5ddad19817316e7d9469",
+        "externalIds": {
+          "DBLP": "conf/nips/YangKX09",
+          "MAG": "2161034709",
+          "CorpusId": 265297281
+        },
+        "title": "Heterogeneous multitask learning with joint sparsity constraints",
+        "year": 2009,
+        "citationCount": 93,
+        "openAccessPdf": {
+          "url": "",
+          "status": null,
+          "license": null
+        }
+      }
+    ]
+  },
+  "Jian Ma": {
+    "author_id": "author_jian_ma_cmu",
+    "s2_papers": []
+  }
+}

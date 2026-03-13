@@ -1,0 +1,112 @@
+[
+  {
+    "id": "pub_s2_A_multiplexed_confinable_CRISPR_Cas9_gene_dri_2024",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "A multiplexed, confinable CRISPR/Cas9 gene drive can propagate in caged Aedes aegypti populations",
+    "url": "https://doi.org/10.1038/s41467-024-44956-2",
+    "year": 2024,
+    "citation_count": 32,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_Will_releasing_the_weights_of_future_large_la_2023",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "Will releasing the weights of future large language models grant widespread access to pandemic agents?",
+    "url": "https://doi.org/10.48550/arXiv.2310.18233",
+    "year": 2023,
+    "citation_count": 27,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_CRISPR_mediated_germline_mutagenesis_for_gene_2024",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "CRISPR-mediated germline mutagenesis for genetic sterilization of Anopheles gambiae males",
+    "url": "https://doi.org/10.1038/s41598-024-54498-8",
+    "year": 2024,
+    "citation_count": 14,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_A_swapped_genetic_code_prevents_viral_infecti_2023",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "A swapped genetic code prevents viral infections and gene transfer",
+    "url": "https://doi.org/10.1038/s41586-023-05824-z",
+    "year": 2023,
+    "citation_count": 68,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_Multiplexed_in_situ_protein_imaging_using_DNA_2018",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "Multiplexed in situ protein imaging using DNA-barcoded antibodies with extended hybridization chain reactions",
+    "url": "https://doi.org/10.1093/nar/gkae592",
+    "year": 2018,
+    "citation_count": 31,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_Reconstruction_of_the_gastric_cancer_microenv_2022",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "Reconstruction of the gastric cancer microenvironment after neoadjuvant chemotherapy by longitudinal single-cell sequencing",
+    "url": "https://doi.org/10.1186/s12967-022-03792-y",
+    "year": 2022,
+    "citation_count": 19,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_APOE_loss_of_function_variants_Compatible_wit_2023",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "APOE loss-of-function variants: Compatible with longevity and associated with resistance to Alzheimer\u2019s Disease pathology",
+    "url": "https://doi.org/10.1002/alz.082628",
+    "year": 2023,
+    "citation_count": 13,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_On_the_transition_coordinate_for_protein_fold_1998",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "On the transition coordinate for protein folding",
+    "url": "https://doi.org/10.1063/1.475393",
+    "year": 1998,
+    "citation_count": 466,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_Enzymatic_metabolons_dramatically_enhance_met_2023",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "Enzymatic metabolons dramatically enhance metabolic fluxes of low-efficiency biochemical reactions.",
+    "url": "https://doi.org/10.1016/j.bpj.2023.10.033",
+    "year": 2023,
+    "citation_count": 8,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_The_critical_role_of_co_translational_folding_2023",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "The critical role of co-translational folding: an evolutionary and biophysical perspective",
+    "url": "https://doi.org/10.1016/j.coisb.2023.100485",
+    "year": 2023,
+    "citation_count": 3,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_Heterogeneous_multitask_learning_with_joint_s_2009",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "Heterogeneous multitask learning with joint sparsity constraints",
+    "url": "https://api.semanticscholar.org/graph/v1/paper/e2d370f0641fc14ab21d5ddad19817316e7d9469",
+    "year": 2009,
+    "citation_count": 93,
+    "bridge": false
+  }
+]

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "pub_s2_A_multiplexed_confinable_CRISPR_Cas9_gene_dri_2024",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "A multiplexed, confinable CRISPR/Cas9 gene drive can propagate in caged Aedes aegypti populations",
+    "url": "https://doi.org/10.1038/s41467-024-44956-2",
+    "year": 2024,
+    "citation_count": 32,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_Will_releasing_the_weights_of_future_large_la_2023",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "Will releasing the weights of future large language models grant widespread access to pandemic agents?",
+    "url": "https://doi.org/10.48550/arXiv.2310.18233",
+    "year": 2023,
+    "citation_count": 27,
+    "bridge": false
+  },
+  {
+    "id": "pub_s2_CRISPR_mediated_germline_mutagenesis_for_gene_2024",
+    "type": "publication",
+    "subtype": "research_paper",
+    "label": "CRISPR-mediated germline mutagenesis for genetic sterilization of Anopheles gambiae males",
+    "url": "https://doi.org/10.1038/s41598-024-54498-8",
+    "year": 2024,
+    "citation_count": 14,
+    "bridge": false
+  }
+]

@@ -65,13 +65,13 @@ Key personnel research footprint (NIH grants, Semantic Scholar pubs)
 
 | Type | Key Fields | Count (current) |
 |------|-----------|-----------------|
-| `funder` | id, label, short, url, description | 4 |
-| `program` | id, label, parent→funder, url, subtype (nih_grant) | 61 |
-| `org` | id, label, entity_type, url | 171 |
-| `institution` | id, label, url (from Sprint 1 OpenReview) | 172 |
+| `funder` | id, label, short, url, description | 6 |
+| `program` | id, label, parent→funder, url, subtype (nih_grant/nsf_grant/ukri_grant), year, year_start | 75 |
+| `org` | id, label, entity_type, url, country | 171 |
+| `institution` | id, label, url, lat, lon, location, country (Sprint 12) | 171 |
 | `author` | id, label, url, details | 234 |
-| `presentation` | id, label, url, subtype (poster/oral/workshop) | 54 |
-| `publication` | id, label, url, subtype (research_paper/research_report), description | 21 |
+| `presentation` | id, label, url, subtype (poster/oral/workshop), year | 54 |
+| `publication` | id, label, url, subtype (research_paper/research_report), year, citation_count | 32 |
 | `department` | id, label, parent→institution | 8 |
 
 `org.entity_type`: `institution` / `org` / `individual` / `pooled_grant`
@@ -91,6 +91,7 @@ Key personnel research footprint (NIH grants, Semantic Scholar pubs)
 | `published_study` | author/org → publication | — | 13 |
 | `organized` | author → workshop event | — | 10 |
 | `invited_speaker` | author → workshop event | — | 10 |
+| `co_authored_with` | author ↔ author (≥3 shared papers) | shared_papers | 11 |
 | `contracts` | program → org | amount, confidence [planned] | — |
 
 ---
@@ -404,16 +405,154 @@ data/raw/s8_key_personnel/nih_reporter_results.json       (7 PIs, 31 grants)
 
 ---
 
+## Sprint 9: NSF + International Funding Expansion ✅ COMPLETE
+
+**Status:** Shipped. 14/14 quality checks pass.
+
+**Goal:** Add NSF and UKRI (UK Research and Innovation) as new funder nodes, mapping federal and international grant funding for key personnel already in the graph.
+
+**Results:**
+- 16 new nodes, 37 new edges → 741 nodes, 1,156 edges total
+- 2 new funder nodes: NSF and UKRI (funders 5 and 6)
+- 14 NSF grant program nodes ($14.3M across 16 awards)
+- 2 UKRI grant program nodes (£700K / ~$890K across 2 awards)
+- 9 new `performs_on` edges (PI → NSF grant) for 6 matched PIs
+- Princeton, CMU, Stanford, Harvard, Columbia, Oxford, Imperial now have NSF/UKRI funding edges
+- Total tracked funding: **$720M** (DARPA $589M + Coefficient $69M + NIH $35M + NSF $14M + UKRI $0.9M)
+
+**Key NSF grants:**
+- Harris Wang (Columbia) — "Towards Life with a Reduced Protein Alphabet" ($4.2M)
+- George Church (Harvard) — "Expanding functions of a 57-codon recoded E. coli genome" ($2.0M)
+- Jennifer Doudna (UC Berkeley) — "Mechanism of Acquired Immunity in Bacteria" ($1.5M)
+- Eric Xing (CMU) — 4 grants ($2.2M total, ML + bio/health)
+- Mengdi Wang (Princeton) — 3 grants ($1.0M total, statistical optimization + single-cell)
+- Le Cong (Stanford) — 1 grant ($360K, single-cell barcode statistics)
+
+**Key UKRI grants:**
+- Imperial College London — EU Horizon Guarantee antivirus pandemic preparedness platform (£475K)
+- University of Oxford — computational synthetic biology for bioproduction (£225K)
+
+**Data sources:** NSF Award Search API (`api.nsf.gov/services/v1/awards.json`), UKRI Gateway to Research API (`gtr.ukri.org/gtr/api/projects`). Amounts embedded in `participantValues.participant[].grantOffer` field. International funding (Wellcome Trust, Gates, ERC) not reliably extractable from public APIs — noted as future work.
+
+**Fix applied:** Dangling UCSF edge fixed (mapped `inst_University_of_California__San_Francisco` → `org_university_of_california_san_francisco`).
+
+**Scripts:**
+```
+scripts/s9_extract_nsf_international.py   → data/staged/s9_nodes.json (16), s9_edges.json (37)
+data/raw/s9_nsf_international/nsf_awards_raw.json          (183 unique awards from keyword search)
+data/raw/s9_nsf_international/nsf_pi_inst_awards.json      (82 PI/inst-targeted awards)
+data/raw/s9_nsf_international/nsf_selected.json            (16 matched awards)
+data/raw/s9_nsf_international/ukri_projects_raw.json       (348 unique UKRI projects)
+data/raw/s9_nsf_international/ukri_bio_ai_relevant.json    (75 bio+AI filtered)
+data/raw/s9_nsf_international/ukri_selected.json           (2 institution-matched)
+```
+
+---
+
+## Sprint 10: Author-Publication Backfill ✅ COMPLETE
+
+**Status:** Shipped. 14/14 quality checks pass.
+
+**Goal:** Connect 31 authors who entered the graph through DARPA/policy/organizer routes (not via workshop papers) to their key publications. Reduces degree-1 authors and enriches the research footprint of key personnel.
+
+**Results:**
+- 11 new publication nodes, 11 new `published_study` edges → 752 nodes, 1,167 edges
+- 3 new Esvelt papers: CRISPR gene drive propagation, LLM biosecurity weights, germline sterilization
+- 3 new Church papers: swapped genetic code viral defense, multiplexed in situ protein imaging, gastric cancer microenvironment
+- 1 new Le Cong paper: APOE loss-of-function variants and longevity
+- 3 new Shakhnovich papers: protein folding transition, enzymatic metabolons, co-translational folding
+- 1 new Eric Xing paper: heterogeneous multitask learning
+
+**Method:** Queried Semantic Scholar API (`api.semanticscholar.org/graph/v1/author/{id}/papers`) for key personnel. Matched S2 papers against existing publication nodes by normalized title to avoid duplicates. Applied bio+AI keyword filter. Took top-3 by citation count per author.
+
+**Known gaps:**
+- Harris Wang: S2 author ID mismatch, no bio papers returned
+- Jian Ma: S2 returned wrong researcher (same name, different field)
+- Workshop organizers (Bedi, Velasquez, etc.): entered graph via `organized` edges; no presentation or publication linkage needed
+
+**Fix applied:** `author_eugene_shakhnovich` → `author_Eugene_Shakhnovich1` ID mismatch (S8 created node with OpenReview capitalized ID, S10 used lowercase).
+
+**Scripts:**
+```
+scripts/s10_author_pub_backfill.py   (inline in session)
+data/raw/s8_key_personnel/semantic_scholar_retry.json   (retry results for 7 authors)
+data/staged/s10_nodes.json   (11 nodes)
+data/staged/s10_edges.json   (11 edges)
+```
+
+---
+
+## Sprint 11: Graph Densification & Structural Audit ✅ COMPLETE
+
+**Status:** Shipped. 14/14 quality checks pass.
+
+**Goal:** Audit structural weaknesses, remove duplicate nodes, add co-authorship edges for strong collaboration pairs, and mark bridge nodes correctly.
+
+**Results:**
+- Net: -1 node (UC Berkeley dedup), +11 edges (co-authorship) → 751 nodes, 1,178 edges
+- Removed duplicate `inst_University_of_California_Berkeley` (deg=4, from Sprint 9 NSF mapping) — merged into canonical `inst_University_of_California__Berkeley` (deg=19)
+- 11 new `co_authored_with` edges for author pairs sharing ≥3 workshop presentations
+- 26 institution nodes updated with `bridge=True` (appear in both funding and workshop layers)
+
+**Co-authorship pairs discovered (≥3 shared papers):**
+- Dianzhuo Wang ↔ Eugene Shakhnovich (4 papers)
+- Le Cong ↔ Mengdi Wang ↔ Ruofan Jin ↔ ZAIXI ZHANG (Princeton biosafe core team, 3 papers each)
+- Benjamin Liu ↔ Kevin Zhu (3 papers)
+- Samira Nedungadi ↔ Seth Donoughe (3 papers)
+- Dianzhuo Wang ↔ Marian Huot + Eugene Shakhnovich ↔ Marian Huot (3 papers)
+
+**Structural audit findings:**
+- Degree-1 nodes: 318 (44%), mostly institutions/orgs with single funding edge — acceptable
+- 136/171 institutions have only affiliation edges (no funding) — expected for workshop-only institutions
+- 27 institutions bridge both funding and workshop layers (the most analytically valuable nodes)
+- All 32 publication nodes have ≥1 author edge (no orphan publications)
+
+**Scripts:** `quality_check.py` (audit), inline Python for merge and edge creation.
+
+---
+
+## Sprint 12: Geographic / Timeline Layer ✅ COMPLETE
+
+**Status:** Shipped. 14/14 quality checks pass.
+
+**Goal:** Enrich institution nodes with lat/lon coordinates and country codes; add `year_start`/`year_end` to funding edges; add `year` to program and presentation nodes. Lays the data foundation for a future map view and time slider.
+
+**Results:**
+- 70/171 institutions enriched with lat/lon + location + country (curated lookup table)
+- 272 `funds` edges enriched with `year_start` (extracted from `date_range` strings)
+- 4 org nodes enriched with country codes
+- 1 presentation node enriched with year
+- **No new nodes/edges** — pure metadata enrichment sprint
+
+**Geographic coverage:**
+- US: 45 institutions (Northeast, South, Midwest, West coast, national labs)
+- UK: 8 institutions (Oxford, Cambridge, Imperial, UCL, Edinburgh, Manchester, Sanger, Crick)
+- Europe: 8 institutions (ETH, EPFL, Heidelberg, Munich, Karolinska, Max Planck, Pasteur)
+- Asia: 12 institutions (China, Singapore, Japan, Korea, India)
+- Canada: 5 institutions (Toronto, McGill, UdeM, Mila, UBC)
+- Middle East: 2 institutions (Hebrew U, Weizmann + MBZUAI)
+- Other: 1 (Shahjalal, Bangladesh)
+
+**Future work (not yet implemented):**
+- Map view panel in HTML (requires Leaflet.js or similar)
+- Time slider filtering edges by `year_start`
+- Remaining 101 institutions need geocoding (mostly degree-1 workshop-only nodes)
+
+**Scripts:** Inline Python geo enrichment; coordinates from curated lookup table (no API calls needed).
+
+---
+
 ## Visualization Milestones
 
-| Sprint | Nodes | Edges | Renderer |
-|--------|-------|-------|----------|
-| 1 | 350 | 479 | SVG ✅ |
-| 2–3 | 502 | 767 | SVG ✅ |
-| 4–5 | 584 | 852 | SVG ✅ |
-| 6 | 607 | 936 | SVG ✅ |
-| 7 | 681 | 1,022 | SVG + Canvas 2D ✅ |
-| 8 | 725 | 1,119 | SVG + Canvas 2D ✅ |
+| Sprint | Nodes | Edges | Funding | Renderer |
+|--------|-------|-------|---------|----------|
+| 1 | 350 | 479 | — | SVG ✅ |
+| 2–3 | 502 | 767 | $543M | SVG ✅ |
+| 4–5 | 584 | 852 | $693M | SVG ✅ |
+| 6 | 607 | 936 | $693M | SVG ✅ |
+| 7 | 681 | 1,022 | $693M | SVG + Canvas 2D ✅ |
+| 8 | 725 | 1,119 | $693M | SVG + Canvas 2D ✅ |
+| 9–12 | 751 | 1,178 | $720M | SVG + Canvas 2D ✅ |
 
 **Dual renderer approach (Sprint 7+):** Rather than replacing SVG with WebGL, we added a Canvas 2D alternative (`index_webgl.html`) alongside the SVG version (`index.html`). Both share the same graph data, layout computation, sidebar, filters, and interaction model. Canvas 2D provides better performance at 700+ nodes via batched edge rendering by type, `ctx.arc()`/`ctx.roundRect()` for nodes, and includes an FPS counter.
 
@@ -466,12 +605,12 @@ Previous AI-assisted builds produced ~9% false edge rate, ~11% wrong amounts:
 
 ```
 biosecurity-atlas/
-├── index.html                          ← SVG visualization (self-contained, ~746 KB)
-├── index_webgl.html                    ← Canvas 2D visualization (self-contained, ~745 KB)
+├── index.html                          ← SVG visualization (self-contained, ~784 KB)
+├── index_webgl.html                    ← Canvas 2D visualization (self-contained, ~782 KB)
 ├── README.md
 ├── ROADMAP.md                          ← this file
 ├── data/
-│   ├── graph_data.json                 ← assembled graph (725 nodes, 1,119 edges)
+│   ├── graph_data.json                 ← assembled graph (751 nodes, 1,178 edges)
 │   ├── nodes.csv
 │   ├── edges.csv
 │   ├── raw/
@@ -485,9 +624,17 @@ biosecurity-atlas/
 │   │   │   ├── genai4health_papers.json     (164 papers)
 │   │   │   ├── ai4science_papers.json       (200 papers)
 │   │   │   └── overlap_analysis.json        (16 overlap papers → 15 unique)
-│   │   └── s8_key_personnel/           ← Sprint 8: Semantic Scholar + NIH RePORTER
-│   │       ├── semantic_scholar_results.json   (10 targets)
-│   │       └── nih_reporter_results.json       (7 PIs, 31 grants)
+│   │   ├── s8_key_personnel/           ← Sprint 8: Semantic Scholar + NIH RePORTER
+│   │   │   ├── semantic_scholar_results.json   (10 targets)
+│   │   │   ├── semantic_scholar_retry.json     (7 additional targets)
+│   │   │   └── nih_reporter_results.json       (7 PIs, 31 grants)
+│   │   └── s9_nsf_international/       ← Sprint 9: NSF + UKRI grants
+│   │       ├── nsf_awards_raw.json             (183 keyword-search awards)
+│   │       ├── nsf_pi_inst_awards.json         (82 PI/inst-targeted awards)
+│   │       ├── nsf_selected.json               (16 matched awards, $14.3M)
+│   │       ├── ukri_projects_raw.json          (348 unique UKRI projects)
+│   │       ├── ukri_bio_ai_relevant.json       (75 bio+AI filtered)
+│   │       └── ukri_selected.json              (2 institution-matched, £700K)
 │   └── staged/
 │       ├── op_edges.json               ← Sprint 2/3 (272 grants, 288 edges)
 │       ├── s4_nodes.json               ← Sprint 4 (51 nodes)
@@ -500,6 +647,10 @@ biosecurity-atlas/
 │       ├── s7_edges.json               ← Sprint 7 (86 edges)
 │       ├── s8_nodes.json               ← Sprint 8 (44 nodes)
 │       ├── s8_edges.json               ← Sprint 8 (97 edges)
+│       ├── s9_nodes.json               ← Sprint 9 (16 nodes)
+│       ├── s9_edges.json               ← Sprint 9 (37 edges)
+│       ├── s10_nodes.json              ← Sprint 10 (11 nodes)
+│       ├── s10_edges.json              ← Sprint 10 (11 edges)
 │       └── op_validation_report.json
 └── scripts/
     ├── extract_data.py                 ← Sprint 1: OpenReview extraction
@@ -517,6 +668,7 @@ biosecurity-atlas/
     ├── s6_extract_organizers_speakers.py ← Sprint 6: Organizers & speakers extraction
     ├── s7_extract_cross_venue.py       ← Sprint 7: Cross-venue overlap extraction
     ├── s8_extract_key_personnel.py     ← Sprint 8: NIH grants + Semantic Scholar pubs
+    ├── s9_extract_nsf_international.py ← Sprint 9: NSF + UKRI funding extraction
     └── notebooks/
         └── s5_policy_bigtech_exploration.ipynb  ← Sprint 5 exploration
 ```

@@ -1,0 +1,38 @@
+[
+  {
+    "id": "2618428",
+    "title": "Multiplex Next Generation Sequencing of Glycans and Nucleic Acids for Accelerating the Development of Cell Factories and Bioprocesses for Glycoprotein Biomanufacturing",
+    "awardee": "University of Georgia Research Foundation Inc",
+    "pi": "Nathan Lewis",
+    "amount": 609503,
+    "start": "02/15/2026",
+    "end": "07/31/2028",
+    "program": "Cellular & Biochem Engineering",
+    "inst_match": "inst_University_of_Georgia",
+    "pi_match": null
+  },
+  {
+    "id": "2510420",
+    "title": "MRI Track 1:  Acquisition of an Advanced System for Real-time Measurement and Monitoring of Bioaerosols",
+    "awardee": "Colorado State University",
+    "pi": "Russell Perkins",
+    "amount": 358749,
+    "start": "03/01/2026",
+    "end": "02/28/2029",
+    "program": "Major Research Instrumentation",
+    "inst_match": null,
+    "pi_match": null
+  },
+  {
+    "id": "2611387",
+    "title": "Conference: Artificial Intelligence and the Future of Human Connections",
+    "awardee": "University of California-Los Angeles",
+    "pi": "Jaimie Krems",
+    "amount": 49949,
+    "start": "07/01/2026",
+    "end": "12/31/2027",
+    "program": "Cross-Directorate  Activities",
+    "inst_match": null,
+    "pi_match": null
+  }
+]

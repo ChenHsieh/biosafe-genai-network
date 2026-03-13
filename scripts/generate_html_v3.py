@@ -30,7 +30,7 @@ for e in edges:
 ALL_NODE_TYPES = ["funder", "program", "presentation", "author", "department", "institution", "org", "publication"]
 ALL_EDGE_TYPES = ["funds", "authored", "current_affiliation", "past_affiliation", "part_of",
                   "performs_on", "biosecurity_eval", "policy_forum", "published_study",
-                  "organized", "invited_speaker"]
+                  "organized", "invited_speaker", "co_authored_with"]
 
 # =======================================
 # PRE-COMPUTE LAYOUTS IN PYTHON
@@ -376,12 +376,12 @@ const COL={
   org:{fill:'#14b8a6',stroke:'#0d9488',label:'Organization',shape:'rect'},
   publication:{fill:'#ec4899',stroke:'#be185d',label:'Publication',shape:'rect'},
 };
-const ECOL={funds:'#ef4444',authored:'#f59e0b',current_affiliation:'#10b981',past_affiliation:'#065f46',part_of:'#8b5cf6',performs_on:'#f97316',biosecurity_eval:'#ec4899',policy_forum:'#a855f7',published_study:'#06b6d4',organized:'#22d3ee',invited_speaker:'#facc15'};
+const ECOL={funds:'#ef4444',authored:'#f59e0b',current_affiliation:'#10b981',past_affiliation:'#065f46',part_of:'#8b5cf6',performs_on:'#f97316',biosecurity_eval:'#ec4899',policy_forum:'#a855f7',published_study:'#06b6d4',organized:'#22d3ee',invited_speaker:'#facc15',co_authored_with:'#a78bfa'};
 
 // Layer definitions: which node/edge types belong to each layer
 const LAYERS={
   all:{nodes:new Set(Object.keys(COL)),edges:new Set(Object.keys(ECOL))},
-  workshop:{nodes:new Set(['presentation','author','institution','department']),edges:new Set(['authored','current_affiliation','past_affiliation','part_of','organized','invited_speaker'])},
+  workshop:{nodes:new Set(['presentation','author','institution','department']),edges:new Set(['authored','current_affiliation','past_affiliation','part_of','organized','invited_speaker','co_authored_with'])},
   funding:{nodes:new Set(['funder','program','institution','org']),edges:new Set(['funds','performs_on'])},
   policy:{nodes:new Set(['institution','org','publication','author']),edges:new Set(['biosecurity_eval','policy_forum','published_study','authored'])},
 };

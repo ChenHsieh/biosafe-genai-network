@@ -1,0 +1,329 @@
+[
+  {
+    "id": "edge_funds_nsf_2032259",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_2032259",
+    "amount": 4199999,
+    "grant_title": "Towards Life with a Reduced Protein Alphabet",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2032259_to_inst",
+    "type": "funds",
+    "source": "program_nsf_2032259",
+    "target": "inst_Columbia_University",
+    "amount": 4199999,
+    "grant_title": "Towards Life with a Reduced Protein Alphabet",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_performs_nsf_2032259_author_harris_wang",
+    "type": "performs_on",
+    "source": "author_harris_wang",
+    "target": "program_nsf_2032259",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2123243",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_2123243",
+    "amount": 1996695,
+    "grant_title": "Expanding the functions of a 57 codon recoded E.coli genome",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2123243_to_inst",
+    "type": "funds",
+    "source": "program_nsf_2123243",
+    "target": "inst_Harvard_University",
+    "amount": 1996695,
+    "grant_title": "Expanding the functions of a 57 codon recoded E.coli genome",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_performs_nsf_2123243_author_george_church",
+    "type": "performs_on",
+    "source": "author_george_church",
+    "target": "program_nsf_2123243",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_1817593",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_1817593",
+    "amount": 1497868,
+    "grant_title": "Mechanism of Acquired Immunity in Bacteria",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_1817593_to_inst",
+    "type": "funds",
+    "source": "program_nsf_1817593",
+    "target": "inst_University_of_California_Berkeley",
+    "amount": 1497868,
+    "grant_title": "Mechanism of Acquired Immunity in Bacteria",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_performs_nsf_1817593_author_jennifer_doudna",
+    "type": "performs_on",
+    "source": "author_jennifer_doudna",
+    "target": "program_nsf_1817593",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2419698",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_2419698",
+    "amount": 1000000,
+    "grant_title": "Synthetic membrane signaling systems built from de novo protein components",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2419698_to_inst",
+    "type": "funds",
+    "source": "program_nsf_2419698",
+    "target": "org_university_of_california_san_francisco",
+    "amount": 1000000,
+    "grant_title": "Synthetic membrane signaling systems built from de novo protein components",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2419640",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_2419640",
+    "amount": 900000,
+    "grant_title": "Collaborative Research: Using non-canonical genetic alphabets to expand genetic codes in synthetic cells",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2419640_to_inst",
+    "type": "funds",
+    "source": "program_nsf_2419640",
+    "target": "inst_University_of_Texas_at_Austin",
+    "amount": 900000,
+    "grant_title": "Collaborative Research: Using non-canonical genetic alphabets to expand genetic codes in synthetic cells",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2540003",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_2540003",
+    "amount": 598776,
+    "grant_title": "CAREER: Aqueous Click Functionalization of Nanocellulose  for Scalable Production of Property Programmable Plastics",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2540003_to_inst",
+    "type": "funds",
+    "source": "program_nsf_2540003",
+    "target": "inst_University_of_Washington",
+    "amount": 598776,
+    "grant_title": "CAREER: Aqueous Click Functionalization of Nanocellulose  for Scalable Production of Property Programmable Plastics",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2037995",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_2037995",
+    "amount": 514999,
+    "grant_title": "Collaborative Research: Designing a Minimized Genome  Cyanobacterial Chassis for Efficient Bioproduction",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2037995_to_inst",
+    "type": "funds",
+    "source": "program_nsf_2037995",
+    "target": "inst_Harvard_University",
+    "amount": 514999,
+    "grant_title": "Collaborative Research: Designing a Minimized Genome  Cyanobacterial Chassis for Efficient Bioproduction",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_performs_nsf_2037995_author_george_church",
+    "type": "performs_on",
+    "source": "author_george_church",
+    "target": "program_nsf_2037995",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_1953686",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_1953686",
+    "amount": 420000,
+    "grant_title": "Collaborative Research: Statistical Optimization for Barcoding and Decoding Single-Cell Dynamics via CRISPR Gene Editing",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_1953686_to_inst",
+    "type": "funds",
+    "source": "program_nsf_1953686",
+    "target": "inst_Princeton_University",
+    "amount": 420000,
+    "grant_title": "Collaborative Research: Statistical Optimization for Barcoding and Decoding Single-Cell Dynamics via CRISPR Gene Editing",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_performs_nsf_1953686_author_Mengdi_Wang1",
+    "type": "performs_on",
+    "source": "author_Mengdi_Wang1",
+    "target": "program_nsf_1953686",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2312093",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_2312093",
+    "amount": 400000,
+    "grant_title": "CPS: Medium: Collaborative Research: Provably Safe and Robust Multi-Agent Reinforcement Learning with Applications in Urban Air Mobility",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2312093_to_inst",
+    "type": "funds",
+    "source": "program_nsf_2312093",
+    "target": "inst_Princeton_University",
+    "amount": 400000,
+    "grant_title": "CPS: Medium: Collaborative Research: Provably Safe and Robust Multi-Agent Reinforcement Learning with Applications in Urban Air Mobility",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_performs_nsf_2312093_author_Mengdi_Wang1",
+    "type": "performs_on",
+    "source": "author_Mengdi_Wang1",
+    "target": "program_nsf_2312093",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_1953415",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_1953415",
+    "amount": 360000,
+    "grant_title": "Collaborative Research: Statistical Optimization for Barcoding and Decoding Single-Cell Dynamics via CRISPR Gene Editing",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_1953415_to_inst",
+    "type": "funds",
+    "source": "program_nsf_1953415",
+    "target": "inst_Stanford_University",
+    "amount": 360000,
+    "grant_title": "Collaborative Research: Statistical Optimization for Barcoding and Decoding Single-Cell Dynamics via CRISPR Gene Editing",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_performs_nsf_1953415_author_Le_Cong2",
+    "type": "performs_on",
+    "source": "author_Le_Cong2",
+    "target": "program_nsf_1953415",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2123952",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_2123952",
+    "amount": 360000,
+    "grant_title": "Collaborative Research: SCH: Trustworthy and Explainable AI for Neurodegenerative Diseases",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2123952_to_inst",
+    "type": "funds",
+    "source": "program_nsf_2123952",
+    "target": "inst_Carnegie_Mellon_University",
+    "amount": 360000,
+    "grant_title": "Collaborative Research: SCH: Trustworthy and Explainable AI for Neurodegenerative Diseases",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_performs_nsf_2123952_author_eric_xing",
+    "type": "performs_on",
+    "source": "author_eric_xing",
+    "target": "program_nsf_2123952",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2227919",
+    "type": "funds",
+    "source": "funder_nsf",
+    "target": "program_nsf_2227919",
+    "amount": 50000,
+    "grant_title": "I-Corps:  Curing inherited diseases at the source through next-generation clustered regularly interspaced short palindromic repeat (CRISPR) systems",
+    "date_range": "\u2013",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_nsf_2227919_to_inst",
+    "type": "funds",
+    "source": "program_nsf_2227919",
+    "target": "inst_University_of_California_Berkeley",
+    "amount": 50000,
+    "grant_title": "I-Corps:  Curing inherited diseases at the source through next-generation clustered regularly interspaced short palindromic repeat (CRISPR) systems",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_performs_nsf_2227919_author_jennifer_doudna",
+    "type": "performs_on",
+    "source": "author_jennifer_doudna",
+    "target": "program_nsf_2227919",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_ukri_60CC1114-FFE",
+    "type": "funds",
+    "source": "funder_ukri",
+    "target": "program_ukri_60cc1114_ffec_41d9_a",
+    "amount": 603356,
+    "grant_title": "Antivirus Pandemic Preparedness EuropeAn pLatform (Appeal)",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_ukri_60CC1114-FFE_to_inst",
+    "type": "funds",
+    "source": "program_ukri_60cc1114_ffec_41d9_a",
+    "target": "inst_Imperial_College_London",
+    "amount": 603356,
+    "grant_title": "Antivirus Pandemic Preparedness EuropeAn pLatform (Appeal)",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_ukri_14C22F2F-218",
+    "type": "funds",
+    "source": "funder_ukri",
+    "target": "program_ukri_14c22f2f_2182_405d_8",
+    "amount": 285540,
+    "grant_title": "Computational and synthetic biology approaches for optimised mammalian bioproduction",
+    "confidence": "HIGH"
+  },
+  {
+    "id": "edge_funds_ukri_14C22F2F-218_to_inst",
+    "type": "funds",
+    "source": "program_ukri_14c22f2f_2182_405d_8",
+    "target": "inst_University_of_Oxford",
+    "amount": 285540,
+    "grant_title": "Computational and synthetic biology approaches for optimised mammalian bioproduction",
+    "confidence": "HIGH"
+  }
+]

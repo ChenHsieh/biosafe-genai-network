@@ -30,7 +30,8 @@ GRAPH_FILE = os.path.join(BASE_DIR, "data", "graph_data.json")
 VALID_NODE_TYPES = {"funder", "program", "presentation", "author", "institution", "department", "org", "publication", "media"}
 VALID_EDGE_TYPES = {"funds", "contracts", "evaluates", "authored", "presented_at",
                     "current_affiliation", "past_affiliation", "part_of", "organized", "invited_speaker",
-                    "performs_on", "biosecurity_eval", "policy_forum", "published_study"}
+                    "performs_on", "biosecurity_eval", "policy_forum", "published_study",
+                    "co_authored_with"}
 
 
 def main():
