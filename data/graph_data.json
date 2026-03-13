@@ -20,7 +20,8 @@
         "Forum": "https://openreview.net/forum?id=hZ6ra8ApLP",
         "PDF": "https://openreview.net/pdf?id=hZ6ra8ApLP",
         "Type": "Oral",
-        "Keywords": "Proteins, Diffusion, Biosafety, Erasing, Generation"
+        "Keywords": "Proteins, Diffusion, Biosafety, Erasing, Generation",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 4
     },
@@ -44,7 +45,8 @@
         "Forum": "https://openreview.net/forum?id=x3yCeCEIb3",
         "PDF": "https://openreview.net/pdf?id=x3yCeCEIb3",
         "Type": "Poster",
-        "Keywords": "biosecurity, generative AI, dual-use governance, biotechnology, international regulation"
+        "Keywords": "biosecurity, generative AI, dual-use governance, biotechnology, international regulation",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 3
     },
@@ -67,7 +69,8 @@
         "Forum": "https://openreview.net/forum?id=oPSMbYw7zx",
         "PDF": "https://openreview.net/pdf?id=oPSMbYw7zx",
         "Type": "Poster",
-        "Keywords": "Multimodal Large Language Models, Clinical AI Ecosystem, Healthcare Infrastructure, Precision Medicine Technologies"
+        "Keywords": "Multimodal Large Language Models, Clinical AI Ecosystem, Healthcare Infrastructure, Precision Medicine Technologies",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 2
     },
@@ -91,7 +94,8 @@
         "Forum": "https://openreview.net/forum?id=Iik48LI1xX",
         "PDF": "https://openreview.net/pdf?id=Iik48LI1xX",
         "Type": "Poster",
-        "Keywords": "Protein hazard screening, Biosecurity screening, Sequence-level classification, Homology-clustered evaluation, CPU-only baseline"
+        "Keywords": "Protein hazard screening, Biosecurity screening, Sequence-level classification, Homology-clustered evaluation, CPU-only baseline",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 1
     },
@@ -117,7 +121,8 @@
         "Forum": "https://openreview.net/forum?id=SoGnOiTGAH",
         "PDF": "https://openreview.net/pdf?id=SoGnOiTGAH",
         "Type": "Poster",
-        "Keywords": "biosecurity, LLM safety, defense-in-depth, automated red teaming, preference alignment (DPO), runtime policy enforcement, STELLA agent orchestration"
+        "Keywords": "biosecurity, LLM safety, defense-in-depth, automated red teaming, preference alignment (DPO), runtime policy enforcement, STELLA agent orchestration",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 2
     },
@@ -144,7 +149,8 @@
         "Forum": "https://openreview.net/forum?id=DOsb0ZbtjA",
         "PDF": "https://openreview.net/pdf?id=DOsb0ZbtjA",
         "Type": "Poster",
-        "Keywords": "AI safety, agentic misalignment, biosecurity, red teaming, biological design tools, AI agents, constraint-based evaluation, large language models"
+        "Keywords": "AI safety, agentic misalignment, biosecurity, red teaming, biological design tools, AI agents, constraint-based evaluation, large language models",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 1
     },
@@ -169,7 +175,8 @@
         "Forum": "https://openreview.net/forum?id=fpx52DO8oP",
         "PDF": "https://openreview.net/pdf?id=fpx52DO8oP",
         "Type": "Poster",
-        "Keywords": "LLaMA, Safety-weighted evaluation, Biochemical toxicity screening, Robustness, Generative AI safeguards, AI safety"
+        "Keywords": "LLaMA, Safety-weighted evaluation, Biochemical toxicity screening, Robustness, Generative AI safeguards, AI safety",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 1
     },
@@ -192,7 +199,8 @@
         "Forum": "https://openreview.net/forum?id=qKxVD730Xt",
         "PDF": "https://openreview.net/pdf?id=qKxVD730Xt",
         "Type": "Poster",
-        "Keywords": "Genomic Language Models, Toxicity, Biosecurity, Foundation Models"
+        "Keywords": "Genomic Language Models, Toxicity, Biosecurity, Foundation Models",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 5
     },
@@ -215,7 +223,8 @@
         "Forum": "https://openreview.net/forum?id=byGQX45VWD",
         "PDF": "https://openreview.net/pdf?id=byGQX45VWD",
         "Type": "Poster",
-        "Keywords": "Prompt Injections, Embeddings, Drift Detection, Large Language Models"
+        "Keywords": "Prompt Injections, Embeddings, Drift Detection, Large Language Models",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 6
     },
@@ -240,7 +249,8 @@
         "Forum": "https://openreview.net/forum?id=Jf1ee1fyaM",
         "PDF": "https://openreview.net/pdf?id=Jf1ee1fyaM",
         "Type": "Poster",
-        "Keywords": "biosafety, generative models, protein design, biosecurity, benchmarks, RFdiffusion"
+        "Keywords": "biosafety, generative models, protein design, biosecurity, benchmarks, RFdiffusion",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 1
     },
@@ -265,7 +275,8 @@
         "Forum": "https://openreview.net/forum?id=Jhj4rG9Oio",
         "PDF": "https://openreview.net/pdf?id=Jhj4rG9Oio",
         "Type": "Poster",
-        "Keywords": "Biosecurity, Protein Language Models, Sequence Redaction, Structural Recovery, Protein Knots, ESM3"
+        "Keywords": "Biosecurity, Protein Language Models, Sequence Redaction, Structural Recovery, Protein Knots, ESM3",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 1
     },
@@ -289,7 +300,8 @@
         "Forum": "https://openreview.net/forum?id=AFRn7DfXXE",
         "PDF": "https://openreview.net/pdf?id=AFRn7DfXXE",
         "Type": "Poster",
-        "Keywords": "Generative AI, Biosecurity, Large Language Models (LLMs), Biological Design Tools (BDTs), Zero Trust Policy"
+        "Keywords": "Generative AI, Biosecurity, Large Language Models (LLMs), Biological Design Tools (BDTs), Zero Trust Policy",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 2
     },
@@ -321,7 +333,8 @@
         "Forum": "https://openreview.net/forum?id=BItfXx4ozE",
         "PDF": "https://openreview.net/pdf?id=BItfXx4ozE",
         "Type": "Poster",
-        "Keywords": "ProtGPT2, proteins, genAI, biosecurity, biosafety, red teaming, adversarial, screening, dual-use, ML security, AI safety, empirical, safeguards"
+        "Keywords": "ProtGPT2, proteins, genAI, biosecurity, biosafety, red teaming, adversarial, screening, dual-use, ML security, AI safety, empirical, safeguards",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 1
     },
@@ -344,7 +357,8 @@
         "Forum": "https://openreview.net/forum?id=KiZxvtn3JE",
         "PDF": "https://openreview.net/pdf?id=KiZxvtn3JE",
         "Type": "Poster",
-        "Keywords": "protein language models, steering, controllability, low resource data"
+        "Keywords": "protein language models, steering, controllability, low resource data",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 5
     },
@@ -367,7 +381,8 @@
         "Forum": "https://openreview.net/forum?id=fDysOrWaGd",
         "PDF": "https://openreview.net/pdf?id=fDysOrWaGd",
         "Type": "Poster",
-        "Keywords": "AI evaluations, AI benchmarks, biosecurity, Bio-AI Models"
+        "Keywords": "AI evaluations, AI benchmarks, biosecurity, Bio-AI Models",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 5
     },
@@ -391,7 +406,8 @@
         "Forum": "https://openreview.net/forum?id=e7SmcN6tRZ",
         "PDF": "https://openreview.net/pdf?id=e7SmcN6tRZ",
         "Type": "Poster",
-        "Keywords": "Constrained Molecular Generation, Discrete Diffusion, constrained optimization, molecular design, safety-critical generation"
+        "Keywords": "Constrained Molecular Generation, Discrete Diffusion, constrained optimization, molecular design, safety-critical generation",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 5
     },
@@ -414,7 +430,8 @@
         "Forum": "https://openreview.net/forum?id=N5DhtpYJ21",
         "PDF": "https://openreview.net/pdf?id=N5DhtpYJ21",
         "Type": "Poster",
-        "Keywords": "AI safety, biosecurity, evaluation, fine-tuning"
+        "Keywords": "AI safety, biosecurity, evaluation, fine-tuning",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 12
     },
@@ -436,7 +453,8 @@
         "Forum": "https://openreview.net/forum?id=JO8gyyeM9L",
         "PDF": "https://openreview.net/pdf?id=JO8gyyeM9L",
         "Type": "Poster",
-        "Keywords": "Genomic foundation models, soft prompt attack, adversarial robustness"
+        "Keywords": "Genomic foundation models, soft prompt attack, adversarial robustness",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 1
     },
@@ -461,7 +479,8 @@
         "Forum": "https://openreview.net/forum?id=ZNZn43baQX",
         "PDF": "https://openreview.net/pdf?id=ZNZn43baQX",
         "Type": "Oral",
-        "Keywords": "biosecurity, reasoning models, reinforcement learning, exploration hacking, red teaming, sandbagging"
+        "Keywords": "biosecurity, reasoning models, reinforcement learning, exploration hacking, red teaming, sandbagging",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 6
     },
@@ -489,7 +508,8 @@
         "Forum": "https://openreview.net/forum?id=lZGgc845Uz",
         "PDF": "https://openreview.net/pdf?id=lZGgc845Uz",
         "Type": "Oral",
-        "Keywords": "safety, safeguards, tampering, tamper-resistance, unlearning, pretraining, data curation, adversarial attacks, open-weights"
+        "Keywords": "safety, safeguards, tampering, tamper-resistance, unlearning, pretraining, data curation, adversarial attacks, open-weights",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 10
     },
@@ -510,7 +530,8 @@
         "Forum": "https://openreview.net/forum?id=FRNHz65p25",
         "PDF": "https://openreview.net/pdf?id=FRNHz65p25",
         "Type": "Poster",
-        "Keywords": "DNA, Watermark"
+        "Keywords": "DNA, Watermark",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 4
     },
@@ -532,7 +553,8 @@
         "Forum": "https://openreview.net/forum?id=HQR89TwSjS",
         "PDF": "https://openreview.net/pdf?id=HQR89TwSjS",
         "Type": "Oral",
-        "Keywords": "DNA, Jailbreak attacks, Pathogenicity"
+        "Keywords": "DNA, Jailbreak attacks, Pathogenicity",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 5
     },
@@ -556,7 +578,8 @@
         "Forum": "https://openreview.net/forum?id=uZG2ag5CLB",
         "PDF": "https://openreview.net/pdf?id=uZG2ag5CLB",
         "Type": "Poster",
-        "Keywords": "Deep Research, Large Language Models, Red teaming, safety, jailbreak LLMs"
+        "Keywords": "Deep Research, Large Language Models, Red teaming, safety, jailbreak LLMs",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 10
     },
@@ -579,7 +602,8 @@
         "Forum": "https://openreview.net/forum?id=Tgvew8gkrh",
         "PDF": "https://openreview.net/pdf?id=Tgvew8gkrh",
         "Type": "Poster",
-        "Keywords": "Language Models, AI Safety, Biosecurity, NLP"
+        "Keywords": "Language Models, AI Safety, Biosecurity, NLP",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 2
     },
@@ -605,7 +629,8 @@
         "Forum": "https://openreview.net/forum?id=of2ZA4Zmv6",
         "PDF": "https://openreview.net/pdf?id=of2ZA4Zmv6",
         "Type": "Poster",
-        "Keywords": "Perturbation prediction, Diffusion models, Benchmarking, Single-cell transcriptomics, Generative models, Deep learning, Computational biology"
+        "Keywords": "Perturbation prediction, Diffusion models, Benchmarking, Single-cell transcriptomics, Generative models, Deep learning, Computational biology",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 5
     },
@@ -632,7 +657,8 @@
         "Forum": "https://openreview.net/forum?id=9gmzIH0JJF",
         "PDF": "https://openreview.net/pdf?id=9gmzIH0JJF",
         "Type": "Poster",
-        "Keywords": "AI Safety, Biosecurity, Large Language Models, Risk Assessment, Threat Modeling, Monte Carlo Simulation, Evaluation Metrics, Catastrophic Risk"
+        "Keywords": "AI Safety, Biosecurity, Large Language Models, Risk Assessment, Threat Modeling, Monte Carlo Simulation, Evaluation Metrics, Catastrophic Risk",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 2
     },
@@ -659,7 +685,8 @@
         "Forum": "https://openreview.net/forum?id=bKLp7oaU1L",
         "PDF": "https://openreview.net/pdf?id=bKLp7oaU1L",
         "Type": "Poster",
-        "Keywords": "Genomic Language Models, Biosecurity Safeguards, Data Exclusion, Viral Fine-tuning, Biological Foundation Models, Dual-use Risks, Responsible AI in Biology, Safety Frameworks"
+        "Keywords": "Genomic Language Models, Biosecurity Safeguards, Data Exclusion, Viral Fine-tuning, Biological Foundation Models, Dual-use Risks, Responsible AI in Biology, Safety Frameworks",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 6
     },
@@ -683,7 +710,8 @@
         "Forum": "https://openreview.net/forum?id=MwajedbCfX",
         "PDF": "https://openreview.net/pdf?id=MwajedbCfX",
         "Type": "Poster",
-        "Keywords": "biosafety guardrails, AI Safety, Jailbreak attacks, datasets, multi-turn jailbreaks"
+        "Keywords": "biosafety guardrails, AI Safety, Jailbreak attacks, datasets, multi-turn jailbreaks",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 4
     },
@@ -705,7 +733,8 @@
         "Forum": "https://openreview.net/forum?id=rQgPJ3ILLN",
         "PDF": "https://openreview.net/pdf?id=rQgPJ3ILLN",
         "Type": "Poster",
-        "Keywords": "Benchmarks, Unlearning, Bio-weapons"
+        "Keywords": "Benchmarks, Unlearning, Bio-weapons",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 4
     },
@@ -728,7 +757,8 @@
         "Forum": "https://openreview.net/forum?id=X8XvMXDs1J",
         "PDF": "https://openreview.net/pdf?id=X8XvMXDs1J",
         "Type": "Poster",
-        "Keywords": "misuse, language model misuse, biosecurity, evaluation"
+        "Keywords": "misuse, language model misuse, biosecurity, evaluation",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 7
     },
@@ -753,7 +783,8 @@
         "Forum": "https://openreview.net/forum?id=mo5H9VAr6r",
         "PDF": "https://openreview.net/pdf?id=mo5H9VAr6r",
         "Type": "Oral",
-        "Keywords": "biosecurity, benchmark, evaluations, llms, agents, biology"
+        "Keywords": "biosecurity, benchmark, evaluations, llms, agents, biology",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 6
     },
@@ -776,7 +807,8 @@
         "Forum": "https://openreview.net/forum?id=ns8pgHHrPo",
         "PDF": "https://openreview.net/pdf?id=ns8pgHHrPo",
         "Type": "Poster",
-        "Keywords": "Large Language Models, Signal Temporal Logic, Systems Biology, AI Safety"
+        "Keywords": "Large Language Models, Signal Temporal Logic, Systems Biology, AI Safety",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 4
     },
@@ -798,7 +830,8 @@
         "Forum": "https://openreview.net/forum?id=rAlReAI7bx",
         "PDF": "https://openreview.net/pdf?id=rAlReAI7bx",
         "Type": "Poster",
-        "Keywords": "Biosafety, Protein Red-teaming, Protein Jailbreak"
+        "Keywords": "Biosafety, Protein Red-teaming, Protein Jailbreak",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 6
     },
@@ -826,7 +859,8 @@
         "Forum": "https://openreview.net/forum?id=ZgD951FVe7",
         "PDF": "https://openreview.net/pdf?id=ZgD951FVe7",
         "Type": "Poster",
-        "Keywords": "Artificial intelligence, biosecurity, biosafety, biological foundation models, genome language models, cybersecurity, data, governance, oversight"
+        "Keywords": "Artificial intelligence, biosecurity, biosafety, biological foundation models, genome language models, cybersecurity, data, governance, oversight",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 9
     },
@@ -860,7 +894,8 @@
         "Forum": "https://openreview.net/forum?id=7FGZVr6vlK",
         "PDF": "https://openreview.net/pdf?id=7FGZVr6vlK",
         "Type": "Poster",
-        "Keywords": "unlearning, representation-engineering, language-models, biosecurity, fine-tuning, robustness, adversarial-attacks, WMDP, AI-safety, neural-representations, evaluation-robustness, meta-learning, MAML, machine-unlearning, model-editing"
+        "Keywords": "unlearning, representation-engineering, language-models, biosecurity, fine-tuning, robustness, adversarial-attacks, WMDP, AI-safety, neural-representations, evaluation-robustness, meta-learning, MAML, machine-unlearning, model-editing",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 4
     },
@@ -882,7 +917,8 @@
         "Forum": "https://openreview.net/forum?id=Ci3HSCeZ51",
         "PDF": "https://openreview.net/pdf?id=Ci3HSCeZ51",
         "Type": "Poster",
-        "Keywords": "Jailbreak attack, safety guardrail, LLMs"
+        "Keywords": "Jailbreak attack, safety guardrail, LLMs",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 3
     },
@@ -908,7 +944,8 @@
         "Forum": "https://openreview.net/forum?id=x12eUGh0DE",
         "PDF": "https://openreview.net/pdf?id=x12eUGh0DE",
         "Type": "Oral",
-        "Keywords": "protein language models, AI-biology integration, artificial intelligence safety, biosecurity, dual-use research, viral fitness prediction, pandemic preparedness"
+        "Keywords": "protein language models, AI-biology integration, artificial intelligence safety, biosecurity, dual-use research, viral fitness prediction, pandemic preparedness",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 6
     },
@@ -932,7 +969,8 @@
         "Forum": "https://openreview.net/forum?id=NAr5wbHghS",
         "PDF": "https://openreview.net/pdf?id=NAr5wbHghS",
         "Type": "Poster",
-        "Keywords": "Biosecurity, Governance, Protein design, PLMs, Bioweapons"
+        "Keywords": "Biosecurity, Governance, Protein design, PLMs, Bioweapons",
+        "venue": "NeurIPS 2025 BioSafe GenAI Workshop"
       },
       "degree": 2
     },
@@ -7764,7 +7802,8 @@
       "url": "https://openreview.net/forum?id=4YMUZ49lB3",
       "data_source": "https://openreview.net/forum?id=4YMUZ49lB3",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=4YMUZ49lB3"
+        "OpenReview": "https://openreview.net/forum?id=4YMUZ49lB3",
+        "venue": "NeurIPS 2025 MLGenX Workshop"
       }
     },
     {
@@ -7781,7 +7820,8 @@
       "url": "https://openreview.net/forum?id=BZIxe22wEO",
       "data_source": "https://openreview.net/forum?id=BZIxe22wEO",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=BZIxe22wEO"
+        "OpenReview": "https://openreview.net/forum?id=BZIxe22wEO",
+        "venue": "NeurIPS 2025 MLGenX Workshop"
       }
     },
     {
@@ -7798,7 +7838,8 @@
       "url": "https://openreview.net/forum?id=lHRETQDSVu",
       "data_source": "https://openreview.net/forum?id=lHRETQDSVu",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=lHRETQDSVu"
+        "OpenReview": "https://openreview.net/forum?id=lHRETQDSVu",
+        "venue": "NeurIPS 2025 MLGenX Workshop"
       }
     },
     {
@@ -7821,7 +7862,8 @@
       "url": "https://openreview.net/forum?id=pSDvq2ZgPk",
       "data_source": "https://openreview.net/forum?id=pSDvq2ZgPk",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=pSDvq2ZgPk"
+        "OpenReview": "https://openreview.net/forum?id=pSDvq2ZgPk",
+        "venue": "NeurIPS 2025 GenAI4Health Workshop"
       }
     },
     {
@@ -7880,7 +7922,8 @@
       "url": "https://openreview.net/forum?id=vTIacVIpL0",
       "data_source": "https://openreview.net/forum?id=vTIacVIpL0",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=vTIacVIpL0"
+        "OpenReview": "https://openreview.net/forum?id=vTIacVIpL0",
+        "venue": "NeurIPS 2025 GenAI4Health Workshop"
       }
     },
     {
@@ -7891,7 +7934,8 @@
       "url": "https://openreview.net/forum?id=4tnyi8RQks",
       "data_source": "https://openreview.net/forum?id=4tnyi8RQks",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=4tnyi8RQks"
+        "OpenReview": "https://openreview.net/forum?id=4tnyi8RQks",
+        "venue": "NeurIPS 2025 GenAI4Health Workshop"
       }
     },
     {
@@ -7944,7 +7988,8 @@
       "url": "https://openreview.net/forum?id=EU3TV1Uq78",
       "data_source": "https://openreview.net/forum?id=EU3TV1Uq78",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=EU3TV1Uq78"
+        "OpenReview": "https://openreview.net/forum?id=EU3TV1Uq78",
+        "venue": "NeurIPS 2025 GenAI4Health Workshop"
       }
     },
     {
@@ -7991,7 +8036,8 @@
       "url": "https://openreview.net/forum?id=aOoFPWZuXY",
       "data_source": "https://openreview.net/forum?id=aOoFPWZuXY",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=aOoFPWZuXY"
+        "OpenReview": "https://openreview.net/forum?id=aOoFPWZuXY",
+        "venue": "NeurIPS 2025 GenAI4Health Workshop"
       }
     },
     {
@@ -8062,7 +8108,8 @@
       "url": "https://openreview.net/forum?id=sjEuoLSvqS",
       "data_source": "https://openreview.net/forum?id=sjEuoLSvqS",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=sjEuoLSvqS"
+        "OpenReview": "https://openreview.net/forum?id=sjEuoLSvqS",
+        "venue": "NeurIPS 2025 GenAI4Health Workshop"
       }
     },
     {
@@ -8139,7 +8186,8 @@
       "url": "https://openreview.net/forum?id=cxffbxltME",
       "data_source": "https://openreview.net/forum?id=cxffbxltME",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=cxffbxltME"
+        "OpenReview": "https://openreview.net/forum?id=cxffbxltME",
+        "venue": "NeurIPS 2025 GenAI4Health Workshop"
       }
     },
     {
@@ -8156,7 +8204,8 @@
       "url": "https://openreview.net/forum?id=9Nhrk0Cuk0",
       "data_source": "https://openreview.net/forum?id=9Nhrk0Cuk0",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=9Nhrk0Cuk0"
+        "OpenReview": "https://openreview.net/forum?id=9Nhrk0Cuk0",
+        "venue": "NeurIPS 2025 GenAI4Health Workshop"
       }
     },
     {
@@ -8167,7 +8216,8 @@
       "url": "https://openreview.net/forum?id=cRhbNNv2kA",
       "data_source": "https://openreview.net/forum?id=cRhbNNv2kA",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=cRhbNNv2kA"
+        "OpenReview": "https://openreview.net/forum?id=cRhbNNv2kA",
+        "venue": "NeurIPS 2025 AI4Science Workshop"
       }
     },
     {
@@ -8184,7 +8234,8 @@
       "url": "https://openreview.net/forum?id=FGmV1Ssqfa",
       "data_source": "https://openreview.net/forum?id=FGmV1Ssqfa",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=FGmV1Ssqfa"
+        "OpenReview": "https://openreview.net/forum?id=FGmV1Ssqfa",
+        "venue": "NeurIPS 2025 AI4Science Workshop"
       }
     },
     {
@@ -8225,7 +8276,8 @@
       "url": "https://openreview.net/forum?id=v1cxKcwPFP",
       "data_source": "https://openreview.net/forum?id=v1cxKcwPFP",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=v1cxKcwPFP"
+        "OpenReview": "https://openreview.net/forum?id=v1cxKcwPFP",
+        "venue": "NeurIPS 2025 AI4Science Workshop"
       }
     },
     {
@@ -8272,7 +8324,8 @@
       "url": "https://openreview.net/forum?id=DvnxwBA067",
       "data_source": "https://openreview.net/forum?id=DvnxwBA067",
       "details": {
-        "OpenReview": "https://openreview.net/forum?id=DvnxwBA067"
+        "OpenReview": "https://openreview.net/forum?id=DvnxwBA067",
+        "venue": "NeurIPS 2025 AI4Science Workshop"
       }
     },
     {
@@ -8655,28 +8708,6 @@
       }
     },
     {
-      "id": "pub_s2_CRISPR_technology__A_decade_of_genome_ed_2023",
-      "label": "CRISPR technology: A decade of genome editing is only the beginning",
-      "type": "publication",
-      "subtype": "research_paper",
-      "data_source": "https://api.semanticscholar.org/graph/v1/paper/04992d7174dc01ef8c488f580deb7414b11d54c7",
-      "description": "Science (2023) | 740 citations",
-      "details": {
-        "Semantic Scholar": "https://www.semanticscholar.org/paper/04992d7174dc01ef8c488f580deb7414b11d54c7"
-      }
-    },
-    {
-      "id": "pub_s2_Mitigation_of_chromosome_loss_in_clinica_2023",
-      "label": "Mitigation of chromosome loss in clinical CRISPR-Cas9-engineered T cells",
-      "type": "publication",
-      "subtype": "research_paper",
-      "data_source": "https://api.semanticscholar.org/graph/v1/paper/ff59396d8f8975aefbfd06f8eca3b8f4d27e8c00",
-      "description": "bioRxiv (2023) | 130 citations",
-      "details": {
-        "Semantic Scholar": "https://www.semanticscholar.org/paper/ff59396d8f8975aefbfd06f8eca3b8f4d27e8c00"
-      }
-    },
-    {
       "id": "pub_s2_Rapid_assembly_of_SARS_CoV_2_genomes_rev_2023",
       "label": "Rapid assembly of SARS-CoV-2 genomes reveals attenuation of the Omicron BA.1 variant through NSP6",
       "type": "publication",
@@ -8721,17 +8752,6 @@
       }
     },
     {
-      "id": "pub_s2_Deciphering_cell_states_and_genealogies__2024",
-      "label": "Deciphering cell states and genealogies of human haematopoiesis",
-      "type": "publication",
-      "subtype": "research_paper",
-      "data_source": "https://api.semanticscholar.org/graph/v1/paper/9227beae6f3e5a6c3d799638d1ea424bab5d01e7",
-      "description": "Nature (2024) | 101 citations",
-      "details": {
-        "Semantic Scholar": "https://www.semanticscholar.org/paper/9227beae6f3e5a6c3d799638d1ea424bab5d01e7"
-      }
-    },
-    {
       "id": "pub_s2_Brain_wide_silencing_of_prion_protein_by_2024",
       "label": "Brain-wide silencing of prion protein by AAV-mediated delivery of an engineered compact epigenetic editor",
       "type": "publication",
@@ -8740,17 +8760,6 @@
       "description": "Science (2024) | 63 citations",
       "details": {
         "Semantic Scholar": "https://www.semanticscholar.org/paper/b363522b5c42e3ce6c0cb7a44eff0b803cda69d0"
-      }
-    },
-    {
-      "id": "pub_s2_High_quality_peptide_evidence_for_annota_2024",
-      "label": "High-quality peptide evidence for annotating non-canonical open reading frames as human proteins",
-      "type": "publication",
-      "subtype": "research_paper",
-      "data_source": "https://api.semanticscholar.org/graph/v1/paper/6a6f8322e7a21e1793eb63a4272ee2bd6a1b05d1",
-      "description": "bioRxiv (2024) | 20 citations",
-      "details": {
-        "Semantic Scholar": "https://www.semanticscholar.org/paper/6a6f8322e7a21e1793eb63a4272ee2bd6a1b05d1"
       }
     },
     {
@@ -8772,18 +8781,6 @@
       "bridge": false
     },
     {
-      "id": "program_nsf_2032259",
-      "type": "program",
-      "subtype": "nsf_grant",
-      "label": "Towards Life with a Reduced Protein Alphabet",
-      "short": "NSF 2032259",
-      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2032259",
-      "description": "NSF award to Columbia University (PI: Harris Wang)",
-      "amount": 4199999,
-      "date_range": "\u2013",
-      "bridge": false
-    },
-    {
       "id": "program_nsf_2123243",
       "type": "program",
       "subtype": "nsf_grant",
@@ -8792,54 +8789,6 @@
       "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2123243",
       "description": "NSF award to Harvard University (PI: George Church)",
       "amount": 1996695,
-      "date_range": "\u2013",
-      "bridge": false
-    },
-    {
-      "id": "program_nsf_1817593",
-      "type": "program",
-      "subtype": "nsf_grant",
-      "label": "Mechanism of Acquired Immunity in Bacteria",
-      "short": "NSF 1817593",
-      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=1817593",
-      "description": "NSF award to University of California-Berkeley (PI: Jennifer Doudna)",
-      "amount": 1497868,
-      "date_range": "\u2013",
-      "bridge": false
-    },
-    {
-      "id": "program_nsf_2419698",
-      "type": "program",
-      "subtype": "nsf_grant",
-      "label": "Synthetic membrane signaling systems built from de novo protein components",
-      "short": "NSF 2419698",
-      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2419698",
-      "description": "NSF award to University of California-San Francisco (PI: Tanja Kortemme)",
-      "amount": 1000000,
-      "date_range": "\u2013",
-      "bridge": false
-    },
-    {
-      "id": "program_nsf_2419640",
-      "type": "program",
-      "subtype": "nsf_grant",
-      "label": "Collaborative Research: Using non-canonical genetic alphabets to expand genetic codes in synthetic cells",
-      "short": "NSF 2419640",
-      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2419640",
-      "description": "NSF award to University of Texas at Austin (PI: Andrew Ellington)",
-      "amount": 900000,
-      "date_range": "\u2013",
-      "bridge": false
-    },
-    {
-      "id": "program_nsf_2540003",
-      "type": "program",
-      "subtype": "nsf_grant",
-      "label": "CAREER: Aqueous Click Functionalization of Nanocellulose  for Scalable Production of Property Programmable Plastics",
-      "short": "NSF 2540003",
-      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2540003",
-      "description": "NSF award to University of Washington (PI: Mutian Hua)",
-      "amount": 598776,
       "date_range": "\u2013",
       "bridge": false
     },
@@ -8904,18 +8853,6 @@
       "bridge": false
     },
     {
-      "id": "program_nsf_2227919",
-      "type": "program",
-      "subtype": "nsf_grant",
-      "label": "I-Corps:  Curing inherited diseases at the source through next-generation clustered regularly interspaced short palindromic repeat (CRISPR) systems",
-      "short": "NSF 2227919",
-      "url": "https://www.nsf.gov/awardsearch/showAward?AWD_ID=2227919",
-      "description": "NSF award to University of California-Berkeley (PI: Jennifer Doudna)",
-      "amount": 50000,
-      "date_range": "\u2013",
-      "bridge": false
-    },
-    {
       "id": "program_ukri_60cc1114_ffec_41d9_a",
       "type": "program",
       "subtype": "ukri_grant",
@@ -8925,19 +8862,6 @@
       "description": "UKRI Horizon Europe Guarantee award to IMPERIAL COLLEGE LONDON",
       "amount": 603356,
       "amount_gbp": 475084.0,
-      "date_range": "None\u2013None",
-      "bridge": false
-    },
-    {
-      "id": "program_ukri_14c22f2f_2182_405d_8",
-      "type": "program",
-      "subtype": "ukri_grant",
-      "label": "Computational and synthetic biology approaches for optimised mammalian bioproduction",
-      "short": "UKRI/Innovate UK",
-      "url": "https://gtr.ukri.org/projects?ref=14C22F2F-2182-405D-81B0-D528360FD9EE",
-      "description": "UKRI Innovate UK award to UNIVERSITY OF OXFORD",
-      "amount": 285540,
-      "amount_gbp": 224835.0,
       "date_range": "None\u2013None",
       "bridge": false
     },
@@ -8982,74 +8906,48 @@
       "bridge": false
     },
     {
-      "id": "pub_s2_Multiplexed_in_situ_protein_imaging_using_DNA_2018",
-      "type": "publication",
-      "subtype": "research_paper",
-      "label": "Multiplexed in situ protein imaging using DNA-barcoded antibodies with extended hybridization chain reactions",
-      "url": "https://doi.org/10.1093/nar/gkae592",
-      "year": 2018,
-      "citation_count": 31,
-      "bridge": false
+      "id": "event_neurips_mlgenx_2025",
+      "label": "NeurIPS 2025 MLGenX Workshop",
+      "type": "presentation",
+      "subtype": "workshop",
+      "data_source": "https://openreview.net",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/MLGenX",
+      "description": "Machine Learning for Genomics Explorations Workshop at NeurIPS 2025",
+      "year": 2025
     },
     {
-      "id": "pub_s2_Reconstruction_of_the_gastric_cancer_microenv_2022",
-      "type": "publication",
-      "subtype": "research_paper",
-      "label": "Reconstruction of the gastric cancer microenvironment after neoadjuvant chemotherapy by longitudinal single-cell sequencing",
-      "url": "https://doi.org/10.1186/s12967-022-03792-y",
-      "year": 2022,
-      "citation_count": 19,
-      "bridge": false
+      "id": "event_neurips_genai4health_2025",
+      "label": "NeurIPS 2025 GenAI4Health Workshop",
+      "type": "presentation",
+      "subtype": "workshop",
+      "data_source": "https://openreview.net",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/GenAI4Health",
+      "description": "Generative AI for Health Workshop at NeurIPS 2025",
+      "year": 2025
     },
     {
-      "id": "pub_s2_APOE_loss_of_function_variants_Compatible_wit_2023",
-      "type": "publication",
-      "subtype": "research_paper",
-      "label": "APOE loss-of-function variants: Compatible with longevity and associated with resistance to Alzheimer\u2019s Disease pathology",
-      "url": "https://doi.org/10.1002/alz.082628",
-      "year": 2023,
-      "citation_count": 13,
-      "bridge": false
+      "id": "event_neurips_ai4science_2025",
+      "label": "NeurIPS 2025 AI4Science Workshop",
+      "type": "presentation",
+      "subtype": "workshop",
+      "data_source": "https://openreview.net",
+      "url": "https://openreview.net/group?id=NeurIPS.cc/2025/Workshop/AI4Science",
+      "description": "AI for Science Workshop at NeurIPS 2025",
+      "year": 2025
     },
     {
-      "id": "pub_s2_On_the_transition_coordinate_for_protein_fold_1998",
-      "type": "publication",
-      "subtype": "research_paper",
-      "label": "On the transition coordinate for protein folding",
-      "url": "https://doi.org/10.1063/1.475393",
-      "year": 1998,
-      "citation_count": 466,
-      "bridge": false
+      "id": "author_anson_ho",
+      "label": "Anson Ho",
+      "type": "author",
+      "subtype": "author",
+      "description": "Researcher at Epoch AI; co-author of biorisk evaluations analysis"
     },
     {
-      "id": "pub_s2_Enzymatic_metabolons_dramatically_enhance_met_2023",
-      "type": "publication",
-      "subtype": "research_paper",
-      "label": "Enzymatic metabolons dramatically enhance metabolic fluxes of low-efficiency biochemical reactions.",
-      "url": "https://doi.org/10.1016/j.bpj.2023.10.033",
-      "year": 2023,
-      "citation_count": 8,
-      "bridge": false
-    },
-    {
-      "id": "pub_s2_The_critical_role_of_co_translational_folding_2023",
-      "type": "publication",
-      "subtype": "research_paper",
-      "label": "The critical role of co-translational folding: an evolutionary and biophysical perspective",
-      "url": "https://doi.org/10.1016/j.coisb.2023.100485",
-      "year": 2023,
-      "citation_count": 3,
-      "bridge": false
-    },
-    {
-      "id": "pub_s2_Heterogeneous_multitask_learning_with_joint_s_2009",
-      "type": "publication",
-      "subtype": "research_paper",
-      "label": "Heterogeneous multitask learning with joint sparsity constraints",
-      "url": "https://api.semanticscholar.org/graph/v1/paper/e2d370f0641fc14ab21d5ddad19817316e7d9469",
-      "year": 2009,
-      "citation_count": 93,
-      "bridge": false
+      "id": "author_arden_berg",
+      "label": "Arden Berg",
+      "type": "author",
+      "subtype": "author",
+      "description": "University of Chicago undergraduate; co-author of Epoch AI biorisk analysis"
     }
   ],
   "edges": [
@@ -19085,7 +18983,7 @@
       "id": "authored_s5_pub_epoch_biorisk_eval_analysis_org_epoch_ai",
       "source": "org_epoch_ai",
       "target": "pub_epoch_biorisk_eval_analysis",
-      "type": "authored",
+      "type": "part_of",
       "extraction_method": "webpage_scrape",
       "data_source": "s5_evidence"
     },
@@ -20928,22 +20826,6 @@
       "confidence": "HIGH"
     },
     {
-      "id": "pub_author_jennifer_doudna_pub_s2_CRISPR_technology__A_decade_of_genome_ed_2023",
-      "source": "author_jennifer_doudna",
-      "target": "pub_s2_CRISPR_technology__A_decade_of_genome_ed_2023",
-      "type": "published_study",
-      "data_source": "https://api.semanticscholar.org",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "pub_author_jennifer_doudna_pub_s2_Mitigation_of_chromosome_loss_in_clinica_2023",
-      "source": "author_jennifer_doudna",
-      "target": "pub_s2_Mitigation_of_chromosome_loss_in_clinica_2023",
-      "type": "published_study",
-      "data_source": "https://api.semanticscholar.org",
-      "confidence": "HIGH"
-    },
-    {
       "id": "pub_author_jennifer_doudna_pub_s2_Rapid_assembly_of_SARS_CoV_2_genomes_rev_2023",
       "source": "author_jennifer_doudna",
       "target": "pub_s2_Rapid_assembly_of_SARS_CoV_2_genomes_rev_2023",
@@ -20976,25 +20858,9 @@
       "confidence": "HIGH"
     },
     {
-      "id": "pub_author_jonathan_weissman_pub_s2_Deciphering_cell_states_and_genealogies__2024",
-      "source": "author_jonathan_weissman",
-      "target": "pub_s2_Deciphering_cell_states_and_genealogies__2024",
-      "type": "published_study",
-      "data_source": "https://api.semanticscholar.org",
-      "confidence": "HIGH"
-    },
-    {
       "id": "pub_author_jonathan_weissman_pub_s2_Brain_wide_silencing_of_prion_protein_by_2024",
       "source": "author_jonathan_weissman",
       "target": "pub_s2_Brain_wide_silencing_of_prion_protein_by_2024",
-      "type": "published_study",
-      "data_source": "https://api.semanticscholar.org",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "pub_author_jonathan_weissman_pub_s2_High_quality_peptide_evidence_for_annota_2024",
-      "source": "author_jonathan_weissman",
-      "target": "pub_s2_High_quality_peptide_evidence_for_annota_2024",
       "type": "published_study",
       "data_source": "https://api.semanticscholar.org",
       "confidence": "HIGH"
@@ -21005,32 +20871,6 @@
       "target": "inst_Massachusetts_Institute_of_Technology",
       "type": "part_of",
       "data_source": "general_knowledge",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_2032259",
-      "type": "funds",
-      "source": "funder_nsf",
-      "target": "program_nsf_2032259",
-      "amount": 4199999,
-      "grant_title": "Towards Life with a Reduced Protein Alphabet",
-      "date_range": "\u2013",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_2032259_to_inst",
-      "type": "funds",
-      "source": "program_nsf_2032259",
-      "target": "inst_Columbia_University",
-      "amount": 4199999,
-      "grant_title": "Towards Life with a Reduced Protein Alphabet",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_performs_nsf_2032259_author_harris_wang",
-      "type": "performs_on",
-      "source": "author_harris_wang",
-      "target": "program_nsf_2032259",
       "confidence": "HIGH"
     },
     {
@@ -21057,89 +20897,6 @@
       "type": "performs_on",
       "source": "author_george_church",
       "target": "program_nsf_2123243",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_1817593",
-      "type": "funds",
-      "source": "funder_nsf",
-      "target": "program_nsf_1817593",
-      "amount": 1497868,
-      "grant_title": "Mechanism of Acquired Immunity in Bacteria",
-      "date_range": "\u2013",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_1817593_to_inst",
-      "type": "funds",
-      "source": "program_nsf_1817593",
-      "target": "inst_University_of_California__Berkeley",
-      "amount": 1497868,
-      "grant_title": "Mechanism of Acquired Immunity in Bacteria",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_performs_nsf_1817593_author_jennifer_doudna",
-      "type": "performs_on",
-      "source": "author_jennifer_doudna",
-      "target": "program_nsf_1817593",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_2419698",
-      "type": "funds",
-      "source": "funder_nsf",
-      "target": "program_nsf_2419698",
-      "amount": 1000000,
-      "grant_title": "Synthetic membrane signaling systems built from de novo protein components",
-      "date_range": "\u2013",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_2419698_to_inst",
-      "type": "funds",
-      "source": "program_nsf_2419698",
-      "target": "org_university_of_california_san_francisco",
-      "amount": 1000000,
-      "grant_title": "Synthetic membrane signaling systems built from de novo protein components",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_2419640",
-      "type": "funds",
-      "source": "funder_nsf",
-      "target": "program_nsf_2419640",
-      "amount": 900000,
-      "grant_title": "Collaborative Research: Using non-canonical genetic alphabets to expand genetic codes in synthetic cells",
-      "date_range": "\u2013",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_2419640_to_inst",
-      "type": "funds",
-      "source": "program_nsf_2419640",
-      "target": "inst_University_of_Texas_at_Austin",
-      "amount": 900000,
-      "grant_title": "Collaborative Research: Using non-canonical genetic alphabets to expand genetic codes in synthetic cells",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_2540003",
-      "type": "funds",
-      "source": "funder_nsf",
-      "target": "program_nsf_2540003",
-      "amount": 598776,
-      "grant_title": "CAREER: Aqueous Click Functionalization of Nanocellulose  for Scalable Production of Property Programmable Plastics",
-      "date_range": "\u2013",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_2540003_to_inst",
-      "type": "funds",
-      "source": "program_nsf_2540003",
-      "target": "inst_University_of_Washington",
-      "amount": 598776,
-      "grant_title": "CAREER: Aqueous Click Functionalization of Nanocellulose  for Scalable Production of Property Programmable Plastics",
       "confidence": "HIGH"
     },
     {
@@ -21273,32 +21030,6 @@
       "confidence": "HIGH"
     },
     {
-      "id": "edge_funds_nsf_2227919",
-      "type": "funds",
-      "source": "funder_nsf",
-      "target": "program_nsf_2227919",
-      "amount": 50000,
-      "grant_title": "I-Corps:  Curing inherited diseases at the source through next-generation clustered regularly interspaced short palindromic repeat (CRISPR) systems",
-      "date_range": "\u2013",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_nsf_2227919_to_inst",
-      "type": "funds",
-      "source": "program_nsf_2227919",
-      "target": "inst_University_of_California__Berkeley",
-      "amount": 50000,
-      "grant_title": "I-Corps:  Curing inherited diseases at the source through next-generation clustered regularly interspaced short palindromic repeat (CRISPR) systems",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_performs_nsf_2227919_author_jennifer_doudna",
-      "type": "performs_on",
-      "source": "author_jennifer_doudna",
-      "target": "program_nsf_2227919",
-      "confidence": "HIGH"
-    },
-    {
       "id": "edge_funds_ukri_60CC1114-FFE",
       "type": "funds",
       "source": "funder_ukri",
@@ -21314,24 +21045,6 @@
       "target": "inst_Imperial_College_London",
       "amount": 603356,
       "grant_title": "Antivirus Pandemic Preparedness EuropeAn pLatform (Appeal)",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_ukri_14C22F2F-218",
-      "type": "funds",
-      "source": "funder_ukri",
-      "target": "program_ukri_14c22f2f_2182_405d_8",
-      "amount": 285540,
-      "grant_title": "Computational and synthetic biology approaches for optimised mammalian bioproduction",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_funds_ukri_14C22F2F-218_to_inst",
-      "type": "funds",
-      "source": "program_ukri_14c22f2f_2182_405d_8",
-      "target": "inst_University_of_Oxford",
-      "amount": 285540,
-      "grant_title": "Computational and synthetic biology approaches for optimised mammalian bioproduction",
       "confidence": "HIGH"
     },
     {
@@ -21360,55 +21073,6 @@
       "type": "published_study",
       "source": "author_george_church",
       "target": "pub_s2_A_swapped_genetic_code_prevents_viral_infecti_2023",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_published_author_george_church_pub_s2_Multiplexed_in_situ_protein_imaging_using_DNA_2018",
-      "type": "published_study",
-      "source": "author_george_church",
-      "target": "pub_s2_Multiplexed_in_situ_protein_imaging_using_DNA_2018",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_published_author_george_church_pub_s2_Reconstruction_of_the_gastric_cancer_microenv_2022",
-      "type": "published_study",
-      "source": "author_george_church",
-      "target": "pub_s2_Reconstruction_of_the_gastric_cancer_microenv_2022",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_published_author_Le_Cong2_pub_s2_APOE_loss_of_function_variants_Compatible_wit_2023",
-      "type": "published_study",
-      "source": "author_Le_Cong2",
-      "target": "pub_s2_APOE_loss_of_function_variants_Compatible_wit_2023",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_published_author_eugene_shakhnovich_pub_s2_On_the_transition_coordinate_for_protein_fold_1998",
-      "type": "published_study",
-      "source": "author_Eugene_Shakhnovich1",
-      "target": "pub_s2_On_the_transition_coordinate_for_protein_fold_1998",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_published_author_eugene_shakhnovich_pub_s2_Enzymatic_metabolons_dramatically_enhance_met_2023",
-      "type": "published_study",
-      "source": "author_Eugene_Shakhnovich1",
-      "target": "pub_s2_Enzymatic_metabolons_dramatically_enhance_met_2023",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_published_author_eugene_shakhnovich_pub_s2_The_critical_role_of_co_translational_folding_2023",
-      "type": "published_study",
-      "source": "author_Eugene_Shakhnovich1",
-      "target": "pub_s2_The_critical_role_of_co_translational_folding_2023",
-      "confidence": "HIGH"
-    },
-    {
-      "id": "edge_published_author_eric_xing_pub_s2_Heterogeneous_multitask_learning_with_joint_s_2009",
-      "type": "published_study",
-      "source": "author_eric_xing",
-      "target": "pub_s2_Heterogeneous_multitask_learning_with_joint_s_2009",
       "confidence": "HIGH"
     },
     {
@@ -21498,6 +21162,545 @@
       "target": "author_Marian_Huot1",
       "shared_papers": 3,
       "confidence": "HIGH"
+    },
+    {
+      "id": "edge_1",
+      "source": "author_ben_mueller",
+      "target": "pub_securebio_biorisk_eval_overview",
+      "type": "biosecurity_eval",
+      "evidence": "SecureBio team member; contributed to biorisk evaluations",
+      "confidence": "MEDIUM",
+      "source_file": "audit_cat_d_evaluator_backfill"
+    },
+    {
+      "id": "edge_2",
+      "source": "author_jeff_kaufman",
+      "target": "pub_securebio_biorisk_eval_overview",
+      "type": "biosecurity_eval",
+      "evidence": "SecureBio team member; contributed to biorisk evaluations",
+      "confidence": "MEDIUM",
+      "source_file": "audit_cat_d_evaluator_backfill"
+    },
+    {
+      "id": "edge_3",
+      "source": "author_coleman_breen",
+      "target": "pub_securebio_biorisk_eval_overview",
+      "type": "biosecurity_eval",
+      "evidence": "SecureBio team member; contributed to biorisk evaluations",
+      "confidence": "MEDIUM",
+      "source_file": "audit_cat_d_evaluator_backfill"
+    },
+    {
+      "id": "edge_4",
+      "source": "author_anjali_gopal",
+      "target": "pub_securebio_biorisk_eval_overview",
+      "type": "biosecurity_eval",
+      "evidence": "SecureBio team member; contributed to biorisk evaluations",
+      "confidence": "MEDIUM",
+      "source_file": "audit_cat_d_evaluator_backfill"
+    },
+    {
+      "id": "edge_5",
+      "source": "author_christine_parthemore",
+      "target": "pub_securebio_biorisk_eval_overview",
+      "type": "biosecurity_eval",
+      "evidence": "SecureBio advisor; biosecurity policy expert",
+      "confidence": "MEDIUM",
+      "source_file": "audit_cat_d_evaluator_backfill"
+    },
+    {
+      "id": "edge_6",
+      "source": "author_christine_parthemore",
+      "target": "pub_nti_aixbio_forum_statement",
+      "type": "biosecurity_eval",
+      "evidence": "Former NTI executive; biosecurity policy leader",
+      "confidence": "MEDIUM",
+      "source_file": "audit_cat_d_evaluator_backfill"
+    },
+    {
+      "id": "edge_7",
+      "source": "author_daniel_greene",
+      "target": "pub_openai_bio_early_warning_2024",
+      "type": "biosecurity_eval",
+      "evidence": "Gryphon Scientific evaluator for OpenAI bio eval",
+      "confidence": "MEDIUM",
+      "source_file": "audit_cat_d_evaluator_backfill"
+    },
+    {
+      "id": "edge_8",
+      "source": "author_mark_kazmierczak",
+      "target": "pub_openai_bio_early_warning_2024",
+      "type": "biosecurity_eval",
+      "evidence": "Gryphon Scientific evaluator for OpenAI bio eval",
+      "confidence": "MEDIUM",
+      "source_file": "audit_cat_d_evaluator_backfill"
+    },
+    {
+      "id": "edge_9",
+      "source": "author_tejal_patwardhan",
+      "target": "pub_openai_bio_early_warning_2024",
+      "type": "biosecurity_eval",
+      "evidence": "OpenAI biosafety team lead for bio evaluations",
+      "confidence": "MEDIUM",
+      "source_file": "audit_cat_d_evaluator_backfill"
+    },
+    {
+      "id": "edge_10",
+      "source": "paper_hZ6ra8ApLP",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_11",
+      "source": "paper_x3yCeCEIb3",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_12",
+      "source": "paper_oPSMbYw7zx",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_13",
+      "source": "paper_Iik48LI1xX",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_14",
+      "source": "paper_SoGnOiTGAH",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_15",
+      "source": "paper_DOsb0ZbtjA",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_16",
+      "source": "paper_fpx52DO8oP",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_17",
+      "source": "paper_qKxVD730Xt",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_18",
+      "source": "paper_byGQX45VWD",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_19",
+      "source": "paper_Jf1ee1fyaM",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_20",
+      "source": "paper_Jhj4rG9Oio",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_21",
+      "source": "paper_AFRn7DfXXE",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_22",
+      "source": "paper_BItfXx4ozE",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_23",
+      "source": "paper_KiZxvtn3JE",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_24",
+      "source": "paper_fDysOrWaGd",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_25",
+      "source": "paper_e7SmcN6tRZ",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_26",
+      "source": "paper_N5DhtpYJ21",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_27",
+      "source": "paper_JO8gyyeM9L",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_28",
+      "source": "paper_ZNZn43baQX",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_29",
+      "source": "paper_lZGgc845Uz",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_30",
+      "source": "paper_FRNHz65p25",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_31",
+      "source": "paper_HQR89TwSjS",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_32",
+      "source": "paper_uZG2ag5CLB",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_33",
+      "source": "paper_Tgvew8gkrh",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_34",
+      "source": "paper_of2ZA4Zmv6",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_35",
+      "source": "paper_9gmzIH0JJF",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_36",
+      "source": "paper_bKLp7oaU1L",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_37",
+      "source": "paper_MwajedbCfX",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_38",
+      "source": "paper_rQgPJ3ILLN",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_39",
+      "source": "paper_X8XvMXDs1J",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_40",
+      "source": "paper_mo5H9VAr6r",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_41",
+      "source": "paper_ns8pgHHrPo",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_42",
+      "source": "paper_rAlReAI7bx",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_43",
+      "source": "paper_ZgD951FVe7",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_44",
+      "source": "paper_7FGZVr6vlK",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_45",
+      "source": "paper_Ci3HSCeZ51",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_46",
+      "source": "paper_x12eUGh0DE",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_47",
+      "source": "paper_NAr5wbHghS",
+      "target": "event_neurips_biosafe_genai_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_48",
+      "source": "paper_4YMUZ49lB3",
+      "target": "event_neurips_mlgenx_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_49",
+      "source": "paper_BZIxe22wEO",
+      "target": "event_neurips_mlgenx_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_50",
+      "source": "paper_lHRETQDSVu",
+      "target": "event_neurips_mlgenx_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_51",
+      "source": "paper_pSDvq2ZgPk",
+      "target": "event_neurips_genai4health_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_52",
+      "source": "paper_vTIacVIpL0",
+      "target": "event_neurips_genai4health_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_53",
+      "source": "paper_4tnyi8RQks",
+      "target": "event_neurips_genai4health_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_54",
+      "source": "paper_EU3TV1Uq78",
+      "target": "event_neurips_genai4health_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_55",
+      "source": "paper_aOoFPWZuXY",
+      "target": "event_neurips_genai4health_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_56",
+      "source": "paper_sjEuoLSvqS",
+      "target": "event_neurips_genai4health_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_57",
+      "source": "paper_cxffbxltME",
+      "target": "event_neurips_genai4health_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_58",
+      "source": "paper_9Nhrk0Cuk0",
+      "target": "event_neurips_genai4health_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_59",
+      "source": "paper_cRhbNNv2kA",
+      "target": "event_neurips_ai4science_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_60",
+      "source": "paper_FGmV1Ssqfa",
+      "target": "event_neurips_ai4science_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_61",
+      "source": "paper_v1cxKcwPFP",
+      "target": "event_neurips_ai4science_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_62",
+      "source": "paper_DvnxwBA067",
+      "target": "event_neurips_ai4science_2025",
+      "type": "part_of",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_workshop_normalization"
+    },
+    {
+      "id": "edge_63",
+      "source": "author_anson_ho",
+      "target": "pub_epoch_biorisk_eval_analysis",
+      "type": "published_study",
+      "confidence": "HIGH",
+      "evidence": "https://epoch.ai/gradient-updates/do-the-biorisk-evaluations-of-ai-labs-actually-measure-the-risk-of-developing-bioweapons",
+      "source_file": "audit_cat_f_epoch_authors"
+    },
+    {
+      "id": "edge_64",
+      "source": "author_arden_berg",
+      "target": "pub_epoch_biorisk_eval_analysis",
+      "type": "published_study",
+      "confidence": "HIGH",
+      "evidence": "https://epoch.ai/gradient-updates/do-the-biorisk-evaluations-of-ai-labs-actually-measure-the-risk-of-developing-bioweapons",
+      "source_file": "audit_cat_f_epoch_authors"
+    },
+    {
+      "id": "edge_65",
+      "source": "author_anson_ho",
+      "target": "org_epoch_ai",
+      "type": "current_affiliation",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_epoch_authors"
+    },
+    {
+      "id": "edge_66",
+      "source": "author_arden_berg",
+      "target": "inst_University_of_Chicago",
+      "type": "current_affiliation",
+      "confidence": "HIGH",
+      "source_file": "audit_cat_f_epoch_authors"
     }
   ],
   "metadata": {
