@@ -1,0 +1,68 @@
+{
+  "sprint": 15,
+  "date": "2026-03-12",
+  "key_finding_confirmed": "NTI 2024: 0% of Global South AI strategies address biosecurity; Munich 2025 Declaration by rising leaders from Global South",
+  "sources": [
+    {
+      "url": "https://www.nti.org/risky-business/exploring-ai-biosecurity-governance-in-the-global-south/",
+      "evidence": "NTI analysis: 27% of Global South countries have AI strategies, none address biosecurity"
+    },
+    {
+      "url": "https://www.nti.org/news/cepi-brown-nti-partner-with-rising-leaders-to-take-biological-threats-off-the-table/",
+      "evidence": "CEPI, Brown, NTI convened Munich Security Conference 2025 Biosecurity Rising Leaders Declaration"
+    },
+    {
+      "url": "https://www.news-medical.net/news/20251027/Africa-CDCe28099s-vision-for-AI-driven-primary-health-care-and-self-reliance.aspx",
+      "evidence": "Africa CDC AI for Health strategy + Biosafety and Biosecurity Initiative"
+    },
+    {
+      "url": "https://www.nti.org/news/introducing-the-winners-of-the-2024-next-generation-for-biosecurity-competition/",
+      "evidence": "SynBio Africa, iGEM Foundation co-sponsored NTI 2024 competition from 19 countries"
+    }
+  ],
+  "new_nodes": [
+    "org_africa_cdc",
+    "org_synbio_africa",
+    "org_brown_pandemic_center",
+    "pub_nti_global_south_ai_biosecurity_2024",
+    "pub_munich_biosecurity_declaration_2025"
+  ],
+  "new_edges": [
+    {
+      "id": "edge_82",
+      "source": "org_nuclear_threat_initiative",
+      "target": "pub_nti_global_south_ai_biosecurity_2024",
+      "type": "policy_forum"
+    },
+    {
+      "id": "edge_83",
+      "source": "org_nuclear_threat_initiative",
+      "target": "pub_munich_biosecurity_declaration_2025",
+      "type": "policy_forum"
+    },
+    {
+      "id": "edge_84",
+      "source": "org_cepi",
+      "target": "pub_munich_biosecurity_declaration_2025",
+      "type": "policy_forum"
+    },
+    {
+      "id": "edge_85",
+      "source": "org_brown_pandemic_center",
+      "target": "pub_munich_biosecurity_declaration_2025",
+      "type": "policy_forum"
+    },
+    {
+      "id": "edge_86",
+      "source": "org_africa_cdc",
+      "target": "pub_nti_global_south_ai_biosecurity_2024",
+      "type": "policy_forum"
+    },
+    {
+      "id": "edge_87",
+      "source": "org_synbio_africa",
+      "target": "pub_nti_global_south_ai_biosecurity_2024",
+      "type": "policy_forum"
+    }
+  ]
+}

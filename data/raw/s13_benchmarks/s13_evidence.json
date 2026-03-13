@@ -1,0 +1,87 @@
+{
+  "sprint": 13,
+  "date": "2026-03-12",
+  "sources": [
+    {
+      "node": "Apollo Research",
+      "url": "https://www.apolloresearch.ai/",
+      "evidence": "Organization overview: evaluates Microsoft, OpenAI, Google DeepMind; PBC nonprofit; specializes in scheming/deceptive alignment evals"
+    },
+    {
+      "node": "METR",
+      "url": "https://metr.org/about",
+      "evidence": "Nonprofit: pre-deployment evals for Anthropic and OpenAI models (o3, o4-mini, GPT-4o, Claude); formerly ARC Evals (ARC spinoff Dec 2023)"
+    },
+    {
+      "node": "Beth Barnes",
+      "url": "https://80000hours.org/podcast/episodes/beth-barnes-ai-safety-evals/",
+      "evidence": "CEO/founder of METR; former OpenAI alignment researcher; founded ARC Evals in 2022"
+    },
+    {
+      "node": "WMDP author edges",
+      "url": "https://arxiv.org/abs/2403.03218",
+      "evidence": "Nathaniel Li (first author), Anjali Gopal (named author), Kevin Esvelt (author), Dan Hendrycks (last author); ICML 2024, 350+ citations"
+    }
+  ],
+  "new_nodes": [
+    "org_apollo_research",
+    "org_metr",
+    "author_beth_barnes"
+  ],
+  "new_edges": [
+    {
+      "id": "edge_67",
+      "source": "org_apollo_research",
+      "target": "inst_Anthropic",
+      "type": "biosecurity_eval"
+    },
+    {
+      "id": "edge_68",
+      "source": "org_apollo_research",
+      "target": "inst_OpenAI",
+      "type": "biosecurity_eval"
+    },
+    {
+      "id": "edge_69",
+      "source": "org_apollo_research",
+      "target": "inst_Google_DeepMind",
+      "type": "biosecurity_eval"
+    },
+    {
+      "id": "edge_70",
+      "source": "org_metr",
+      "target": "inst_Anthropic",
+      "type": "biosecurity_eval"
+    },
+    {
+      "id": "edge_71",
+      "source": "org_metr",
+      "target": "inst_OpenAI",
+      "type": "biosecurity_eval"
+    },
+    {
+      "id": "edge_72",
+      "source": "author_beth_barnes",
+      "target": "org_metr",
+      "type": "current_affiliation"
+    },
+    {
+      "id": "edge_73",
+      "source": "author_Nathaniel_Li1",
+      "target": "pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+      "type": "published_study"
+    },
+    {
+      "id": "edge_74",
+      "source": "author_Dan_Hendrycks1",
+      "target": "pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+      "type": "published_study"
+    },
+    {
+      "id": "edge_75",
+      "source": "author_anjali_gopal",
+      "target": "pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+      "type": "published_study"
+    }
+  ]
+}

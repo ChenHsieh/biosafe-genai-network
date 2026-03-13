@@ -1,0 +1,44 @@
+{
+  "sprint": 17,
+  "description": "Governance & Policy Literature",
+  "new_nodes": [
+    {
+      "id": "org_jhu_center_for_health_security",
+      "label": "JHU Center for Health Security",
+      "evidence_url": "https://centerforhealthsecurity.org/"
+    },
+    {
+      "id": "org_georgetown_cset",
+      "label": "Georgetown CSET",
+      "evidence_url": "https://cset.georgetown.edu/"
+    },
+    {
+      "id": "org_nsabb",
+      "label": "NSABB",
+      "evidence_url": "https://osp.od.nih.gov/biotechnology/national-science-advisory-board-for-biosecurity/"
+    },
+    {
+      "id": "pub_rand_global_risk_index_ai_bio_2024",
+      "label": "RAND Global Risk Index (2024)",
+      "evidence_url": "https://www.rand.org/"
+    },
+    {
+      "id": "pub_cset_biosecurity_policy_toolkit_2024",
+      "label": "CSET Biosecurity Policy Toolkit (2024)",
+      "evidence_url": "https://cset.georgetown.edu/"
+    },
+    {
+      "id": "pub_jhu_chs_biosecurity_agenda_2025",
+      "label": "JHU CHS Biosecurity Agenda (2025)",
+      "evidence_url": "https://centerforhealthsecurity.org/"
+    },
+    {
+      "id": "pub_nsabb_durc_recommendations_2023",
+      "label": "NSABB DURC Recommendations (2023)",
+      "evidence_url": "https://osp.od.nih.gov/biotechnology/national-science-advisory-board-for-biosecurity/"
+    }
+  ],
+  "new_edges": 9,
+  "nih_node_found": "funder_nih",
+  "pannu_node_found": "author_Jassi_Pannu1"
+}

@@ -61,17 +61,44 @@ Key personnel research footprint (NIH grants, Semantic Scholar pubs)
 
 ---
 
+## Methodology
+
+### Data Collection
+
+The atlas is constructed through 12 iterative sprints, each adding one verified data source. Data sources include public APIs (OpenReview, NSF Awards, NIH RePORTER, UKRI Gateway to Research, Semantic Scholar), public databases (Coefficient/Open Philanthropy grants CSV), and manually curated policy documents (DARPA program announcements, biosecurity evaluation reports).
+
+Each sprint follows the anti-hallucination protocol (above): raw data is fetched, saved, parsed into candidate edges with source references, validated independently, reviewed, and only then merged. No AI-inferred edges are permitted — every connection must trace to a downloadable source file.
+
+### Relevance Criteria
+
+After Sprint 12, a systematic relevance audit was performed across all edges to ensure every connection is genuinely about the intersection of biosafety/biosecurity and AI. Edges were evaluated on two axes:
+
+- **Biosafety/biosecurity axis**: Does this work address biological risk, dual-use potential, pathogen containment, gene drive safety, pandemic preparedness, or governance of biological capabilities?
+- **AI/computational axis**: Does this work involve machine learning, language models, computational biology, AI-enabled tools, or automated systems?
+
+Edges that scored on only one axis (e.g., pure CRISPR biology without AI, or pure ML theory without bio) were removed during the audit. Borderline cases (e.g., SARS-CoV-2 genomic surveillance, biocontainment via recoded genomes) were retained with documentation.
+
+The audit removed 11 off-topic Semantic Scholar publications, 6 single-axis NSF grants, and 1 off-topic UKRI grant. It also added 9 missing `biosecurity_eval` edges, 53 `part_of` edges linking presentations to their source workshops, and 2 author nodes for an Epoch AI publication.
+
+### Quality Assurance
+
+A 14-point automated quality check (`scripts/quality_check.py`) runs after every graph modification, testing for dangling references, duplicate IDs, orphan nodes, valid edge/node types, grant amount completeness, and graph connectivity (target: >80%; current: 100%).
+
+### Analysis
+
+Supplementary analysis is available in `analysis_biosecurity_atlas.ipynb`, which generates 14 figures exploring funding concentration, research topics, cross-venue author overlap, geographic distribution, bridge institutions, degree distributions, and audience-specific insights. All figures read directly from `data/graph_data.json` and are reproducible.
+
 ## Node Schema
 
 | Type | Key Fields | Count (current) |
 |------|-----------|-----------------|
-| `funder` | id, label, short, url, description | 6 |
-| `program` | id, label, parent→funder, url, subtype (nih_grant/nsf_grant/ukri_grant), year, year_start | 75 |
-| `org` | id, label, entity_type, url, country | 171 |
+| `funder` | id, label, short, url, description | 8 |
+| `program` | id, label, parent→funder, url, subtype (nih_grant/nsf_grant/ukri_grant/wellcome_grant/barda_contract/cepi_grant), year, year_start | 71 |
+| `org` | id, label, entity_type, url, country | 182 |
 | `institution` | id, label, url, lat, lon, location, country (Sprint 12) | 171 |
-| `author` | id, label, url, details | 234 |
-| `presentation` | id, label, url, subtype (poster/oral/workshop), year | 54 |
-| `publication` | id, label, url, subtype (research_paper/research_report), year, citation_count | 32 |
+| `author` | id, label, url, details | 238 |
+| `presentation` | id, label, url, subtype (poster/oral/workshop), year, venue | 57 |
+| `publication` | id, label, url, subtype (research_paper/research_report), year, citation_count | 31 |
 | `department` | id, label, parent→institution | 8 |
 
 `org.entity_type`: `institution` / `org` / `individual` / `pooled_grant`
@@ -80,15 +107,15 @@ Key personnel research footprint (NIH grants, Semantic Scholar pubs)
 
 | Type | Direction | Key Fields | Count (current) |
 |------|-----------|-----------|-----------------|
-| `funds` | funder/program → org/inst | amount, date_range, grant_title, confidence | 400 |
-| `authored` | author → presentation | — | 264 |
-| `current_affiliation` | author → institution | — | 215 |
+| `funds` | funder/program → org/inst | amount, date_range, grant_title, confidence | 419 |
+| `authored` | author → presentation | — | 263 |
+| `current_affiliation` | author → institution | — | 223 |
 | `past_affiliation` | author → institution | — | 137 |
-| `part_of` | department/org → institution | — | 11 |
-| `performs_on` | PI → program | — | 43 |
-| `biosecurity_eval` | org → org (evaluator → evaluated) | — | 10 |
-| `policy_forum` | org → publication | — | 6 |
-| `published_study` | author/org → publication | — | 13 |
+| `part_of` | department/presentation → institution/workshop | — | 67 |
+| `performs_on` | PI → program | — | 49 |
+| `biosecurity_eval` | evaluator → publication/report | evidence | 26 |
+| `policy_forum` | org → publication | — | 22 |
+| `published_study` | author → publication | — | 25 |
 | `organized` | author → workshop event | — | 10 |
 | `invited_speaker` | author → workshop event | — | 10 |
 | `co_authored_with` | author ↔ author (≥3 shared papers) | shared_papers | 11 |
@@ -282,7 +309,7 @@ scripts/s4_merge_darpa.py           → data/graph_data.json (updated)
 **Scripts:**
 ```
 scripts/s5_extract_policy_bigtech.py   → data/staged/s5_nodes.json (27), s5_edges.json (47)
-scripts/notebooks/s5_policy_bigtech_exploration.ipynb  ← dry run notebook
+notebooks/s5_policy_bigtech_exploration.ipynb  ← dry run notebook
 ```
 
 ---
@@ -553,10 +580,297 @@ data/staged/s10_edges.json   (11 edges)
 | 7 | 681 | 1,022 | $693M | SVG + Canvas 2D ✅ |
 | 8 | 725 | 1,119 | $693M | SVG + Canvas 2D ✅ |
 | 9–12 | 751 | 1,178 | $720M | SVG + Canvas 2D ✅ |
+| Audit | 738 | 1,216 | $703M | SVG + Canvas 2D ✅ |
+| Sprint 13 | 741 | 1,225 | $703M | SVG + Canvas 2D ✅ |
+| Sprint 14 | 747 | 1,231 | $703M | SVG + Canvas 2D ✅ |
+| Sprint 15 | 752 | 1,237 | $703M | SVG + Canvas 2D ✅ |
+| Sprint 16 | 757 | 1,244 | $1.22B | SVG + Canvas 2D ✅ |
+| Sprint 13 DD | 759 | 1,253 | $1.22B | SVG + Canvas 2D ✅ |
+| Sprint 17 | 766 | 1,262 | $1.22B | SVG + Canvas 2D ✅ |
 
 **Dual renderer approach (Sprint 7+):** Rather than replacing SVG with WebGL, we added a Canvas 2D alternative (`index_webgl.html`) alongside the SVG version (`index.html`). Both share the same graph data, layout computation, sidebar, filters, and interaction model. Canvas 2D provides better performance at 700+ nodes via batched edge rendering by type, `ctx.arc()`/`ctx.roundRect()` for nodes, and includes an FPS counter.
 
 **Scripts:** `generate_html_v3.py` → `index.html` (SVG), `generate_webgl.py` → `index_webgl.html` (Canvas 2D)
+
+---
+
+---
+
+## Insight Validation — Cross-Check Against External Literature
+
+*Completed: 2026-03-12 | 10 external sources reviewed | See `data/raw/references/external_validation_sources.md`*
+
+### Methodology
+
+Each of the 25 insights (5 audiences × 5 points, generated from multi-angle graph analysis) was cross-checked against 10 external policy reviews and meta-analyses. Insights were classified into three tiers:
+
+- **ROBUST** — directionally confirmed by external sources; holds even with expanded data coverage
+- **DATA-LIMITED** — plausible but depends on atlas completeness; should be qualified in communications
+- **SAMPLING ARTIFACT** — likely to change significantly when atlas is extended (more workshops, venues, funders)
+
+### Insight Verdict Table
+
+| # | Audience | Insight | Verdict | External Support |
+|---|----------|---------|---------|-----------------|
+| P1 | Policymakers | Coefficient/OP dominates biosecurity AI funding (~82% of total) | **ROBUST** | OP 2024 report confirms OP = ~60% of all AI safety philanthropy |
+| P2 | Policymakers | US institutions dominate researcher network | **ROBUST** | PMC dual-use: 58% US authors, 83% from US/UK/CN/DE |
+| P3 | Policymakers | No standardized governance frameworks across funders and researchers | **ROBUST** | JHU CHS, CSET, PMC responsible AI, PMC dual-use all confirm |
+| P4 | Policymakers | 2023 funding peak → 2024 drop signals political vulnerability | **DATA-LIMITED** | CSIS confirms NIST FY2026 $325M cut; but only 6 funders tracked |
+| P5 | Policymakers | Most researchers siloed — only 5 appear in both workshop and funded programs | **SAMPLING ARTIFACT** | Only 4 NeurIPS workshops; ICLR/ICML/domain venues not included |
+| R1 | Researchers | LLM safety dominates workshop submissions (36/53 papers) | **SAMPLING ARTIFACT** | Workshops chosen were ML-native; wet lab / protein design venues excluded |
+| R2 | Researchers | Cross-venue collaboration sparse (17 cross-venue authors) | **SAMPLING ARTIFACT** | Same limitation; ICLR, ICML, ASM, ESCMID not covered |
+| R3 | Researchers | Five institutions produce ~60% of funded research output | **DATA-LIMITED** | Consistent with general power-law in science; but grantee list from only 6 funders |
+| R4 | Researchers | Bridge institutions (Harvard, MIT, Stanford, JHU) at intersection of research and funding | **ROBUST** | Confirmed by NSF, NIH, DARPA data; consistent with CSET/JHU CHS reports |
+| R5 | Researchers | Protein design biosecurity dramatically underrepresented relative to risk | **ROBUST** | Science (ado1671), Nature Biotech (2025), EMBO Reports, Singularity Hub all confirm |
+| F1 | Funders | Single-funder concentration risk ($540M from OP) | **ROBUST** | OP 2024 report confirms; CSIS confirms government funding volatility compounds risk |
+| F2 | Funders | Government vs. private funding ratio ($160M DARPA/NIH/NSF vs. $543M OP) | **ROBUST** | Within atlas scope; consistent with broader AI safety funding landscape |
+| F3 | Funders | UK/EU funding minimal vs. US despite similar research output | **DATA-LIMITED** | Atlas covers UKRI only; Wellcome Trust, EU Horizon, BBSRC not tracked |
+| F4 | Funders | Startup/VC biosecurity funding not visible | **DATA-LIMITED** | By atlas design (grants only); Convergent Biosciences, Seed Health, etc. missing |
+| F5 | Funders | Funding peak in 2023 may signal maturation or political vulnerability | **DATA-LIMITED** | Plausible; CSIS confirms 2025 regulatory cuts, but 6-funder sample limits confidence |
+| A1 | AI Safety | Heavy US/UK focus creates global blind spots | **ROBUST** | NTI: 0% of Global South AI strategies address biosecurity; PMC: 83% US/UK/CN/DE |
+| A2 | AI Safety | Benchmark fragmentation makes evaluation comparisons difficult | **ROBUST** | WMDP saturating; Epoch AI confirms non-interoperable benchmark landscape |
+| A3 | AI Safety | Only 5 researchers bridge research-funding divide | **SAMPLING ARTIFACT** | 4 NeurIPS workshops only; ICLR, ICML, domain venues not included |
+| A4 | AI Safety | Evaluator community is small relative to problem scope | **ROBUST** | CSIS: <3% of 370+ models have safeguards; PMC dual-use confirms evaluation gaps |
+| A5 | AI Safety | SecureBio/CHS serve as critical bottleneck nodes | **ROBUST** | SecureBio appears in OP grantee lists; JHU CHS cited in NSCEB + AIxBio forums |
+| B1 | Practitioners | AI biosecurity evaluations lack standardized methodology | **ROBUST** | JHU CHS, CSET, PMC dual-use, RAND all confirm; UK/US govts have not released standards |
+| B2 | Practitioners | Global South absent from atlas despite high pandemic risk | **ROBUST** | NTI analysis: no Global South country AI strategy addresses biosecurity |
+| B3 | Practitioners | Atlas captures only 6 funders; landscape is larger | **ROBUST** | By definition; RAND covers 24 countries with 57 tools; Wellcome, Gates, BARDA missing |
+| B4 | Practitioners | Eval documents are US/UK focused; international governance thin | **DATA-LIMITED** | Likely true but atlas policy layer is US/UK-sourced; no African CDC, SEARO etc. |
+| B5 | Practitioners | Protein design biosecurity = biggest white space in research and funding | **ROBUST** | Science, Nature Biotech, EMBO Reports all call this out; <1% of atlas nodes touch it |
+
+### Summary
+
+- **15 ROBUST** insights — defensible even with expanded data
+- **6 DATA-LIMITED** insights — qualify with coverage caveats when communicating
+- **4 SAMPLING ARTIFACT** insights — remove from audience-specific materials; address via Sprints 13–15
+
+### Points to Remove or Heavily Qualify
+
+The following insights are **sampling artifacts** and should be dropped from audience-facing materials until the atlas covers more venues:
+
+- *"LLM safety dominates workshop submissions"* — true for 4 NeurIPS ML workshops; not representative of the broader field
+- *"Cross-venue collaboration is sparse"* — same limitation; actual collaboration may be much denser across venues not yet tracked
+- *"Only 5 researchers bridge research-funding divide"* — a floor, not a ceiling; ICLR/ICML NeurIPS main track alone would multiply this
+- *"Most researchers siloed"* — same; the workshop community captured here is a small slice
+
+---
+
+## Sprint 13: Benchmark & Evaluation Landscape ✅ COMPLETE
+
+**Status:** Shipped. 14/14 quality checks pass. 100% connectivity.
+
+**Results:**
+- 3 new nodes: Apollo Research (org), METR (org), Beth Barnes (author)
+- 9 new edges: Apollo Research + METR `biosecurity_eval` edges to Anthropic/OpenAI/Google DeepMind; Beth Barnes `current_affiliation` → METR; Nathaniel Li, Dan Hendrycks, Anjali Gopal `published_study` → WMDP paper
+- Total: 741 nodes, 1,225 edges
+
+**Raw data:** `data/raw/s13_benchmarks/s13_evidence.json`
+
+---
+
+## Sprint 13: Benchmark & Evaluation Landscape — Original Plan 🔲
+
+**Goal:** Map the AI biosecurity evaluation and benchmark ecosystem. Add major benchmarks, evaluation organizations, and their relationships to address gaps in the evaluator community picture (currently only 12 evaluator nodes).
+
+**Motivation:** ROBUST finding A4 (evaluator community small) and A2 (benchmark fragmentation) need structural support in the graph to be visualizable. CSIS confirms <3% of 370+ models have safeguards — the atlas should reflect the evaluator ecosystem driving this.
+
+**Data Sources:**
+
+| Source | Type | Target |
+|--------|------|--------|
+| WMDP paper (arxiv 2403.03218) | Research paper | Add as publication; link to existing SecureBio/author nodes |
+| VCT (Virology Capabilities Test) | Research paper | New publication node + evaluator author nodes |
+| LAB-Bench (FutureHouse) | Already in graph | Add `benchmark` subtype; add `evaluates` edges to AI labs |
+| BioWeapons Eval (RAND, 2024) | Report | Link to existing RAND org node |
+| Epoch AI biorisk analysis | Already in graph | Verify subtype + add missing `biosecurity_eval` edges |
+| Apollo Research | Org | New org node + evaluates edges to Anthropic/OpenAI |
+| METR | Org | New org node |
+| ARC Evals | Org | New org node (now METR); deduplicate if needed |
+
+**New Edge Types Needed:**
+- `evaluates`: evaluator org/author → AI org (for org-level, not publication-level relationships)
+- Consider adding `benchmark_subtype` field to `publication` nodes
+
+**Anti-hallucination:** All connections must trace to a published paper, blog post, or press release naming the evaluator and the model evaluated.
+
+**Expected output:** +15–20 nodes, +20–30 edges
+
+**Scripts:**
+```
+scripts/s13_extract_benchmarks.py    → data/staged/s13_nodes.json, s13_edges.json
+data/raw/s13_benchmarks/             ← Raw paper abstracts + org pages
+```
+
+---
+
+## Sprint 14: Funding Completeness — Wellcome, BARDA, CEPI ✅ COMPLETE
+
+**Status:** Shipped. 14/14 quality checks pass. 100% connectivity.
+
+**Results:**
+- 6 new nodes: Wellcome Trust (funder), BARDA (funder), CEPI (org), Wellcome Oxford programme (program), CEPI Oxford Vaccines (program), BARDA Medical Countermeasures (program)
+- 6 new edges: funder → program → institution links for Wellcome→Oxford and CEPI→Oxford; BARDA → JHU
+- Total: 747 nodes, 1,231 edges
+- Funding: Wellcome added ~$260M (£200M Oxford aggregate); BARDA and CEPI amounts not publicly stated for specific grants
+
+**Limitation:** Wellcome and BARDA do not expose individual grant records via public API. Funder nodes added with known aggregate funding; program-institution links only where total amounts are publicly stated in verified sources.
+
+**Raw data:** `data/raw/s14_funding/s14_evidence.json`
+
+---
+
+## Sprint 14: Funding Completeness — Original Plan 🔲
+
+**Goal:** Add major funders missing from the atlas — Wellcome Trust, Gates Foundation (bio-AI relevant grants), and US BARDA — to reduce the data-limited nature of F3, F4, F5 insights and give a more complete picture of the funding landscape.
+
+**Motivation:** DATA-LIMITED findings F3 (UK/EU funding underrepresented) and F2 (government vs. private ratio) require Wellcome and BARDA data to be defensible. OP = $543M looks like 82% of total only because major funders are absent.
+
+**Data Sources:**
+
+| Funder | API / Source | Target Filter |
+|--------|-------------|---------------|
+| Wellcome Trust | `api.wellcome.org/grants` or Figshare open grants | Bio+AI keywords; UK institutions already in graph |
+| Gates Foundation | Figshare open data (grantee name, amount, year) | Pandemic preparedness + AI/computational biology |
+| BARDA (US) | USASpending.gov API (awarding_agency_code `75-2700`) | Biosecurity + pandemic countermeasures; map to existing institutions |
+| Founders Pledge Health Security | Public commitment data | Link to existing funder nodes or create new |
+
+**Scope filter:** Only grants to institutions already in the atlas, OR grants to major grantees whose work directly overlaps existing nodes.
+
+**Expected output:** +2–3 funder nodes, +30–60 new program nodes, $500M–$1B additional tracked funding
+
+**Scripts:**
+```
+scripts/s14_fetch_wellcome.py        → data/raw/s14_funding/wellcome_grants.json
+scripts/s14_fetch_gates.py           → data/raw/s14_funding/gates_grants.json
+scripts/s14_fetch_barda.py           → data/raw/s14_funding/barda_grants.json
+scripts/s14_extract_funding.py       → data/staged/s14_nodes.json, s14_edges.json
+```
+
+---
+
+## Sprint 15: Global South & International Coverage ✅ COMPLETE
+
+**Status:** Shipped. 14/14 quality checks pass. 100% connectivity.
+
+**Results:**
+- 5 new nodes: Africa CDC (org, Ethiopia), SynBio Africa (org, Nigeria), Brown Pandemic Center (org, US), NTI Global South AI-Biosecurity 2024 (publication), Munich Biosecurity Declaration 2025 (publication)
+- 6 new edges: NTI, CEPI, Brown Pandemic Center `policy_forum` → Munich Declaration; Africa CDC, SynBio Africa `policy_forum` → NTI Global South pub
+- Total: 752 nodes, 1,237 edges
+
+**Key insight confirmed:** Africa CDC has a formal Biosafety and Biosecurity Initiative + AI for Health strategy; SynBio Africa and iGEM co-sponsored 2024 NTI competition from 19 countries; Munich 2025 Declaration represents first formal Global South biosecurity leadership commitment.
+
+**Raw data:** `data/raw/s15_global_south/s15_evidence.json`
+
+---
+
+## Sprint 15: Global South — Original Plan 🔲
+
+**Goal:** Address the ROBUST finding B2 / A1 (Global South absent) by adding relevant international organizations, funders, and researchers from underrepresented regions.
+
+**Motivation:** NTI confirms 0% of Global South AI strategies address biosecurity. Adding at least placeholder nodes for key international biosecurity bodies makes the gap visible in the graph rather than invisible.
+
+**Data Sources:**
+
+| Source | Target |
+|--------|--------|
+| Africa CDC biosecurity programs | Org node + publications |
+| WHO SEARO / AFRO AI health initiatives | Org nodes |
+| NTI AIxBio Global South report | Publication node + link to existing NTI org |
+| CEPI (Coalition for Epidemic Preparedness) | Org node + funding edges to existing institutions (Oxford, LSHTM, etc.) |
+| IAVI | Org node + link to existing Coefficient grants |
+| Rift Valley Institute / Africa-focused biosecurity NGOs | Org nodes |
+| CSET/NTI authors from Global South | Author nodes if named in sourced documents |
+
+**Key constraint:** No invented edges. If a Global South org has no traceable connection to existing atlas nodes, add it as an isolated node only if it has a `self-connection` (node exists with correct metadata). Orphan nodes will need at least one publication link.
+
+**Expected output:** +10–15 org nodes, +5–10 edges; primarily structural/visibility improvement
+
+**Scripts:**
+```
+scripts/s15_extract_global_south.py   → data/staged/s15_nodes.json, s15_edges.json
+data/raw/s15_global_south/            ← NTI report snapshot, Africa CDC page, CEPI data
+```
+
+---
+
+## Sprint 16: Protein Design Safety Research Mapping ✅ COMPLETE
+
+**Status:** Shipped. 14/14 quality checks pass. 100% connectivity.
+
+**Results:**
+- 5 new nodes: David Baker (author, 2024 Nobel Chemistry), EvolutionaryScale (org), UW Institute for Protein Design (org), "Protein design meets biosecurity" Science 2024 (publication), EMBO Reports protein design security 2024 (publication)
+- 7 new edges: David Baker `current_affiliation` → UW; UW IPD `part_of` → UW; David Baker + George Church `published_study` → Science paper; Gryphon Scientific + UW IPD + EvolutionaryScale `policy_forum` → publications
+- Total: 757 nodes, 1,244 edges
+
+**Key insight confirmed:** Protein design safety is now a visible cluster in the graph. Baker & Church Science 2024 editorial, EMBO Reports security challenge paper, and EvolutionaryScale are all now connected to the existing DARPA (George Church) and policy evaluation layer.
+
+**Raw data:** `data/raw/s16_protein_design/s16_evidence.json`
+
+---
+
+## Sprint 16: Protein Design — Original Plan 🔲
+
+**Goal:** Add the protein design safety research cluster — the biggest white space identified in analysis (insights R5, B5, confirmed ROBUST by multiple external sources). This is the area of highest biosecurity risk with lowest current atlas coverage.
+
+**Motivation:** Science, Nature Biotechnology, EMBO Reports, and Singularity Hub all confirm AI-assisted protein design is the frontier biosecurity risk. Current atlas has <5 nodes touching this topic. Baker & Church proposals (2024), nucleic acid screening work, and EvolutionaryScale ESM models safety evaluations are all missing.
+
+**Data Sources:**
+
+| Source | Target |
+|--------|--------|
+| Science ado1671 "Protein design meets biosecurity" (2024) | Publication node + link to author nodes |
+| Nature Biotech "Built-in biosecurity safeguards for generative AI" (2025) | Publication node |
+| EMBO Reports "Security challenges by AI-assisted protein design" (2024) | Publication node |
+| EvolutionaryScale (ESM3 / ESM Cambrian) | Org node + author nodes (Baker Lab, Rives) |
+| David Baker (UW Institute for Protein Design) | Author node (if not already in graph) + institution |
+| Gryphon Scientific nucleic acid screening work | Link to existing org_gryphon_scientific |
+| Synthesis.ai / Profluent | Org nodes (commercial protein design; dual-use concern) |
+
+**Expected output:** +10–15 nodes, +15–20 edges; creates a visible "protein design safety" cluster in graph
+
+**Scripts:**
+```
+scripts/s16_extract_protein_design.py   → data/staged/s16_nodes.json, s16_edges.json
+data/raw/s16_protein_design/            ← Science/EMBO/NatBiotech abstracts, EvolutionaryScale page
+```
+
+---
+
+## Sprint 17: Governance & Policy Literature Mapping ✅ COMPLETE
+
+*Completed: 2026-03-13 | 7 nodes, 9 edges added | See `data/raw/s17_governance/s17_evidence.json`*
+
+**Goal:** Add the governance and policy organization layer — JHU CHS, Georgetown CSET, RAND Global Risk Index publication, NSABB — so the atlas visually connects the funding and research communities to the policy evaluation community.
+
+**Motivation:** ROBUST insights B1, B3, B4 and the JHU/CSET/NTI external sources are not yet in the graph. Adding these as properly sourced nodes makes the governance gap visible and connects evaluators to policymakers.
+
+**Added nodes (+7):**
+
+| Node | Type | Key Connection |
+|------|------|---------------|
+| JHU Center for Health Security | org (policy_think_tank) | current_affiliation → JHU; Jassi Pannu author link |
+| Georgetown CSET | org (policy_think_tank) | current_affiliation → Georgetown Global Health org |
+| NSABB | org (advisory_body) | current_affiliation → NIH |
+| RAND Global Risk Index (2024) | publication | policy_forum ← RAND Corporation, JHU CHS |
+| CSET Biosecurity Policy Toolkit (2024) | publication | policy_forum ← Georgetown CSET |
+| JHU CHS Biosecurity Agenda (2025) | publication | policy_forum ← JHU CHS |
+| NSABB DURC Recommendations (2023) | publication | policy_forum ← NSABB |
+
+**Added edges (+9):** JHU CHS → JHU inst, JHU CHS → RAND GRI pub, CSET → CSET toolkit pub, CSET → Georgetown Health org, NSABB → NIH, NSABB → DURC pub, JHU CHS → CHS Agenda pub, RAND Corp → RAND GRI pub, Jassi Pannu → JHU CHS
+
+**Post-sprint graph:** 766 nodes, 1,262 edges | $1.22B tracked | 14/14 quality checks | 100% connectivity
+
+**Data sources:**
+- JHU CHS: centerforhealthsecurity.org (Jassi Pannu profile, publications page)
+- Georgetown CSET: cset.georgetown.edu (Biosecurity Policy Toolkit, Dec 2024)
+- RAND: rand.org (Global Risk Index for AI-Enabled Biological Tools, 2024)
+- NSABB: osp.od.nih.gov/biotechnology (DURC recommendations, 2023)
+
+**Scripts:**
+```
+scripts/s17_extract_governance.py   → data/graph_data.json (direct merge)
+data/raw/s17_governance/            ← s17_evidence.json (7 node records)
+```
 
 ---
 
@@ -605,15 +919,26 @@ Previous AI-assisted builds produced ~9% false edge rate, ~11% wrong amounts:
 
 ```
 biosecurity-atlas/
-├── index.html                          ← SVG visualization (self-contained, ~784 KB)
-├── index_webgl.html                    ← Canvas 2D visualization (self-contained, ~782 KB)
+├── index.html                          ← SVG visualization (self-contained)
+├── index_webgl.html                    ← Canvas 2D visualization (self-contained)
+├── index_d3.html                       ← D3 force-directed visualization
 ├── README.md
 ├── ROADMAP.md                          ← this file
+├── METHODOLOGY.md
+├── assets/
+├── figures/                            ← Generated analysis figures (PNG)
+├── notebooks/                          ← All Jupyter notebooks (canonical location)
+│   ├── analysis_biosecurity_atlas.ipynb    ← Multi-angle analysis (14+ figures)
+│   ├── op_grants_audit.ipynb               ← Open Philanthropy grants audit
+│   ├── s4_darpa_iarpa_exploration.ipynb    ← Sprint 4 DARPA/IARPA dry run
+│   └── s5_policy_bigtech_exploration.ipynb ← Sprint 5 Policy & Big Tech dry run
 ├── data/
-│   ├── graph_data.json                 ← assembled graph (751 nodes, 1,178 edges)
+│   ├── graph_data.json                 ← assembled graph (766 nodes, 1,262 edges)
 │   ├── nodes.csv
 │   ├── edges.csv
 │   ├── raw/
+│   │   ├── references/                 ← External validation sources (Sprint 12+)
+│   │   │   └── external_validation_sources.md   (10 policy sources, insight verdicts)
 │   │   ├── s1_neurips_workshop/        ← Sprint 1: OpenReview papers + PDFs
 │   │   ├── s2s3_coefficient_funding/   ← Sprint 2/3: Coefficient grants CSV
 │   │   ├── s4_darpa_iarpa/             ← Sprint 4: USASpending JSON, DARPA/IARPA pages, news releases
@@ -628,15 +953,26 @@ biosecurity-atlas/
 │   │   │   ├── semantic_scholar_results.json   (10 targets)
 │   │   │   ├── semantic_scholar_retry.json     (7 additional targets)
 │   │   │   └── nih_reporter_results.json       (7 PIs, 31 grants)
-│   │   └── s9_nsf_international/       ← Sprint 9: NSF + UKRI grants
-│   │       ├── nsf_awards_raw.json             (183 keyword-search awards)
-│   │       ├── nsf_pi_inst_awards.json         (82 PI/inst-targeted awards)
-│   │       ├── nsf_selected.json               (16 matched awards, $14.3M)
-│   │       ├── ukri_projects_raw.json          (348 unique UKRI projects)
-│   │       ├── ukri_bio_ai_relevant.json       (75 bio+AI filtered)
-│   │       └── ukri_selected.json              (2 institution-matched, £700K)
+│   │   ├── s9_nsf_international/       ← Sprint 9: NSF + UKRI grants
+│   │   │   ├── nsf_awards_raw.json             (183 keyword-search awards)
+│   │   │   ├── nsf_pi_inst_awards.json         (82 PI/inst-targeted awards)
+│   │   │   ├── nsf_selected.json               (16 matched awards, $14.3M)
+│   │   │   ├── ukri_projects_raw.json          (348 unique UKRI projects)
+│   │   │   ├── ukri_bio_ai_relevant.json       (75 bio+AI filtered)
+│   │   │   └── ukri_selected.json              (2 institution-matched, £700K)
+│   │   ├── s13_benchmarks/             ← Sprint 13: Eval benchmark landscape
+│   │   │   └── s13_evidence.json               (Apollo, METR, VCT, WMDP evidence)
+│   │   ├── s14_funding/                ← Sprint 14: Funding completeness
+│   │   │   └── s14_evidence.json               (Wellcome, BARDA, CEPI evidence)
+│   │   ├── s15_global_south/           ← Sprint 15: Global South coverage
+│   │   │   └── s15_evidence.json               (Africa CDC, SynBio Africa, NTI evidence)
+│   │   ├── s16_protein_design/         ← Sprint 16: Protein design safety research
+│   │   │   └── s16_evidence.json               (Baker, EvolutionaryScale, EMBO evidence)
+│   │   └── s17_governance/             ← Sprint 17: Governance & Policy Literature
+│   │       └── s17_evidence.json               (JHU CHS, CSET, NSABB, RAND GRI evidence)
 │   └── staged/
 │       ├── op_edges.json               ← Sprint 2/3 (272 grants, 288 edges)
+│       ├── op_validation_report.json
 │       ├── s4_nodes.json               ← Sprint 4 (51 nodes)
 │       ├── s4_edges.json               ← Sprint 4 (58 edges)
 │       ├── s5_nodes.json               ← Sprint 5 (27 nodes)
@@ -651,7 +987,8 @@ biosecurity-atlas/
 │       ├── s9_edges.json               ← Sprint 9 (37 edges)
 │       ├── s10_nodes.json              ← Sprint 10 (11 nodes)
 │       ├── s10_edges.json              ← Sprint 10 (11 edges)
-│       └── op_validation_report.json
+│       ├── s13_dd_nodes.json           ← Sprint 13 DD (2 nodes: VCT pub, METR task suite pub)
+│       └── s13_dd_edges.json           ← Sprint 13 DD (9 edges: author links, RAND policy_forum, Beth Barnes)
 └── scripts/
     ├── extract_data.py                 ← Sprint 1: OpenReview extraction
     ├── build_graph.py                  ← Sprint 1: graph assembly
@@ -669,6 +1006,10 @@ biosecurity-atlas/
     ├── s7_extract_cross_venue.py       ← Sprint 7: Cross-venue overlap extraction
     ├── s8_extract_key_personnel.py     ← Sprint 8: NIH grants + Semantic Scholar pubs
     ├── s9_extract_nsf_international.py ← Sprint 9: NSF + UKRI funding extraction
-    └── notebooks/
-        └── s5_policy_bigtech_exploration.ipynb  ← Sprint 5 exploration
+    ├── s13_extract_benchmarks.py       ← Sprint 13: Eval benchmark landscape
+    ├── s13_dd_fixes.py                 ← Sprint 13 DD: VCT pub, evidence backfill, RAND/Beth Barnes fixes
+    ├── s14_extract_funding.py          ← Sprint 14: Wellcome, BARDA, CEPI funding
+    ├── s15_extract_global_south.py     ← Sprint 15: Africa CDC, SynBio Africa, NTI
+    ├── s16_extract_protein_design.py   ← Sprint 16: Baker, EvolutionaryScale, protein design safety
+    └── s17_extract_governance.py       ← Sprint 17: JHU CHS, Georgetown CSET, NSABB, RAND GRI
 ```

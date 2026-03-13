@@ -1,0 +1,29 @@
+[
+  {
+    "id": "pub_vct_virology_capabilities_test_2025",
+    "label": "Virology Capabilities Test (VCT): A Multimodal Virology Q&A Benchmark",
+    "type": "publication",
+    "subtype": "research_paper",
+    "url": "https://arxiv.org/abs/2504.16137",
+    "year": 2025,
+    "description": "SecureBio + CAIS benchmark measuring AI capability to troubleshoot complex virology lab protocols at expert level. Found frontier AI models provide expert-level virology assistance. More informative than WMDP for assessing real biological risk.",
+    "details": {
+      "arXiv": "2504.16137",
+      "Authors": "Jasper G\u00f6tting, Pedro Medeiros, Jon G Sanders, Nathaniel Li, Long Phan, Karam Elabd, Lennart Justen, Dan Hendrycks, Seth Donoughe",
+      "Affiliation": "SecureBio, Center for AI Safety",
+      "Source": "arxiv.org/abs/2504.16137; virologytest.ai"
+    }
+  },
+  {
+    "id": "pub_metr_task_suite_2024",
+    "label": "METR Task Suite: Evaluating Autonomous AI Agents for Dangerous Capabilities",
+    "type": "publication",
+    "subtype": "research_report",
+    "url": "https://metr.org/research/",
+    "year": 2024,
+    "description": "METR's evaluation framework and task suite for measuring dangerous autonomous capability in frontier AI models; used in pre-deployment evaluations for Anthropic and OpenAI; co-authored by Beth Barnes and team.",
+    "details": {
+      "Source": "metr.org/research \u2014 publicly documented evaluation methodology used for o3, o4-mini, GPT-4o, Claude pre-deployment evals"
+    }
+  }
+]

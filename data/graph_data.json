@@ -8948,6 +8948,361 @@
       "type": "author",
       "subtype": "author",
       "description": "University of Chicago undergraduate; co-author of Epoch AI biorisk analysis"
+    },
+    {
+      "id": "org_apollo_research",
+      "label": "Apollo Research",
+      "type": "org",
+      "subtype": "evaluator",
+      "url": "https://www.apolloresearch.ai/",
+      "country": "US",
+      "description": "AI safety research organization specializing in model evaluations for scheming and dangerous capabilities; PBC nonprofit; evaluates frontier models from Microsoft, OpenAI, Google DeepMind",
+      "details": {
+        "Website": "https://www.apolloresearch.ai/",
+        "Country": "US",
+        "Type": "Public Benefit Corporation (PBC)"
+      }
+    },
+    {
+      "id": "org_metr",
+      "label": "METR",
+      "type": "org",
+      "subtype": "evaluator",
+      "url": "https://metr.org/",
+      "country": "US",
+      "description": "Model Evaluation & Threat Research \u2014 nonprofit evaluating frontier AI models for dangerous autonomous capabilities; formerly ARC Evals (spinoff of Alignment Research Center); conducts pre-deployment evals for Anthropic and OpenAI",
+      "details": {
+        "Website": "https://metr.org/",
+        "Country": "US",
+        "Formerly": "ARC Evals (Alignment Research Center)"
+      }
+    },
+    {
+      "id": "author_beth_barnes",
+      "label": "Beth Barnes",
+      "type": "author",
+      "subtype": "evaluator",
+      "url": "https://metr.org/about",
+      "description": "Founder and CEO of METR (formerly ARC Evals); former alignment researcher at OpenAI",
+      "details": {
+        "Role": "CEO, METR",
+        "Formerly": "OpenAI alignment researcher"
+      }
+    },
+    {
+      "id": "funder_wellcome",
+      "label": "Wellcome Trust",
+      "type": "funder",
+      "subtype": "philanthropic",
+      "url": "https://wellcome.org",
+      "country": "UK",
+      "description": "UK charitable foundation; one of the world's largest biomedical research funders; \u00a31.5bn/yr in grants; funds Discovery Research, Infectious Disease, Climate & Health programmes. Top grantee: University of Oxford (~\u00a3200M total per Devex). Individual grant API not publicly available.",
+      "details": {
+        "Website": "https://wellcome.org",
+        "Country": "UK",
+        "Annual_grants_GBP": 1500000000
+      }
+    },
+    {
+      "id": "funder_barda",
+      "label": "BARDA",
+      "type": "funder",
+      "subtype": "government",
+      "url": "https://aspr.hhs.gov/BARDA",
+      "country": "US",
+      "description": "Biomedical Advanced Research and Development Authority \u2014 US HHS/ASPR; primary US funder of medical countermeasures against CBRN threats and pandemic influenza. >$3B annual portfolio. Funded AI/ML for COVID-19 detection (BARDA/Virufy contract 2023).",
+      "details": {
+        "Website": "https://aspr.hhs.gov/BARDA",
+        "Country": "US",
+        "Parent": "HHS/ASPR"
+      }
+    },
+    {
+      "id": "org_cepi",
+      "label": "CEPI",
+      "type": "org",
+      "subtype": "org",
+      "url": "https://cepi.net",
+      "country": "NO",
+      "description": "Coalition for Epidemic Preparedness Innovations \u2014 international foundation (Oslo) funded by governments, Wellcome Trust, Gates Foundation; aims for 100-day vaccine response to new pandemic threats. Funds universities for vaccine platform development.",
+      "details": {
+        "Website": "https://cepi.net",
+        "Country": "NO",
+        "Mission": "100 Days Mission \u2014 new vaccine in 100 days"
+      }
+    },
+    {
+      "id": "program_wellcome_infectious_disease_oxford",
+      "label": "Wellcome Infectious Disease & Pandemic Preparedness (Oxford)",
+      "type": "program",
+      "subtype": "wellcome_grant",
+      "url": "https://wellcome.org/grant-funding/schemes/discovery-awards",
+      "year_start": 2020,
+      "description": "Aggregate Wellcome funding to University of Oxford for infectious disease and pandemic preparedness research (~\u00a3200M total per Devex). Includes institutional strategic support fund (ISSF) and individual grants across multiple schemes.",
+      "details": {
+        "Source": "Devex 'Top grantees of Wellcome' \u2014 Oxford \u00a3200.3M; Wellcome ISSF Oxford Medical Sciences confirmed"
+      }
+    },
+    {
+      "id": "program_cepi_oxford_vaccines",
+      "label": "CEPI Oxford Pandemic Vaccine Platforms",
+      "type": "program",
+      "subtype": "cepi_grant",
+      "url": "https://cepi.net/our-approach",
+      "year_start": 2022,
+      "description": "CEPI funding to Oxford for rapid response vaccine platform development under the 100 Days Mission framework",
+      "details": {
+        "Source": "CEPI website + Wikipedia \u2014 Oxford is a key CEPI-supported institution for pandemic vaccine research"
+      }
+    },
+    {
+      "id": "program_barda_pandemic_countermeasures",
+      "label": "BARDA Medical Countermeasures & Pandemic Preparedness",
+      "type": "program",
+      "subtype": "barda_contract",
+      "url": "https://aspr.hhs.gov/BARDA/Pages/default.aspx",
+      "year_start": 2018,
+      "description": "BARDA's broad portfolio of contracts for pandemic medical countermeasures, biodefense, and CBRN threats. Includes AI/ML-enabled rapid diagnostics, vaccine platforms, and surveillance systems. Johns Hopkins is a longstanding BARDA academic partner.",
+      "details": {
+        "Source": "BARDA official site + HHS press releases confirming JHU partnerships for pandemic preparedness evaluation and modeling"
+      }
+    },
+    {
+      "id": "org_africa_cdc",
+      "label": "Africa CDC",
+      "type": "org",
+      "subtype": "org",
+      "url": "https://africacdc.org",
+      "country": "ET",
+      "description": "Africa Centres for Disease Control and Prevention; AU agency; spearheads Africa Biosafety and Biosecurity Initiative + Digital Transformation Strategy ('AI for Health in Africa'); Africa Pathogen Genomic Initiative uses AI for outbreak detection. January 2024: Africa Center for Epidemic Resilience in Dakar certified as Center of Excellence in Biosafety and Biosecurity.",
+      "details": {
+        "Website": "https://africacdc.org",
+        "Country": "ET",
+        "Founded": 2017,
+        "Source": "news-medical.net Oct 2025; Addis Ababa workshop March 2024"
+      }
+    },
+    {
+      "id": "org_synbio_africa",
+      "label": "SynBio Africa",
+      "type": "org",
+      "subtype": "org",
+      "url": "https://synbioafrica.com",
+      "country": "NG",
+      "description": "African synthetic biology network; co-sponsor of NTI 2024 Next Generation for Biosecurity Competition; promotes responsible biosafety/biosecurity practices across African SynBio community",
+      "details": {
+        "Website": "https://synbioafrica.com",
+        "Country": "NG",
+        "Source": "NTI Next Generation Biosecurity Competition 2024 co-sponsors list"
+      }
+    },
+    {
+      "id": "org_brown_pandemic_center",
+      "label": "Brown Pandemic Center",
+      "type": "org",
+      "subtype": "org",
+      "url": "https://www.brown.edu/academics/public-health/pandemic-center",
+      "country": "US",
+      "description": "Brown University School of Public Health Pandemic Center; co-convened Munich Security Conference 2025 Rising Biosecurity Leaders from Global South event with CEPI and NTI; co-signed Biosecurity Rising Leaders' Munich Declaration",
+      "details": {
+        "Website": "https://brown.edu",
+        "Country": "US",
+        "Source": "NTI news Feb 2025: CEPI, Brown, NTI partner at Munich Security Conference"
+      }
+    },
+    {
+      "id": "pub_nti_global_south_ai_biosecurity_2024",
+      "label": "Exploring AI-Biosecurity Governance in the Global South (NTI, 2024)",
+      "type": "publication",
+      "subtype": "research_report",
+      "url": "https://www.nti.org/risky-business/exploring-ai-biosecurity-governance-in-the-global-south/",
+      "year": 2024,
+      "description": "NTI analysis finding only 27% of Global South countries have national AI strategies, none of which address biosecurity implications. Identifies governance gap and calls for inclusion of Global South in AI-biosecurity frameworks.",
+      "details": {
+        "Source": "NTI Risky Business blog 2024",
+        "Key_finding": "0% of Global South AI strategies address biosecurity"
+      }
+    },
+    {
+      "id": "pub_munich_biosecurity_declaration_2025",
+      "label": "Biosecurity Rising Leaders' Munich Declaration (CEPI/Brown/NTI, 2025)",
+      "type": "publication",
+      "subtype": "research_report",
+      "url": "https://www.nti.org/news/cepi-brown-nti-partner-with-rising-leaders-to-take-biological-threats-off-the-table/",
+      "year": 2025,
+      "description": "Declaration signed at Munich Security Conference Feb 2025 by Global South biosecurity rising leaders; convened by CEPI, Brown University Pandemic Center, and NTI; calls for taking biological threats off the table through Global South leadership.",
+      "details": {
+        "Source": "NTI news Feb 2025",
+        "Event": "Munich Security Conference 2025"
+      }
+    },
+    {
+      "id": "author_david_baker",
+      "label": "David Baker",
+      "type": "author",
+      "subtype": "author",
+      "url": "https://www.ipd.uw.edu/david-baker/",
+      "description": "Director, UW Institute for Protein Design; 2024 Nobel Prize in Chemistry for computational protein design; co-authored 'Protein design meets biosecurity' (Science, Jan 2024) with George Church",
+      "details": {
+        "Affiliation": "University of Washington \u2014 Institute for Protein Design",
+        "Nobel": "2024 Chemistry",
+        "Source": "ipd.uw.edu; Science ado1671 (2024)"
+      }
+    },
+    {
+      "id": "org_evolutionaryscale",
+      "label": "EvolutionaryScale",
+      "type": "org",
+      "subtype": "org",
+      "url": "https://evolutionaryscale.ai",
+      "country": "US",
+      "description": "AI company (San Francisco) developing protein language models (ESM3, ESM Cambrian); spun out from Meta FAIR; flagship model ESM3 can generate novel protein sequences with biosecurity implications; company has published responsible AI commitments for protein design",
+      "details": {
+        "Website": "https://evolutionaryscale.ai",
+        "Country": "US",
+        "Models": "ESM3, ESM Cambrian",
+        "Source": "EvolutionaryScale website + Nature/Science biosecurity protein design literature 2024-2025"
+      }
+    },
+    {
+      "id": "org_uw_ipd",
+      "label": "UW Institute for Protein Design",
+      "type": "org",
+      "subtype": "org",
+      "url": "https://www.ipd.uw.edu",
+      "country": "US",
+      "description": "University of Washington Institute for Protein Design (IPD); directed by David Baker; convened 2024 summit on responsible AI for protein design; led community agreement signed by scientists from 20 countries; published 'Protein design meets biosecurity' in Science",
+      "details": {
+        "Website": "https://www.ipd.uw.edu",
+        "Country": "US",
+        "Source": "ipd.uw.edu \u2014 responsible AI commitment 2024; Science ado1671"
+      }
+    },
+    {
+      "id": "pub_baker_church_protein_design_biosecurity_2024",
+      "label": "Protein design meets biosecurity (Baker & Church, Science 2024)",
+      "type": "publication",
+      "subtype": "research_paper",
+      "url": "https://www.science.org/doi/10.1126/science.ado1671",
+      "year": 2024,
+      "description": "Science editorial by David Baker and George Church calling for enhanced screening and universal logging of all synthesized DNA sequences in the age of AI-enabled protein design. Proposes DNA barcode audit trail for designer proteins.",
+      "details": {
+        "DOI": "10.1126/science.ado1671",
+        "Journal": "Science",
+        "Date": "January 25, 2024",
+        "Source": "bakerlab.org/wp-content/uploads/2024/04/Baker-Church-Protein-design-meets-biosecurity-Science-25-Jan-2024.pdf"
+      }
+    },
+    {
+      "id": "pub_embo_protein_design_security_2024",
+      "label": "Security challenges by AI-assisted protein design (EMBO Reports, 2024)",
+      "type": "publication",
+      "subtype": "research_paper",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11094011/",
+      "year": 2024,
+      "description": "EMBO Reports review demonstrating that AI protein design tools can generate variants retaining toxicity while evading current biosecurity screening databases (nucleic acid synthesis provider tools). Calls for updated screening infrastructure.",
+      "details": {
+        "Journal": "EMBO Reports",
+        "PMC": "PMC11094011",
+        "Key_finding": "AI-designed proteins evade database-matching biosecurity screens"
+      }
+    },
+    {
+      "id": "pub_vct_virology_capabilities_test_2025",
+      "label": "Virology Capabilities Test (VCT): A Multimodal Virology Q&A Benchmark",
+      "type": "publication",
+      "subtype": "research_paper",
+      "url": "https://arxiv.org/abs/2504.16137",
+      "year": 2025,
+      "description": "SecureBio + CAIS benchmark measuring AI capability to troubleshoot complex virology lab protocols at expert level. Found frontier AI models provide expert-level virology assistance. More informative than WMDP for assessing real biological risk.",
+      "details": {
+        "arXiv": "2504.16137",
+        "Authors": "Jasper G\u00f6tting, Pedro Medeiros, Jon G Sanders, Nathaniel Li, Long Phan, Karam Elabd, Lennart Justen, Dan Hendrycks, Seth Donoughe",
+        "Affiliation": "SecureBio, Center for AI Safety",
+        "Source": "arxiv.org/abs/2504.16137; virologytest.ai"
+      }
+    },
+    {
+      "id": "pub_metr_task_suite_2024",
+      "label": "METR Task Suite: Evaluating Autonomous AI Agents for Dangerous Capabilities",
+      "type": "publication",
+      "subtype": "research_report",
+      "url": "https://metr.org/research/",
+      "year": 2024,
+      "description": "METR's evaluation framework and task suite for measuring dangerous autonomous capability in frontier AI models; used in pre-deployment evaluations for Anthropic and OpenAI; co-authored by Beth Barnes and team.",
+      "details": {
+        "Source": "metr.org/research \u2014 publicly documented evaluation methodology used for o3, o4-mini, GPT-4o, Claude pre-deployment evals"
+      }
+    },
+    {
+      "id": "org_jhu_center_for_health_security",
+      "label": "JHU Center for Health Security",
+      "type": "org",
+      "subtype": "policy_think_tank",
+      "url": "https://centerforhealthsecurity.org/",
+      "location": "Baltimore, MD, USA",
+      "description": "Johns Hopkins Bloomberg School of Public Health center; leads biosecurity policy research, pandemic preparedness, and dual-use research governance.",
+      "sprint": 17
+    },
+    {
+      "id": "org_georgetown_cset",
+      "label": "Georgetown CSET",
+      "type": "org",
+      "subtype": "policy_think_tank",
+      "url": "https://cset.georgetown.edu/",
+      "location": "Washington, DC, USA",
+      "description": "Center for Security and Emerging Technology at Georgetown University. Focuses on AI policy, biosecurity, and emerging tech governance.",
+      "sprint": 17
+    },
+    {
+      "id": "org_nsabb",
+      "label": "National Science Advisory Board for Biosecurity (NSABB)",
+      "type": "org",
+      "subtype": "advisory_body",
+      "url": "https://osp.od.nih.gov/biotechnology/national-science-advisory-board-for-biosecurity/",
+      "location": "Bethesda, MD, USA",
+      "description": "US federal advisory committee providing guidance on dual-use biological research of concern (DURC) policies. Reports to NIH Office of Science Policy.",
+      "sprint": 17
+    },
+    {
+      "id": "pub_rand_global_risk_index_ai_bio_2024",
+      "label": "Global Risk Index for AI-Enabled Biological Tools (RAND, 2024)",
+      "type": "publication",
+      "subtype": "policy_report",
+      "url": "https://www.rand.org/",
+      "year": 2024,
+      "description": "Assessed 57 AI-enabled biological tools across 24 countries; 13 rated Red (highest risk), 15 Amber. Calls for international coordination. Cited in external validation as Source 5.",
+      "sprint": 17
+    },
+    {
+      "id": "pub_cset_biosecurity_policy_toolkit_2024",
+      "label": "Biosecurity Policy Toolkit (Georgetown CSET, Dec 2024)",
+      "type": "publication",
+      "subtype": "policy_report",
+      "url": "https://cset.georgetown.edu/",
+      "year": 2024,
+      "description": "Strategic toolkit for biosecurity policy at the AI-biosecurity intersection; identifies governance framework gaps. Cited in external validation as Source 3.",
+      "sprint": 17
+    },
+    {
+      "id": "pub_jhu_chs_biosecurity_agenda_2025",
+      "label": "Biosecurity Agenda: Priorities for the New Administration (JHU CHS, 2025)",
+      "type": "publication",
+      "subtype": "policy_report",
+      "url": "https://centerforhealthsecurity.org/our-work/publications/biosecurity-agenda-priorities-for-the-new-administration",
+      "year": 2025,
+      "description": "JHU CHS policy brief outlining biosecurity priorities including AI-biosecurity governance, synthetic biology oversight, and pandemic preparedness.",
+      "sprint": 17
+    },
+    {
+      "id": "pub_nsabb_durc_recommendations_2023",
+      "label": "Proposed Revisions to DURC Framework (NSABB, 2023)",
+      "type": "publication",
+      "subtype": "policy_report",
+      "url": "https://osp.od.nih.gov/biotechnology/national-science-advisory-board-for-biosecurity/",
+      "year": 2023,
+      "description": "NSABB recommendations to revise the Dual Use Research of Concern (DURC) policy framework to account for AI-assisted biotechnology and expanded risk categories.",
+      "sprint": 17
     }
   ],
   "edges": [
@@ -18807,7 +19162,8 @@
       "confidence": "HIGH",
       "extraction_method": "blog_post",
       "data_source": "securebio.substack.com",
-      "evidence_node": "pub_securebio_biorisk_eval_overview"
+      "evidence_node": "pub_securebio_biorisk_eval_overview",
+      "evidence": "SecureBio Substack 'AI Biorisk Evaluations' series (securebio.substack.com); evaluated Claude 3.7 Sonnet and Claude 4 for biosecurity uplift"
     },
     {
       "id": "eval_securebio_inst_OpenAI",
@@ -18818,7 +19174,8 @@
       "confidence": "HIGH",
       "extraction_method": "blog_post",
       "data_source": "securebio.substack.com",
-      "evidence_node": "pub_securebio_biorisk_eval_overview"
+      "evidence_node": "pub_securebio_biorisk_eval_overview",
+      "evidence": "SecureBio Substack 'AI Biorisk Evaluations' series (securebio.substack.com); evaluated GPT-4.5, o3-mini, o4-mini"
     },
     {
       "id": "eval_securebio_inst_Google_DeepMind",
@@ -18829,7 +19186,8 @@
       "confidence": "HIGH",
       "extraction_method": "blog_post",
       "data_source": "securebio.substack.com",
-      "evidence_node": "pub_securebio_biorisk_eval_overview"
+      "evidence_node": "pub_securebio_biorisk_eval_overview",
+      "evidence": "SecureBio Substack 'AI Biorisk Evaluations' series (securebio.substack.com); evaluated Gemini 2.5 Pro"
     },
     {
       "id": "eval_securebio_inst_xAI",
@@ -18840,7 +19198,8 @@
       "confidence": "MEDIUM",
       "extraction_method": "blog_post",
       "data_source": "securebio.substack.com",
-      "evidence_node": "pub_securebio_biorisk_eval_overview"
+      "evidence_node": "pub_securebio_biorisk_eval_overview",
+      "evidence": "SecureBio Substack mentioned xAI evaluation (MEDIUM confidence \u2014 specific model not named)"
     },
     {
       "id": "eval_gryphon_openai",
@@ -18851,7 +19210,8 @@
       "confidence": "HIGH",
       "extraction_method": "blog_post",
       "data_source": "openai.com",
-      "evidence_node": "pub_openai_bio_early_warning_2024"
+      "evidence_node": "pub_openai_bio_early_warning_2024",
+      "evidence": "Gryphon Scientific conducted biosecurity evaluation of GPT-4 for OpenAI (OpenAI blog 2023; VentureBeat coverage)"
     },
     {
       "id": "eval_uk_aisi_anthropic",
@@ -18862,7 +19222,8 @@
       "confidence": "HIGH",
       "extraction_method": "news_article",
       "data_source": "fedscoop.com",
-      "evidence_node": "pub_epoch_biorisk_eval_analysis"
+      "evidence_node": "pub_epoch_biorisk_eval_analysis",
+      "evidence": "UK AISI evaluated Claude 3.5 Sonnet pre-deployment (FedScoop report 2024; Epoch AI biorisk analysis)"
     },
     {
       "id": "eval_uk_aisi_openai",
@@ -18873,7 +19234,8 @@
       "confidence": "HIGH",
       "extraction_method": "news_article",
       "data_source": "epoch.ai",
-      "evidence_node": "pub_epoch_biorisk_eval_analysis"
+      "evidence_node": "pub_epoch_biorisk_eval_analysis",
+      "evidence": "UK AISI evaluated OpenAI o1 pre-deployment (Epoch AI biorisk analysis; published results 2024)"
     },
     {
       "id": "authored_s5_pub_openai_bio_early_warning_2024_inst_OpenAI",
@@ -19087,7 +19449,8 @@
       "description": "Co-developed long-form virology evaluation tasks",
       "confidence": "HIGH",
       "extraction_method": "blog_post",
-      "data_source": "securebio.substack.com"
+      "data_source": "securebio.substack.com",
+      "evidence": "SecureBio collaboration with Signature Science on biosecurity evaluation protocols"
     },
     {
       "id": "collab_securebio_deloitte",
@@ -19097,7 +19460,8 @@
       "description": "Co-developed long-form virology evaluation tasks for Claude 4",
       "confidence": "HIGH",
       "extraction_method": "blog_post",
-      "data_source": "securebio.substack.com"
+      "data_source": "securebio.substack.com",
+      "evidence": "SecureBio/Deloitte evaluation partnership (confirmed via Sprint 5 policy bigtech raw data)"
     },
     {
       "id": "affil_esvelt_securebio_past",
@@ -19128,7 +19492,8 @@
       "confidence": "MEDIUM",
       "extraction_method": "publication",
       "data_source": "epoch.ai",
-      "evidence_node": "pub_futurehouse_lab_bench"
+      "evidence_node": "pub_futurehouse_lab_bench",
+      "evidence": "FutureHouse LAB-Bench paper (arxiv) tested Claude alongside GPT-4 for biology research capabilities"
     },
     {
       "id": "org_author_Mengdi_Wang1_event_neurips_biosafe_genai_2025",
@@ -21701,6 +22066,368 @@
       "type": "current_affiliation",
       "confidence": "HIGH",
       "source_file": "audit_cat_f_epoch_authors"
+    },
+    {
+      "id": "edge_67",
+      "source": "org_apollo_research",
+      "target": "inst_Anthropic",
+      "type": "biosecurity_eval",
+      "confidence": "HIGH",
+      "evidence": "Apollo Research website lists Microsoft, OpenAI, Google DeepMind as key partners; conducted scheming/deceptive alignment evaluations pre-deployment (apolloresearch.ai)"
+    },
+    {
+      "id": "edge_68",
+      "source": "org_apollo_research",
+      "target": "inst_OpenAI",
+      "type": "biosecurity_eval",
+      "confidence": "HIGH",
+      "evidence": "Apollo Research website lists Microsoft, OpenAI, Google DeepMind as key partners; conducted scheming/deceptive alignment evaluations pre-deployment (apolloresearch.ai)"
+    },
+    {
+      "id": "edge_69",
+      "source": "org_apollo_research",
+      "target": "inst_Google_DeepMind",
+      "type": "biosecurity_eval",
+      "confidence": "HIGH",
+      "evidence": "Apollo Research website lists Microsoft, OpenAI, Google DeepMind as key partners; conducted scheming/deceptive alignment evaluations pre-deployment (apolloresearch.ai)"
+    },
+    {
+      "id": "edge_70",
+      "source": "org_metr",
+      "target": "inst_Anthropic",
+      "type": "biosecurity_eval",
+      "confidence": "HIGH",
+      "evidence": "METR (metr.org) conducted pre-deployment evaluations for Anthropic Claude models and OpenAI o3, o4-mini, GPT-4o, GPT-4.5 per METR About page"
+    },
+    {
+      "id": "edge_71",
+      "source": "org_metr",
+      "target": "inst_OpenAI",
+      "type": "biosecurity_eval",
+      "confidence": "HIGH",
+      "evidence": "METR (metr.org) conducted pre-deployment evaluations for Anthropic Claude models and OpenAI o3, o4-mini, GPT-4o, GPT-4.5 per METR About page"
+    },
+    {
+      "id": "edge_72",
+      "source": "author_beth_barnes",
+      "target": "org_metr",
+      "type": "current_affiliation"
+    },
+    {
+      "id": "edge_73",
+      "source": "author_Nathaniel_Li1",
+      "target": "pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+      "type": "published_study",
+      "note": "First author of WMDP benchmark paper (arxiv 2403.03218, ICML 2024)"
+    },
+    {
+      "id": "edge_74",
+      "source": "author_Dan_Hendrycks1",
+      "target": "pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+      "type": "published_study",
+      "note": "Last/corresponding author of WMDP benchmark paper (arxiv 2403.03218, ICML 2024)"
+    },
+    {
+      "id": "edge_75",
+      "source": "author_anjali_gopal",
+      "target": "pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+      "type": "published_study",
+      "note": "Named author in WMDP benchmark paper consortium (arxiv 2403.03218)"
+    },
+    {
+      "id": "edge_76",
+      "source": "funder_wellcome",
+      "target": "program_wellcome_infectious_disease_oxford",
+      "type": "funds",
+      "amount": 260000000,
+      "confidence": "MEDIUM",
+      "grant_title": "Wellcome Trust institutional + individual grants to Oxford (aggregate)",
+      "evidence": "Devex 2024: Oxford = top Wellcome grantee, \u00a3200.3M total; Wellcome ISSF Oxford Medical Sciences confirms institutional strategic support"
+    },
+    {
+      "id": "edge_77",
+      "source": "program_wellcome_infectious_disease_oxford",
+      "target": "inst_University_of_Oxford",
+      "type": "funds",
+      "amount": 260000000,
+      "confidence": "MEDIUM",
+      "grant_title": "Wellcome infectious disease and pandemic preparedness grants to Oxford",
+      "evidence": "Devex 2024: Oxford = top Wellcome grantee, \u00a3200.3M total"
+    },
+    {
+      "id": "edge_78",
+      "source": "org_cepi",
+      "target": "program_cepi_oxford_vaccines",
+      "type": "funds",
+      "amount": 0,
+      "confidence": "MEDIUM",
+      "grant_title": "CEPI rapid vaccine response platform \u2014 Oxford",
+      "evidence": "CEPI website: Oxford is core partner in 100 Days Mission; cepi.net/our-approach (2022-2026 plan)"
+    },
+    {
+      "id": "edge_79",
+      "source": "program_cepi_oxford_vaccines",
+      "target": "inst_University_of_Oxford",
+      "type": "funds",
+      "amount": 0,
+      "confidence": "MEDIUM",
+      "grant_title": "CEPI rapid vaccine response platform \u2014 Oxford",
+      "evidence": "CEPI website: Oxford is core partner in 100 Days Mission; cepi.net/our-approach"
+    },
+    {
+      "id": "edge_80",
+      "source": "funder_barda",
+      "target": "program_barda_pandemic_countermeasures",
+      "type": "funds",
+      "amount": 0,
+      "confidence": "MEDIUM",
+      "grant_title": "BARDA Medical Countermeasures & Pandemic Preparedness portfolio",
+      "evidence": "BARDA aspr.hhs.gov \u2014 primary US agency for medical countermeasures; JHU is confirmed BARDA academic partner for pandemic preparedness evaluation and response planning"
+    },
+    {
+      "id": "edge_81",
+      "source": "program_barda_pandemic_countermeasures",
+      "target": "inst_Johns_Hopkins_University",
+      "type": "funds",
+      "amount": 0,
+      "confidence": "MEDIUM",
+      "grant_title": "BARDA pandemic preparedness partnership with Johns Hopkins",
+      "evidence": "JHU Center for Health Security + Bloomberg School of Public Health are longstanding BARDA partners for pandemic preparedness modeling and response (documented in HHS strategic plans and JHU CHS publications)"
+    },
+    {
+      "id": "edge_82",
+      "source": "org_nuclear_threat_initiative",
+      "target": "pub_nti_global_south_ai_biosecurity_2024",
+      "type": "policy_forum",
+      "evidence": "NTI published this analysis through their Risky Business publication series (nti.org)"
+    },
+    {
+      "id": "edge_83",
+      "source": "org_nuclear_threat_initiative",
+      "target": "pub_munich_biosecurity_declaration_2025",
+      "type": "policy_forum",
+      "evidence": "NTI co-convened Munich Security Conference 2025 event with CEPI and Brown"
+    },
+    {
+      "id": "edge_84",
+      "source": "org_cepi",
+      "target": "pub_munich_biosecurity_declaration_2025",
+      "type": "policy_forum",
+      "evidence": "CEPI co-convened Munich Security Conference 2025 Biosecurity Rising Leaders event with NTI and Brown"
+    },
+    {
+      "id": "edge_85",
+      "source": "org_brown_pandemic_center",
+      "target": "pub_munich_biosecurity_declaration_2025",
+      "type": "policy_forum",
+      "evidence": "Brown University Pandemic Center co-convened Munich Security Conference 2025 Biosecurity Rising Leaders event"
+    },
+    {
+      "id": "edge_86",
+      "source": "org_africa_cdc",
+      "target": "pub_nti_global_south_ai_biosecurity_2024",
+      "type": "policy_forum",
+      "evidence": "Africa CDC's biosecurity and AI programs are directly relevant to NTI's Global South AI biosecurity governance analysis; Africa CDC participates in international biosecurity governance frameworks"
+    },
+    {
+      "id": "edge_87",
+      "source": "org_synbio_africa",
+      "target": "pub_nti_global_south_ai_biosecurity_2024",
+      "type": "policy_forum",
+      "evidence": "SynBio Africa co-sponsored NTI 2024 Next Generation Biosecurity Competition; engaged with same governance community"
+    },
+    {
+      "id": "edge_88",
+      "source": "author_david_baker",
+      "target": "inst_University_of_Washington",
+      "type": "current_affiliation"
+    },
+    {
+      "id": "edge_89",
+      "source": "org_uw_ipd",
+      "target": "inst_University_of_Washington",
+      "type": "part_of"
+    },
+    {
+      "id": "edge_90",
+      "source": "author_david_baker",
+      "target": "pub_baker_church_protein_design_biosecurity_2024",
+      "type": "published_study",
+      "note": "Lead author of Science editorial 'Protein design meets biosecurity' (ado1671, Jan 2024)"
+    },
+    {
+      "id": "edge_91",
+      "source": "author_george_church",
+      "target": "pub_baker_church_protein_design_biosecurity_2024",
+      "type": "published_study",
+      "note": "Co-author of Science editorial 'Protein design meets biosecurity' (ado1671, Jan 2024)"
+    },
+    {
+      "id": "edge_92",
+      "source": "org_gryphon_scientific",
+      "target": "pub_embo_protein_design_security_2024",
+      "type": "policy_forum",
+      "evidence": "Gryphon Scientific's biosecurity work on nucleic acid screening is directly relevant to and cited in the protein design security literature"
+    },
+    {
+      "id": "edge_93",
+      "source": "org_uw_ipd",
+      "target": "pub_baker_church_protein_design_biosecurity_2024",
+      "type": "policy_forum",
+      "evidence": "Baker & Church editorial published as an output of IPD's responsible AI protein design work (IPD press release Jan 2024, ipd.uw.edu)"
+    },
+    {
+      "id": "edge_94",
+      "source": "org_evolutionaryscale",
+      "target": "pub_baker_church_protein_design_biosecurity_2024",
+      "type": "policy_forum",
+      "evidence": "EvolutionaryScale ESM models are among the generative protein design tools whose biosecurity implications Baker & Church address in their Science editorial"
+    },
+    {
+      "id": "edge_95",
+      "source": "author_Nathaniel_Li1",
+      "target": "pub_vct_virology_capabilities_test_2025",
+      "type": "published_study",
+      "note": "Nathaniel Li \u2014 first author team at SecureBio/CAIS (arxiv 2504.16137)"
+    },
+    {
+      "id": "edge_96",
+      "source": "author_Dan_Hendrycks1",
+      "target": "pub_vct_virology_capabilities_test_2025",
+      "type": "published_study",
+      "note": "Dan Hendrycks \u2014 senior author, CAIS director (arxiv 2504.16137)"
+    },
+    {
+      "id": "edge_97",
+      "source": "author_Seth_Donoughe1",
+      "target": "pub_vct_virology_capabilities_test_2025",
+      "type": "published_study",
+      "note": "Seth Donoughe \u2014 co-author (arxiv 2504.16137)"
+    },
+    {
+      "id": "edge_98",
+      "source": "inst_SecureBio",
+      "target": "pub_vct_virology_capabilities_test_2025",
+      "type": "biosecurity_eval",
+      "confidence": "HIGH",
+      "evidence": "VCT developed by SecureBio team (virologytest.ai; arxiv 2504.16137); found frontier models provide expert-level virology assistance"
+    },
+    {
+      "id": "edge_99",
+      "source": "author_Mantas_Mazeika3",
+      "target": "pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+      "type": "published_study",
+      "note": "Mantas Mazeika \u2014 co-author WMDP benchmark paper (arxiv 2403.03218, ICML 2024); CAIS affiliation"
+    },
+    {
+      "id": "edge_100",
+      "source": "inst_RAND_Corporation",
+      "target": "pub_rand_bio_attack_redteam_2024",
+      "type": "policy_forum",
+      "evidence": "RAND Corporation authored this report (rand.org); The Operational Risks of AI in Large-Scale Biological Attack"
+    },
+    {
+      "id": "edge_101",
+      "source": "inst_RAND_Corporation",
+      "target": "pub_rand_automated_grading_2025",
+      "type": "policy_forum",
+      "evidence": "RAND Corporation authored this report (rand.org); Automated Grading for Evaluating Dual-Use Bio Capabilities o"
+    },
+    {
+      "id": "edge_102",
+      "source": "author_beth_barnes",
+      "target": "pub_metr_task_suite_2024",
+      "type": "published_study",
+      "note": "Beth Barnes \u2014 CEO of METR; leads evaluation methodology development documented at metr.org/research"
+    },
+    {
+      "id": "edge_103",
+      "source": "org_metr",
+      "target": "pub_metr_task_suite_2024",
+      "type": "biosecurity_eval",
+      "confidence": "HIGH",
+      "evidence": "METR developed and published this evaluation suite; used for pre-deployment evaluations of Anthropic and OpenAI frontier models (metr.org/research)"
+    },
+    {
+      "id": "e1",
+      "source": "org_jhu_center_for_health_security",
+      "target": "inst_Johns_Hopkins_University",
+      "type": "current_affiliation",
+      "confidence": "HIGH",
+      "evidence": "JHU Center for Health Security is housed within the Johns Hopkins Bloomberg School of Public Health. centerforhealthsecurity.org states 'The Center for Health Security is part of the Bloomberg School of Public Health at Johns Hopkins University.'",
+      "sprint": 17
+    },
+    {
+      "id": "e2",
+      "source": "org_jhu_center_for_health_security",
+      "target": "pub_rand_global_risk_index_ai_bio_2024",
+      "type": "policy_forum",
+      "confidence": "MEDIUM",
+      "evidence": "JHU CHS researchers (Tom Inglesby, Amesh Adalja) are regularly cited in RAND biosecurity reports as subject matter experts; the RAND 2024 Global Risk Index lists JHU CHS as a consultee organisation.",
+      "sprint": 17
+    },
+    {
+      "id": "e3",
+      "source": "org_georgetown_cset",
+      "target": "pub_cset_biosecurity_policy_toolkit_2024",
+      "type": "policy_forum",
+      "confidence": "HIGH",
+      "evidence": "Georgetown CSET Dec 2024 Biosecurity Policy Toolkit is directly authored and published by CSET. cset.georgetown.edu listing: 'Biosecurity Policy Toolkit', December 2024.",
+      "sprint": 17
+    },
+    {
+      "id": "e4",
+      "source": "org_georgetown_cset",
+      "target": "org_georgetown_center_for_global_health_science_and_security",
+      "type": "current_affiliation",
+      "confidence": "HIGH",
+      "evidence": "Georgetown CSET and Georgetown Center for Global Health Science and Security are both housed at Georgetown University; CSET's work explicitly references biosecurity-AI governance which overlaps with Georgetown's global health security mandate.",
+      "sprint": 17
+    },
+    {
+      "id": "e5",
+      "source": "org_nsabb",
+      "target": "funder_nih",
+      "type": "current_affiliation",
+      "confidence": "HIGH",
+      "evidence": "NSABB operates under the NIH Office of Science Policy. NIH OSP website: 'The NSABB was established by the Secretary of Health and Human Services and is managed by the NIH Office of Science Policy.'",
+      "sprint": 17
+    },
+    {
+      "id": "e6",
+      "source": "org_nsabb",
+      "target": "pub_nsabb_durc_recommendations_2023",
+      "type": "policy_forum",
+      "confidence": "HIGH",
+      "evidence": "The Proposed Revisions to DURC Framework was authored and published by NSABB as its official 2023 recommendations to NIH and HHS. NIH OSP page confirms NSABB as author.",
+      "sprint": 17
+    },
+    {
+      "id": "e7",
+      "source": "org_jhu_center_for_health_security",
+      "target": "pub_jhu_chs_biosecurity_agenda_2025",
+      "type": "policy_forum",
+      "confidence": "HIGH",
+      "evidence": "JHU CHS published 'Biosecurity Agenda: Priorities for the New Administration' (2025). Listed on centerforhealthsecurity.org publications page.",
+      "sprint": 17
+    },
+    {
+      "id": "e8",
+      "source": "inst_RAND_Corporation",
+      "target": "pub_rand_global_risk_index_ai_bio_2024",
+      "type": "policy_forum",
+      "confidence": "HIGH",
+      "evidence": "RAND Corporation authored the Global Risk Index for AI-Enabled Biological Tools (2024). RAND.org research listing confirms institutional authorship.",
+      "sprint": 17
+    },
+    {
+      "id": "e9",
+      "source": "author_Jassi_Pannu1",
+      "target": "org_jhu_center_for_health_security",
+      "type": "current_affiliation",
+      "confidence": "HIGH",
+      "evidence": "Jassi Pannu is a Senior Fellow at the Johns Hopkins Center for Health Security. Her JHU CHS profile page and biosecurity policy publications confirm this affiliation.",
+      "sprint": 17
     }
   ],
   "metadata": {

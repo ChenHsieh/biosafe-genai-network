@@ -1,0 +1,67 @@
+[
+  {
+    "id": "edge_95",
+    "source": "author_Nathaniel_Li1",
+    "target": "pub_vct_virology_capabilities_test_2025",
+    "type": "published_study",
+    "note": "Nathaniel Li \u2014 first author team at SecureBio/CAIS (arxiv 2504.16137)"
+  },
+  {
+    "id": "edge_96",
+    "source": "author_Dan_Hendrycks1",
+    "target": "pub_vct_virology_capabilities_test_2025",
+    "type": "published_study",
+    "note": "Dan Hendrycks \u2014 senior author, CAIS director (arxiv 2504.16137)"
+  },
+  {
+    "id": "edge_97",
+    "source": "author_Seth_Donoughe1",
+    "target": "pub_vct_virology_capabilities_test_2025",
+    "type": "published_study",
+    "note": "Seth Donoughe \u2014 co-author (arxiv 2504.16137)"
+  },
+  {
+    "id": "edge_98",
+    "source": "inst_SecureBio",
+    "target": "pub_vct_virology_capabilities_test_2025",
+    "type": "biosecurity_eval",
+    "confidence": "HIGH",
+    "evidence": "VCT developed by SecureBio team (virologytest.ai; arxiv 2504.16137); found frontier models provide expert-level virology assistance"
+  },
+  {
+    "id": "edge_99",
+    "source": "author_Mantas_Mazeika3",
+    "target": "pub_s2_The_WMDP_Benchmark__Measuring_and_Reduci_2024",
+    "type": "published_study",
+    "note": "Mantas Mazeika \u2014 co-author WMDP benchmark paper (arxiv 2403.03218, ICML 2024); CAIS affiliation"
+  },
+  {
+    "id": "edge_100",
+    "source": "inst_RAND_Corporation",
+    "target": "pub_rand_bio_attack_redteam_2024",
+    "type": "policy_forum",
+    "evidence": "RAND Corporation authored this report (rand.org); The Operational Risks of AI in Large-Scale Biological Attack"
+  },
+  {
+    "id": "edge_101",
+    "source": "inst_RAND_Corporation",
+    "target": "pub_rand_automated_grading_2025",
+    "type": "policy_forum",
+    "evidence": "RAND Corporation authored this report (rand.org); Automated Grading for Evaluating Dual-Use Bio Capabilities o"
+  },
+  {
+    "id": "edge_102",
+    "source": "author_beth_barnes",
+    "target": "pub_metr_task_suite_2024",
+    "type": "published_study",
+    "note": "Beth Barnes \u2014 CEO of METR; leads evaluation methodology development documented at metr.org/research"
+  },
+  {
+    "id": "edge_103",
+    "source": "org_metr",
+    "target": "pub_metr_task_suite_2024",
+    "type": "biosecurity_eval",
+    "confidence": "HIGH",
+    "evidence": "METR developed and published this evaluation suite; used for pre-deployment evaluations of Anthropic and OpenAI frontier models (metr.org/research)"
+  }
+]

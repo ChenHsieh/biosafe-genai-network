@@ -1,0 +1,60 @@
+{
+  "sprint": 14,
+  "date": "2026-03-12",
+  "limitation": "Wellcome and BARDA APIs do not expose individual grant records for bulk download. Funder nodes added with known aggregate totals. Specific program nodes only added where grant totals are publicly stated in verified sources.",
+  "sources": [
+    {
+      "node": "Wellcome Trust",
+      "url": "https://wellcome.org",
+      "evidence": "\u00a31.5bn/yr grantmaker; 4 strategic programs"
+    },
+    {
+      "node": "Wellcome \u2192 Oxford",
+      "url": "https://www.devex.com/news/the-top-grantees-of-wellcome-110886",
+      "evidence": "Oxford = top Wellcome grantee at \u00a3200.3M total"
+    },
+    {
+      "node": "BARDA",
+      "url": "https://aspr.hhs.gov/BARDA",
+      "evidence": "HHS/ASPR; >$3B annual portfolio; AI/ML contracts confirmed (Virufy 2023 per GlobeNewswire)"
+    },
+    {
+      "node": "CEPI",
+      "url": "https://cepi.net/our-approach",
+      "evidence": "100 Days Mission 2022-2026; Oxford confirmed as core partner for rapid vaccine response platforms"
+    }
+  ],
+  "new_nodes": [
+    "funder_wellcome",
+    "funder_barda",
+    "org_cepi",
+    "program_wellcome_infectious_disease_oxford",
+    "program_cepi_oxford_vaccines"
+  ],
+  "new_edges": [
+    {
+      "id": "edge_76",
+      "source": "funder_wellcome",
+      "target": "program_wellcome_infectious_disease_oxford",
+      "type": "funds"
+    },
+    {
+      "id": "edge_77",
+      "source": "program_wellcome_infectious_disease_oxford",
+      "target": "inst_University_of_Oxford",
+      "type": "funds"
+    },
+    {
+      "id": "edge_78",
+      "source": "org_cepi",
+      "target": "program_cepi_oxford_vaccines",
+      "type": "funds"
+    },
+    {
+      "id": "edge_79",
+      "source": "program_cepi_oxford_vaccines",
+      "target": "inst_University_of_Oxford",
+      "type": "funds"
+    }
+  ]
+}
