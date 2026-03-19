@@ -2,6 +2,7 @@
 """Extract all accepted papers and author profiles from OpenReview for BioSafe GenAI 2025 workshop."""
 
 import json
+import os
 import time
 import urllib.request
 import urllib.parse
@@ -197,7 +198,8 @@ def main():
         }
     }
 
-    with open("/sessions/eloquent-jolly-knuth/biosafe_graph/raw_data.json", "w") as f:
+    output_path = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "data", "raw_data.json")
+    with open(output_path, "w") as f:
         json.dump(output, f, indent=2, default=str)
 
     print(f"\n=== Summary ===")

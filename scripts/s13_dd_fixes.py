@@ -7,9 +7,9 @@ Sprint 13 Due Diligence Fixes:
 5. Link Beth Barnes → METR evaluation publication
 6. Add METR task suite / evaluation publication node
 """
-import json
+import json, os
 
-BASE = "/sessions/eloquent-jolly-knuth/mnt/biosafe-genai-network"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 with open(f"{BASE}/data/graph_data.json") as f:
     g = json.load(f)
 
@@ -25,7 +25,7 @@ for e in edges:
     eid = e.get("id", "")
     if eid.startswith("edge_"):
         try: max_eid = max(max_eid, int(eid.split("_")[1]))
-        except: pass
+        except (ValueError, IndexError): pass
 
 def new_eid():
     global max_eid
