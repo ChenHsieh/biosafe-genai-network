@@ -4,7 +4,7 @@ Add Apollo Research, METR, and missing author-publication links
 """
 import json, os
 
-BASE = "/sessions/eloquent-jolly-knuth/mnt/biosafe-genai-network"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 with open(f"{BASE}/data/graph_data.json") as f:
     g = json.load(f)

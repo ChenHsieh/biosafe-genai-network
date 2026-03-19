@@ -5,7 +5,7 @@ link to NTI AIxBio via CEPI partnership and Munich 2025 declaration
 """
 import json, os
 
-BASE = "/sessions/eloquent-jolly-knuth/mnt/biosafe-genai-network"
+BASE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 with open(f"{BASE}/data/graph_data.json") as f:
     g = json.load(f)
@@ -22,7 +22,7 @@ for e in edges:
         parts = eid.split("_")
         if len(parts) >= 2:
             try: max_eid = max(max_eid, int(parts[1]))
-            except: pass
+            except (ValueError, IndexError): pass
 
 def new_eid():
     global max_eid
